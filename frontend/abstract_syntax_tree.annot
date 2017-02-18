@@ -1,0 +1,39 @@
+"frontend/abstract_syntax_tree.ml" 17 287 291 "frontend/abstract_syntax_tree.ml" 17 287 307
+type(
+  Lexing.position
+)
+ident(
+  def position_unknown "frontend/abstract_syntax_tree.ml" 21 366 366 "frontend/abstract_syntax_tree.ml" 1 0 -1
+)
+"frontend/abstract_syntax_tree.ml" 17 287 310 "frontend/abstract_syntax_tree.ml" 17 287 326
+type(
+  Lexing.position
+)
+ident(
+  ext_ref Lexing.dummy_pos
+)
+"frontend/abstract_syntax_tree.ml" 22 416 420 "frontend/abstract_syntax_tree.ml" 22 416 434
+type(
+  Lexing.position * Lexing.position
+)
+ident(
+  def extent_unknown "frontend/abstract_syntax_tree.ml" 29 664 664 "frontend/abstract_syntax_tree.ml" 1 0 -1
+)
+"frontend/abstract_syntax_tree.ml" 22 416 438 "frontend/abstract_syntax_tree.ml" 22 416 454
+type(
+  Lexing.position
+)
+ident(
+  int_ref position_unknown "frontend/abstract_syntax_tree.ml" 17 287 291 "frontend/abstract_syntax_tree.ml" 17 287 307
+)
+"frontend/abstract_syntax_tree.ml" 22 416 456 "frontend/abstract_syntax_tree.ml" 22 416 472
+type(
+  Lexing.position
+)
+ident(
+  int_ref position_unknown "frontend/abstract_syntax_tree.ml" 17 287 291 "frontend/abstract_syntax_tree.ml" 17 287 307
+)
+"frontend/abstract_syntax_tree.ml" 22 416 437 "frontend/abstract_syntax_tree.ml" 22 416 473
+type(
+  Lexing.position * Lexing.position
+)

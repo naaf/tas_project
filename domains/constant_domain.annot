@@ -1,0 +1,2631 @@
+"domains/constant_domain.ml" 34 568 574 "domains/constant_domain.ml" 34 568 579
+type(
+  (Z.t -> Z.t) -> t -> t
+)
+ident(
+  def lift1 "domains/constant_domain.ml" 41 705 707 "domains/constant_domain.ml" 182 3623 3626
+)
+"domains/constant_domain.ml" 34 568 580 "domains/constant_domain.ml" 34 568 581
+type(
+  Z.t -> Z.t
+)
+ident(
+  def f "domains/constant_domain.ml" 34 568 582 "domains/constant_domain.ml" 38 637 661
+)
+"domains/constant_domain.ml" 34 568 582 "domains/constant_domain.ml" 34 568 583
+type(
+  t
+)
+ident(
+  def x "domains/constant_domain.ml" 35 586 590 "domains/constant_domain.ml" 38 637 661
+)
+"domains/constant_domain.ml" 35 586 596 "domains/constant_domain.ml" 35 586 597
+type(
+  t
+)
+ident(
+  int_ref x "domains/constant_domain.ml" 34 568 582 "domains/constant_domain.ml" 34 568 583
+)
+"domains/constant_domain.ml" 36 603 609 "domains/constant_domain.ml" 36 603 612
+type(
+  t
+)
+"domains/constant_domain.ml" 36 603 616 "domains/constant_domain.ml" 36 603 619
+type(
+  t
+)
+"domains/constant_domain.ml" 37 620 626 "domains/constant_domain.ml" 37 620 629
+type(
+  t
+)
+"domains/constant_domain.ml" 37 620 633 "domains/constant_domain.ml" 37 620 636
+type(
+  t
+)
+"domains/constant_domain.ml" 38 637 647 "domains/constant_domain.ml" 38 637 648
+type(
+  Z.t
+)
+ident(
+  def a "domains/constant_domain.ml" 38 637 652 "domains/constant_domain.ml" 38 637 661
+)
+"domains/constant_domain.ml" 38 637 643 "domains/constant_domain.ml" 38 637 648
+type(
+  t
+)
+"domains/constant_domain.ml" 38 637 657 "domains/constant_domain.ml" 38 637 658
+type(
+  Z.t -> Z.t
+)
+ident(
+  int_ref f "domains/constant_domain.ml" 34 568 580 "domains/constant_domain.ml" 34 568 581
+)
+"domains/constant_domain.ml" 38 637 659 "domains/constant_domain.ml" 38 637 660
+type(
+  Z.t
+)
+ident(
+  int_ref a "domains/constant_domain.ml" 38 637 647 "domains/constant_domain.ml" 38 637 648
+)
+"domains/constant_domain.ml" 38 637 656 "domains/constant_domain.ml" 38 637 661
+call(
+  stack
+)
+type(
+  Z.t
+)
+"domains/constant_domain.ml" 38 637 652 "domains/constant_domain.ml" 38 637 661
+type(
+  t
+)
+"domains/constant_domain.ml" 35 586 590 "domains/constant_domain.ml" 38 637 661
+type(
+  t
+)
+"domains/constant_domain.ml" 41 705 711 "domains/constant_domain.ml" 41 705 716
+type(
+  (Z.t -> Z.t -> Z.t) -> t -> t -> t
+)
+ident(
+  def lift2 "domains/constant_domain.ml" 54 940 942 "domains/constant_domain.ml" 182 3623 3626
+)
+"domains/constant_domain.ml" 41 705 717 "domains/constant_domain.ml" 41 705 718
+type(
+  Z.t -> Z.t -> Z.t
+)
+ident(
+  def f "domains/constant_domain.ml" 41 705 719 "domains/constant_domain.ml" 45 798 831
+)
+"domains/constant_domain.ml" 41 705 719 "domains/constant_domain.ml" 41 705 720
+type(
+  t
+)
+ident(
+  def x "domains/constant_domain.ml" 41 705 721 "domains/constant_domain.ml" 45 798 831
+)
+"domains/constant_domain.ml" 41 705 721 "domains/constant_domain.ml" 41 705 722
+type(
+  t
+)
+ident(
+  def y "domains/constant_domain.ml" 42 725 729 "domains/constant_domain.ml" 45 798 831
+)
+"domains/constant_domain.ml" 42 725 735 "domains/constant_domain.ml" 42 725 736
+type(
+  t
+)
+ident(
+  int_ref x "domains/constant_domain.ml" 41 705 719 "domains/constant_domain.ml" 41 705 720
+)
+"domains/constant_domain.ml" 42 725 737 "domains/constant_domain.ml" 42 725 738
+type(
+  t
+)
+ident(
+  int_ref y "domains/constant_domain.ml" 41 705 721 "domains/constant_domain.ml" 41 705 722
+)
+"domains/constant_domain.ml" 42 725 735 "domains/constant_domain.ml" 42 725 738
+type(
+  t * t
+)
+"domains/constant_domain.ml" 43 744 750 "domains/constant_domain.ml" 43 744 753
+type(
+  t
+)
+"domains/constant_domain.ml" 43 744 754 "domains/constant_domain.ml" 43 744 755
+type(
+  t
+)
+"domains/constant_domain.ml" 43 744 750 "domains/constant_domain.ml" 43 744 755
+type(
+  t * t
+)
+"domains/constant_domain.ml" 43 744 758 "domains/constant_domain.ml" 43 744 759
+type(
+  t
+)
+"domains/constant_domain.ml" 43 744 760 "domains/constant_domain.ml" 43 744 763
+type(
+  t
+)
+"domains/constant_domain.ml" 43 744 758 "domains/constant_domain.ml" 43 744 763
+type(
+  t * t
+)
+"domains/constant_domain.ml" 43 744 750 "domains/constant_domain.ml" 43 744 763
+type(
+  t * t
+)
+"domains/constant_domain.ml" 43 744 767 "domains/constant_domain.ml" 43 744 770
+type(
+  t
+)
+"domains/constant_domain.ml" 44 771 777 "domains/constant_domain.ml" 44 771 780
+type(
+  t
+)
+"domains/constant_domain.ml" 44 771 781 "domains/constant_domain.ml" 44 771 782
+type(
+  t
+)
+"domains/constant_domain.ml" 44 771 777 "domains/constant_domain.ml" 44 771 782
+type(
+  t * t
+)
+"domains/constant_domain.ml" 44 771 785 "domains/constant_domain.ml" 44 771 786
+type(
+  t
+)
+"domains/constant_domain.ml" 44 771 787 "domains/constant_domain.ml" 44 771 790
+type(
+  t
+)
+"domains/constant_domain.ml" 44 771 785 "domains/constant_domain.ml" 44 771 790
+type(
+  t * t
+)
+"domains/constant_domain.ml" 44 771 777 "domains/constant_domain.ml" 44 771 790
+type(
+  t * t
+)
+"domains/constant_domain.ml" 44 771 794 "domains/constant_domain.ml" 44 771 797
+type(
+  t
+)
+"domains/constant_domain.ml" 45 798 808 "domains/constant_domain.ml" 45 798 809
+type(
+  Z.t
+)
+ident(
+  def a "domains/constant_domain.ml" 45 798 820 "domains/constant_domain.ml" 45 798 831
+)
+"domains/constant_domain.ml" 45 798 804 "domains/constant_domain.ml" 45 798 809
+type(
+  t
+)
+"domains/constant_domain.ml" 45 798 815 "domains/constant_domain.ml" 45 798 816
+type(
+  Z.t
+)
+ident(
+  def b "domains/constant_domain.ml" 45 798 820 "domains/constant_domain.ml" 45 798 831
+)
+"domains/constant_domain.ml" 45 798 811 "domains/constant_domain.ml" 45 798 816
+type(
+  t
+)
+"domains/constant_domain.ml" 45 798 804 "domains/constant_domain.ml" 45 798 816
+type(
+  t * t
+)
+"domains/constant_domain.ml" 45 798 825 "domains/constant_domain.ml" 45 798 826
+type(
+  Z.t -> Z.t -> Z.t
+)
+ident(
+  int_ref f "domains/constant_domain.ml" 41 705 717 "domains/constant_domain.ml" 41 705 718
+)
+"domains/constant_domain.ml" 45 798 827 "domains/constant_domain.ml" 45 798 828
+type(
+  Z.t
+)
+ident(
+  int_ref a "domains/constant_domain.ml" 45 798 808 "domains/constant_domain.ml" 45 798 809
+)
+"domains/constant_domain.ml" 45 798 829 "domains/constant_domain.ml" 45 798 830
+type(
+  Z.t
+)
+ident(
+  int_ref b "domains/constant_domain.ml" 45 798 815 "domains/constant_domain.ml" 45 798 816
+)
+"domains/constant_domain.ml" 45 798 824 "domains/constant_domain.ml" 45 798 831
+call(
+  stack
+)
+type(
+  Z.t
+)
+"domains/constant_domain.ml" 45 798 820 "domains/constant_domain.ml" 45 798 831
+type(
+  t
+)
+"domains/constant_domain.ml" 42 725 729 "domains/constant_domain.ml" 45 798 831
+type(
+  t
+)
+"domains/constant_domain.ml" 54 940 946 "domains/constant_domain.ml" 54 940 949
+type(
+  t
+)
+ident(
+  def top "domains/constant_domain.ml" 57 978 980 "domains/constant_domain.ml" 182 3623 3626
+)
+"domains/constant_domain.ml" 54 940 952 "domains/constant_domain.ml" 54 940 955
+type(
+  t
+)
+"domains/constant_domain.ml" 57 978 984 "domains/constant_domain.ml" 57 978 990
+type(
+  t
+)
+ident(
+  def bottom "domains/constant_domain.ml" 60 1015 1017 "domains/constant_domain.ml" 182 3623 3626
+)
+"domains/constant_domain.ml" 57 978 993 "domains/constant_domain.ml" 57 978 996
+type(
+  t
+)
+"domains/constant_domain.ml" 60 1015 1021 "domains/constant_domain.ml" 60 1015 1026
+type(
+  Z.t -> t
+)
+ident(
+  def const "domains/constant_domain.ml" 63 1055 1057 "domains/constant_domain.ml" 182 3623 3626
+)
+"domains/constant_domain.ml" 60 1015 1027 "domains/constant_domain.ml" 60 1015 1028
+type(
+  Z.t
+)
+ident(
+  def c "domains/constant_domain.ml" 60 1015 1031 "domains/constant_domain.ml" 60 1015 1036
+)
+"domains/constant_domain.ml" 60 1015 1035 "domains/constant_domain.ml" 60 1015 1036
+type(
+  Z.t
+)
+ident(
+  int_ref c "domains/constant_domain.ml" 60 1015 1027 "domains/constant_domain.ml" 60 1015 1028
+)
+"domains/constant_domain.ml" 60 1015 1031 "domains/constant_domain.ml" 60 1015 1036
+type(
+  t
+)
+"domains/constant_domain.ml" 63 1055 1061 "domains/constant_domain.ml" 63 1055 1065
+type(
+  Z.t -> Z.t -> t
+)
+ident(
+  def rand "domains/constant_domain.ml" 71 1166 1168 "domains/constant_domain.ml" 182 3623 3626
+)
+"domains/constant_domain.ml" 63 1055 1066 "domains/constant_domain.ml" 63 1055 1067
+type(
+  Z.t
+)
+ident(
+  def x "domains/constant_domain.ml" 63 1055 1068 "domains/constant_domain.ml" 66 1120 1132
+)
+"domains/constant_domain.ml" 63 1055 1068 "domains/constant_domain.ml" 63 1055 1069
+type(
+  Z.t
+)
+ident(
+  def y "domains/constant_domain.ml" 64 1072 1076 "domains/constant_domain.ml" 66 1120 1132
+)
+"domains/constant_domain.ml" 64 1072 1079 "domains/constant_domain.ml" 64 1072 1080
+type(
+  Z.t
+)
+ident(
+  int_ref x "domains/constant_domain.ml" 63 1055 1066 "domains/constant_domain.ml" 63 1055 1067
+)
+"domains/constant_domain.ml" 64 1072 1080 "domains/constant_domain.ml" 64 1072 1081
+type(
+  Z.t -> Z.t -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"domains/constant_domain.ml" 64 1072 1081 "domains/constant_domain.ml" 64 1072 1082
+type(
+  Z.t
+)
+ident(
+  int_ref y "domains/constant_domain.ml" 63 1055 1068 "domains/constant_domain.ml" 63 1055 1069
+)
+"domains/constant_domain.ml" 64 1072 1079 "domains/constant_domain.ml" 64 1072 1082
+type(
+  bool
+)
+"domains/constant_domain.ml" 64 1072 1092 "domains/constant_domain.ml" 64 1072 1093
+type(
+  Z.t
+)
+ident(
+  int_ref x "domains/constant_domain.ml" 63 1055 1066 "domains/constant_domain.ml" 63 1055 1067
+)
+"domains/constant_domain.ml" 64 1072 1088 "domains/constant_domain.ml" 64 1072 1093
+type(
+  t
+)
+"domains/constant_domain.ml" 65 1095 1107 "domains/constant_domain.ml" 65 1095 1108
+type(
+  Z.t
+)
+ident(
+  int_ref x "domains/constant_domain.ml" 63 1055 1066 "domains/constant_domain.ml" 63 1055 1067
+)
+"domains/constant_domain.ml" 65 1095 1108 "domains/constant_domain.ml" 65 1095 1109
+type(
+  Z.t -> Z.t -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"domains/constant_domain.ml" 65 1095 1109 "domains/constant_domain.ml" 65 1095 1110
+type(
+  Z.t
+)
+ident(
+  int_ref y "domains/constant_domain.ml" 63 1055 1068 "domains/constant_domain.ml" 63 1055 1069
+)
+"domains/constant_domain.ml" 65 1095 1107 "domains/constant_domain.ml" 65 1095 1110
+type(
+  bool
+)
+"domains/constant_domain.ml" 65 1095 1116 "domains/constant_domain.ml" 65 1095 1119
+type(
+  t
+)
+"domains/constant_domain.ml" 66 1120 1129 "domains/constant_domain.ml" 66 1120 1132
+type(
+  t
+)
+"domains/constant_domain.ml" 65 1095 1104 "domains/constant_domain.ml" 66 1120 1132
+type(
+  t
+)
+"domains/constant_domain.ml" 64 1072 1076 "domains/constant_domain.ml" 66 1120 1132
+type(
+  t
+)
+"domains/constant_domain.ml" 71 1166 1172 "domains/constant_domain.ml" 71 1166 1175
+type(
+  t -> t
+)
+ident(
+  def neg "domains/constant_domain.ml" 73 1191 1193 "domains/constant_domain.ml" 182 3623 3626
+)
+"domains/constant_domain.ml" 71 1166 1178 "domains/constant_domain.ml" 71 1166 1183
+type(
+  (Z.t -> Z.t) -> t -> t
+)
+ident(
+  int_ref lift1 "domains/constant_domain.ml" 34 568 574 "domains/constant_domain.ml" 34 568 579
+)
+"domains/constant_domain.ml" 71 1166 1184 "domains/constant_domain.ml" 71 1166 1189
+type(
+  Z.t -> Z.t
+)
+ident(
+  ext_ref Z.neg
+)
+"domains/constant_domain.ml" 71 1166 1178 "domains/constant_domain.ml" 71 1166 1189
+call(
+  stack
+)
+type(
+  t -> t
+)
+"domains/constant_domain.ml" 73 1191 1197 "domains/constant_domain.ml" 73 1191 1200
+type(
+  t -> t -> t
+)
+ident(
+  def add "domains/constant_domain.ml" 75 1216 1218 "domains/constant_domain.ml" 182 3623 3626
+)
+"domains/constant_domain.ml" 73 1191 1203 "domains/constant_domain.ml" 73 1191 1208
+type(
+  (Z.t -> Z.t -> Z.t) -> t -> t -> t
+)
+ident(
+  int_ref lift2 "domains/constant_domain.ml" 41 705 711 "domains/constant_domain.ml" 41 705 716
+)
+"domains/constant_domain.ml" 73 1191 1209 "domains/constant_domain.ml" 73 1191 1214
+type(
+  Z.t -> Z.t -> Z.t
+)
+ident(
+  ext_ref Z.add
+)
+"domains/constant_domain.ml" 73 1191 1203 "domains/constant_domain.ml" 73 1191 1214
+call(
+  stack
+)
+type(
+  t -> t -> t
+)
+"domains/constant_domain.ml" 75 1216 1222 "domains/constant_domain.ml" 75 1216 1225
+type(
+  t -> t -> t
+)
+ident(
+  def sub "domains/constant_domain.ml" 77 1241 1243 "domains/constant_domain.ml" 182 3623 3626
+)
+"domains/constant_domain.ml" 75 1216 1228 "domains/constant_domain.ml" 75 1216 1233
+type(
+  (Z.t -> Z.t -> Z.t) -> t -> t -> t
+)
+ident(
+  int_ref lift2 "domains/constant_domain.ml" 41 705 711 "domains/constant_domain.ml" 41 705 716
+)
+"domains/constant_domain.ml" 75 1216 1234 "domains/constant_domain.ml" 75 1216 1239
+type(
+  Z.t -> Z.t -> Z.t
+)
+ident(
+  ext_ref Z.sub
+)
+"domains/constant_domain.ml" 75 1216 1228 "domains/constant_domain.ml" 75 1216 1239
+call(
+  stack
+)
+type(
+  t -> t -> t
+)
+"domains/constant_domain.ml" 77 1241 1247 "domains/constant_domain.ml" 77 1241 1250
+type(
+  t -> t -> t
+)
+ident(
+  def mul "domains/constant_domain.ml" 79 1266 1268 "domains/constant_domain.ml" 182 3623 3626
+)
+"domains/constant_domain.ml" 77 1241 1253 "domains/constant_domain.ml" 77 1241 1258
+type(
+  (Z.t -> Z.t -> Z.t) -> t -> t -> t
+)
+ident(
+  int_ref lift2 "domains/constant_domain.ml" 41 705 711 "domains/constant_domain.ml" 41 705 716
+)
+"domains/constant_domain.ml" 77 1241 1259 "domains/constant_domain.ml" 77 1241 1264
+type(
+  Z.t -> Z.t -> Z.t
+)
+ident(
+  ext_ref Z.mul
+)
+"domains/constant_domain.ml" 77 1241 1253 "domains/constant_domain.ml" 77 1241 1264
+call(
+  stack
+)
+type(
+  t -> t -> t
+)
+"domains/constant_domain.ml" 79 1266 1272 "domains/constant_domain.ml" 79 1266 1275
+type(
+  t -> t -> t
+)
+ident(
+  def div "domains/constant_domain.ml" 86 1376 1378 "domains/constant_domain.ml" 182 3623 3626
+)
+"domains/constant_domain.ml" 79 1266 1276 "domains/constant_domain.ml" 79 1266 1277
+type(
+  t
+)
+ident(
+  def a "domains/constant_domain.ml" 79 1266 1278 "domains/constant_domain.ml" 81 1313 1337
+)
+"domains/constant_domain.ml" 79 1266 1278 "domains/constant_domain.ml" 79 1266 1279
+type(
+  t
+)
+ident(
+  def b "domains/constant_domain.ml" 80 1282 1286 "domains/constant_domain.ml" 81 1313 1337
+)
+"domains/constant_domain.ml" 80 1282 1289 "domains/constant_domain.ml" 80 1282 1290
+type(
+  t
+)
+ident(
+  int_ref b "domains/constant_domain.ml" 79 1266 1278 "domains/constant_domain.ml" 79 1266 1279
+)
+"domains/constant_domain.ml" 80 1282 1291 "domains/constant_domain.ml" 80 1282 1292
+type(
+  t -> t -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"domains/constant_domain.ml" 80 1282 1297 "domains/constant_domain.ml" 80 1282 1303
+type(
+  Z.t
+)
+ident(
+  ext_ref Z.zero
+)
+"domains/constant_domain.ml" 80 1282 1293 "domains/constant_domain.ml" 80 1282 1303
+type(
+  t
+)
+"domains/constant_domain.ml" 80 1282 1289 "domains/constant_domain.ml" 80 1282 1303
+type(
+  bool
+)
+"domains/constant_domain.ml" 80 1282 1309 "domains/constant_domain.ml" 80 1282 1312
+type(
+  t
+)
+"domains/constant_domain.ml" 81 1313 1322 "domains/constant_domain.ml" 81 1313 1327
+type(
+  (Z.t -> Z.t -> Z.t) -> t -> t -> t
+)
+ident(
+  int_ref lift2 "domains/constant_domain.ml" 41 705 711 "domains/constant_domain.ml" 41 705 716
+)
+"domains/constant_domain.ml" 81 1313 1328 "domains/constant_domain.ml" 81 1313 1333
+type(
+  Z.t -> Z.t -> Z.t
+)
+ident(
+  ext_ref Z.div
+)
+"domains/constant_domain.ml" 81 1313 1334 "domains/constant_domain.ml" 81 1313 1335
+type(
+  t
+)
+ident(
+  int_ref a "domains/constant_domain.ml" 79 1266 1276 "domains/constant_domain.ml" 79 1266 1277
+)
+"domains/constant_domain.ml" 81 1313 1336 "domains/constant_domain.ml" 81 1313 1337
+type(
+  t
+)
+ident(
+  int_ref b "domains/constant_domain.ml" 79 1266 1278 "domains/constant_domain.ml" 79 1266 1279
+)
+"domains/constant_domain.ml" 81 1313 1322 "domains/constant_domain.ml" 81 1313 1337
+call(
+  tail
+)
+type(
+  t
+)
+"domains/constant_domain.ml" 80 1282 1286 "domains/constant_domain.ml" 81 1313 1337
+type(
+  t
+)
+"domains/constant_domain.ml" 86 1376 1382 "domains/constant_domain.ml" 86 1376 1386
+type(
+  t -> t -> t
+)
+ident(
+  def join "domains/constant_domain.ml" 91 1476 1478 "domains/constant_domain.ml" 182 3623 3626
+)
+"domains/constant_domain.ml" 86 1376 1387 "domains/constant_domain.ml" 86 1376 1388
+type(
+  t
+)
+ident(
+  def a "domains/constant_domain.ml" 86 1376 1389 "domains/constant_domain.ml" 89 1462 1474
+)
+"domains/constant_domain.ml" 86 1376 1389 "domains/constant_domain.ml" 86 1376 1390
+type(
+  t
+)
+ident(
+  def b "domains/constant_domain.ml" 86 1376 1393 "domains/constant_domain.ml" 89 1462 1474
+)
+"domains/constant_domain.ml" 86 1376 1399 "domains/constant_domain.ml" 86 1376 1400
+type(
+  t
+)
+ident(
+  int_ref a "domains/constant_domain.ml" 86 1376 1387 "domains/constant_domain.ml" 86 1376 1388
+)
+"domains/constant_domain.ml" 86 1376 1401 "domains/constant_domain.ml" 86 1376 1402
+type(
+  t
+)
+ident(
+  int_ref b "domains/constant_domain.ml" 86 1376 1389 "domains/constant_domain.ml" 86 1376 1390
+)
+"domains/constant_domain.ml" 86 1376 1399 "domains/constant_domain.ml" 86 1376 1402
+type(
+  t * t
+)
+"domains/constant_domain.ml" 87 1408 1412 "domains/constant_domain.ml" 87 1408 1415
+type(
+  t
+)
+"domains/constant_domain.ml" 87 1408 1416 "domains/constant_domain.ml" 87 1408 1417
+type(
+  t
+)
+ident(
+  def x "domains/constant_domain.ml" 87 1408 1429 "domains/constant_domain.ml" 87 1408 1430
+)
+"domains/constant_domain.ml" 87 1408 1412 "domains/constant_domain.ml" 87 1408 1417
+type(
+  t * t
+)
+"domains/constant_domain.ml" 87 1408 1420 "domains/constant_domain.ml" 87 1408 1421
+type(
+  t
+)
+ident(
+  def x "domains/constant_domain.ml" 87 1408 1429 "domains/constant_domain.ml" 87 1408 1430
+)
+"domains/constant_domain.ml" 87 1408 1422 "domains/constant_domain.ml" 87 1408 1425
+type(
+  t
+)
+"domains/constant_domain.ml" 87 1408 1420 "domains/constant_domain.ml" 87 1408 1425
+type(
+  t * t
+)
+"domains/constant_domain.ml" 87 1408 1412 "domains/constant_domain.ml" 87 1408 1425
+type(
+  t * t
+)
+"domains/constant_domain.ml" 87 1408 1429 "domains/constant_domain.ml" 87 1408 1430
+type(
+  t
+)
+ident(
+  int_ref x "domains/constant_domain.ml" 87 1408 1416 "domains/constant_domain.ml" 87 1408 1417
+)
+"domains/constant_domain.ml" 88 1431 1439 "domains/constant_domain.ml" 88 1431 1440
+type(
+  Z.t
+)
+ident(
+  def x "domains/constant_domain.ml" 88 1431 1453 "domains/constant_domain.ml" 88 1431 1461
+)
+"domains/constant_domain.ml" 88 1431 1435 "domains/constant_domain.ml" 88 1431 1440
+type(
+  t
+)
+"domains/constant_domain.ml" 88 1431 1446 "domains/constant_domain.ml" 88 1431 1447
+type(
+  Z.t
+)
+ident(
+  def y "domains/constant_domain.ml" 88 1431 1453 "domains/constant_domain.ml" 88 1431 1461
+)
+"domains/constant_domain.ml" 88 1431 1442 "domains/constant_domain.ml" 88 1431 1447
+type(
+  t
+)
+"domains/constant_domain.ml" 88 1431 1435 "domains/constant_domain.ml" 88 1431 1447
+type(
+  t * t
+)
+"domains/constant_domain.ml" 88 1431 1453 "domains/constant_domain.ml" 88 1431 1454
+type(
+  Z.t
+)
+ident(
+  int_ref x "domains/constant_domain.ml" 88 1431 1439 "domains/constant_domain.ml" 88 1431 1440
+)
+"domains/constant_domain.ml" 88 1431 1454 "domains/constant_domain.ml" 88 1431 1455
+type(
+  Z.t -> Z.t -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"domains/constant_domain.ml" 88 1431 1455 "domains/constant_domain.ml" 88 1431 1456
+type(
+  Z.t
+)
+ident(
+  int_ref y "domains/constant_domain.ml" 88 1431 1446 "domains/constant_domain.ml" 88 1431 1447
+)
+"domains/constant_domain.ml" 88 1431 1453 "domains/constant_domain.ml" 88 1431 1456
+type(
+  bool
+)
+"domains/constant_domain.ml" 88 1431 1460 "domains/constant_domain.ml" 88 1431 1461
+type(
+  t
+)
+ident(
+  int_ref a "domains/constant_domain.ml" 86 1376 1387 "domains/constant_domain.ml" 86 1376 1388
+)
+"domains/constant_domain.ml" 89 1462 1466 "domains/constant_domain.ml" 89 1462 1467
+type(
+  t * t
+)
+"domains/constant_domain.ml" 89 1462 1471 "domains/constant_domain.ml" 89 1462 1474
+type(
+  t
+)
+"domains/constant_domain.ml" 86 1376 1393 "domains/constant_domain.ml" 89 1462 1474
+type(
+  t
+)
+"domains/constant_domain.ml" 91 1476 1482 "domains/constant_domain.ml" 91 1476 1486
+type(
+  t -> t -> t
+)
+ident(
+  def meet "domains/constant_domain.ml" 98 1657 1659 "domains/constant_domain.ml" 182 3623 3626
+)
+"domains/constant_domain.ml" 91 1476 1487 "domains/constant_domain.ml" 91 1476 1488
+type(
+  t
+)
+ident(
+  def a "domains/constant_domain.ml" 91 1476 1489 "domains/constant_domain.ml" 94 1562 1574
+)
+"domains/constant_domain.ml" 91 1476 1489 "domains/constant_domain.ml" 91 1476 1490
+type(
+  t
+)
+ident(
+  def b "domains/constant_domain.ml" 91 1476 1493 "domains/constant_domain.ml" 94 1562 1574
+)
+"domains/constant_domain.ml" 91 1476 1499 "domains/constant_domain.ml" 91 1476 1500
+type(
+  t
+)
+ident(
+  int_ref a "domains/constant_domain.ml" 91 1476 1487 "domains/constant_domain.ml" 91 1476 1488
+)
+"domains/constant_domain.ml" 91 1476 1501 "domains/constant_domain.ml" 91 1476 1502
+type(
+  t
+)
+ident(
+  int_ref b "domains/constant_domain.ml" 91 1476 1489 "domains/constant_domain.ml" 91 1476 1490
+)
+"domains/constant_domain.ml" 91 1476 1499 "domains/constant_domain.ml" 91 1476 1502
+type(
+  t * t
+)
+"domains/constant_domain.ml" 92 1508 1512 "domains/constant_domain.ml" 92 1508 1515
+type(
+  t
+)
+"domains/constant_domain.ml" 92 1508 1516 "domains/constant_domain.ml" 92 1508 1517
+type(
+  t
+)
+ident(
+  def x "domains/constant_domain.ml" 92 1508 1529 "domains/constant_domain.ml" 92 1508 1530
+)
+"domains/constant_domain.ml" 92 1508 1512 "domains/constant_domain.ml" 92 1508 1517
+type(
+  t * t
+)
+"domains/constant_domain.ml" 92 1508 1520 "domains/constant_domain.ml" 92 1508 1521
+type(
+  t
+)
+ident(
+  def x "domains/constant_domain.ml" 92 1508 1529 "domains/constant_domain.ml" 92 1508 1530
+)
+"domains/constant_domain.ml" 92 1508 1522 "domains/constant_domain.ml" 92 1508 1525
+type(
+  t
+)
+"domains/constant_domain.ml" 92 1508 1520 "domains/constant_domain.ml" 92 1508 1525
+type(
+  t * t
+)
+"domains/constant_domain.ml" 92 1508 1512 "domains/constant_domain.ml" 92 1508 1525
+type(
+  t * t
+)
+"domains/constant_domain.ml" 92 1508 1529 "domains/constant_domain.ml" 92 1508 1530
+type(
+  t
+)
+ident(
+  int_ref x "domains/constant_domain.ml" 92 1508 1516 "domains/constant_domain.ml" 92 1508 1517
+)
+"domains/constant_domain.ml" 93 1531 1539 "domains/constant_domain.ml" 93 1531 1540
+type(
+  Z.t
+)
+ident(
+  def x "domains/constant_domain.ml" 93 1531 1553 "domains/constant_domain.ml" 93 1531 1561
+)
+"domains/constant_domain.ml" 93 1531 1535 "domains/constant_domain.ml" 93 1531 1540
+type(
+  t
+)
+"domains/constant_domain.ml" 93 1531 1546 "domains/constant_domain.ml" 93 1531 1547
+type(
+  Z.t
+)
+ident(
+  def y "domains/constant_domain.ml" 93 1531 1553 "domains/constant_domain.ml" 93 1531 1561
+)
+"domains/constant_domain.ml" 93 1531 1542 "domains/constant_domain.ml" 93 1531 1547
+type(
+  t
+)
+"domains/constant_domain.ml" 93 1531 1535 "domains/constant_domain.ml" 93 1531 1547
+type(
+  t * t
+)
+"domains/constant_domain.ml" 93 1531 1553 "domains/constant_domain.ml" 93 1531 1554
+type(
+  Z.t
+)
+ident(
+  int_ref x "domains/constant_domain.ml" 93 1531 1539 "domains/constant_domain.ml" 93 1531 1540
+)
+"domains/constant_domain.ml" 93 1531 1554 "domains/constant_domain.ml" 93 1531 1555
+type(
+  Z.t -> Z.t -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"domains/constant_domain.ml" 93 1531 1555 "domains/constant_domain.ml" 93 1531 1556
+type(
+  Z.t
+)
+ident(
+  int_ref y "domains/constant_domain.ml" 93 1531 1546 "domains/constant_domain.ml" 93 1531 1547
+)
+"domains/constant_domain.ml" 93 1531 1553 "domains/constant_domain.ml" 93 1531 1556
+type(
+  bool
+)
+"domains/constant_domain.ml" 93 1531 1560 "domains/constant_domain.ml" 93 1531 1561
+type(
+  t
+)
+ident(
+  int_ref a "domains/constant_domain.ml" 91 1476 1487 "domains/constant_domain.ml" 91 1476 1488
+)
+"domains/constant_domain.ml" 94 1562 1566 "domains/constant_domain.ml" 94 1562 1567
+type(
+  t * t
+)
+"domains/constant_domain.ml" 94 1562 1571 "domains/constant_domain.ml" 94 1562 1574
+type(
+  t
+)
+"domains/constant_domain.ml" 91 1476 1493 "domains/constant_domain.ml" 94 1562 1574
+type(
+  t
+)
+"domains/constant_domain.ml" 98 1657 1663 "domains/constant_domain.ml" 98 1657 1668
+type(
+  t -> t -> t
+)
+ident(
+  def widen "domains/constant_domain.ml" 103 1719 1721 "domains/constant_domain.ml" 182 3623 3626
+)
+"domains/constant_domain.ml" 98 1657 1671 "domains/constant_domain.ml" 98 1657 1675
+type(
+  t -> t -> t
+)
+ident(
+  int_ref join "domains/constant_domain.ml" 86 1376 1382 "domains/constant_domain.ml" 86 1376 1386
+)
+"domains/constant_domain.ml" 103 1719 1725 "domains/constant_domain.ml" 103 1719 1727
+type(
+  'a -> 'b -> 'a * 'b
+)
+ident(
+  def eq "domains/constant_domain.ml" 107 1804 1806 "domains/constant_domain.ml" 182 3623 3626
+)
+"domains/constant_domain.ml" 103 1719 1728 "domains/constant_domain.ml" 103 1719 1729
+type(
+  'a
+)
+ident(
+  def a "domains/constant_domain.ml" 103 1719 1730 "domains/constant_domain.ml" 105 1794 1802
+)
+"domains/constant_domain.ml" 103 1719 1730 "domains/constant_domain.ml" 103 1719 1731
+type(
+  'b
+)
+ident(
+  def b "domains/constant_domain.ml" 105 1794 1798 "domains/constant_domain.ml" 105 1794 1802
+)
+"domains/constant_domain.ml" 105 1794 1798 "domains/constant_domain.ml" 105 1794 1799
+type(
+  'a
+)
+ident(
+  int_ref a "domains/constant_domain.ml" 103 1719 1728 "domains/constant_domain.ml" 103 1719 1729
+)
+"domains/constant_domain.ml" 105 1794 1801 "domains/constant_domain.ml" 105 1794 1802
+type(
+  'b
+)
+ident(
+  int_ref b "domains/constant_domain.ml" 103 1719 1730 "domains/constant_domain.ml" 103 1719 1731
+)
+"domains/constant_domain.ml" 105 1794 1798 "domains/constant_domain.ml" 105 1794 1802
+type(
+  'a * 'b
+)
+"domains/constant_domain.ml" 107 1804 1810 "domains/constant_domain.ml" 107 1804 1813
+type(
+  'c -> 'd -> 'c * 'd
+)
+ident(
+  def neq "domains/constant_domain.ml" 110 1836 1838 "domains/constant_domain.ml" 182 3623 3626
+)
+"domains/constant_domain.ml" 107 1804 1814 "domains/constant_domain.ml" 107 1804 1815
+type(
+  'c
+)
+ident(
+  def a "domains/constant_domain.ml" 107 1804 1816 "domains/constant_domain.ml" 108 1820 1828
+)
+"domains/constant_domain.ml" 107 1804 1816 "domains/constant_domain.ml" 107 1804 1817
+type(
+  'd
+)
+ident(
+  def b "domains/constant_domain.ml" 108 1820 1824 "domains/constant_domain.ml" 108 1820 1828
+)
+"domains/constant_domain.ml" 108 1820 1824 "domains/constant_domain.ml" 108 1820 1825
+type(
+  'c
+)
+ident(
+  int_ref a "domains/constant_domain.ml" 107 1804 1814 "domains/constant_domain.ml" 107 1804 1815
+)
+"domains/constant_domain.ml" 108 1820 1827 "domains/constant_domain.ml" 108 1820 1828
+type(
+  'd
+)
+ident(
+  int_ref b "domains/constant_domain.ml" 107 1804 1816 "domains/constant_domain.ml" 107 1804 1817
+)
+"domains/constant_domain.ml" 108 1820 1824 "domains/constant_domain.ml" 108 1820 1828
+type(
+  'c * 'd
+)
+"domains/constant_domain.ml" 110 1836 1842 "domains/constant_domain.ml" 110 1836 1845
+type(
+  'e -> 'f -> 'e * 'f
+)
+ident(
+  def geq "domains/constant_domain.ml" 113 1868 1870 "domains/constant_domain.ml" 182 3623 3626
+)
+"domains/constant_domain.ml" 110 1836 1846 "domains/constant_domain.ml" 110 1836 1847
+type(
+  'e
+)
+ident(
+  def a "domains/constant_domain.ml" 110 1836 1848 "domains/constant_domain.ml" 111 1852 1860
+)
+"domains/constant_domain.ml" 110 1836 1848 "domains/constant_domain.ml" 110 1836 1849
+type(
+  'f
+)
+ident(
+  def b "domains/constant_domain.ml" 111 1852 1856 "domains/constant_domain.ml" 111 1852 1860
+)
+"domains/constant_domain.ml" 111 1852 1856 "domains/constant_domain.ml" 111 1852 1857
+type(
+  'e
+)
+ident(
+  int_ref a "domains/constant_domain.ml" 110 1836 1846 "domains/constant_domain.ml" 110 1836 1847
+)
+"domains/constant_domain.ml" 111 1852 1859 "domains/constant_domain.ml" 111 1852 1860
+type(
+  'f
+)
+ident(
+  int_ref b "domains/constant_domain.ml" 110 1836 1848 "domains/constant_domain.ml" 110 1836 1849
+)
+"domains/constant_domain.ml" 111 1852 1856 "domains/constant_domain.ml" 111 1852 1860
+type(
+  'e * 'f
+)
+"domains/constant_domain.ml" 113 1868 1874 "domains/constant_domain.ml" 113 1868 1876
+type(
+  'g -> 'h -> 'g * 'h
+)
+ident(
+  def gt "domains/constant_domain.ml" 118 1938 1940 "domains/constant_domain.ml" 182 3623 3626
+)
+"domains/constant_domain.ml" 113 1868 1877 "domains/constant_domain.ml" 113 1868 1878
+type(
+  'g
+)
+ident(
+  def a "domains/constant_domain.ml" 113 1868 1879 "domains/constant_domain.ml" 114 1883 1891
+)
+"domains/constant_domain.ml" 113 1868 1879 "domains/constant_domain.ml" 113 1868 1880
+type(
+  'h
+)
+ident(
+  def b "domains/constant_domain.ml" 114 1883 1887 "domains/constant_domain.ml" 114 1883 1891
+)
+"domains/constant_domain.ml" 114 1883 1887 "domains/constant_domain.ml" 114 1883 1888
+type(
+  'g
+)
+ident(
+  int_ref a "domains/constant_domain.ml" 113 1868 1877 "domains/constant_domain.ml" 113 1868 1878
+)
+"domains/constant_domain.ml" 114 1883 1890 "domains/constant_domain.ml" 114 1883 1891
+type(
+  'h
+)
+ident(
+  int_ref b "domains/constant_domain.ml" 113 1868 1879 "domains/constant_domain.ml" 113 1868 1880
+)
+"domains/constant_domain.ml" 114 1883 1887 "domains/constant_domain.ml" 114 1883 1891
+type(
+  'g * 'h
+)
+"domains/constant_domain.ml" 118 1938 1944 "domains/constant_domain.ml" 118 1938 1950
+type(
+  t -> t -> bool
+)
+ident(
+  def subset "domains/constant_domain.ml" 124 2088 2090 "domains/constant_domain.ml" 182 3623 3626
+)
+"domains/constant_domain.ml" 118 1938 1951 "domains/constant_domain.ml" 118 1938 1952
+type(
+  t
+)
+ident(
+  def a "domains/constant_domain.ml" 118 1938 1953 "domains/constant_domain.ml" 121 2022 2036
+)
+"domains/constant_domain.ml" 118 1938 1953 "domains/constant_domain.ml" 118 1938 1954
+type(
+  t
+)
+ident(
+  def b "domains/constant_domain.ml" 118 1938 1957 "domains/constant_domain.ml" 121 2022 2036
+)
+"domains/constant_domain.ml" 118 1938 1963 "domains/constant_domain.ml" 118 1938 1964
+type(
+  t
+)
+ident(
+  int_ref a "domains/constant_domain.ml" 118 1938 1951 "domains/constant_domain.ml" 118 1938 1952
+)
+"domains/constant_domain.ml" 118 1938 1965 "domains/constant_domain.ml" 118 1938 1966
+type(
+  t
+)
+ident(
+  int_ref b "domains/constant_domain.ml" 118 1938 1953 "domains/constant_domain.ml" 118 1938 1954
+)
+"domains/constant_domain.ml" 118 1938 1963 "domains/constant_domain.ml" 118 1938 1966
+type(
+  t * t
+)
+"domains/constant_domain.ml" 119 1972 1976 "domains/constant_domain.ml" 119 1972 1979
+type(
+  t
+)
+"domains/constant_domain.ml" 119 1972 1980 "domains/constant_domain.ml" 119 1972 1981
+type(
+  t
+)
+"domains/constant_domain.ml" 119 1972 1976 "domains/constant_domain.ml" 119 1972 1981
+type(
+  t * t
+)
+"domains/constant_domain.ml" 119 1972 1984 "domains/constant_domain.ml" 119 1972 1985
+type(
+  t
+)
+"domains/constant_domain.ml" 119 1972 1986 "domains/constant_domain.ml" 119 1972 1989
+type(
+  t
+)
+"domains/constant_domain.ml" 119 1972 1984 "domains/constant_domain.ml" 119 1972 1989
+type(
+  t * t
+)
+"domains/constant_domain.ml" 119 1972 1976 "domains/constant_domain.ml" 119 1972 1989
+type(
+  t * t
+)
+"domains/constant_domain.ml" 119 1972 1993 "domains/constant_domain.ml" 119 1972 1997
+type(
+  bool
+)
+"domains/constant_domain.ml" 120 1998 2006 "domains/constant_domain.ml" 120 1998 2007
+type(
+  Z.t
+)
+ident(
+  def x "domains/constant_domain.ml" 120 1998 2018 "domains/constant_domain.ml" 120 1998 2021
+)
+"domains/constant_domain.ml" 120 1998 2002 "domains/constant_domain.ml" 120 1998 2007
+type(
+  t
+)
+"domains/constant_domain.ml" 120 1998 2013 "domains/constant_domain.ml" 120 1998 2014
+type(
+  Z.t
+)
+ident(
+  def y "domains/constant_domain.ml" 120 1998 2018 "domains/constant_domain.ml" 120 1998 2021
+)
+"domains/constant_domain.ml" 120 1998 2009 "domains/constant_domain.ml" 120 1998 2014
+type(
+  t
+)
+"domains/constant_domain.ml" 120 1998 2002 "domains/constant_domain.ml" 120 1998 2014
+type(
+  t * t
+)
+"domains/constant_domain.ml" 120 1998 2018 "domains/constant_domain.ml" 120 1998 2019
+type(
+  Z.t
+)
+ident(
+  int_ref x "domains/constant_domain.ml" 120 1998 2006 "domains/constant_domain.ml" 120 1998 2007
+)
+"domains/constant_domain.ml" 120 1998 2019 "domains/constant_domain.ml" 120 1998 2020
+type(
+  Z.t -> Z.t -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"domains/constant_domain.ml" 120 1998 2020 "domains/constant_domain.ml" 120 1998 2021
+type(
+  Z.t
+)
+ident(
+  int_ref y "domains/constant_domain.ml" 120 1998 2013 "domains/constant_domain.ml" 120 1998 2014
+)
+"domains/constant_domain.ml" 120 1998 2018 "domains/constant_domain.ml" 120 1998 2021
+type(
+  bool
+)
+"domains/constant_domain.ml" 121 2022 2026 "domains/constant_domain.ml" 121 2022 2027
+type(
+  t * t
+)
+"domains/constant_domain.ml" 121 2022 2031 "domains/constant_domain.ml" 121 2022 2036
+type(
+  bool
+)
+"domains/constant_domain.ml" 118 1938 1957 "domains/constant_domain.ml" 121 2022 2036
+type(
+  bool
+)
+"domains/constant_domain.ml" 124 2088 2094 "domains/constant_domain.ml" 124 2088 2103
+type(
+  t -> bool
+)
+ident(
+  def is_bottom "domains/constant_domain.ml" 128 2151 2153 "domains/constant_domain.ml" 182 3623 3626
+)
+"domains/constant_domain.ml" 124 2088 2104 "domains/constant_domain.ml" 124 2088 2105
+type(
+  t
+)
+ident(
+  def a "domains/constant_domain.ml" 125 2108 2112 "domains/constant_domain.ml" 125 2108 2117
+)
+"domains/constant_domain.ml" 125 2108 2112 "domains/constant_domain.ml" 125 2108 2113
+type(
+  t
+)
+ident(
+  int_ref a "domains/constant_domain.ml" 124 2088 2104 "domains/constant_domain.ml" 124 2088 2105
+)
+"domains/constant_domain.ml" 125 2108 2113 "domains/constant_domain.ml" 125 2108 2114
+type(
+  t -> t -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"domains/constant_domain.ml" 125 2108 2114 "domains/constant_domain.ml" 125 2108 2117
+type(
+  t
+)
+"domains/constant_domain.ml" 125 2108 2112 "domains/constant_domain.ml" 125 2108 2117
+type(
+  bool
+)
+"domains/constant_domain.ml" 128 2151 2157 "domains/constant_domain.ml" 128 2151 2162
+type(
+  Format.formatter -> t -> unit
+)
+ident(
+  def print "domains/constant_domain.ml" 136 2351 2353 "domains/constant_domain.ml" 182 3623 3626
+)
+"domains/constant_domain.ml" 128 2151 2163 "domains/constant_domain.ml" 128 2151 2166
+type(
+  Format.formatter
+)
+ident(
+  def fmt "domains/constant_domain.ml" 128 2151 2167 "domains/constant_domain.ml" 131 2259 2313
+)
+"domains/constant_domain.ml" 128 2151 2167 "domains/constant_domain.ml" 128 2151 2168
+type(
+  t
+)
+ident(
+  def x "domains/constant_domain.ml" 128 2151 2171 "domains/constant_domain.ml" 131 2259 2313
+)
+"domains/constant_domain.ml" 128 2151 2177 "domains/constant_domain.ml" 128 2151 2178
+type(
+  t
+)
+ident(
+  int_ref x "domains/constant_domain.ml" 128 2151 2167 "domains/constant_domain.ml" 128 2151 2168
+)
+"domains/constant_domain.ml" 129 2184 2188 "domains/constant_domain.ml" 129 2184 2191
+type(
+  t
+)
+"domains/constant_domain.ml" 129 2184 2195 "domains/constant_domain.ml" 129 2184 2209
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"domains/constant_domain.ml" 129 2184 2210 "domains/constant_domain.ml" 129 2184 2213
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "domains/constant_domain.ml" 128 2151 2163 "domains/constant_domain.ml" 128 2151 2166
+)
+"domains/constant_domain.ml" 129 2184 2214 "domains/constant_domain.ml" 129 2184 2222
+type(
+  (unit, Format.formatter, unit) format
+)
+"domains/constant_domain.ml" 129 2184 2195 "domains/constant_domain.ml" 129 2184 2222
+call(
+  tail
+)
+type(
+  unit
+)
+"domains/constant_domain.ml" 130 2223 2227 "domains/constant_domain.ml" 130 2223 2230
+type(
+  t
+)
+"domains/constant_domain.ml" 130 2223 2234 "domains/constant_domain.ml" 130 2223 2248
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"domains/constant_domain.ml" 130 2223 2249 "domains/constant_domain.ml" 130 2223 2252
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "domains/constant_domain.ml" 128 2151 2163 "domains/constant_domain.ml" 128 2151 2166
+)
+"domains/constant_domain.ml" 130 2223 2253 "domains/constant_domain.ml" 130 2223 2258
+type(
+  (unit, Format.formatter, unit) format
+)
+"domains/constant_domain.ml" 130 2223 2234 "domains/constant_domain.ml" 130 2223 2258
+call(
+  tail
+)
+type(
+  unit
+)
+"domains/constant_domain.ml" 131 2259 2267 "domains/constant_domain.ml" 131 2259 2268
+type(
+  Z.t
+)
+ident(
+  def x "domains/constant_domain.ml" 131 2259 2272 "domains/constant_domain.ml" 131 2259 2313
+)
+"domains/constant_domain.ml" 131 2259 2263 "domains/constant_domain.ml" 131 2259 2268
+type(
+  t
+)
+"domains/constant_domain.ml" 131 2259 2272 "domains/constant_domain.ml" 131 2259 2286
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"domains/constant_domain.ml" 131 2259 2287 "domains/constant_domain.ml" 131 2259 2290
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "domains/constant_domain.ml" 128 2151 2163 "domains/constant_domain.ml" 128 2151 2166
+)
+"domains/constant_domain.ml" 131 2259 2291 "domains/constant_domain.ml" 131 2259 2297
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"domains/constant_domain.ml" 131 2259 2299 "domains/constant_domain.ml" 131 2259 2310
+type(
+  Z.t -> string
+)
+ident(
+  ext_ref Z.to_string
+)
+"domains/constant_domain.ml" 131 2259 2311 "domains/constant_domain.ml" 131 2259 2312
+type(
+  Z.t
+)
+ident(
+  int_ref x "domains/constant_domain.ml" 131 2259 2267 "domains/constant_domain.ml" 131 2259 2268
+)
+"domains/constant_domain.ml" 131 2259 2298 "domains/constant_domain.ml" 131 2259 2313
+call(
+  stack
+)
+type(
+  string
+)
+"domains/constant_domain.ml" 131 2259 2272 "domains/constant_domain.ml" 131 2259 2313
+call(
+  tail
+)
+type(
+  unit
+)
+"domains/constant_domain.ml" 128 2151 2171 "domains/constant_domain.ml" 131 2259 2313
+type(
+  unit
+)
+"domains/constant_domain.ml" 136 2351 2357 "domains/constant_domain.ml" 136 2351 2362
+type(
+  t -> Abstract_syntax_tree.int_unary_op -> t
+)
+ident(
+  def unary "domains/constant_domain.ml" 140 2439 2441 "domains/constant_domain.ml" 182 3623 3626
+)
+"domains/constant_domain.ml" 136 2351 2363 "domains/constant_domain.ml" 136 2351 2364
+type(
+  t
+)
+ident(
+  def x "domains/constant_domain.ml" 136 2351 2365 "domains/constant_domain.ml" 138 2409 2437
+)
+"domains/constant_domain.ml" 136 2351 2365 "domains/constant_domain.ml" 136 2351 2367
+type(
+  Abstract_syntax_tree.int_unary_op
+)
+ident(
+  def op "domains/constant_domain.ml" 136 2351 2370 "domains/constant_domain.ml" 138 2409 2437
+)
+"domains/constant_domain.ml" 136 2351 2376 "domains/constant_domain.ml" 136 2351 2378
+type(
+  Abstract_syntax_tree.int_unary_op
+)
+ident(
+  int_ref op "domains/constant_domain.ml" 136 2351 2365 "domains/constant_domain.ml" 136 2351 2367
+)
+"domains/constant_domain.ml" 137 2384 2388 "domains/constant_domain.ml" 137 2384 2402
+type(
+  Abstract_syntax_tree.int_unary_op
+)
+"domains/constant_domain.ml" 137 2384 2407 "domains/constant_domain.ml" 137 2384 2408
+type(
+  t
+)
+ident(
+  int_ref x "domains/constant_domain.ml" 136 2351 2363 "domains/constant_domain.ml" 136 2351 2364
+)
+"domains/constant_domain.ml" 138 2409 2413 "domains/constant_domain.ml" 138 2409 2428
+type(
+  Abstract_syntax_tree.int_unary_op
+)
+"domains/constant_domain.ml" 138 2409 2432 "domains/constant_domain.ml" 138 2409 2435
+type(
+  t -> t
+)
+ident(
+  int_ref neg "domains/constant_domain.ml" 71 1166 1172 "domains/constant_domain.ml" 71 1166 1175
+)
+"domains/constant_domain.ml" 138 2409 2436 "domains/constant_domain.ml" 138 2409 2437
+type(
+  t
+)
+ident(
+  int_ref x "domains/constant_domain.ml" 136 2351 2363 "domains/constant_domain.ml" 136 2351 2364
+)
+"domains/constant_domain.ml" 138 2409 2432 "domains/constant_domain.ml" 138 2409 2437
+call(
+  tail
+)
+type(
+  t
+)
+"domains/constant_domain.ml" 136 2351 2370 "domains/constant_domain.ml" 138 2409 2437
+type(
+  t
+)
+"domains/constant_domain.ml" 140 2439 2445 "domains/constant_domain.ml" 140 2439 2451
+type(
+  t -> t -> Abstract_syntax_tree.int_binary_op -> t
+)
+ident(
+  def binary "domains/constant_domain.ml" 146 2588 2590 "domains/constant_domain.ml" 182 3623 3626
+)
+"domains/constant_domain.ml" 140 2439 2452 "domains/constant_domain.ml" 140 2439 2453
+type(
+  t
+)
+ident(
+  def x "domains/constant_domain.ml" 140 2439 2454 "domains/constant_domain.ml" 144 2559 2586
+)
+"domains/constant_domain.ml" 140 2439 2454 "domains/constant_domain.ml" 140 2439 2455
+type(
+  t
+)
+ident(
+  def y "domains/constant_domain.ml" 140 2439 2456 "domains/constant_domain.ml" 144 2559 2586
+)
+"domains/constant_domain.ml" 140 2439 2456 "domains/constant_domain.ml" 140 2439 2458
+type(
+  Abstract_syntax_tree.int_binary_op
+)
+ident(
+  def op "domains/constant_domain.ml" 140 2439 2461 "domains/constant_domain.ml" 144 2559 2586
+)
+"domains/constant_domain.ml" 140 2439 2467 "domains/constant_domain.ml" 140 2439 2469
+type(
+  Abstract_syntax_tree.int_binary_op
+)
+ident(
+  int_ref op "domains/constant_domain.ml" 140 2439 2456 "domains/constant_domain.ml" 140 2439 2458
+)
+"domains/constant_domain.ml" 141 2475 2479 "domains/constant_domain.ml" 141 2475 2487
+type(
+  Abstract_syntax_tree.int_binary_op
+)
+"domains/constant_domain.ml" 141 2475 2495 "domains/constant_domain.ml" 141 2475 2498
+type(
+  t -> t -> t
+)
+ident(
+  int_ref add "domains/constant_domain.ml" 73 1191 1197 "domains/constant_domain.ml" 73 1191 1200
+)
+"domains/constant_domain.ml" 141 2475 2499 "domains/constant_domain.ml" 141 2475 2500
+type(
+  t
+)
+ident(
+  int_ref x "domains/constant_domain.ml" 140 2439 2452 "domains/constant_domain.ml" 140 2439 2453
+)
+"domains/constant_domain.ml" 141 2475 2501 "domains/constant_domain.ml" 141 2475 2502
+type(
+  t
+)
+ident(
+  int_ref y "domains/constant_domain.ml" 140 2439 2454 "domains/constant_domain.ml" 140 2439 2455
+)
+"domains/constant_domain.ml" 141 2475 2495 "domains/constant_domain.ml" 141 2475 2502
+call(
+  tail
+)
+type(
+  t
+)
+"domains/constant_domain.ml" 142 2503 2507 "domains/constant_domain.ml" 142 2503 2516
+type(
+  Abstract_syntax_tree.int_binary_op
+)
+"domains/constant_domain.ml" 142 2503 2523 "domains/constant_domain.ml" 142 2503 2526
+type(
+  t -> t -> t
+)
+ident(
+  int_ref sub "domains/constant_domain.ml" 75 1216 1222 "domains/constant_domain.ml" 75 1216 1225
+)
+"domains/constant_domain.ml" 142 2503 2527 "domains/constant_domain.ml" 142 2503 2528
+type(
+  t
+)
+ident(
+  int_ref x "domains/constant_domain.ml" 140 2439 2452 "domains/constant_domain.ml" 140 2439 2453
+)
+"domains/constant_domain.ml" 142 2503 2529 "domains/constant_domain.ml" 142 2503 2530
+type(
+  t
+)
+ident(
+  int_ref y "domains/constant_domain.ml" 140 2439 2454 "domains/constant_domain.ml" 140 2439 2455
+)
+"domains/constant_domain.ml" 142 2503 2523 "domains/constant_domain.ml" 142 2503 2530
+call(
+  tail
+)
+type(
+  t
+)
+"domains/constant_domain.ml" 143 2531 2535 "domains/constant_domain.ml" 143 2531 2547
+type(
+  Abstract_syntax_tree.int_binary_op
+)
+"domains/constant_domain.ml" 143 2531 2551 "domains/constant_domain.ml" 143 2531 2554
+type(
+  t -> t -> t
+)
+ident(
+  int_ref mul "domains/constant_domain.ml" 77 1241 1247 "domains/constant_domain.ml" 77 1241 1250
+)
+"domains/constant_domain.ml" 143 2531 2555 "domains/constant_domain.ml" 143 2531 2556
+type(
+  t
+)
+ident(
+  int_ref x "domains/constant_domain.ml" 140 2439 2452 "domains/constant_domain.ml" 140 2439 2453
+)
+"domains/constant_domain.ml" 143 2531 2557 "domains/constant_domain.ml" 143 2531 2558
+type(
+  t
+)
+ident(
+  int_ref y "domains/constant_domain.ml" 140 2439 2454 "domains/constant_domain.ml" 140 2439 2455
+)
+"domains/constant_domain.ml" 143 2531 2551 "domains/constant_domain.ml" 143 2531 2558
+call(
+  tail
+)
+type(
+  t
+)
+"domains/constant_domain.ml" 144 2559 2563 "domains/constant_domain.ml" 144 2559 2573
+type(
+  Abstract_syntax_tree.int_binary_op
+)
+"domains/constant_domain.ml" 144 2559 2579 "domains/constant_domain.ml" 144 2559 2582
+type(
+  t -> t -> t
+)
+ident(
+  int_ref div "domains/constant_domain.ml" 79 1266 1272 "domains/constant_domain.ml" 79 1266 1275
+)
+"domains/constant_domain.ml" 144 2559 2583 "domains/constant_domain.ml" 144 2559 2584
+type(
+  t
+)
+ident(
+  int_ref x "domains/constant_domain.ml" 140 2439 2452 "domains/constant_domain.ml" 140 2439 2453
+)
+"domains/constant_domain.ml" 144 2559 2585 "domains/constant_domain.ml" 144 2559 2586
+type(
+  t
+)
+ident(
+  int_ref y "domains/constant_domain.ml" 140 2439 2454 "domains/constant_domain.ml" 140 2439 2455
+)
+"domains/constant_domain.ml" 144 2559 2579 "domains/constant_domain.ml" 144 2559 2586
+call(
+  tail
+)
+type(
+  t
+)
+"domains/constant_domain.ml" 140 2439 2461 "domains/constant_domain.ml" 144 2559 2586
+type(
+  t
+)
+"domains/constant_domain.ml" 146 2588 2594 "domains/constant_domain.ml" 146 2588 2601
+type(
+  'i -> 'j -> Abstract_syntax_tree.compare_op -> 'i * 'j
+)
+ident(
+  def compare "domains/constant_domain.ml" 156 2873 2875 "domains/constant_domain.ml" 182 3623 3626
+)
+"domains/constant_domain.ml" 146 2588 2602 "domains/constant_domain.ml" 146 2588 2603
+type(
+  'i
+)
+ident(
+  def x "domains/constant_domain.ml" 146 2588 2604 "domains/constant_domain.ml" 152 2809 2861
+)
+"domains/constant_domain.ml" 146 2588 2604 "domains/constant_domain.ml" 146 2588 2605
+type(
+  'j
+)
+ident(
+  def y "domains/constant_domain.ml" 146 2588 2606 "domains/constant_domain.ml" 152 2809 2861
+)
+"domains/constant_domain.ml" 146 2588 2606 "domains/constant_domain.ml" 146 2588 2608
+type(
+  Abstract_syntax_tree.compare_op
+)
+ident(
+  def op "domains/constant_domain.ml" 146 2588 2611 "domains/constant_domain.ml" 152 2809 2861
+)
+"domains/constant_domain.ml" 146 2588 2617 "domains/constant_domain.ml" 146 2588 2619
+type(
+  Abstract_syntax_tree.compare_op
+)
+ident(
+  int_ref op "domains/constant_domain.ml" 146 2588 2606 "domains/constant_domain.ml" 146 2588 2608
+)
+"domains/constant_domain.ml" 147 2625 2629 "domains/constant_domain.ml" 147 2625 2638
+type(
+  Abstract_syntax_tree.compare_op
+)
+"domains/constant_domain.ml" 147 2625 2650 "domains/constant_domain.ml" 147 2625 2652
+type(
+  'i -> 'j -> 'i * 'j
+)
+ident(
+  int_ref eq "domains/constant_domain.ml" 103 1719 1725 "domains/constant_domain.ml" 103 1719 1727
+)
+"domains/constant_domain.ml" 147 2625 2653 "domains/constant_domain.ml" 147 2625 2654
+type(
+  'i
+)
+ident(
+  int_ref x "domains/constant_domain.ml" 146 2588 2602 "domains/constant_domain.ml" 146 2588 2603
+)
+"domains/constant_domain.ml" 147 2625 2655 "domains/constant_domain.ml" 147 2625 2656
+type(
+  'j
+)
+ident(
+  int_ref y "domains/constant_domain.ml" 146 2588 2604 "domains/constant_domain.ml" 146 2588 2605
+)
+"domains/constant_domain.ml" 147 2625 2650 "domains/constant_domain.ml" 147 2625 2656
+call(
+  tail
+)
+type(
+  'i * 'j
+)
+"domains/constant_domain.ml" 148 2657 2661 "domains/constant_domain.ml" 148 2657 2674
+type(
+  Abstract_syntax_tree.compare_op
+)
+"domains/constant_domain.ml" 148 2657 2682 "domains/constant_domain.ml" 148 2657 2685
+type(
+  'i -> 'j -> 'i * 'j
+)
+ident(
+  int_ref neq "domains/constant_domain.ml" 107 1804 1810 "domains/constant_domain.ml" 107 1804 1813
+)
+"domains/constant_domain.ml" 148 2657 2686 "domains/constant_domain.ml" 148 2657 2687
+type(
+  'i
+)
+ident(
+  int_ref x "domains/constant_domain.ml" 146 2588 2602 "domains/constant_domain.ml" 146 2588 2603
+)
+"domains/constant_domain.ml" 148 2657 2688 "domains/constant_domain.ml" 148 2657 2689
+type(
+  'j
+)
+ident(
+  int_ref y "domains/constant_domain.ml" 146 2588 2604 "domains/constant_domain.ml" 146 2588 2605
+)
+"domains/constant_domain.ml" 148 2657 2682 "domains/constant_domain.ml" 148 2657 2689
+call(
+  tail
+)
+type(
+  'i * 'j
+)
+"domains/constant_domain.ml" 149 2690 2694 "domains/constant_domain.ml" 149 2690 2711
+type(
+  Abstract_syntax_tree.compare_op
+)
+"domains/constant_domain.ml" 149 2690 2715 "domains/constant_domain.ml" 149 2690 2718
+type(
+  'i -> 'j -> 'i * 'j
+)
+ident(
+  int_ref geq "domains/constant_domain.ml" 110 1836 1842 "domains/constant_domain.ml" 110 1836 1845
+)
+"domains/constant_domain.ml" 149 2690 2719 "domains/constant_domain.ml" 149 2690 2720
+type(
+  'i
+)
+ident(
+  int_ref x "domains/constant_domain.ml" 146 2588 2602 "domains/constant_domain.ml" 146 2588 2603
+)
+"domains/constant_domain.ml" 149 2690 2721 "domains/constant_domain.ml" 149 2690 2722
+type(
+  'j
+)
+ident(
+  int_ref y "domains/constant_domain.ml" 146 2588 2604 "domains/constant_domain.ml" 146 2588 2605
+)
+"domains/constant_domain.ml" 149 2690 2715 "domains/constant_domain.ml" 149 2690 2722
+call(
+  tail
+)
+type(
+  'i * 'j
+)
+"domains/constant_domain.ml" 150 2723 2727 "domains/constant_domain.ml" 150 2723 2738
+type(
+  Abstract_syntax_tree.compare_op
+)
+"domains/constant_domain.ml" 150 2723 2748 "domains/constant_domain.ml" 150 2723 2750
+type(
+  'i -> 'j -> 'i * 'j
+)
+ident(
+  int_ref gt "domains/constant_domain.ml" 113 1868 1874 "domains/constant_domain.ml" 113 1868 1876
+)
+"domains/constant_domain.ml" 150 2723 2751 "domains/constant_domain.ml" 150 2723 2752
+type(
+  'i
+)
+ident(
+  int_ref x "domains/constant_domain.ml" 146 2588 2602 "domains/constant_domain.ml" 146 2588 2603
+)
+"domains/constant_domain.ml" 150 2723 2753 "domains/constant_domain.ml" 150 2723 2754
+type(
+  'j
+)
+ident(
+  int_ref y "domains/constant_domain.ml" 146 2588 2604 "domains/constant_domain.ml" 146 2588 2605
+)
+"domains/constant_domain.ml" 150 2723 2748 "domains/constant_domain.ml" 150 2723 2754
+call(
+  tail
+)
+type(
+  'i * 'j
+)
+"domains/constant_domain.ml" 151 2755 2759 "domains/constant_domain.ml" 151 2755 2773
+type(
+  Abstract_syntax_tree.compare_op
+)
+"domains/constant_domain.ml" 151 2755 2784 "domains/constant_domain.ml" 151 2755 2786
+type(
+  'j
+)
+ident(
+  def y' "domains/constant_domain.ml" 151 2755 2803 "domains/constant_domain.ml" 151 2755 2808
+)
+"domains/constant_domain.ml" 151 2755 2787 "domains/constant_domain.ml" 151 2755 2789
+type(
+  'i
+)
+ident(
+  def x' "domains/constant_domain.ml" 151 2755 2803 "domains/constant_domain.ml" 151 2755 2808
+)
+"domains/constant_domain.ml" 151 2755 2784 "domains/constant_domain.ml" 151 2755 2789
+type(
+  'j * 'i
+)
+"domains/constant_domain.ml" 151 2755 2792 "domains/constant_domain.ml" 151 2755 2795
+type(
+  'j -> 'i -> 'j * 'i
+)
+ident(
+  int_ref geq "domains/constant_domain.ml" 110 1836 1842 "domains/constant_domain.ml" 110 1836 1845
+)
+"domains/constant_domain.ml" 151 2755 2796 "domains/constant_domain.ml" 151 2755 2797
+type(
+  'j
+)
+ident(
+  int_ref y "domains/constant_domain.ml" 146 2588 2604 "domains/constant_domain.ml" 146 2588 2605
+)
+"domains/constant_domain.ml" 151 2755 2798 "domains/constant_domain.ml" 151 2755 2799
+type(
+  'i
+)
+ident(
+  int_ref x "domains/constant_domain.ml" 146 2588 2602 "domains/constant_domain.ml" 146 2588 2603
+)
+"domains/constant_domain.ml" 151 2755 2792 "domains/constant_domain.ml" 151 2755 2799
+call(
+  stack
+)
+type(
+  'j * 'i
+)
+"domains/constant_domain.ml" 151 2755 2803 "domains/constant_domain.ml" 151 2755 2805
+type(
+  'i
+)
+ident(
+  int_ref x' "domains/constant_domain.ml" 151 2755 2787 "domains/constant_domain.ml" 151 2755 2789
+)
+"domains/constant_domain.ml" 151 2755 2806 "domains/constant_domain.ml" 151 2755 2808
+type(
+  'j
+)
+ident(
+  int_ref y' "domains/constant_domain.ml" 151 2755 2784 "domains/constant_domain.ml" 151 2755 2786
+)
+"domains/constant_domain.ml" 151 2755 2803 "domains/constant_domain.ml" 151 2755 2808
+type(
+  'i * 'j
+)
+"domains/constant_domain.ml" 151 2755 2780 "domains/constant_domain.ml" 151 2755 2808
+type(
+  'i * 'j
+)
+"domains/constant_domain.ml" 152 2809 2813 "domains/constant_domain.ml" 152 2809 2821
+type(
+  Abstract_syntax_tree.compare_op
+)
+"domains/constant_domain.ml" 152 2809 2838 "domains/constant_domain.ml" 152 2809 2840
+type(
+  'j
+)
+ident(
+  def y' "domains/constant_domain.ml" 152 2809 2856 "domains/constant_domain.ml" 152 2809 2861
+)
+"domains/constant_domain.ml" 152 2809 2841 "domains/constant_domain.ml" 152 2809 2843
+type(
+  'i
+)
+ident(
+  def x' "domains/constant_domain.ml" 152 2809 2856 "domains/constant_domain.ml" 152 2809 2861
+)
+"domains/constant_domain.ml" 152 2809 2838 "domains/constant_domain.ml" 152 2809 2843
+type(
+  'j * 'i
+)
+"domains/constant_domain.ml" 152 2809 2846 "domains/constant_domain.ml" 152 2809 2848
+type(
+  'j -> 'i -> 'j * 'i
+)
+ident(
+  int_ref gt "domains/constant_domain.ml" 113 1868 1874 "domains/constant_domain.ml" 113 1868 1876
+)
+"domains/constant_domain.ml" 152 2809 2849 "domains/constant_domain.ml" 152 2809 2850
+type(
+  'j
+)
+ident(
+  int_ref y "domains/constant_domain.ml" 146 2588 2604 "domains/constant_domain.ml" 146 2588 2605
+)
+"domains/constant_domain.ml" 152 2809 2851 "domains/constant_domain.ml" 152 2809 2852
+type(
+  'i
+)
+ident(
+  int_ref x "domains/constant_domain.ml" 146 2588 2602 "domains/constant_domain.ml" 146 2588 2603
+)
+"domains/constant_domain.ml" 152 2809 2846 "domains/constant_domain.ml" 152 2809 2852
+call(
+  stack
+)
+type(
+  'j * 'i
+)
+"domains/constant_domain.ml" 152 2809 2856 "domains/constant_domain.ml" 152 2809 2858
+type(
+  'i
+)
+ident(
+  int_ref x' "domains/constant_domain.ml" 152 2809 2841 "domains/constant_domain.ml" 152 2809 2843
+)
+"domains/constant_domain.ml" 152 2809 2859 "domains/constant_domain.ml" 152 2809 2861
+type(
+  'j
+)
+ident(
+  int_ref y' "domains/constant_domain.ml" 152 2809 2838 "domains/constant_domain.ml" 152 2809 2840
+)
+"domains/constant_domain.ml" 152 2809 2856 "domains/constant_domain.ml" 152 2809 2861
+type(
+  'i * 'j
+)
+"domains/constant_domain.ml" 152 2809 2834 "domains/constant_domain.ml" 152 2809 2861
+type(
+  'i * 'j
+)
+"domains/constant_domain.ml" 146 2588 2611 "domains/constant_domain.ml" 152 2809 2861
+type(
+  'i * 'j
+)
+"domains/constant_domain.ml" 156 2873 2879 "domains/constant_domain.ml" 156 2873 2888
+type(
+  t -> Abstract_syntax_tree.int_unary_op -> t -> t
+)
+ident(
+  def bwd_unary "domains/constant_domain.ml" 161 2992 2994 "domains/constant_domain.ml" 182 3623 3626
+)
+"domains/constant_domain.ml" 156 2873 2889 "domains/constant_domain.ml" 156 2873 2890
+type(
+  t
+)
+ident(
+  def x "domains/constant_domain.ml" 156 2873 2891 "domains/constant_domain.ml" 158 2944 2981
+)
+"domains/constant_domain.ml" 156 2873 2891 "domains/constant_domain.ml" 156 2873 2893
+type(
+  Abstract_syntax_tree.int_unary_op
+)
+ident(
+  def op "domains/constant_domain.ml" 156 2873 2894 "domains/constant_domain.ml" 158 2944 2981
+)
+"domains/constant_domain.ml" 156 2873 2894 "domains/constant_domain.ml" 156 2873 2895
+type(
+  t
+)
+ident(
+  def r "domains/constant_domain.ml" 156 2873 2898 "domains/constant_domain.ml" 158 2944 2981
+)
+"domains/constant_domain.ml" 156 2873 2904 "domains/constant_domain.ml" 156 2873 2906
+type(
+  Abstract_syntax_tree.int_unary_op
+)
+ident(
+  int_ref op "domains/constant_domain.ml" 156 2873 2891 "domains/constant_domain.ml" 156 2873 2893
+)
+"domains/constant_domain.ml" 157 2912 2916 "domains/constant_domain.ml" 157 2912 2930
+type(
+  Abstract_syntax_tree.int_unary_op
+)
+"domains/constant_domain.ml" 157 2912 2935 "domains/constant_domain.ml" 157 2912 2939
+type(
+  t -> t -> t
+)
+ident(
+  int_ref meet "domains/constant_domain.ml" 91 1476 1482 "domains/constant_domain.ml" 91 1476 1486
+)
+"domains/constant_domain.ml" 157 2912 2940 "domains/constant_domain.ml" 157 2912 2941
+type(
+  t
+)
+ident(
+  int_ref x "domains/constant_domain.ml" 156 2873 2889 "domains/constant_domain.ml" 156 2873 2890
+)
+"domains/constant_domain.ml" 157 2912 2942 "domains/constant_domain.ml" 157 2912 2943
+type(
+  t
+)
+ident(
+  int_ref r "domains/constant_domain.ml" 156 2873 2894 "domains/constant_domain.ml" 156 2873 2895
+)
+"domains/constant_domain.ml" 157 2912 2935 "domains/constant_domain.ml" 157 2912 2943
+call(
+  tail
+)
+type(
+  t
+)
+"domains/constant_domain.ml" 158 2944 2948 "domains/constant_domain.ml" 158 2944 2963
+type(
+  Abstract_syntax_tree.int_unary_op
+)
+"domains/constant_domain.ml" 158 2944 2967 "domains/constant_domain.ml" 158 2944 2971
+type(
+  t -> t -> t
+)
+ident(
+  int_ref meet "domains/constant_domain.ml" 91 1476 1482 "domains/constant_domain.ml" 91 1476 1486
+)
+"domains/constant_domain.ml" 158 2944 2972 "domains/constant_domain.ml" 158 2944 2973
+type(
+  t
+)
+ident(
+  int_ref x "domains/constant_domain.ml" 156 2873 2889 "domains/constant_domain.ml" 156 2873 2890
+)
+"domains/constant_domain.ml" 158 2944 2975 "domains/constant_domain.ml" 158 2944 2978
+type(
+  t -> t
+)
+ident(
+  int_ref neg "domains/constant_domain.ml" 71 1166 1172 "domains/constant_domain.ml" 71 1166 1175
+)
+"domains/constant_domain.ml" 158 2944 2979 "domains/constant_domain.ml" 158 2944 2980
+type(
+  t
+)
+ident(
+  int_ref r "domains/constant_domain.ml" 156 2873 2894 "domains/constant_domain.ml" 156 2873 2895
+)
+"domains/constant_domain.ml" 158 2944 2974 "domains/constant_domain.ml" 158 2944 2981
+call(
+  stack
+)
+type(
+  t
+)
+"domains/constant_domain.ml" 158 2944 2967 "domains/constant_domain.ml" 158 2944 2981
+call(
+  tail
+)
+type(
+  t
+)
+"domains/constant_domain.ml" 156 2873 2898 "domains/constant_domain.ml" 158 2944 2981
+type(
+  t
+)
+"domains/constant_domain.ml" 161 2992 2998 "domains/constant_domain.ml" 161 2992 3008
+type(
+  t -> t -> Abstract_syntax_tree.int_binary_op -> t -> t * t
+)
+ident(
+  def bwd_binary "domains/constant_domain.ml" 179 3596 3606 "domains/constant_domain.ml" 182 3623 3626
+)
+"domains/constant_domain.ml" 161 2992 3009 "domains/constant_domain.ml" 161 2992 3010
+type(
+  t
+)
+ident(
+  def x "domains/constant_domain.ml" 161 2992 3011 "domains/constant_domain.ml" 179 3596 3606
+)
+"domains/constant_domain.ml" 161 2992 3011 "domains/constant_domain.ml" 161 2992 3012
+type(
+  t
+)
+ident(
+  def y "domains/constant_domain.ml" 161 2992 3013 "domains/constant_domain.ml" 179 3596 3606
+)
+"domains/constant_domain.ml" 161 2992 3013 "domains/constant_domain.ml" 161 2992 3015
+type(
+  Abstract_syntax_tree.int_binary_op
+)
+ident(
+  def op "domains/constant_domain.ml" 161 2992 3016 "domains/constant_domain.ml" 179 3596 3606
+)
+"domains/constant_domain.ml" 161 2992 3016 "domains/constant_domain.ml" 161 2992 3017
+type(
+  t
+)
+ident(
+  def r "domains/constant_domain.ml" 161 2992 3020 "domains/constant_domain.ml" 179 3596 3606
+)
+"domains/constant_domain.ml" 161 2992 3026 "domains/constant_domain.ml" 161 2992 3028
+type(
+  Abstract_syntax_tree.int_binary_op
+)
+ident(
+  int_ref op "domains/constant_domain.ml" 161 2992 3013 "domains/constant_domain.ml" 161 2992 3015
+)
+"domains/constant_domain.ml" 163 3035 3039 "domains/constant_domain.ml" 163 3035 3047
+type(
+  Abstract_syntax_tree.int_binary_op
+)
+"domains/constant_domain.ml" 165 3094 3100 "domains/constant_domain.ml" 165 3094 3104
+type(
+  t -> t -> t
+)
+ident(
+  int_ref meet "domains/constant_domain.ml" 91 1476 1482 "domains/constant_domain.ml" 91 1476 1486
+)
+"domains/constant_domain.ml" 165 3094 3105 "domains/constant_domain.ml" 165 3094 3106
+type(
+  t
+)
+ident(
+  int_ref x "domains/constant_domain.ml" 161 2992 3009 "domains/constant_domain.ml" 161 2992 3010
+)
+"domains/constant_domain.ml" 165 3094 3108 "domains/constant_domain.ml" 165 3094 3111
+type(
+  t -> t -> t
+)
+ident(
+  int_ref sub "domains/constant_domain.ml" 75 1216 1222 "domains/constant_domain.ml" 75 1216 1225
+)
+"domains/constant_domain.ml" 165 3094 3112 "domains/constant_domain.ml" 165 3094 3113
+type(
+  t
+)
+ident(
+  int_ref r "domains/constant_domain.ml" 161 2992 3016 "domains/constant_domain.ml" 161 2992 3017
+)
+"domains/constant_domain.ml" 165 3094 3114 "domains/constant_domain.ml" 165 3094 3115
+type(
+  t
+)
+ident(
+  int_ref y "domains/constant_domain.ml" 161 2992 3011 "domains/constant_domain.ml" 161 2992 3012
+)
+"domains/constant_domain.ml" 165 3094 3107 "domains/constant_domain.ml" 165 3094 3116
+call(
+  stack
+)
+type(
+  t
+)
+"domains/constant_domain.ml" 165 3094 3100 "domains/constant_domain.ml" 165 3094 3116
+call(
+  stack
+)
+type(
+  t
+)
+"domains/constant_domain.ml" 165 3094 3118 "domains/constant_domain.ml" 165 3094 3122
+type(
+  t -> t -> t
+)
+ident(
+  int_ref meet "domains/constant_domain.ml" 91 1476 1482 "domains/constant_domain.ml" 91 1476 1486
+)
+"domains/constant_domain.ml" 165 3094 3123 "domains/constant_domain.ml" 165 3094 3124
+type(
+  t
+)
+ident(
+  int_ref y "domains/constant_domain.ml" 161 2992 3011 "domains/constant_domain.ml" 161 2992 3012
+)
+"domains/constant_domain.ml" 165 3094 3126 "domains/constant_domain.ml" 165 3094 3129
+type(
+  t -> t -> t
+)
+ident(
+  int_ref sub "domains/constant_domain.ml" 75 1216 1222 "domains/constant_domain.ml" 75 1216 1225
+)
+"domains/constant_domain.ml" 165 3094 3130 "domains/constant_domain.ml" 165 3094 3131
+type(
+  t
+)
+ident(
+  int_ref r "domains/constant_domain.ml" 161 2992 3016 "domains/constant_domain.ml" 161 2992 3017
+)
+"domains/constant_domain.ml" 165 3094 3132 "domains/constant_domain.ml" 165 3094 3133
+type(
+  t
+)
+ident(
+  int_ref x "domains/constant_domain.ml" 161 2992 3009 "domains/constant_domain.ml" 161 2992 3010
+)
+"domains/constant_domain.ml" 165 3094 3125 "domains/constant_domain.ml" 165 3094 3134
+call(
+  stack
+)
+type(
+  t
+)
+"domains/constant_domain.ml" 165 3094 3118 "domains/constant_domain.ml" 165 3094 3134
+call(
+  stack
+)
+type(
+  t
+)
+"domains/constant_domain.ml" 165 3094 3100 "domains/constant_domain.ml" 165 3094 3134
+type(
+  t * t
+)
+"domains/constant_domain.ml" 167 3136 3140 "domains/constant_domain.ml" 167 3136 3149
+type(
+  Abstract_syntax_tree.int_binary_op
+)
+"domains/constant_domain.ml" 169 3190 3196 "domains/constant_domain.ml" 169 3190 3200
+type(
+  t -> t -> t
+)
+ident(
+  int_ref meet "domains/constant_domain.ml" 91 1476 1482 "domains/constant_domain.ml" 91 1476 1486
+)
+"domains/constant_domain.ml" 169 3190 3201 "domains/constant_domain.ml" 169 3190 3202
+type(
+  t
+)
+ident(
+  int_ref x "domains/constant_domain.ml" 161 2992 3009 "domains/constant_domain.ml" 161 2992 3010
+)
+"domains/constant_domain.ml" 169 3190 3204 "domains/constant_domain.ml" 169 3190 3207
+type(
+  t -> t -> t
+)
+ident(
+  int_ref add "domains/constant_domain.ml" 73 1191 1197 "domains/constant_domain.ml" 73 1191 1200
+)
+"domains/constant_domain.ml" 169 3190 3208 "domains/constant_domain.ml" 169 3190 3209
+type(
+  t
+)
+ident(
+  int_ref y "domains/constant_domain.ml" 161 2992 3011 "domains/constant_domain.ml" 161 2992 3012
+)
+"domains/constant_domain.ml" 169 3190 3210 "domains/constant_domain.ml" 169 3190 3211
+type(
+  t
+)
+ident(
+  int_ref r "domains/constant_domain.ml" 161 2992 3016 "domains/constant_domain.ml" 161 2992 3017
+)
+"domains/constant_domain.ml" 169 3190 3203 "domains/constant_domain.ml" 169 3190 3212
+call(
+  stack
+)
+type(
+  t
+)
+"domains/constant_domain.ml" 169 3190 3196 "domains/constant_domain.ml" 169 3190 3212
+call(
+  stack
+)
+type(
+  t
+)
+"domains/constant_domain.ml" 169 3190 3214 "domains/constant_domain.ml" 169 3190 3218
+type(
+  t -> t -> t
+)
+ident(
+  int_ref meet "domains/constant_domain.ml" 91 1476 1482 "domains/constant_domain.ml" 91 1476 1486
+)
+"domains/constant_domain.ml" 169 3190 3219 "domains/constant_domain.ml" 169 3190 3220
+type(
+  t
+)
+ident(
+  int_ref y "domains/constant_domain.ml" 161 2992 3011 "domains/constant_domain.ml" 161 2992 3012
+)
+"domains/constant_domain.ml" 169 3190 3222 "domains/constant_domain.ml" 169 3190 3225
+type(
+  t -> t -> t
+)
+ident(
+  int_ref sub "domains/constant_domain.ml" 75 1216 1222 "domains/constant_domain.ml" 75 1216 1225
+)
+"domains/constant_domain.ml" 169 3190 3226 "domains/constant_domain.ml" 169 3190 3227
+type(
+  t
+)
+ident(
+  int_ref y "domains/constant_domain.ml" 161 2992 3011 "domains/constant_domain.ml" 161 2992 3012
+)
+"domains/constant_domain.ml" 169 3190 3228 "domains/constant_domain.ml" 169 3190 3229
+type(
+  t
+)
+ident(
+  int_ref r "domains/constant_domain.ml" 161 2992 3016 "domains/constant_domain.ml" 161 2992 3017
+)
+"domains/constant_domain.ml" 169 3190 3221 "domains/constant_domain.ml" 169 3190 3230
+call(
+  stack
+)
+type(
+  t
+)
+"domains/constant_domain.ml" 169 3190 3214 "domains/constant_domain.ml" 169 3190 3230
+call(
+  stack
+)
+type(
+  t
+)
+"domains/constant_domain.ml" 169 3190 3196 "domains/constant_domain.ml" 169 3190 3230
+type(
+  t * t
+)
+"domains/constant_domain.ml" 171 3240 3244 "domains/constant_domain.ml" 171 3240 3256
+type(
+  Abstract_syntax_tree.int_binary_op
+)
+"domains/constant_domain.ml" 173 3320 3330 "domains/constant_domain.ml" 173 3320 3343
+type(
+  t -> bool
+)
+ident(
+  def contains_zero "domains/constant_domain.ml" 174 3375 3381 "domains/constant_domain.ml" 175 3451 3525
+)
+"domains/constant_domain.ml" 173 3320 3344 "domains/constant_domain.ml" 173 3320 3345
+type(
+  t
+)
+ident(
+  def o "domains/constant_domain.ml" 173 3320 3348 "domains/constant_domain.ml" 173 3320 3371
+)
+"domains/constant_domain.ml" 173 3320 3348 "domains/constant_domain.ml" 173 3320 3354
+type(
+  t -> t -> bool
+)
+ident(
+  int_ref subset "domains/constant_domain.ml" 118 1938 1944 "domains/constant_domain.ml" 118 1938 1950
+)
+"domains/constant_domain.ml" 173 3320 3356 "domains/constant_domain.ml" 173 3320 3361
+type(
+  Z.t -> t
+)
+ident(
+  int_ref const "domains/constant_domain.ml" 60 1015 1021 "domains/constant_domain.ml" 60 1015 1026
+)
+"domains/constant_domain.ml" 173 3320 3362 "domains/constant_domain.ml" 173 3320 3368
+type(
+  Z.t
+)
+ident(
+  ext_ref Z.zero
+)
+"domains/constant_domain.ml" 173 3320 3355 "domains/constant_domain.ml" 173 3320 3369
+call(
+  stack
+)
+type(
+  t
+)
+"domains/constant_domain.ml" 173 3320 3370 "domains/constant_domain.ml" 173 3320 3371
+type(
+  t
+)
+ident(
+  int_ref o "domains/constant_domain.ml" 173 3320 3344 "domains/constant_domain.ml" 173 3320 3345
+)
+"domains/constant_domain.ml" 173 3320 3348 "domains/constant_domain.ml" 173 3320 3371
+call(
+  tail
+)
+type(
+  bool
+)
+"domains/constant_domain.ml" 174 3375 3385 "domains/constant_domain.ml" 174 3375 3398
+type(
+  t -> bool
+)
+ident(
+  int_ref contains_zero "domains/constant_domain.ml" 173 3320 3330 "domains/constant_domain.ml" 173 3320 3343
+)
+"domains/constant_domain.ml" 174 3375 3399 "domains/constant_domain.ml" 174 3375 3400
+type(
+  t
+)
+ident(
+  int_ref y "domains/constant_domain.ml" 161 2992 3011 "domains/constant_domain.ml" 161 2992 3012
+)
+"domains/constant_domain.ml" 174 3375 3385 "domains/constant_domain.ml" 174 3375 3400
+call(
+  stack
+)
+type(
+  bool
+)
+"domains/constant_domain.ml" 174 3375 3401 "domains/constant_domain.ml" 174 3375 3403
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"domains/constant_domain.ml" 174 3375 3404 "domains/constant_domain.ml" 174 3375 3417
+type(
+  t -> bool
+)
+ident(
+  int_ref contains_zero "domains/constant_domain.ml" 173 3320 3330 "domains/constant_domain.ml" 173 3320 3343
+)
+"domains/constant_domain.ml" 174 3375 3418 "domains/constant_domain.ml" 174 3375 3419
+type(
+  t
+)
+ident(
+  int_ref r "domains/constant_domain.ml" 161 2992 3016 "domains/constant_domain.ml" 161 2992 3017
+)
+"domains/constant_domain.ml" 174 3375 3404 "domains/constant_domain.ml" 174 3375 3419
+call(
+  stack
+)
+type(
+  bool
+)
+"domains/constant_domain.ml" 174 3375 3385 "domains/constant_domain.ml" 174 3375 3419
+type(
+  bool
+)
+"domains/constant_domain.ml" 174 3375 3425 "domains/constant_domain.ml" 174 3375 3426
+type(
+  t
+)
+ident(
+  int_ref x "domains/constant_domain.ml" 161 2992 3009 "domains/constant_domain.ml" 161 2992 3010
+)
+"domains/constant_domain.ml" 174 3375 3432 "domains/constant_domain.ml" 174 3375 3436
+type(
+  t -> t -> t
+)
+ident(
+  int_ref meet "domains/constant_domain.ml" 91 1476 1482 "domains/constant_domain.ml" 91 1476 1486
+)
+"domains/constant_domain.ml" 174 3375 3437 "domains/constant_domain.ml" 174 3375 3438
+type(
+  t
+)
+ident(
+  int_ref x "domains/constant_domain.ml" 161 2992 3009 "domains/constant_domain.ml" 161 2992 3010
+)
+"domains/constant_domain.ml" 174 3375 3440 "domains/constant_domain.ml" 174 3375 3443
+type(
+  t -> t -> t
+)
+ident(
+  int_ref div "domains/constant_domain.ml" 79 1266 1272 "domains/constant_domain.ml" 79 1266 1275
+)
+"domains/constant_domain.ml" 174 3375 3444 "domains/constant_domain.ml" 174 3375 3445
+type(
+  t
+)
+ident(
+  int_ref r "domains/constant_domain.ml" 161 2992 3016 "domains/constant_domain.ml" 161 2992 3017
+)
+"domains/constant_domain.ml" 174 3375 3446 "domains/constant_domain.ml" 174 3375 3447
+type(
+  t
+)
+ident(
+  int_ref y "domains/constant_domain.ml" 161 2992 3011 "domains/constant_domain.ml" 161 2992 3012
+)
+"domains/constant_domain.ml" 174 3375 3439 "domains/constant_domain.ml" 174 3375 3448
+call(
+  stack
+)
+type(
+  t
+)
+"domains/constant_domain.ml" 174 3375 3432 "domains/constant_domain.ml" 174 3375 3448
+call(
+  stack
+)
+type(
+  t
+)
+"domains/constant_domain.ml" 174 3375 3381 "domains/constant_domain.ml" 174 3375 3449
+type(
+  t
+)
+"domains/constant_domain.ml" 175 3451 3461 "domains/constant_domain.ml" 175 3451 3474
+type(
+  t -> bool
+)
+ident(
+  int_ref contains_zero "domains/constant_domain.ml" 173 3320 3330 "domains/constant_domain.ml" 173 3320 3343
+)
+"domains/constant_domain.ml" 175 3451 3475 "domains/constant_domain.ml" 175 3451 3476
+type(
+  t
+)
+ident(
+  int_ref x "domains/constant_domain.ml" 161 2992 3009 "domains/constant_domain.ml" 161 2992 3010
+)
+"domains/constant_domain.ml" 175 3451 3461 "domains/constant_domain.ml" 175 3451 3476
+call(
+  stack
+)
+type(
+  bool
+)
+"domains/constant_domain.ml" 175 3451 3477 "domains/constant_domain.ml" 175 3451 3479
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"domains/constant_domain.ml" 175 3451 3480 "domains/constant_domain.ml" 175 3451 3493
+type(
+  t -> bool
+)
+ident(
+  int_ref contains_zero "domains/constant_domain.ml" 173 3320 3330 "domains/constant_domain.ml" 173 3320 3343
+)
+"domains/constant_domain.ml" 175 3451 3494 "domains/constant_domain.ml" 175 3451 3495
+type(
+  t
+)
+ident(
+  int_ref r "domains/constant_domain.ml" 161 2992 3016 "domains/constant_domain.ml" 161 2992 3017
+)
+"domains/constant_domain.ml" 175 3451 3480 "domains/constant_domain.ml" 175 3451 3495
+call(
+  stack
+)
+type(
+  bool
+)
+"domains/constant_domain.ml" 175 3451 3461 "domains/constant_domain.ml" 175 3451 3495
+type(
+  bool
+)
+"domains/constant_domain.ml" 175 3451 3501 "domains/constant_domain.ml" 175 3451 3502
+type(
+  t
+)
+ident(
+  int_ref y "domains/constant_domain.ml" 161 2992 3011 "domains/constant_domain.ml" 161 2992 3012
+)
+"domains/constant_domain.ml" 175 3451 3508 "domains/constant_domain.ml" 175 3451 3512
+type(
+  t -> t -> t
+)
+ident(
+  int_ref meet "domains/constant_domain.ml" 91 1476 1482 "domains/constant_domain.ml" 91 1476 1486
+)
+"domains/constant_domain.ml" 175 3451 3513 "domains/constant_domain.ml" 175 3451 3514
+type(
+  t
+)
+ident(
+  int_ref y "domains/constant_domain.ml" 161 2992 3011 "domains/constant_domain.ml" 161 2992 3012
+)
+"domains/constant_domain.ml" 175 3451 3516 "domains/constant_domain.ml" 175 3451 3519
+type(
+  t -> t -> t
+)
+ident(
+  int_ref div "domains/constant_domain.ml" 79 1266 1272 "domains/constant_domain.ml" 79 1266 1275
+)
+"domains/constant_domain.ml" 175 3451 3520 "domains/constant_domain.ml" 175 3451 3521
+type(
+  t
+)
+ident(
+  int_ref r "domains/constant_domain.ml" 161 2992 3016 "domains/constant_domain.ml" 161 2992 3017
+)
+"domains/constant_domain.ml" 175 3451 3522 "domains/constant_domain.ml" 175 3451 3523
+type(
+  t
+)
+ident(
+  int_ref x "domains/constant_domain.ml" 161 2992 3009 "domains/constant_domain.ml" 161 2992 3010
+)
+"domains/constant_domain.ml" 175 3451 3515 "domains/constant_domain.ml" 175 3451 3524
+call(
+  stack
+)
+type(
+  t
+)
+"domains/constant_domain.ml" 175 3451 3508 "domains/constant_domain.ml" 175 3451 3524
+call(
+  stack
+)
+type(
+  t
+)
+"domains/constant_domain.ml" 175 3451 3457 "domains/constant_domain.ml" 175 3451 3525
+type(
+  t
+)
+"domains/constant_domain.ml" 174 3375 3381 "domains/constant_domain.ml" 175 3451 3525
+type(
+  t * t
+)
+"domains/constant_domain.ml" 173 3320 3326 "domains/constant_domain.ml" 175 3451 3525
+type(
+  t * t
+)
+"domains/constant_domain.ml" 177 3535 3539 "domains/constant_domain.ml" 177 3535 3549
+type(
+  Abstract_syntax_tree.int_binary_op
+)
+"domains/constant_domain.ml" 179 3596 3602 "domains/constant_domain.ml" 179 3596 3603
+type(
+  t
+)
+ident(
+  int_ref x "domains/constant_domain.ml" 161 2992 3009 "domains/constant_domain.ml" 161 2992 3010
+)
+"domains/constant_domain.ml" 179 3596 3605 "domains/constant_domain.ml" 179 3596 3606
+type(
+  t
+)
+ident(
+  int_ref y "domains/constant_domain.ml" 161 2992 3011 "domains/constant_domain.ml" 161 2992 3012
+)
+"domains/constant_domain.ml" 179 3596 3602 "domains/constant_domain.ml" 179 3596 3606
+type(
+  t * t
+)
+"domains/constant_domain.ml" 161 2992 3020 "domains/constant_domain.ml" 179 3596 3606
+type(
+  t * t
+)

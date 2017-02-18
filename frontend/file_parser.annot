@@ -1,0 +1,293 @@
+"frontend/file_parser.ml" 17 262 266 "frontend/file_parser.ml" 17 262 276
+type(
+  string -> Abstract_syntax_tree.prog
+)
+ident(
+  def parse_file "frontend/file_parser.ml" 31 781 809 "frontend/file_parser.ml" 1 0 -1
+)
+"frontend/file_parser.ml" 17 262 278 "frontend/file_parser.ml" 17 262 286
+type(
+  string
+)
+ident(
+  def filename "frontend/file_parser.ml" 17 262 295 "frontend/file_parser.ml" 31 781 809
+)
+"frontend/file_parser.ml" 18 304 310 "frontend/file_parser.ml" 18 304 311
+type(
+  in_channel
+)
+ident(
+  def f "frontend/file_parser.ml" 19 334 336 "frontend/file_parser.ml" 31 781 809
+)
+"frontend/file_parser.ml" 18 304 314 "frontend/file_parser.ml" 18 304 321
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in
+)
+"frontend/file_parser.ml" 18 304 322 "frontend/file_parser.ml" 18 304 330
+type(
+  string
+)
+ident(
+  int_ref filename "frontend/file_parser.ml" 17 262 278 "frontend/file_parser.ml" 17 262 286
+)
+"frontend/file_parser.ml" 18 304 314 "frontend/file_parser.ml" 18 304 330
+call(
+  stack
+)
+type(
+  in_channel
+)
+"frontend/file_parser.ml" 19 334 340 "frontend/file_parser.ml" 19 334 343
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lex "frontend/file_parser.ml" 20 364 366 "frontend/file_parser.ml" 31 781 809
+)
+"frontend/file_parser.ml" 19 334 346 "frontend/file_parser.ml" 19 334 358
+type(
+  in_channel -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_channel
+)
+"frontend/file_parser.ml" 19 334 359 "frontend/file_parser.ml" 19 334 360
+type(
+  in_channel
+)
+ident(
+  int_ref f "frontend/file_parser.ml" 18 304 310 "frontend/file_parser.ml" 18 304 311
+)
+"frontend/file_parser.ml" 19 334 346 "frontend/file_parser.ml" 19 334 360
+call(
+  stack
+)
+type(
+  Lexing.lexbuf
+)
+"frontend/file_parser.ml" 21 370 374 "frontend/file_parser.ml" 21 370 377
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lex "frontend/file_parser.ml" 19 334 340 "frontend/file_parser.ml" 19 334 343
+)
+"frontend/file_parser.ml" 21 370 394 "frontend/file_parser.ml" 21 370 397
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lex "frontend/file_parser.ml" 19 334 340 "frontend/file_parser.ml" 19 334 343
+)
+"frontend/file_parser.ml" 21 370 394 "frontend/file_parser.ml" 21 370 408
+type(
+  Lexing.position
+)
+"frontend/file_parser.ml" 21 370 426 "frontend/file_parser.ml" 21 370 434
+type(
+  string
+)
+ident(
+  int_ref filename "frontend/file_parser.ml" 17 262 278 "frontend/file_parser.ml" 17 262 286
+)
+"frontend/file_parser.ml" 21 370 392 "frontend/file_parser.ml" 21 370 437
+type(
+  Lexing.position
+)
+"frontend/file_parser.ml" 21 370 374 "frontend/file_parser.ml" 21 370 437
+type(
+  unit
+)
+"frontend/file_parser.ml" 22 439 443 "frontend/file_parser.ml" 22 439 454
+type(
+  (Lexing.lexbuf -> Parser.token) ->
+  Lexing.lexbuf -> Abstract_syntax_tree.prog
+)
+ident(
+  ext_ref Parser.file
+)
+"frontend/file_parser.ml" 22 439 455 "frontend/file_parser.ml" 22 439 466
+type(
+  Lexing.lexbuf -> Parser.token
+)
+ident(
+  ext_ref Lexer.token
+)
+"frontend/file_parser.ml" 22 439 467 "frontend/file_parser.ml" 22 439 470
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lex "frontend/file_parser.ml" 19 334 340 "frontend/file_parser.ml" 19 334 343
+)
+"frontend/file_parser.ml" 22 439 443 "frontend/file_parser.ml" 22 439 470
+call(
+  stack
+)
+type(
+  Abstract_syntax_tree.prog
+)
+"frontend/file_parser.ml" 21 370 374 "frontend/file_parser.ml" 22 439 470
+type(
+  Abstract_syntax_tree.prog
+)
+"frontend/file_parser.ml" 24 478 482 "frontend/file_parser.ml" 24 478 494
+type(
+  exn
+)
+"frontend/file_parser.ml" 25 498 504 "frontend/file_parser.ml" 25 498 518
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Printf.eprintf
+)
+"frontend/file_parser.ml" 25 498 519 "frontend/file_parser.ml" 25 498 559
+type(
+  (string -> unit, out_channel, unit) format
+)
+"frontend/file_parser.ml" 26 561 570 "frontend/file_parser.ml" 26 561 588
+type(
+  Abstract_syntax_tree.position -> string
+)
+ident(
+  ext_ref Abstract_syntax_printer.string_of_position
+)
+"frontend/file_parser.ml" 26 561 589 "frontend/file_parser.ml" 26 561 592
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lex "frontend/file_parser.ml" 19 334 340 "frontend/file_parser.ml" 19 334 343
+)
+"frontend/file_parser.ml" 26 561 589 "frontend/file_parser.ml" 26 561 604
+type(
+  Abstract_syntax_tree.position
+)
+"frontend/file_parser.ml" 26 561 569 "frontend/file_parser.ml" 26 561 605
+call(
+  stack
+)
+type(
+  string
+)
+"frontend/file_parser.ml" 25 498 504 "frontend/file_parser.ml" 26 561 605
+call(
+  stack
+)
+type(
+  unit
+)
+"frontend/file_parser.ml" 27 607 613 "frontend/file_parser.ml" 27 607 621
+type(
+  string -> Abstract_syntax_tree.prog
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"frontend/file_parser.ml" 27 607 622 "frontend/file_parser.ml" 27 607 635
+type(
+  string
+)
+"frontend/file_parser.ml" 27 607 613 "frontend/file_parser.ml" 27 607 635
+call(
+  tail
+)
+type(
+  Abstract_syntax_tree.prog
+)
+"frontend/file_parser.ml" 25 498 504 "frontend/file_parser.ml" 27 607 635
+type(
+  Abstract_syntax_tree.prog
+)
+"frontend/file_parser.ml" 28 636 648 "frontend/file_parser.ml" 28 636 669
+type(
+  string
+)
+"frontend/file_parser.ml" 28 636 640 "frontend/file_parser.ml" 28 636 669
+type(
+  exn
+)
+"frontend/file_parser.ml" 29 673 679 "frontend/file_parser.ml" 29 673 693
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Printf.eprintf
+)
+"frontend/file_parser.ml" 29 673 694 "frontend/file_parser.ml" 29 673 733
+type(
+  (string -> unit, out_channel, unit) format
+)
+"frontend/file_parser.ml" 30 735 744 "frontend/file_parser.ml" 30 735 762
+type(
+  Abstract_syntax_tree.position -> string
+)
+ident(
+  ext_ref Abstract_syntax_printer.string_of_position
+)
+"frontend/file_parser.ml" 30 735 763 "frontend/file_parser.ml" 30 735 766
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lex "frontend/file_parser.ml" 19 334 340 "frontend/file_parser.ml" 19 334 343
+)
+"frontend/file_parser.ml" 30 735 763 "frontend/file_parser.ml" 30 735 778
+type(
+  Abstract_syntax_tree.position
+)
+"frontend/file_parser.ml" 30 735 743 "frontend/file_parser.ml" 30 735 779
+call(
+  stack
+)
+type(
+  string
+)
+"frontend/file_parser.ml" 29 673 679 "frontend/file_parser.ml" 30 735 779
+call(
+  stack
+)
+type(
+  unit
+)
+"frontend/file_parser.ml" 31 781 787 "frontend/file_parser.ml" 31 781 795
+type(
+  string -> Abstract_syntax_tree.prog
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"frontend/file_parser.ml" 31 781 796 "frontend/file_parser.ml" 31 781 809
+type(
+  string
+)
+"frontend/file_parser.ml" 31 781 787 "frontend/file_parser.ml" 31 781 809
+call(
+  tail
+)
+type(
+  Abstract_syntax_tree.prog
+)
+"frontend/file_parser.ml" 29 673 679 "frontend/file_parser.ml" 31 781 809
+type(
+  Abstract_syntax_tree.prog
+)
+"frontend/file_parser.ml" 20 364 366 "frontend/file_parser.ml" 31 781 809
+type(
+  Abstract_syntax_tree.prog
+)
+"frontend/file_parser.ml" 19 334 336 "frontend/file_parser.ml" 31 781 809
+type(
+  Abstract_syntax_tree.prog
+)
+"frontend/file_parser.ml" 18 304 306 "frontend/file_parser.ml" 31 781 809
+type(
+  Abstract_syntax_tree.prog
+)
+type(
+  Abstract_syntax_tree.prog
+)

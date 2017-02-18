@@ -1,0 +1,4626 @@
+"frontend/abstract_syntax_printer.ml" 18 226 230 "frontend/abstract_syntax_printer.ml" 18 226 248
+type(
+  Lexing.position -> string
+)
+ident(
+  def string_of_position "frontend/abstract_syntax_printer.ml" 21 334 334 "frontend/abstract_syntax_printer.ml" 1 0 -1
+)
+"frontend/abstract_syntax_printer.ml" 18 226 249 "frontend/abstract_syntax_printer.ml" 18 226 250
+type(
+  Lexing.position
+)
+ident(
+  def p "frontend/abstract_syntax_printer.ml" 19 253 255 "frontend/abstract_syntax_printer.ml" 19 253 328
+)
+"frontend/abstract_syntax_printer.ml" 19 253 255 "frontend/abstract_syntax_printer.ml" 19 253 269
+type(
+  (string -> int -> int -> string, unit, string) format ->
+  string -> int -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"frontend/abstract_syntax_printer.ml" 19 253 270 "frontend/abstract_syntax_printer.ml" 19 253 280
+type(
+  (string -> int -> int -> string, unit, string) format
+)
+"frontend/abstract_syntax_printer.ml" 19 253 281 "frontend/abstract_syntax_printer.ml" 19 253 282
+type(
+  Lexing.position
+)
+ident(
+  int_ref p "frontend/abstract_syntax_printer.ml" 18 226 249 "frontend/abstract_syntax_printer.ml" 18 226 250
+)
+"frontend/abstract_syntax_printer.ml" 19 253 281 "frontend/abstract_syntax_printer.ml" 19 253 292
+type(
+  string
+)
+"frontend/abstract_syntax_printer.ml" 19 253 293 "frontend/abstract_syntax_printer.ml" 19 253 294
+type(
+  Lexing.position
+)
+ident(
+  int_ref p "frontend/abstract_syntax_printer.ml" 18 226 249 "frontend/abstract_syntax_printer.ml" 18 226 250
+)
+"frontend/abstract_syntax_printer.ml" 19 253 293 "frontend/abstract_syntax_printer.ml" 19 253 303
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 19 253 305 "frontend/abstract_syntax_printer.ml" 19 253 306
+type(
+  Lexing.position
+)
+ident(
+  int_ref p "frontend/abstract_syntax_printer.ml" 18 226 249 "frontend/abstract_syntax_printer.ml" 18 226 250
+)
+"frontend/abstract_syntax_printer.ml" 19 253 305 "frontend/abstract_syntax_printer.ml" 19 253 315
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 19 253 316 "frontend/abstract_syntax_printer.ml" 19 253 317
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"frontend/abstract_syntax_printer.ml" 19 253 318 "frontend/abstract_syntax_printer.ml" 19 253 319
+type(
+  Lexing.position
+)
+ident(
+  int_ref p "frontend/abstract_syntax_printer.ml" 18 226 249 "frontend/abstract_syntax_printer.ml" 18 226 250
+)
+"frontend/abstract_syntax_printer.ml" 19 253 318 "frontend/abstract_syntax_printer.ml" 19 253 327
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 19 253 304 "frontend/abstract_syntax_printer.ml" 19 253 328
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 19 253 255 "frontend/abstract_syntax_printer.ml" 19 253 328
+call(
+  tail
+)
+type(
+  string
+)
+"frontend/abstract_syntax_printer.ml" 21 334 338 "frontend/abstract_syntax_printer.ml" 21 334 354
+type(
+  Lexing.position * Lexing.position -> string
+)
+ident(
+  def string_of_extent "frontend/abstract_syntax_printer.ml" 39 986 986 "frontend/abstract_syntax_printer.ml" 1 0 -1
+)
+"frontend/abstract_syntax_printer.ml" 21 334 356 "frontend/abstract_syntax_printer.ml" 21 334 357
+type(
+  Lexing.position
+)
+ident(
+  def p "frontend/abstract_syntax_printer.ml" 22 363 365 "frontend/abstract_syntax_printer.ml" 31 814 948
+)
+"frontend/abstract_syntax_printer.ml" 21 334 358 "frontend/abstract_syntax_printer.ml" 21 334 359
+type(
+  Lexing.position
+)
+ident(
+  def q "frontend/abstract_syntax_printer.ml" 22 363 365 "frontend/abstract_syntax_printer.ml" 31 814 948
+)
+"frontend/abstract_syntax_printer.ml" 21 334 355 "frontend/abstract_syntax_printer.ml" 21 334 360
+type(
+  Lexing.position * Lexing.position
+)
+"frontend/abstract_syntax_printer.ml" 22 363 368 "frontend/abstract_syntax_printer.ml" 22 363 369
+type(
+  Lexing.position
+)
+ident(
+  int_ref p "frontend/abstract_syntax_printer.ml" 21 334 356 "frontend/abstract_syntax_printer.ml" 21 334 357
+)
+"frontend/abstract_syntax_printer.ml" 22 363 368 "frontend/abstract_syntax_printer.ml" 22 363 379
+type(
+  string
+)
+"frontend/abstract_syntax_printer.ml" 22 363 380 "frontend/abstract_syntax_printer.ml" 22 363 381
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"frontend/abstract_syntax_printer.ml" 22 363 382 "frontend/abstract_syntax_printer.ml" 22 363 383
+type(
+  Lexing.position
+)
+ident(
+  int_ref q "frontend/abstract_syntax_printer.ml" 21 334 358 "frontend/abstract_syntax_printer.ml" 21 334 359
+)
+"frontend/abstract_syntax_printer.ml" 22 363 382 "frontend/abstract_syntax_printer.ml" 22 363 393
+type(
+  string
+)
+"frontend/abstract_syntax_printer.ml" 22 363 368 "frontend/abstract_syntax_printer.ml" 22 363 393
+type(
+  bool
+)
+"frontend/abstract_syntax_printer.ml" 23 399 406 "frontend/abstract_syntax_printer.ml" 23 399 407
+type(
+  Lexing.position
+)
+ident(
+  int_ref p "frontend/abstract_syntax_printer.ml" 21 334 356 "frontend/abstract_syntax_printer.ml" 21 334 357
+)
+"frontend/abstract_syntax_printer.ml" 23 399 406 "frontend/abstract_syntax_printer.ml" 23 399 416
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 23 399 417 "frontend/abstract_syntax_printer.ml" 23 399 418
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"frontend/abstract_syntax_printer.ml" 23 399 419 "frontend/abstract_syntax_printer.ml" 23 399 420
+type(
+  Lexing.position
+)
+ident(
+  int_ref q "frontend/abstract_syntax_printer.ml" 21 334 358 "frontend/abstract_syntax_printer.ml" 21 334 359
+)
+"frontend/abstract_syntax_printer.ml" 23 399 419 "frontend/abstract_syntax_printer.ml" 23 399 429
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 23 399 406 "frontend/abstract_syntax_printer.ml" 23 399 429
+type(
+  bool
+)
+"frontend/abstract_syntax_printer.ml" 24 435 444 "frontend/abstract_syntax_printer.ml" 24 435 445
+type(
+  Lexing.position
+)
+ident(
+  int_ref p "frontend/abstract_syntax_printer.ml" 21 334 356 "frontend/abstract_syntax_printer.ml" 21 334 357
+)
+"frontend/abstract_syntax_printer.ml" 24 435 444 "frontend/abstract_syntax_printer.ml" 24 435 454
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 24 435 455 "frontend/abstract_syntax_printer.ml" 24 435 456
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"frontend/abstract_syntax_printer.ml" 24 435 457 "frontend/abstract_syntax_printer.ml" 24 435 458
+type(
+  Lexing.position
+)
+ident(
+  int_ref q "frontend/abstract_syntax_printer.ml" 21 334 358 "frontend/abstract_syntax_printer.ml" 21 334 359
+)
+"frontend/abstract_syntax_printer.ml" 24 435 457 "frontend/abstract_syntax_printer.ml" 24 435 467
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 24 435 444 "frontend/abstract_syntax_printer.ml" 24 435 467
+type(
+  bool
+)
+"frontend/abstract_syntax_printer.ml" 25 473 481 "frontend/abstract_syntax_printer.ml" 25 473 495
+type(
+  (string -> int -> int -> string, unit, string) format ->
+  string -> int -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"frontend/abstract_syntax_printer.ml" 25 473 496 "frontend/abstract_syntax_printer.ml" 25 473 506
+type(
+  (string -> int -> int -> string, unit, string) format
+)
+"frontend/abstract_syntax_printer.ml" 25 473 507 "frontend/abstract_syntax_printer.ml" 25 473 508
+type(
+  Lexing.position
+)
+ident(
+  int_ref p "frontend/abstract_syntax_printer.ml" 21 334 356 "frontend/abstract_syntax_printer.ml" 21 334 357
+)
+"frontend/abstract_syntax_printer.ml" 25 473 507 "frontend/abstract_syntax_printer.ml" 25 473 518
+type(
+  string
+)
+"frontend/abstract_syntax_printer.ml" 25 473 519 "frontend/abstract_syntax_printer.ml" 25 473 520
+type(
+  Lexing.position
+)
+ident(
+  int_ref p "frontend/abstract_syntax_printer.ml" 21 334 356 "frontend/abstract_syntax_printer.ml" 21 334 357
+)
+"frontend/abstract_syntax_printer.ml" 25 473 519 "frontend/abstract_syntax_printer.ml" 25 473 529
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 25 473 531 "frontend/abstract_syntax_printer.ml" 25 473 532
+type(
+  Lexing.position
+)
+ident(
+  int_ref p "frontend/abstract_syntax_printer.ml" 21 334 356 "frontend/abstract_syntax_printer.ml" 21 334 357
+)
+"frontend/abstract_syntax_printer.ml" 25 473 531 "frontend/abstract_syntax_printer.ml" 25 473 541
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 25 473 542 "frontend/abstract_syntax_printer.ml" 25 473 543
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"frontend/abstract_syntax_printer.ml" 25 473 544 "frontend/abstract_syntax_printer.ml" 25 473 545
+type(
+  Lexing.position
+)
+ident(
+  int_ref p "frontend/abstract_syntax_printer.ml" 21 334 356 "frontend/abstract_syntax_printer.ml" 21 334 357
+)
+"frontend/abstract_syntax_printer.ml" 25 473 544 "frontend/abstract_syntax_printer.ml" 25 473 553
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 25 473 530 "frontend/abstract_syntax_printer.ml" 25 473 554
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 25 473 481 "frontend/abstract_syntax_printer.ml" 25 473 554
+call(
+  tail
+)
+type(
+  string
+)
+"frontend/abstract_syntax_printer.ml" 27 566 574 "frontend/abstract_syntax_printer.ml" 27 566 588
+type(
+  (string -> int -> int -> int -> string, unit, string) format ->
+  string -> int -> int -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"frontend/abstract_syntax_printer.ml" 27 566 589 "frontend/abstract_syntax_printer.ml" 27 566 602
+type(
+  (string -> int -> int -> int -> string, unit, string) format
+)
+"frontend/abstract_syntax_printer.ml" 27 566 603 "frontend/abstract_syntax_printer.ml" 27 566 604
+type(
+  Lexing.position
+)
+ident(
+  int_ref p "frontend/abstract_syntax_printer.ml" 21 334 356 "frontend/abstract_syntax_printer.ml" 21 334 357
+)
+"frontend/abstract_syntax_printer.ml" 27 566 603 "frontend/abstract_syntax_printer.ml" 27 566 614
+type(
+  string
+)
+"frontend/abstract_syntax_printer.ml" 27 566 615 "frontend/abstract_syntax_printer.ml" 27 566 616
+type(
+  Lexing.position
+)
+ident(
+  int_ref p "frontend/abstract_syntax_printer.ml" 21 334 356 "frontend/abstract_syntax_printer.ml" 21 334 357
+)
+"frontend/abstract_syntax_printer.ml" 27 566 615 "frontend/abstract_syntax_printer.ml" 27 566 625
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 27 566 627 "frontend/abstract_syntax_printer.ml" 27 566 628
+type(
+  Lexing.position
+)
+ident(
+  int_ref p "frontend/abstract_syntax_printer.ml" 21 334 356 "frontend/abstract_syntax_printer.ml" 21 334 357
+)
+"frontend/abstract_syntax_printer.ml" 27 566 627 "frontend/abstract_syntax_printer.ml" 27 566 637
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 27 566 638 "frontend/abstract_syntax_printer.ml" 27 566 639
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"frontend/abstract_syntax_printer.ml" 27 566 640 "frontend/abstract_syntax_printer.ml" 27 566 641
+type(
+  Lexing.position
+)
+ident(
+  int_ref p "frontend/abstract_syntax_printer.ml" 21 334 356 "frontend/abstract_syntax_printer.ml" 21 334 357
+)
+"frontend/abstract_syntax_printer.ml" 27 566 640 "frontend/abstract_syntax_printer.ml" 27 566 649
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 27 566 626 "frontend/abstract_syntax_printer.ml" 27 566 650
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 27 566 652 "frontend/abstract_syntax_printer.ml" 27 566 653
+type(
+  Lexing.position
+)
+ident(
+  int_ref q "frontend/abstract_syntax_printer.ml" 21 334 358 "frontend/abstract_syntax_printer.ml" 21 334 359
+)
+"frontend/abstract_syntax_printer.ml" 27 566 652 "frontend/abstract_syntax_printer.ml" 27 566 662
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 27 566 663 "frontend/abstract_syntax_printer.ml" 27 566 664
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"frontend/abstract_syntax_printer.ml" 27 566 665 "frontend/abstract_syntax_printer.ml" 27 566 666
+type(
+  Lexing.position
+)
+ident(
+  int_ref q "frontend/abstract_syntax_printer.ml" 21 334 358 "frontend/abstract_syntax_printer.ml" 21 334 359
+)
+"frontend/abstract_syntax_printer.ml" 27 566 665 "frontend/abstract_syntax_printer.ml" 27 566 674
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 27 566 651 "frontend/abstract_syntax_printer.ml" 27 566 675
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 27 566 574 "frontend/abstract_syntax_printer.ml" 27 566 675
+call(
+  tail
+)
+type(
+  string
+)
+"frontend/abstract_syntax_printer.ml" 24 435 441 "frontend/abstract_syntax_printer.ml" 27 566 675
+type(
+  string
+)
+"frontend/abstract_syntax_printer.ml" 29 685 691 "frontend/abstract_syntax_printer.ml" 29 685 705
+type(
+  (string -> int -> int -> int -> int -> string, unit, string) format ->
+  string -> int -> int -> int -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"frontend/abstract_syntax_printer.ml" 29 685 706 "frontend/abstract_syntax_printer.ml" 29 685 722
+type(
+  (string -> int -> int -> int -> int -> string, unit, string) format
+)
+"frontend/abstract_syntax_printer.ml" 29 685 723 "frontend/abstract_syntax_printer.ml" 29 685 724
+type(
+  Lexing.position
+)
+ident(
+  int_ref p "frontend/abstract_syntax_printer.ml" 21 334 356 "frontend/abstract_syntax_printer.ml" 21 334 357
+)
+"frontend/abstract_syntax_printer.ml" 29 685 723 "frontend/abstract_syntax_printer.ml" 29 685 734
+type(
+  string
+)
+"frontend/abstract_syntax_printer.ml" 29 685 735 "frontend/abstract_syntax_printer.ml" 29 685 736
+type(
+  Lexing.position
+)
+ident(
+  int_ref p "frontend/abstract_syntax_printer.ml" 21 334 356 "frontend/abstract_syntax_printer.ml" 21 334 357
+)
+"frontend/abstract_syntax_printer.ml" 29 685 735 "frontend/abstract_syntax_printer.ml" 29 685 745
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 29 685 747 "frontend/abstract_syntax_printer.ml" 29 685 748
+type(
+  Lexing.position
+)
+ident(
+  int_ref p "frontend/abstract_syntax_printer.ml" 21 334 356 "frontend/abstract_syntax_printer.ml" 21 334 357
+)
+"frontend/abstract_syntax_printer.ml" 29 685 747 "frontend/abstract_syntax_printer.ml" 29 685 757
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 29 685 758 "frontend/abstract_syntax_printer.ml" 29 685 759
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"frontend/abstract_syntax_printer.ml" 29 685 760 "frontend/abstract_syntax_printer.ml" 29 685 761
+type(
+  Lexing.position
+)
+ident(
+  int_ref p "frontend/abstract_syntax_printer.ml" 21 334 356 "frontend/abstract_syntax_printer.ml" 21 334 357
+)
+"frontend/abstract_syntax_printer.ml" 29 685 760 "frontend/abstract_syntax_printer.ml" 29 685 769
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 29 685 746 "frontend/abstract_syntax_printer.ml" 29 685 770
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 29 685 771 "frontend/abstract_syntax_printer.ml" 29 685 772
+type(
+  Lexing.position
+)
+ident(
+  int_ref q "frontend/abstract_syntax_printer.ml" 21 334 358 "frontend/abstract_syntax_printer.ml" 21 334 359
+)
+"frontend/abstract_syntax_printer.ml" 29 685 771 "frontend/abstract_syntax_printer.ml" 29 685 781
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 29 685 783 "frontend/abstract_syntax_printer.ml" 29 685 784
+type(
+  Lexing.position
+)
+ident(
+  int_ref q "frontend/abstract_syntax_printer.ml" 21 334 358 "frontend/abstract_syntax_printer.ml" 21 334 359
+)
+"frontend/abstract_syntax_printer.ml" 29 685 783 "frontend/abstract_syntax_printer.ml" 29 685 793
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 29 685 794 "frontend/abstract_syntax_printer.ml" 29 685 795
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"frontend/abstract_syntax_printer.ml" 29 685 796 "frontend/abstract_syntax_printer.ml" 29 685 797
+type(
+  Lexing.position
+)
+ident(
+  int_ref q "frontend/abstract_syntax_printer.ml" 21 334 358 "frontend/abstract_syntax_printer.ml" 21 334 359
+)
+"frontend/abstract_syntax_printer.ml" 29 685 796 "frontend/abstract_syntax_printer.ml" 29 685 805
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 29 685 782 "frontend/abstract_syntax_printer.ml" 29 685 806
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 29 685 691 "frontend/abstract_syntax_printer.ml" 29 685 806
+call(
+  tail
+)
+type(
+  string
+)
+"frontend/abstract_syntax_printer.ml" 23 399 403 "frontend/abstract_syntax_printer.ml" 29 685 806
+type(
+  string
+)
+"frontend/abstract_syntax_printer.ml" 31 814 818 "frontend/abstract_syntax_printer.ml" 31 814 832
+type(
+  (string -> int -> int -> string -> int -> int -> string, unit, string)
+  format -> string -> int -> int -> string -> int -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"frontend/abstract_syntax_printer.ml" 31 814 833 "frontend/abstract_syntax_printer.ml" 31 814 852
+type(
+  (string -> int -> int -> string -> int -> int -> string, unit, string)
+  format
+)
+"frontend/abstract_syntax_printer.ml" 31 814 853 "frontend/abstract_syntax_printer.ml" 31 814 854
+type(
+  Lexing.position
+)
+ident(
+  int_ref p "frontend/abstract_syntax_printer.ml" 21 334 356 "frontend/abstract_syntax_printer.ml" 21 334 357
+)
+"frontend/abstract_syntax_printer.ml" 31 814 853 "frontend/abstract_syntax_printer.ml" 31 814 864
+type(
+  string
+)
+"frontend/abstract_syntax_printer.ml" 31 814 865 "frontend/abstract_syntax_printer.ml" 31 814 866
+type(
+  Lexing.position
+)
+ident(
+  int_ref p "frontend/abstract_syntax_printer.ml" 21 334 356 "frontend/abstract_syntax_printer.ml" 21 334 357
+)
+"frontend/abstract_syntax_printer.ml" 31 814 865 "frontend/abstract_syntax_printer.ml" 31 814 875
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 31 814 877 "frontend/abstract_syntax_printer.ml" 31 814 878
+type(
+  Lexing.position
+)
+ident(
+  int_ref p "frontend/abstract_syntax_printer.ml" 21 334 356 "frontend/abstract_syntax_printer.ml" 21 334 357
+)
+"frontend/abstract_syntax_printer.ml" 31 814 877 "frontend/abstract_syntax_printer.ml" 31 814 887
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 31 814 888 "frontend/abstract_syntax_printer.ml" 31 814 889
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"frontend/abstract_syntax_printer.ml" 31 814 890 "frontend/abstract_syntax_printer.ml" 31 814 891
+type(
+  Lexing.position
+)
+ident(
+  int_ref p "frontend/abstract_syntax_printer.ml" 21 334 356 "frontend/abstract_syntax_printer.ml" 21 334 357
+)
+"frontend/abstract_syntax_printer.ml" 31 814 890 "frontend/abstract_syntax_printer.ml" 31 814 899
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 31 814 876 "frontend/abstract_syntax_printer.ml" 31 814 900
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 31 814 901 "frontend/abstract_syntax_printer.ml" 31 814 902
+type(
+  Lexing.position
+)
+ident(
+  int_ref q "frontend/abstract_syntax_printer.ml" 21 334 358 "frontend/abstract_syntax_printer.ml" 21 334 359
+)
+"frontend/abstract_syntax_printer.ml" 31 814 901 "frontend/abstract_syntax_printer.ml" 31 814 912
+type(
+  string
+)
+"frontend/abstract_syntax_printer.ml" 31 814 913 "frontend/abstract_syntax_printer.ml" 31 814 914
+type(
+  Lexing.position
+)
+ident(
+  int_ref q "frontend/abstract_syntax_printer.ml" 21 334 358 "frontend/abstract_syntax_printer.ml" 21 334 359
+)
+"frontend/abstract_syntax_printer.ml" 31 814 913 "frontend/abstract_syntax_printer.ml" 31 814 923
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 31 814 925 "frontend/abstract_syntax_printer.ml" 31 814 926
+type(
+  Lexing.position
+)
+ident(
+  int_ref q "frontend/abstract_syntax_printer.ml" 21 334 358 "frontend/abstract_syntax_printer.ml" 21 334 359
+)
+"frontend/abstract_syntax_printer.ml" 31 814 925 "frontend/abstract_syntax_printer.ml" 31 814 935
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 31 814 936 "frontend/abstract_syntax_printer.ml" 31 814 937
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"frontend/abstract_syntax_printer.ml" 31 814 938 "frontend/abstract_syntax_printer.ml" 31 814 939
+type(
+  Lexing.position
+)
+ident(
+  int_ref q "frontend/abstract_syntax_printer.ml" 21 334 358 "frontend/abstract_syntax_printer.ml" 21 334 359
+)
+"frontend/abstract_syntax_printer.ml" 31 814 938 "frontend/abstract_syntax_printer.ml" 31 814 947
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 31 814 924 "frontend/abstract_syntax_printer.ml" 31 814 948
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 31 814 818 "frontend/abstract_syntax_printer.ml" 31 814 948
+call(
+  tail
+)
+type(
+  string
+)
+"frontend/abstract_syntax_printer.ml" 22 363 365 "frontend/abstract_syntax_printer.ml" 31 814 948
+type(
+  string
+)
+"frontend/abstract_syntax_printer.ml" 39 986 990 "frontend/abstract_syntax_printer.ml" 39 986 1012
+type(
+  Abstract_syntax_tree.int_unary_op -> string
+)
+ident(
+  def string_of_int_unary_op "frontend/abstract_syntax_printer.ml" 43 1078 1078 "frontend/abstract_syntax_printer.ml" 1 0 -1
+)
+"frontend/abstract_syntax_printer.ml" 40 1024 1028 "frontend/abstract_syntax_printer.ml" 40 1024 1042
+type(
+  Abstract_syntax_tree.int_unary_op
+)
+"frontend/abstract_syntax_printer.ml" 40 1024 1046 "frontend/abstract_syntax_printer.ml" 40 1024 1049
+type(
+  string
+)
+"frontend/abstract_syntax_printer.ml" 41 1050 1054 "frontend/abstract_syntax_printer.ml" 41 1050 1069
+type(
+  Abstract_syntax_tree.int_unary_op
+)
+"frontend/abstract_syntax_printer.ml" 41 1050 1073 "frontend/abstract_syntax_printer.ml" 41 1050 1076
+type(
+  string
+)
+"frontend/abstract_syntax_printer.ml" 39 986 1015 "frontend/abstract_syntax_printer.ml" 41 1050 1076
+type(
+  Abstract_syntax_tree.int_unary_op -> string
+)
+"frontend/abstract_syntax_printer.ml" 43 1078 1082 "frontend/abstract_syntax_printer.ml" 43 1078 1105
+type(
+  Abstract_syntax_tree.bool_unary_op -> string
+)
+ident(
+  def string_of_bool_unary_op "frontend/abstract_syntax_printer.ml" 46 1145 1145 "frontend/abstract_syntax_printer.ml" 1 0 -1
+)
+"frontend/abstract_syntax_printer.ml" 44 1125 1129 "frontend/abstract_syntax_printer.ml" 44 1125 1136
+type(
+  Abstract_syntax_tree.bool_unary_op
+)
+"frontend/abstract_syntax_printer.ml" 44 1125 1140 "frontend/abstract_syntax_printer.ml" 44 1125 1143
+type(
+  string
+)
+"frontend/abstract_syntax_printer.ml" 43 1078 1108 "frontend/abstract_syntax_printer.ml" 44 1125 1143
+type(
+  Abstract_syntax_tree.bool_unary_op -> string
+)
+"frontend/abstract_syntax_printer.ml" 46 1145 1149 "frontend/abstract_syntax_printer.ml" 46 1145 1172
+type(
+  Abstract_syntax_tree.int_binary_op -> string
+)
+ident(
+  def string_of_int_binary_op "frontend/abstract_syntax_printer.ml" 52 1272 1272 "frontend/abstract_syntax_printer.ml" 1 0 -1
+)
+"frontend/abstract_syntax_printer.ml" 47 1184 1188 "frontend/abstract_syntax_printer.ml" 47 1184 1200
+type(
+  Abstract_syntax_tree.int_binary_op
+)
+"frontend/abstract_syntax_printer.ml" 47 1184 1204 "frontend/abstract_syntax_printer.ml" 47 1184 1207
+type(
+  string
+)
+"frontend/abstract_syntax_printer.ml" 48 1208 1212 "frontend/abstract_syntax_printer.ml" 48 1208 1222
+type(
+  Abstract_syntax_tree.int_binary_op
+)
+"frontend/abstract_syntax_printer.ml" 48 1208 1226 "frontend/abstract_syntax_printer.ml" 48 1208 1229
+type(
+  string
+)
+"frontend/abstract_syntax_printer.ml" 49 1230 1234 "frontend/abstract_syntax_printer.ml" 49 1230 1242
+type(
+  Abstract_syntax_tree.int_binary_op
+)
+"frontend/abstract_syntax_printer.ml" 49 1230 1246 "frontend/abstract_syntax_printer.ml" 49 1230 1249
+type(
+  string
+)
+"frontend/abstract_syntax_printer.ml" 50 1250 1254 "frontend/abstract_syntax_printer.ml" 50 1250 1263
+type(
+  Abstract_syntax_tree.int_binary_op
+)
+"frontend/abstract_syntax_printer.ml" 50 1250 1267 "frontend/abstract_syntax_printer.ml" 50 1250 1270
+type(
+  string
+)
+"frontend/abstract_syntax_printer.ml" 46 1145 1175 "frontend/abstract_syntax_printer.ml" 50 1250 1270
+type(
+  Abstract_syntax_tree.int_binary_op -> string
+)
+"frontend/abstract_syntax_printer.ml" 52 1272 1276 "frontend/abstract_syntax_printer.ml" 52 1272 1296
+type(
+  Abstract_syntax_tree.compare_op -> string
+)
+ident(
+  def string_of_compare_op "frontend/abstract_syntax_printer.ml" 60 1458 1458 "frontend/abstract_syntax_printer.ml" 1 0 -1
+)
+"frontend/abstract_syntax_printer.ml" 53 1309 1313 "frontend/abstract_syntax_printer.ml" 53 1309 1322
+type(
+  Abstract_syntax_tree.compare_op
+)
+"frontend/abstract_syntax_printer.ml" 53 1309 1326 "frontend/abstract_syntax_printer.ml" 53 1309 1330
+type(
+  string
+)
+"frontend/abstract_syntax_printer.ml" 54 1331 1335 "frontend/abstract_syntax_printer.ml" 54 1331 1348
+type(
+  Abstract_syntax_tree.compare_op
+)
+"frontend/abstract_syntax_printer.ml" 54 1331 1352 "frontend/abstract_syntax_printer.ml" 54 1331 1356
+type(
+  string
+)
+"frontend/abstract_syntax_printer.ml" 55 1357 1361 "frontend/abstract_syntax_printer.ml" 55 1357 1369
+type(
+  Abstract_syntax_tree.compare_op
+)
+"frontend/abstract_syntax_printer.ml" 55 1357 1373 "frontend/abstract_syntax_printer.ml" 55 1357 1376
+type(
+  string
+)
+"frontend/abstract_syntax_printer.ml" 56 1377 1381 "frontend/abstract_syntax_printer.ml" 56 1377 1395
+type(
+  Abstract_syntax_tree.compare_op
+)
+"frontend/abstract_syntax_printer.ml" 56 1377 1399 "frontend/abstract_syntax_printer.ml" 56 1377 1403
+type(
+  string
+)
+"frontend/abstract_syntax_printer.ml" 57 1404 1408 "frontend/abstract_syntax_printer.ml" 57 1404 1419
+type(
+  Abstract_syntax_tree.compare_op
+)
+"frontend/abstract_syntax_printer.ml" 57 1404 1423 "frontend/abstract_syntax_printer.ml" 57 1404 1426
+type(
+  string
+)
+"frontend/abstract_syntax_printer.ml" 58 1427 1431 "frontend/abstract_syntax_printer.ml" 58 1427 1448
+type(
+  Abstract_syntax_tree.compare_op
+)
+"frontend/abstract_syntax_printer.ml" 58 1427 1452 "frontend/abstract_syntax_printer.ml" 58 1427 1456
+type(
+  string
+)
+"frontend/abstract_syntax_printer.ml" 52 1272 1299 "frontend/abstract_syntax_printer.ml" 58 1427 1456
+type(
+  Abstract_syntax_tree.compare_op -> string
+)
+"frontend/abstract_syntax_printer.ml" 60 1458 1462 "frontend/abstract_syntax_printer.ml" 60 1458 1486
+type(
+  Abstract_syntax_tree.bool_binary_op -> string
+)
+ident(
+  def string_of_bool_binary_op "frontend/abstract_syntax_printer.ml" 70 1680 1680 "frontend/abstract_syntax_printer.ml" 1 0 -1
+)
+"frontend/abstract_syntax_printer.ml" 61 1506 1510 "frontend/abstract_syntax_printer.ml" 61 1506 1517
+type(
+  Abstract_syntax_tree.bool_binary_op
+)
+"frontend/abstract_syntax_printer.ml" 61 1506 1521 "frontend/abstract_syntax_printer.ml" 61 1506 1525
+type(
+  string
+)
+"frontend/abstract_syntax_printer.ml" 62 1526 1530 "frontend/abstract_syntax_printer.ml" 62 1526 1536
+type(
+  Abstract_syntax_tree.bool_binary_op
+)
+"frontend/abstract_syntax_printer.ml" 62 1526 1540 "frontend/abstract_syntax_printer.ml" 62 1526 1544
+type(
+  string
+)
+"frontend/abstract_syntax_printer.ml" 60 1458 1489 "frontend/abstract_syntax_printer.ml" 62 1526 1544
+type(
+  Abstract_syntax_tree.bool_binary_op -> string
+)
+"frontend/abstract_syntax_printer.ml" 70 1680 1684 "frontend/abstract_syntax_printer.ml" 70 1680 1703
+type(
+  Abstract_syntax_tree.int_expr -> int
+)
+ident(
+  def int_expr_precedence "frontend/abstract_syntax_printer.ml" 76 1877 1877 "frontend/abstract_syntax_printer.ml" 1 0 -1
+)
+"frontend/abstract_syntax_printer.ml" 71 1715 1734 "frontend/abstract_syntax_printer.ml" 71 1715 1736
+type(
+  Abstract_syntax_tree.int_unary_op
+)
+ident(
+  def op "frontend/abstract_syntax_printer.ml" 71 1715 1743 "frontend/abstract_syntax_printer.ml" 71 1715 1745
+)
+"frontend/abstract_syntax_printer.ml" 71 1715 1737 "frontend/abstract_syntax_printer.ml" 71 1715 1738
+type(
+  Abstract_syntax_tree.int_expr Abstract_syntax_tree.ext
+)
+"frontend/abstract_syntax_printer.ml" 71 1715 1719 "frontend/abstract_syntax_printer.ml" 71 1715 1739
+type(
+  Abstract_syntax_tree.int_expr
+)
+"frontend/abstract_syntax_printer.ml" 71 1715 1743 "frontend/abstract_syntax_printer.ml" 71 1715 1745
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 72 1746 1767 "frontend/abstract_syntax_printer.ml" 72 1746 1779
+type(
+  Abstract_syntax_tree.int_binary_op
+)
+"frontend/abstract_syntax_printer.ml" 72 1746 1782 "frontend/abstract_syntax_printer.ml" 72 1746 1792
+type(
+  Abstract_syntax_tree.int_binary_op
+)
+"frontend/abstract_syntax_printer.ml" 72 1746 1766 "frontend/abstract_syntax_printer.ml" 72 1746 1793
+type(
+  Abstract_syntax_tree.int_binary_op
+)
+"frontend/abstract_syntax_printer.ml" 72 1746 1794 "frontend/abstract_syntax_printer.ml" 72 1746 1795
+type(
+  Abstract_syntax_tree.int_expr Abstract_syntax_tree.ext
+)
+"frontend/abstract_syntax_printer.ml" 72 1746 1796 "frontend/abstract_syntax_printer.ml" 72 1746 1797
+type(
+  Abstract_syntax_tree.int_expr Abstract_syntax_tree.ext
+)
+"frontend/abstract_syntax_printer.ml" 72 1746 1750 "frontend/abstract_syntax_printer.ml" 72 1746 1798
+type(
+  Abstract_syntax_tree.int_expr
+)
+"frontend/abstract_syntax_printer.ml" 72 1746 1802 "frontend/abstract_syntax_printer.ml" 72 1746 1803
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 73 1804 1825 "frontend/abstract_syntax_printer.ml" 73 1804 1833
+type(
+  Abstract_syntax_tree.int_binary_op
+)
+"frontend/abstract_syntax_printer.ml" 73 1804 1836 "frontend/abstract_syntax_printer.ml" 73 1804 1845
+type(
+  Abstract_syntax_tree.int_binary_op
+)
+"frontend/abstract_syntax_printer.ml" 73 1804 1824 "frontend/abstract_syntax_printer.ml" 73 1804 1846
+type(
+  Abstract_syntax_tree.int_binary_op
+)
+"frontend/abstract_syntax_printer.ml" 73 1804 1847 "frontend/abstract_syntax_printer.ml" 73 1804 1848
+type(
+  Abstract_syntax_tree.int_expr Abstract_syntax_tree.ext
+)
+"frontend/abstract_syntax_printer.ml" 73 1804 1849 "frontend/abstract_syntax_printer.ml" 73 1804 1850
+type(
+  Abstract_syntax_tree.int_expr Abstract_syntax_tree.ext
+)
+"frontend/abstract_syntax_printer.ml" 73 1804 1808 "frontend/abstract_syntax_printer.ml" 73 1804 1851
+type(
+  Abstract_syntax_tree.int_expr
+)
+"frontend/abstract_syntax_printer.ml" 73 1804 1855 "frontend/abstract_syntax_printer.ml" 73 1804 1856
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 74 1857 1861 "frontend/abstract_syntax_printer.ml" 74 1857 1862
+type(
+  Abstract_syntax_tree.int_expr
+)
+"frontend/abstract_syntax_printer.ml" 74 1857 1866 "frontend/abstract_syntax_printer.ml" 74 1857 1869
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 70 1680 1706 "frontend/abstract_syntax_printer.ml" 74 1857 1869
+type(
+  Abstract_syntax_tree.int_expr -> int
+)
+"frontend/abstract_syntax_printer.ml" 76 1877 1881 "frontend/abstract_syntax_printer.ml" 76 1877 1901
+type(
+  Abstract_syntax_tree.bool_expr -> int
+)
+ident(
+  def bool_expr_precedence "frontend/abstract_syntax_printer.ml" 84 2063 2063 "frontend/abstract_syntax_printer.ml" 1 0 -1
+)
+"frontend/abstract_syntax_printer.ml" 77 1913 1930 "frontend/abstract_syntax_printer.ml" 77 1913 1931
+type(
+  Abstract_syntax_tree.compare_op
+)
+"frontend/abstract_syntax_printer.ml" 77 1913 1932 "frontend/abstract_syntax_printer.ml" 77 1913 1933
+type(
+  Abstract_syntax_tree.int_expr Abstract_syntax_tree.ext
+)
+"frontend/abstract_syntax_printer.ml" 77 1913 1934 "frontend/abstract_syntax_printer.ml" 77 1913 1935
+type(
+  Abstract_syntax_tree.int_expr Abstract_syntax_tree.ext
+)
+"frontend/abstract_syntax_printer.ml" 77 1913 1917 "frontend/abstract_syntax_printer.ml" 77 1913 1936
+type(
+  Abstract_syntax_tree.bool_expr
+)
+"frontend/abstract_syntax_printer.ml" 77 1913 1940 "frontend/abstract_syntax_printer.ml" 77 1913 1941
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 78 1942 1963 "frontend/abstract_syntax_printer.ml" 78 1942 1970
+type(
+  Abstract_syntax_tree.bool_binary_op
+)
+"frontend/abstract_syntax_printer.ml" 78 1942 1971 "frontend/abstract_syntax_printer.ml" 78 1942 1972
+type(
+  Abstract_syntax_tree.bool_expr Abstract_syntax_tree.ext
+)
+"frontend/abstract_syntax_printer.ml" 78 1942 1973 "frontend/abstract_syntax_printer.ml" 78 1942 1974
+type(
+  Abstract_syntax_tree.bool_expr Abstract_syntax_tree.ext
+)
+"frontend/abstract_syntax_printer.ml" 78 1942 1946 "frontend/abstract_syntax_printer.ml" 78 1942 1975
+type(
+  Abstract_syntax_tree.bool_expr
+)
+"frontend/abstract_syntax_printer.ml" 78 1942 1979 "frontend/abstract_syntax_printer.ml" 78 1942 1980
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 79 1981 2002 "frontend/abstract_syntax_printer.ml" 79 1981 2008
+type(
+  Abstract_syntax_tree.bool_binary_op
+)
+"frontend/abstract_syntax_printer.ml" 79 1981 2009 "frontend/abstract_syntax_printer.ml" 79 1981 2010
+type(
+  Abstract_syntax_tree.bool_expr Abstract_syntax_tree.ext
+)
+"frontend/abstract_syntax_printer.ml" 79 1981 2011 "frontend/abstract_syntax_printer.ml" 79 1981 2012
+type(
+  Abstract_syntax_tree.bool_expr Abstract_syntax_tree.ext
+)
+"frontend/abstract_syntax_printer.ml" 79 1981 1985 "frontend/abstract_syntax_printer.ml" 79 1981 2013
+type(
+  Abstract_syntax_tree.bool_expr
+)
+"frontend/abstract_syntax_printer.ml" 79 1981 2017 "frontend/abstract_syntax_printer.ml" 79 1981 2018
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 80 2019 2023 "frontend/abstract_syntax_printer.ml" 80 2019 2024
+type(
+  Abstract_syntax_tree.bool_expr
+)
+"frontend/abstract_syntax_printer.ml" 80 2019 2028 "frontend/abstract_syntax_printer.ml" 80 2019 2031
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 76 1877 1904 "frontend/abstract_syntax_printer.ml" 80 2019 2031
+type(
+  Abstract_syntax_tree.bool_expr -> int
+)
+"frontend/abstract_syntax_printer.ml" 84 2063 2067 "frontend/abstract_syntax_printer.ml" 84 2063 2077
+type(
+  (Format.formatter -> 'a -> unit) ->
+  string -> Format.formatter -> 'a list -> unit
+)
+ident(
+  def print_list "frontend/abstract_syntax_printer.ml" 96 2254 2254 "frontend/abstract_syntax_printer.ml" 1 0 -1
+)
+"frontend/abstract_syntax_printer.ml" 84 2063 2078 "frontend/abstract_syntax_printer.ml" 84 2063 2079
+type(
+  Format.formatter -> 'a -> unit
+)
+ident(
+  def f "frontend/abstract_syntax_printer.ml" 84 2063 2080 "frontend/abstract_syntax_printer.ml" 90 2219 2226
+)
+"frontend/abstract_syntax_printer.ml" 84 2063 2080 "frontend/abstract_syntax_printer.ml" 84 2063 2083
+type(
+  string
+)
+ident(
+  def sep "frontend/abstract_syntax_printer.ml" 84 2063 2084 "frontend/abstract_syntax_printer.ml" 90 2219 2226
+)
+"frontend/abstract_syntax_printer.ml" 84 2063 2084 "frontend/abstract_syntax_printer.ml" 84 2063 2087
+type(
+  Format.formatter
+)
+ident(
+  def fmt "frontend/abstract_syntax_printer.ml" 84 2063 2088 "frontend/abstract_syntax_printer.ml" 90 2219 2226
+)
+"frontend/abstract_syntax_printer.ml" 84 2063 2088 "frontend/abstract_syntax_printer.ml" 84 2063 2089
+type(
+  'a list
+)
+ident(
+  def l "frontend/abstract_syntax_printer.ml" 85 2092 2094 "frontend/abstract_syntax_printer.ml" 90 2219 2226
+)
+"frontend/abstract_syntax_printer.ml" 85 2092 2102 "frontend/abstract_syntax_printer.ml" 85 2092 2105
+type(
+  'a list -> unit
+)
+ident(
+  def aux "frontend/abstract_syntax_printer.ml" 85 2092 2094 "frontend/abstract_syntax_printer.ml" 90 2219 2226
+)
+"frontend/abstract_syntax_printer.ml" 86 2117 2123 "frontend/abstract_syntax_printer.ml" 86 2117 2125
+type(
+  'a list
+)
+"frontend/abstract_syntax_printer.ml" 86 2117 2129 "frontend/abstract_syntax_printer.ml" 86 2117 2131
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 87 2132 2139 "frontend/abstract_syntax_printer.ml" 87 2132 2140
+type(
+  'a
+)
+ident(
+  def a "frontend/abstract_syntax_printer.ml" 87 2132 2145 "frontend/abstract_syntax_printer.ml" 87 2132 2152
+)
+"frontend/abstract_syntax_printer.ml" 87 2132 2138 "frontend/abstract_syntax_printer.ml" 87 2132 2141
+type(
+  'a list
+)
+"frontend/abstract_syntax_printer.ml" 87 2132 2145 "frontend/abstract_syntax_printer.ml" 87 2132 2146
+type(
+  Format.formatter -> 'a -> unit
+)
+ident(
+  int_ref f "frontend/abstract_syntax_printer.ml" 84 2063 2078 "frontend/abstract_syntax_printer.ml" 84 2063 2079
+)
+"frontend/abstract_syntax_printer.ml" 87 2132 2147 "frontend/abstract_syntax_printer.ml" 87 2132 2150
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend/abstract_syntax_printer.ml" 84 2063 2084 "frontend/abstract_syntax_printer.ml" 84 2063 2087
+)
+"frontend/abstract_syntax_printer.ml" 87 2132 2151 "frontend/abstract_syntax_printer.ml" 87 2132 2152
+type(
+  'a
+)
+ident(
+  int_ref a "frontend/abstract_syntax_printer.ml" 87 2132 2139 "frontend/abstract_syntax_printer.ml" 87 2132 2140
+)
+"frontend/abstract_syntax_printer.ml" 87 2132 2145 "frontend/abstract_syntax_printer.ml" 87 2132 2152
+call(
+  tail
+)
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 88 2153 2159 "frontend/abstract_syntax_printer.ml" 88 2153 2160
+type(
+  'a
+)
+ident(
+  def a "frontend/abstract_syntax_printer.ml" 88 2153 2167 "frontend/abstract_syntax_printer.ml" 88 2153 2213
+)
+"frontend/abstract_syntax_printer.ml" 88 2153 2162 "frontend/abstract_syntax_printer.ml" 88 2153 2163
+type(
+  'a list
+)
+ident(
+  def b "frontend/abstract_syntax_printer.ml" 88 2153 2167 "frontend/abstract_syntax_printer.ml" 88 2153 2213
+)
+"frontend/abstract_syntax_printer.ml" 88 2153 2159 "frontend/abstract_syntax_printer.ml" 88 2153 2163
+type(
+  'a list
+)
+"frontend/abstract_syntax_printer.ml" 88 2153 2167 "frontend/abstract_syntax_printer.ml" 88 2153 2168
+type(
+  Format.formatter -> 'a -> unit
+)
+ident(
+  int_ref f "frontend/abstract_syntax_printer.ml" 84 2063 2078 "frontend/abstract_syntax_printer.ml" 84 2063 2079
+)
+"frontend/abstract_syntax_printer.ml" 88 2153 2169 "frontend/abstract_syntax_printer.ml" 88 2153 2172
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend/abstract_syntax_printer.ml" 84 2063 2084 "frontend/abstract_syntax_printer.ml" 84 2063 2087
+)
+"frontend/abstract_syntax_printer.ml" 88 2153 2173 "frontend/abstract_syntax_printer.ml" 88 2153 2174
+type(
+  'a
+)
+ident(
+  int_ref a "frontend/abstract_syntax_printer.ml" 88 2153 2159 "frontend/abstract_syntax_printer.ml" 88 2153 2160
+)
+"frontend/abstract_syntax_printer.ml" 88 2153 2167 "frontend/abstract_syntax_printer.ml" 88 2153 2174
+call(
+  stack
+)
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 88 2153 2176 "frontend/abstract_syntax_printer.ml" 88 2153 2198
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  ext_ref Format.pp_print_string
+)
+"frontend/abstract_syntax_printer.ml" 88 2153 2199 "frontend/abstract_syntax_printer.ml" 88 2153 2202
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend/abstract_syntax_printer.ml" 84 2063 2084 "frontend/abstract_syntax_printer.ml" 84 2063 2087
+)
+"frontend/abstract_syntax_printer.ml" 88 2153 2203 "frontend/abstract_syntax_printer.ml" 88 2153 2206
+type(
+  string
+)
+ident(
+  int_ref sep "frontend/abstract_syntax_printer.ml" 84 2063 2080 "frontend/abstract_syntax_printer.ml" 84 2063 2083
+)
+"frontend/abstract_syntax_printer.ml" 88 2153 2176 "frontend/abstract_syntax_printer.ml" 88 2153 2206
+call(
+  stack
+)
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 88 2153 2208 "frontend/abstract_syntax_printer.ml" 88 2153 2211
+type(
+  'a list -> unit
+)
+ident(
+  int_ref aux "frontend/abstract_syntax_printer.ml" 85 2092 2102 "frontend/abstract_syntax_printer.ml" 85 2092 2105
+)
+"frontend/abstract_syntax_printer.ml" 88 2153 2212 "frontend/abstract_syntax_printer.ml" 88 2153 2213
+type(
+  'a list
+)
+ident(
+  int_ref b "frontend/abstract_syntax_printer.ml" 88 2153 2162 "frontend/abstract_syntax_printer.ml" 88 2153 2163
+)
+"frontend/abstract_syntax_printer.ml" 88 2153 2208 "frontend/abstract_syntax_printer.ml" 88 2153 2213
+call(
+  tail
+)
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 88 2153 2176 "frontend/abstract_syntax_printer.ml" 88 2153 2213
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 88 2153 2167 "frontend/abstract_syntax_printer.ml" 88 2153 2213
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 85 2092 2108 "frontend/abstract_syntax_printer.ml" 88 2153 2213
+type(
+  'a list -> unit
+)
+"frontend/abstract_syntax_printer.ml" 90 2219 2221 "frontend/abstract_syntax_printer.ml" 90 2219 2224
+type(
+  'a list -> unit
+)
+ident(
+  int_ref aux "frontend/abstract_syntax_printer.ml" 85 2092 2102 "frontend/abstract_syntax_printer.ml" 85 2092 2105
+)
+"frontend/abstract_syntax_printer.ml" 90 2219 2225 "frontend/abstract_syntax_printer.ml" 90 2219 2226
+type(
+  'a list
+)
+ident(
+  int_ref l "frontend/abstract_syntax_printer.ml" 84 2063 2088 "frontend/abstract_syntax_printer.ml" 84 2063 2089
+)
+"frontend/abstract_syntax_printer.ml" 90 2219 2221 "frontend/abstract_syntax_printer.ml" 90 2219 2226
+call(
+  tail
+)
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 85 2092 2094 "frontend/abstract_syntax_printer.ml" 90 2219 2226
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 96 2254 2258 "frontend/abstract_syntax_printer.ml" 96 2254 2267
+type(
+  Format.formatter -> Abstract_syntax_tree.typ -> unit
+)
+ident(
+  def print_typ "frontend/abstract_syntax_printer.ml" 105 2387 2387 "frontend/abstract_syntax_printer.ml" 1 0 -1
+)
+"frontend/abstract_syntax_printer.ml" 96 2254 2268 "frontend/abstract_syntax_printer.ml" 96 2254 2271
+type(
+  Format.formatter
+)
+ident(
+  def fmt "frontend/abstract_syntax_printer.ml" 96 2254 2272 "frontend/abstract_syntax_printer.ml" 98 2291 2338
+)
+"frontend/abstract_syntax_printer.ml" 96 2254 2272 "frontend/abstract_syntax_printer.ml" 96 2254 2273
+type(
+  Abstract_syntax_tree.typ
+)
+ident(
+  def t "frontend/abstract_syntax_printer.ml" 97 2276 2278 "frontend/abstract_syntax_printer.ml" 98 2291 2338
+)
+"frontend/abstract_syntax_printer.ml" 97 2276 2284 "frontend/abstract_syntax_printer.ml" 97 2276 2285
+type(
+  Abstract_syntax_tree.typ
+)
+ident(
+  int_ref t "frontend/abstract_syntax_printer.ml" 96 2254 2272 "frontend/abstract_syntax_printer.ml" 96 2254 2273
+)
+"frontend/abstract_syntax_printer.ml" 98 2291 2295 "frontend/abstract_syntax_printer.ml" 98 2291 2302
+type(
+  Abstract_syntax_tree.typ
+)
+"frontend/abstract_syntax_printer.ml" 98 2291 2306 "frontend/abstract_syntax_printer.ml" 98 2291 2328
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  ext_ref Format.pp_print_string
+)
+"frontend/abstract_syntax_printer.ml" 98 2291 2329 "frontend/abstract_syntax_printer.ml" 98 2291 2332
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend/abstract_syntax_printer.ml" 96 2254 2268 "frontend/abstract_syntax_printer.ml" 96 2254 2271
+)
+"frontend/abstract_syntax_printer.ml" 98 2291 2333 "frontend/abstract_syntax_printer.ml" 98 2291 2338
+type(
+  string
+)
+"frontend/abstract_syntax_printer.ml" 98 2291 2306 "frontend/abstract_syntax_printer.ml" 98 2291 2338
+call(
+  tail
+)
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 97 2276 2278 "frontend/abstract_syntax_printer.ml" 98 2291 2338
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 105 2387 2391 "frontend/abstract_syntax_printer.ml" 105 2387 2400
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  def print_var "frontend/abstract_syntax_printer.ml" 109 2442 2442 "frontend/abstract_syntax_printer.ml" 1 0 -1
+)
+"frontend/abstract_syntax_printer.ml" 105 2387 2401 "frontend/abstract_syntax_printer.ml" 105 2387 2404
+type(
+  Format.formatter
+)
+ident(
+  def fmt "frontend/abstract_syntax_printer.ml" 105 2387 2405 "frontend/abstract_syntax_printer.ml" 106 2409 2439
+)
+"frontend/abstract_syntax_printer.ml" 105 2387 2405 "frontend/abstract_syntax_printer.ml" 105 2387 2406
+type(
+  string
+)
+ident(
+  def v "frontend/abstract_syntax_printer.ml" 106 2409 2411 "frontend/abstract_syntax_printer.ml" 106 2409 2439
+)
+"frontend/abstract_syntax_printer.ml" 106 2409 2411 "frontend/abstract_syntax_printer.ml" 106 2409 2433
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  ext_ref Format.pp_print_string
+)
+"frontend/abstract_syntax_printer.ml" 106 2409 2434 "frontend/abstract_syntax_printer.ml" 106 2409 2437
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend/abstract_syntax_printer.ml" 105 2387 2401 "frontend/abstract_syntax_printer.ml" 105 2387 2404
+)
+"frontend/abstract_syntax_printer.ml" 106 2409 2438 "frontend/abstract_syntax_printer.ml" 106 2409 2439
+type(
+  string
+)
+ident(
+  int_ref v "frontend/abstract_syntax_printer.ml" 105 2387 2405 "frontend/abstract_syntax_printer.ml" 105 2387 2406
+)
+"frontend/abstract_syntax_printer.ml" 106 2409 2411 "frontend/abstract_syntax_printer.ml" 106 2409 2439
+call(
+  tail
+)
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 109 2442 2450 "frontend/abstract_syntax_printer.ml" 109 2442 2464
+type(
+  Format.formatter -> Abstract_syntax_tree.int_expr -> unit
+)
+ident(
+  def print_int_expr "frontend/abstract_syntax_printer.ml" 109 2442 2442 "frontend/abstract_syntax_printer.ml" 1 0 -1
+)
+"frontend/abstract_syntax_printer.ml" 109 2442 2465 "frontend/abstract_syntax_printer.ml" 109 2442 2468
+type(
+  Format.formatter
+)
+ident(
+  def fmt "frontend/abstract_syntax_printer.ml" 109 2442 2469 "frontend/abstract_syntax_printer.ml" 132 3349 3392
+)
+"frontend/abstract_syntax_printer.ml" 109 2442 2469 "frontend/abstract_syntax_printer.ml" 109 2442 2470
+type(
+  Abstract_syntax_tree.int_expr
+)
+ident(
+  def e "frontend/abstract_syntax_printer.ml" 110 2474 2476 "frontend/abstract_syntax_printer.ml" 132 3349 3392
+)
+"frontend/abstract_syntax_printer.ml" 110 2474 2482 "frontend/abstract_syntax_printer.ml" 110 2474 2483
+type(
+  Abstract_syntax_tree.int_expr
+)
+ident(
+  int_ref e "frontend/abstract_syntax_printer.ml" 109 2442 2469 "frontend/abstract_syntax_printer.ml" 109 2442 2470
+)
+"frontend/abstract_syntax_printer.ml" 112 2494 2513 "frontend/abstract_syntax_printer.ml" 112 2494 2515
+type(
+  Abstract_syntax_tree.int_unary_op
+)
+ident(
+  def op "frontend/abstract_syntax_printer.ml" 113 2527 2533 "frontend/abstract_syntax_printer.ml" 116 2702 2755
+)
+"frontend/abstract_syntax_printer.ml" 112 2494 2517 "frontend/abstract_syntax_printer.ml" 112 2494 2519
+type(
+  Abstract_syntax_tree.int_expr
+)
+ident(
+  def e1 "frontend/abstract_syntax_printer.ml" 113 2527 2533 "frontend/abstract_syntax_printer.ml" 116 2702 2755
+)
+"frontend/abstract_syntax_printer.ml" 112 2494 2520 "frontend/abstract_syntax_printer.ml" 112 2494 2521
+type(
+  Abstract_syntax_tree.extent
+)
+"frontend/abstract_syntax_printer.ml" 112 2494 2516 "frontend/abstract_syntax_printer.ml" 112 2494 2522
+type(
+  Abstract_syntax_tree.int_expr Abstract_syntax_tree.ext
+)
+"frontend/abstract_syntax_printer.ml" 112 2494 2498 "frontend/abstract_syntax_printer.ml" 112 2494 2523
+type(
+  Abstract_syntax_tree.int_expr
+)
+"frontend/abstract_syntax_printer.ml" 113 2527 2533 "frontend/abstract_syntax_printer.ml" 113 2527 2555
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  ext_ref Format.pp_print_string
+)
+"frontend/abstract_syntax_printer.ml" 113 2527 2556 "frontend/abstract_syntax_printer.ml" 113 2527 2559
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend/abstract_syntax_printer.ml" 109 2442 2465 "frontend/abstract_syntax_printer.ml" 109 2442 2468
+)
+"frontend/abstract_syntax_printer.ml" 113 2527 2561 "frontend/abstract_syntax_printer.ml" 113 2527 2583
+type(
+  Abstract_syntax_tree.int_unary_op -> string
+)
+ident(
+  int_ref string_of_int_unary_op "frontend/abstract_syntax_printer.ml" 39 986 990 "frontend/abstract_syntax_printer.ml" 39 986 1012
+)
+"frontend/abstract_syntax_printer.ml" 113 2527 2584 "frontend/abstract_syntax_printer.ml" 113 2527 2586
+type(
+  Abstract_syntax_tree.int_unary_op
+)
+ident(
+  int_ref op "frontend/abstract_syntax_printer.ml" 112 2494 2513 "frontend/abstract_syntax_printer.ml" 112 2494 2515
+)
+"frontend/abstract_syntax_printer.ml" 113 2527 2560 "frontend/abstract_syntax_printer.ml" 113 2527 2587
+call(
+  stack
+)
+type(
+  string
+)
+"frontend/abstract_syntax_printer.ml" 113 2527 2533 "frontend/abstract_syntax_printer.ml" 113 2527 2587
+call(
+  stack
+)
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 114 2589 2598 "frontend/abstract_syntax_printer.ml" 114 2589 2617
+type(
+  Abstract_syntax_tree.int_expr -> int
+)
+ident(
+  int_ref int_expr_precedence "frontend/abstract_syntax_printer.ml" 70 1680 1684 "frontend/abstract_syntax_printer.ml" 70 1680 1703
+)
+"frontend/abstract_syntax_printer.ml" 114 2589 2618 "frontend/abstract_syntax_printer.ml" 114 2589 2620
+type(
+  Abstract_syntax_tree.int_expr
+)
+ident(
+  int_ref e1 "frontend/abstract_syntax_printer.ml" 112 2494 2517 "frontend/abstract_syntax_printer.ml" 112 2494 2519
+)
+"frontend/abstract_syntax_printer.ml" 114 2589 2598 "frontend/abstract_syntax_printer.ml" 114 2589 2620
+call(
+  stack
+)
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 114 2589 2621 "frontend/abstract_syntax_printer.ml" 114 2589 2623
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"frontend/abstract_syntax_printer.ml" 114 2589 2624 "frontend/abstract_syntax_printer.ml" 114 2589 2643
+type(
+  Abstract_syntax_tree.int_expr -> int
+)
+ident(
+  int_ref int_expr_precedence "frontend/abstract_syntax_printer.ml" 70 1680 1684 "frontend/abstract_syntax_printer.ml" 70 1680 1703
+)
+"frontend/abstract_syntax_printer.ml" 114 2589 2644 "frontend/abstract_syntax_printer.ml" 114 2589 2645
+type(
+  Abstract_syntax_tree.int_expr
+)
+ident(
+  int_ref e "frontend/abstract_syntax_printer.ml" 109 2442 2469 "frontend/abstract_syntax_printer.ml" 109 2442 2470
+)
+"frontend/abstract_syntax_printer.ml" 114 2589 2624 "frontend/abstract_syntax_printer.ml" 114 2589 2645
+call(
+  stack
+)
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 114 2589 2598 "frontend/abstract_syntax_printer.ml" 114 2589 2645
+type(
+  bool
+)
+"frontend/abstract_syntax_printer.ml" 115 2646 2657 "frontend/abstract_syntax_printer.ml" 115 2646 2671
+type(
+  Format.formatter ->
+  ((Format.formatter -> Abstract_syntax_tree.int_expr -> unit) ->
+   Abstract_syntax_tree.int_expr -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Abstract_syntax_tree.int_expr -> unit) ->
+  Abstract_syntax_tree.int_expr -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"frontend/abstract_syntax_printer.ml" 115 2646 2672 "frontend/abstract_syntax_printer.ml" 115 2646 2675
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend/abstract_syntax_printer.ml" 109 2442 2465 "frontend/abstract_syntax_printer.ml" 109 2442 2468
+)
+"frontend/abstract_syntax_printer.ml" 115 2646 2676 "frontend/abstract_syntax_printer.ml" 115 2646 2683
+type(
+  ((Format.formatter -> Abstract_syntax_tree.int_expr -> unit) ->
+   Abstract_syntax_tree.int_expr -> unit, Format.formatter, unit)
+  format
+)
+"frontend/abstract_syntax_printer.ml" 115 2646 2684 "frontend/abstract_syntax_printer.ml" 115 2646 2698
+type(
+  Format.formatter -> Abstract_syntax_tree.int_expr -> unit
+)
+ident(
+  int_ref print_int_expr "frontend/abstract_syntax_printer.ml" 109 2442 2450 "frontend/abstract_syntax_printer.ml" 109 2442 2464
+)
+"frontend/abstract_syntax_printer.ml" 115 2646 2699 "frontend/abstract_syntax_printer.ml" 115 2646 2701
+type(
+  Abstract_syntax_tree.int_expr
+)
+ident(
+  int_ref e1 "frontend/abstract_syntax_printer.ml" 112 2494 2517 "frontend/abstract_syntax_printer.ml" 112 2494 2519
+)
+"frontend/abstract_syntax_printer.ml" 115 2646 2657 "frontend/abstract_syntax_printer.ml" 115 2646 2701
+call(
+  tail
+)
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 116 2702 2713 "frontend/abstract_syntax_printer.ml" 116 2702 2727
+type(
+  Format.formatter ->
+  ((Format.formatter -> Abstract_syntax_tree.int_expr -> unit) ->
+   Abstract_syntax_tree.int_expr -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Abstract_syntax_tree.int_expr -> unit) ->
+  Abstract_syntax_tree.int_expr -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"frontend/abstract_syntax_printer.ml" 116 2702 2728 "frontend/abstract_syntax_printer.ml" 116 2702 2731
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend/abstract_syntax_printer.ml" 109 2442 2465 "frontend/abstract_syntax_printer.ml" 109 2442 2468
+)
+"frontend/abstract_syntax_printer.ml" 116 2702 2732 "frontend/abstract_syntax_printer.ml" 116 2702 2737
+type(
+  ((Format.formatter -> Abstract_syntax_tree.int_expr -> unit) ->
+   Abstract_syntax_tree.int_expr -> unit, Format.formatter, unit)
+  format
+)
+"frontend/abstract_syntax_printer.ml" 116 2702 2738 "frontend/abstract_syntax_printer.ml" 116 2702 2752
+type(
+  Format.formatter -> Abstract_syntax_tree.int_expr -> unit
+)
+ident(
+  int_ref print_int_expr "frontend/abstract_syntax_printer.ml" 109 2442 2450 "frontend/abstract_syntax_printer.ml" 109 2442 2464
+)
+"frontend/abstract_syntax_printer.ml" 116 2702 2753 "frontend/abstract_syntax_printer.ml" 116 2702 2755
+type(
+  Abstract_syntax_tree.int_expr
+)
+ident(
+  int_ref e1 "frontend/abstract_syntax_printer.ml" 112 2494 2517 "frontend/abstract_syntax_printer.ml" 112 2494 2519
+)
+"frontend/abstract_syntax_printer.ml" 116 2702 2713 "frontend/abstract_syntax_printer.ml" 116 2702 2755
+call(
+  tail
+)
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 114 2589 2595 "frontend/abstract_syntax_printer.ml" 116 2702 2755
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 113 2527 2533 "frontend/abstract_syntax_printer.ml" 116 2702 2755
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 118 2757 2777 "frontend/abstract_syntax_printer.ml" 118 2757 2779
+type(
+  Abstract_syntax_tree.int_binary_op
+)
+ident(
+  def op "frontend/abstract_syntax_printer.ml" 119 2798 2804 "frontend/abstract_syntax_printer.ml" 125 3141 3194
+)
+"frontend/abstract_syntax_printer.ml" 118 2757 2781 "frontend/abstract_syntax_printer.ml" 118 2757 2783
+type(
+  Abstract_syntax_tree.int_expr
+)
+ident(
+  def e1 "frontend/abstract_syntax_printer.ml" 119 2798 2804 "frontend/abstract_syntax_printer.ml" 125 3141 3194
+)
+"frontend/abstract_syntax_printer.ml" 118 2757 2784 "frontend/abstract_syntax_printer.ml" 118 2757 2785
+type(
+  Abstract_syntax_tree.extent
+)
+"frontend/abstract_syntax_printer.ml" 118 2757 2780 "frontend/abstract_syntax_printer.ml" 118 2757 2786
+type(
+  Abstract_syntax_tree.int_expr Abstract_syntax_tree.ext
+)
+"frontend/abstract_syntax_printer.ml" 118 2757 2788 "frontend/abstract_syntax_printer.ml" 118 2757 2790
+type(
+  Abstract_syntax_tree.int_expr
+)
+ident(
+  def e2 "frontend/abstract_syntax_printer.ml" 119 2798 2804 "frontend/abstract_syntax_printer.ml" 125 3141 3194
+)
+"frontend/abstract_syntax_printer.ml" 118 2757 2791 "frontend/abstract_syntax_printer.ml" 118 2757 2792
+type(
+  Abstract_syntax_tree.extent
+)
+"frontend/abstract_syntax_printer.ml" 118 2757 2787 "frontend/abstract_syntax_printer.ml" 118 2757 2793
+type(
+  Abstract_syntax_tree.int_expr Abstract_syntax_tree.ext
+)
+"frontend/abstract_syntax_printer.ml" 118 2757 2761 "frontend/abstract_syntax_printer.ml" 118 2757 2794
+type(
+  Abstract_syntax_tree.int_expr
+)
+"frontend/abstract_syntax_printer.ml" 119 2798 2807 "frontend/abstract_syntax_printer.ml" 119 2798 2826
+type(
+  Abstract_syntax_tree.int_expr -> int
+)
+ident(
+  int_ref int_expr_precedence "frontend/abstract_syntax_printer.ml" 70 1680 1684 "frontend/abstract_syntax_printer.ml" 70 1680 1703
+)
+"frontend/abstract_syntax_printer.ml" 119 2798 2827 "frontend/abstract_syntax_printer.ml" 119 2798 2829
+type(
+  Abstract_syntax_tree.int_expr
+)
+ident(
+  int_ref e1 "frontend/abstract_syntax_printer.ml" 118 2757 2781 "frontend/abstract_syntax_printer.ml" 118 2757 2783
+)
+"frontend/abstract_syntax_printer.ml" 119 2798 2807 "frontend/abstract_syntax_printer.ml" 119 2798 2829
+call(
+  stack
+)
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 119 2798 2830 "frontend/abstract_syntax_printer.ml" 119 2798 2831
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"frontend/abstract_syntax_printer.ml" 119 2798 2832 "frontend/abstract_syntax_printer.ml" 119 2798 2851
+type(
+  Abstract_syntax_tree.int_expr -> int
+)
+ident(
+  int_ref int_expr_precedence "frontend/abstract_syntax_printer.ml" 70 1680 1684 "frontend/abstract_syntax_printer.ml" 70 1680 1703
+)
+"frontend/abstract_syntax_printer.ml" 119 2798 2852 "frontend/abstract_syntax_printer.ml" 119 2798 2853
+type(
+  Abstract_syntax_tree.int_expr
+)
+ident(
+  int_ref e "frontend/abstract_syntax_printer.ml" 109 2442 2469 "frontend/abstract_syntax_printer.ml" 109 2442 2470
+)
+"frontend/abstract_syntax_printer.ml" 119 2798 2832 "frontend/abstract_syntax_printer.ml" 119 2798 2853
+call(
+  stack
+)
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 119 2798 2807 "frontend/abstract_syntax_printer.ml" 119 2798 2853
+type(
+  bool
+)
+"frontend/abstract_syntax_printer.ml" 120 2854 2865 "frontend/abstract_syntax_printer.ml" 120 2854 2879
+type(
+  Format.formatter ->
+  ((Format.formatter -> Abstract_syntax_tree.int_expr -> unit) ->
+   Abstract_syntax_tree.int_expr -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Abstract_syntax_tree.int_expr -> unit) ->
+  Abstract_syntax_tree.int_expr -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"frontend/abstract_syntax_printer.ml" 120 2854 2880 "frontend/abstract_syntax_printer.ml" 120 2854 2883
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend/abstract_syntax_printer.ml" 109 2442 2465 "frontend/abstract_syntax_printer.ml" 109 2442 2468
+)
+"frontend/abstract_syntax_printer.ml" 120 2854 2884 "frontend/abstract_syntax_printer.ml" 120 2854 2891
+type(
+  ((Format.formatter -> Abstract_syntax_tree.int_expr -> unit) ->
+   Abstract_syntax_tree.int_expr -> unit, Format.formatter, unit)
+  format
+)
+"frontend/abstract_syntax_printer.ml" 120 2854 2892 "frontend/abstract_syntax_printer.ml" 120 2854 2906
+type(
+  Format.formatter -> Abstract_syntax_tree.int_expr -> unit
+)
+ident(
+  int_ref print_int_expr "frontend/abstract_syntax_printer.ml" 109 2442 2450 "frontend/abstract_syntax_printer.ml" 109 2442 2464
+)
+"frontend/abstract_syntax_printer.ml" 120 2854 2907 "frontend/abstract_syntax_printer.ml" 120 2854 2909
+type(
+  Abstract_syntax_tree.int_expr
+)
+ident(
+  int_ref e1 "frontend/abstract_syntax_printer.ml" 118 2757 2781 "frontend/abstract_syntax_printer.ml" 118 2757 2783
+)
+"frontend/abstract_syntax_printer.ml" 120 2854 2865 "frontend/abstract_syntax_printer.ml" 120 2854 2909
+call(
+  stack
+)
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 121 2910 2921 "frontend/abstract_syntax_printer.ml" 121 2910 2935
+type(
+  Format.formatter ->
+  ((Format.formatter -> Abstract_syntax_tree.int_expr -> unit) ->
+   Abstract_syntax_tree.int_expr -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Abstract_syntax_tree.int_expr -> unit) ->
+  Abstract_syntax_tree.int_expr -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"frontend/abstract_syntax_printer.ml" 121 2910 2936 "frontend/abstract_syntax_printer.ml" 121 2910 2939
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend/abstract_syntax_printer.ml" 109 2442 2465 "frontend/abstract_syntax_printer.ml" 109 2442 2468
+)
+"frontend/abstract_syntax_printer.ml" 121 2910 2940 "frontend/abstract_syntax_printer.ml" 121 2910 2945
+type(
+  ((Format.formatter -> Abstract_syntax_tree.int_expr -> unit) ->
+   Abstract_syntax_tree.int_expr -> unit, Format.formatter, unit)
+  format
+)
+"frontend/abstract_syntax_printer.ml" 121 2910 2946 "frontend/abstract_syntax_printer.ml" 121 2910 2960
+type(
+  Format.formatter -> Abstract_syntax_tree.int_expr -> unit
+)
+ident(
+  int_ref print_int_expr "frontend/abstract_syntax_printer.ml" 109 2442 2450 "frontend/abstract_syntax_printer.ml" 109 2442 2464
+)
+"frontend/abstract_syntax_printer.ml" 121 2910 2961 "frontend/abstract_syntax_printer.ml" 121 2910 2963
+type(
+  Abstract_syntax_tree.int_expr
+)
+ident(
+  int_ref e1 "frontend/abstract_syntax_printer.ml" 118 2757 2781 "frontend/abstract_syntax_printer.ml" 118 2757 2783
+)
+"frontend/abstract_syntax_printer.ml" 121 2910 2921 "frontend/abstract_syntax_printer.ml" 121 2910 2963
+call(
+  stack
+)
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 119 2798 2804 "frontend/abstract_syntax_printer.ml" 121 2910 2963
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 122 2965 2971 "frontend/abstract_syntax_printer.ml" 122 2965 2993
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  ext_ref Format.pp_print_string
+)
+"frontend/abstract_syntax_printer.ml" 122 2965 2994 "frontend/abstract_syntax_printer.ml" 122 2965 2997
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend/abstract_syntax_printer.ml" 109 2442 2465 "frontend/abstract_syntax_printer.ml" 109 2442 2468
+)
+"frontend/abstract_syntax_printer.ml" 122 2965 2999 "frontend/abstract_syntax_printer.ml" 122 2965 3022
+type(
+  Abstract_syntax_tree.int_binary_op -> string
+)
+ident(
+  int_ref string_of_int_binary_op "frontend/abstract_syntax_printer.ml" 46 1145 1149 "frontend/abstract_syntax_printer.ml" 46 1145 1172
+)
+"frontend/abstract_syntax_printer.ml" 122 2965 3023 "frontend/abstract_syntax_printer.ml" 122 2965 3025
+type(
+  Abstract_syntax_tree.int_binary_op
+)
+ident(
+  int_ref op "frontend/abstract_syntax_printer.ml" 118 2757 2777 "frontend/abstract_syntax_printer.ml" 118 2757 2779
+)
+"frontend/abstract_syntax_printer.ml" 122 2965 2998 "frontend/abstract_syntax_printer.ml" 122 2965 3026
+call(
+  stack
+)
+type(
+  string
+)
+"frontend/abstract_syntax_printer.ml" 122 2965 2971 "frontend/abstract_syntax_printer.ml" 122 2965 3026
+call(
+  stack
+)
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 123 3028 3037 "frontend/abstract_syntax_printer.ml" 123 3028 3056
+type(
+  Abstract_syntax_tree.int_expr -> int
+)
+ident(
+  int_ref int_expr_precedence "frontend/abstract_syntax_printer.ml" 70 1680 1684 "frontend/abstract_syntax_printer.ml" 70 1680 1703
+)
+"frontend/abstract_syntax_printer.ml" 123 3028 3057 "frontend/abstract_syntax_printer.ml" 123 3028 3059
+type(
+  Abstract_syntax_tree.int_expr
+)
+ident(
+  int_ref e2 "frontend/abstract_syntax_printer.ml" 118 2757 2788 "frontend/abstract_syntax_printer.ml" 118 2757 2790
+)
+"frontend/abstract_syntax_printer.ml" 123 3028 3037 "frontend/abstract_syntax_printer.ml" 123 3028 3059
+call(
+  stack
+)
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 123 3028 3060 "frontend/abstract_syntax_printer.ml" 123 3028 3062
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"frontend/abstract_syntax_printer.ml" 123 3028 3063 "frontend/abstract_syntax_printer.ml" 123 3028 3082
+type(
+  Abstract_syntax_tree.int_expr -> int
+)
+ident(
+  int_ref int_expr_precedence "frontend/abstract_syntax_printer.ml" 70 1680 1684 "frontend/abstract_syntax_printer.ml" 70 1680 1703
+)
+"frontend/abstract_syntax_printer.ml" 123 3028 3083 "frontend/abstract_syntax_printer.ml" 123 3028 3084
+type(
+  Abstract_syntax_tree.int_expr
+)
+ident(
+  int_ref e "frontend/abstract_syntax_printer.ml" 109 2442 2469 "frontend/abstract_syntax_printer.ml" 109 2442 2470
+)
+"frontend/abstract_syntax_printer.ml" 123 3028 3063 "frontend/abstract_syntax_printer.ml" 123 3028 3084
+call(
+  stack
+)
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 123 3028 3037 "frontend/abstract_syntax_printer.ml" 123 3028 3084
+type(
+  bool
+)
+"frontend/abstract_syntax_printer.ml" 124 3085 3096 "frontend/abstract_syntax_printer.ml" 124 3085 3110
+type(
+  Format.formatter ->
+  ((Format.formatter -> Abstract_syntax_tree.int_expr -> unit) ->
+   Abstract_syntax_tree.int_expr -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Abstract_syntax_tree.int_expr -> unit) ->
+  Abstract_syntax_tree.int_expr -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"frontend/abstract_syntax_printer.ml" 124 3085 3111 "frontend/abstract_syntax_printer.ml" 124 3085 3114
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend/abstract_syntax_printer.ml" 109 2442 2465 "frontend/abstract_syntax_printer.ml" 109 2442 2468
+)
+"frontend/abstract_syntax_printer.ml" 124 3085 3115 "frontend/abstract_syntax_printer.ml" 124 3085 3122
+type(
+  ((Format.formatter -> Abstract_syntax_tree.int_expr -> unit) ->
+   Abstract_syntax_tree.int_expr -> unit, Format.formatter, unit)
+  format
+)
+"frontend/abstract_syntax_printer.ml" 124 3085 3123 "frontend/abstract_syntax_printer.ml" 124 3085 3137
+type(
+  Format.formatter -> Abstract_syntax_tree.int_expr -> unit
+)
+ident(
+  int_ref print_int_expr "frontend/abstract_syntax_printer.ml" 109 2442 2450 "frontend/abstract_syntax_printer.ml" 109 2442 2464
+)
+"frontend/abstract_syntax_printer.ml" 124 3085 3138 "frontend/abstract_syntax_printer.ml" 124 3085 3140
+type(
+  Abstract_syntax_tree.int_expr
+)
+ident(
+  int_ref e2 "frontend/abstract_syntax_printer.ml" 118 2757 2788 "frontend/abstract_syntax_printer.ml" 118 2757 2790
+)
+"frontend/abstract_syntax_printer.ml" 124 3085 3096 "frontend/abstract_syntax_printer.ml" 124 3085 3140
+call(
+  tail
+)
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 125 3141 3152 "frontend/abstract_syntax_printer.ml" 125 3141 3166
+type(
+  Format.formatter ->
+  ((Format.formatter -> Abstract_syntax_tree.int_expr -> unit) ->
+   Abstract_syntax_tree.int_expr -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Abstract_syntax_tree.int_expr -> unit) ->
+  Abstract_syntax_tree.int_expr -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"frontend/abstract_syntax_printer.ml" 125 3141 3167 "frontend/abstract_syntax_printer.ml" 125 3141 3170
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend/abstract_syntax_printer.ml" 109 2442 2465 "frontend/abstract_syntax_printer.ml" 109 2442 2468
+)
+"frontend/abstract_syntax_printer.ml" 125 3141 3171 "frontend/abstract_syntax_printer.ml" 125 3141 3176
+type(
+  ((Format.formatter -> Abstract_syntax_tree.int_expr -> unit) ->
+   Abstract_syntax_tree.int_expr -> unit, Format.formatter, unit)
+  format
+)
+"frontend/abstract_syntax_printer.ml" 125 3141 3177 "frontend/abstract_syntax_printer.ml" 125 3141 3191
+type(
+  Format.formatter -> Abstract_syntax_tree.int_expr -> unit
+)
+ident(
+  int_ref print_int_expr "frontend/abstract_syntax_printer.ml" 109 2442 2450 "frontend/abstract_syntax_printer.ml" 109 2442 2464
+)
+"frontend/abstract_syntax_printer.ml" 125 3141 3192 "frontend/abstract_syntax_printer.ml" 125 3141 3194
+type(
+  Abstract_syntax_tree.int_expr
+)
+ident(
+  int_ref e2 "frontend/abstract_syntax_printer.ml" 118 2757 2788 "frontend/abstract_syntax_printer.ml" 118 2757 2790
+)
+"frontend/abstract_syntax_printer.ml" 125 3141 3152 "frontend/abstract_syntax_printer.ml" 125 3141 3194
+call(
+  tail
+)
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 123 3028 3034 "frontend/abstract_syntax_printer.ml" 125 3141 3194
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 122 2965 2971 "frontend/abstract_syntax_printer.ml" 125 3141 3194
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 119 2798 2804 "frontend/abstract_syntax_printer.ml" 125 3141 3194
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 127 3206 3225 "frontend/abstract_syntax_printer.ml" 127 3206 3226
+type(
+  string
+)
+ident(
+  def i "frontend/abstract_syntax_printer.ml" 127 3206 3233 "frontend/abstract_syntax_printer.ml" 127 3206 3261
+)
+"frontend/abstract_syntax_printer.ml" 127 3206 3227 "frontend/abstract_syntax_printer.ml" 127 3206 3228
+type(
+  Abstract_syntax_tree.extent
+)
+"frontend/abstract_syntax_printer.ml" 127 3206 3224 "frontend/abstract_syntax_printer.ml" 127 3206 3229
+type(
+  string Abstract_syntax_tree.ext
+)
+"frontend/abstract_syntax_printer.ml" 127 3206 3210 "frontend/abstract_syntax_printer.ml" 127 3206 3229
+type(
+  Abstract_syntax_tree.int_expr
+)
+"frontend/abstract_syntax_printer.ml" 127 3206 3233 "frontend/abstract_syntax_printer.ml" 127 3206 3255
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  ext_ref Format.pp_print_string
+)
+"frontend/abstract_syntax_printer.ml" 127 3206 3256 "frontend/abstract_syntax_printer.ml" 127 3206 3259
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend/abstract_syntax_printer.ml" 109 2442 2465 "frontend/abstract_syntax_printer.ml" 109 2442 2468
+)
+"frontend/abstract_syntax_printer.ml" 127 3206 3260 "frontend/abstract_syntax_printer.ml" 127 3206 3261
+type(
+  string
+)
+ident(
+  int_ref i "frontend/abstract_syntax_printer.ml" 127 3206 3225 "frontend/abstract_syntax_printer.ml" 127 3206 3226
+)
+"frontend/abstract_syntax_printer.ml" 127 3206 3233 "frontend/abstract_syntax_printer.ml" 127 3206 3261
+call(
+  tail
+)
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 129 3263 3278 "frontend/abstract_syntax_printer.ml" 129 3263 3280
+type(
+  string
+)
+ident(
+  def i1 "frontend/abstract_syntax_printer.ml" 130 3295 3301 "frontend/abstract_syntax_printer.ml" 130 3295 3339
+)
+"frontend/abstract_syntax_printer.ml" 129 3263 3281 "frontend/abstract_syntax_printer.ml" 129 3263 3282
+type(
+  Abstract_syntax_tree.extent
+)
+"frontend/abstract_syntax_printer.ml" 129 3263 3277 "frontend/abstract_syntax_printer.ml" 129 3263 3283
+type(
+  string Abstract_syntax_tree.ext
+)
+"frontend/abstract_syntax_printer.ml" 129 3263 3285 "frontend/abstract_syntax_printer.ml" 129 3263 3287
+type(
+  string
+)
+ident(
+  def i2 "frontend/abstract_syntax_printer.ml" 130 3295 3301 "frontend/abstract_syntax_printer.ml" 130 3295 3339
+)
+"frontend/abstract_syntax_printer.ml" 129 3263 3288 "frontend/abstract_syntax_printer.ml" 129 3263 3289
+type(
+  Abstract_syntax_tree.extent
+)
+"frontend/abstract_syntax_printer.ml" 129 3263 3284 "frontend/abstract_syntax_printer.ml" 129 3263 3290
+type(
+  string Abstract_syntax_tree.ext
+)
+"frontend/abstract_syntax_printer.ml" 129 3263 3267 "frontend/abstract_syntax_printer.ml" 129 3263 3291
+type(
+  Abstract_syntax_tree.int_expr
+)
+"frontend/abstract_syntax_printer.ml" 130 3295 3301 "frontend/abstract_syntax_printer.ml" 130 3295 3315
+type(
+  Format.formatter ->
+  (string -> string -> unit, Format.formatter, unit) format ->
+  string -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"frontend/abstract_syntax_printer.ml" 130 3295 3316 "frontend/abstract_syntax_printer.ml" 130 3295 3319
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend/abstract_syntax_printer.ml" 109 2442 2465 "frontend/abstract_syntax_printer.ml" 109 2442 2468
+)
+"frontend/abstract_syntax_printer.ml" 130 3295 3320 "frontend/abstract_syntax_printer.ml" 130 3295 3333
+type(
+  (string -> string -> unit, Format.formatter, unit) format
+)
+"frontend/abstract_syntax_printer.ml" 130 3295 3334 "frontend/abstract_syntax_printer.ml" 130 3295 3336
+type(
+  string
+)
+ident(
+  int_ref i1 "frontend/abstract_syntax_printer.ml" 129 3263 3278 "frontend/abstract_syntax_printer.ml" 129 3263 3280
+)
+"frontend/abstract_syntax_printer.ml" 130 3295 3337 "frontend/abstract_syntax_printer.ml" 130 3295 3339
+type(
+  string
+)
+ident(
+  int_ref i2 "frontend/abstract_syntax_printer.ml" 129 3263 3285 "frontend/abstract_syntax_printer.ml" 129 3263 3287
+)
+"frontend/abstract_syntax_printer.ml" 130 3295 3301 "frontend/abstract_syntax_printer.ml" 130 3295 3339
+call(
+  tail
+)
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 132 3349 3369 "frontend/abstract_syntax_printer.ml" 132 3349 3370
+type(
+  Abstract_syntax_tree.var
+)
+ident(
+  def v "frontend/abstract_syntax_printer.ml" 132 3349 3377 "frontend/abstract_syntax_printer.ml" 132 3349 3392
+)
+"frontend/abstract_syntax_printer.ml" 132 3349 3371 "frontend/abstract_syntax_printer.ml" 132 3349 3372
+type(
+  Abstract_syntax_tree.extent
+)
+"frontend/abstract_syntax_printer.ml" 132 3349 3368 "frontend/abstract_syntax_printer.ml" 132 3349 3373
+type(
+  Abstract_syntax_tree.var Abstract_syntax_tree.ext
+)
+"frontend/abstract_syntax_printer.ml" 132 3349 3353 "frontend/abstract_syntax_printer.ml" 132 3349 3373
+type(
+  Abstract_syntax_tree.int_expr
+)
+"frontend/abstract_syntax_printer.ml" 132 3349 3377 "frontend/abstract_syntax_printer.ml" 132 3349 3386
+type(
+  Format.formatter -> Abstract_syntax_tree.var -> unit
+)
+ident(
+  int_ref print_var "frontend/abstract_syntax_printer.ml" 105 2387 2391 "frontend/abstract_syntax_printer.ml" 105 2387 2400
+)
+"frontend/abstract_syntax_printer.ml" 132 3349 3387 "frontend/abstract_syntax_printer.ml" 132 3349 3390
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend/abstract_syntax_printer.ml" 109 2442 2465 "frontend/abstract_syntax_printer.ml" 109 2442 2468
+)
+"frontend/abstract_syntax_printer.ml" 132 3349 3391 "frontend/abstract_syntax_printer.ml" 132 3349 3392
+type(
+  Abstract_syntax_tree.var
+)
+ident(
+  int_ref v "frontend/abstract_syntax_printer.ml" 132 3349 3369 "frontend/abstract_syntax_printer.ml" 132 3349 3370
+)
+"frontend/abstract_syntax_printer.ml" 132 3349 3377 "frontend/abstract_syntax_printer.ml" 132 3349 3392
+call(
+  tail
+)
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 110 2474 2476 "frontend/abstract_syntax_printer.ml" 132 3349 3392
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 135 3403 3407 "frontend/abstract_syntax_printer.ml" 135 3403 3422
+type(
+  Format.formatter -> Abstract_syntax_tree.bool_expr -> unit
+)
+ident(
+  def print_bool_expr "frontend/abstract_syntax_printer.ml" 109 2442 2442 "frontend/abstract_syntax_printer.ml" 1 0 -1
+)
+"frontend/abstract_syntax_printer.ml" 135 3403 3423 "frontend/abstract_syntax_printer.ml" 135 3403 3426
+type(
+  Format.formatter
+)
+ident(
+  def fmt "frontend/abstract_syntax_printer.ml" 135 3403 3427 "frontend/abstract_syntax_printer.ml" 162 4625 4674
+)
+"frontend/abstract_syntax_printer.ml" 135 3403 3427 "frontend/abstract_syntax_printer.ml" 135 3403 3428
+type(
+  Abstract_syntax_tree.bool_expr
+)
+ident(
+  def e "frontend/abstract_syntax_printer.ml" 136 3432 3434 "frontend/abstract_syntax_printer.ml" 162 4625 4674
+)
+"frontend/abstract_syntax_printer.ml" 136 3432 3440 "frontend/abstract_syntax_printer.ml" 136 3432 3441
+type(
+  Abstract_syntax_tree.bool_expr
+)
+ident(
+  int_ref e "frontend/abstract_syntax_printer.ml" 135 3403 3427 "frontend/abstract_syntax_printer.ml" 135 3403 3428
+)
+"frontend/abstract_syntax_printer.ml" 138 3452 3472 "frontend/abstract_syntax_printer.ml" 138 3452 3474
+type(
+  Abstract_syntax_tree.bool_unary_op
+)
+ident(
+  def op "frontend/abstract_syntax_printer.ml" 139 3486 3492 "frontend/abstract_syntax_printer.ml" 142 3665 3719
+)
+"frontend/abstract_syntax_printer.ml" 138 3452 3476 "frontend/abstract_syntax_printer.ml" 138 3452 3478
+type(
+  Abstract_syntax_tree.bool_expr
+)
+ident(
+  def e1 "frontend/abstract_syntax_printer.ml" 139 3486 3492 "frontend/abstract_syntax_printer.ml" 142 3665 3719
+)
+"frontend/abstract_syntax_printer.ml" 138 3452 3479 "frontend/abstract_syntax_printer.ml" 138 3452 3480
+type(
+  Abstract_syntax_tree.extent
+)
+"frontend/abstract_syntax_printer.ml" 138 3452 3475 "frontend/abstract_syntax_printer.ml" 138 3452 3481
+type(
+  Abstract_syntax_tree.bool_expr Abstract_syntax_tree.ext
+)
+"frontend/abstract_syntax_printer.ml" 138 3452 3456 "frontend/abstract_syntax_printer.ml" 138 3452 3482
+type(
+  Abstract_syntax_tree.bool_expr
+)
+"frontend/abstract_syntax_printer.ml" 139 3486 3492 "frontend/abstract_syntax_printer.ml" 139 3486 3514
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  ext_ref Format.pp_print_string
+)
+"frontend/abstract_syntax_printer.ml" 139 3486 3515 "frontend/abstract_syntax_printer.ml" 139 3486 3518
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend/abstract_syntax_printer.ml" 135 3403 3423 "frontend/abstract_syntax_printer.ml" 135 3403 3426
+)
+"frontend/abstract_syntax_printer.ml" 139 3486 3520 "frontend/abstract_syntax_printer.ml" 139 3486 3543
+type(
+  Abstract_syntax_tree.bool_unary_op -> string
+)
+ident(
+  int_ref string_of_bool_unary_op "frontend/abstract_syntax_printer.ml" 43 1078 1082 "frontend/abstract_syntax_printer.ml" 43 1078 1105
+)
+"frontend/abstract_syntax_printer.ml" 139 3486 3544 "frontend/abstract_syntax_printer.ml" 139 3486 3546
+type(
+  Abstract_syntax_tree.bool_unary_op
+)
+ident(
+  int_ref op "frontend/abstract_syntax_printer.ml" 138 3452 3472 "frontend/abstract_syntax_printer.ml" 138 3452 3474
+)
+"frontend/abstract_syntax_printer.ml" 139 3486 3519 "frontend/abstract_syntax_printer.ml" 139 3486 3547
+call(
+  stack
+)
+type(
+  string
+)
+"frontend/abstract_syntax_printer.ml" 139 3486 3492 "frontend/abstract_syntax_printer.ml" 139 3486 3547
+call(
+  stack
+)
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 140 3549 3558 "frontend/abstract_syntax_printer.ml" 140 3549 3578
+type(
+  Abstract_syntax_tree.bool_expr -> int
+)
+ident(
+  int_ref bool_expr_precedence "frontend/abstract_syntax_printer.ml" 76 1877 1881 "frontend/abstract_syntax_printer.ml" 76 1877 1901
+)
+"frontend/abstract_syntax_printer.ml" 140 3549 3579 "frontend/abstract_syntax_printer.ml" 140 3549 3581
+type(
+  Abstract_syntax_tree.bool_expr
+)
+ident(
+  int_ref e1 "frontend/abstract_syntax_printer.ml" 138 3452 3476 "frontend/abstract_syntax_printer.ml" 138 3452 3478
+)
+"frontend/abstract_syntax_printer.ml" 140 3549 3558 "frontend/abstract_syntax_printer.ml" 140 3549 3581
+call(
+  stack
+)
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 140 3549 3582 "frontend/abstract_syntax_printer.ml" 140 3549 3584
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"frontend/abstract_syntax_printer.ml" 140 3549 3585 "frontend/abstract_syntax_printer.ml" 140 3549 3605
+type(
+  Abstract_syntax_tree.bool_expr -> int
+)
+ident(
+  int_ref bool_expr_precedence "frontend/abstract_syntax_printer.ml" 76 1877 1881 "frontend/abstract_syntax_printer.ml" 76 1877 1901
+)
+"frontend/abstract_syntax_printer.ml" 140 3549 3606 "frontend/abstract_syntax_printer.ml" 140 3549 3607
+type(
+  Abstract_syntax_tree.bool_expr
+)
+ident(
+  int_ref e "frontend/abstract_syntax_printer.ml" 135 3403 3427 "frontend/abstract_syntax_printer.ml" 135 3403 3428
+)
+"frontend/abstract_syntax_printer.ml" 140 3549 3585 "frontend/abstract_syntax_printer.ml" 140 3549 3607
+call(
+  stack
+)
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 140 3549 3558 "frontend/abstract_syntax_printer.ml" 140 3549 3607
+type(
+  bool
+)
+"frontend/abstract_syntax_printer.ml" 141 3608 3619 "frontend/abstract_syntax_printer.ml" 141 3608 3633
+type(
+  Format.formatter ->
+  ((Format.formatter -> Abstract_syntax_tree.bool_expr -> unit) ->
+   Abstract_syntax_tree.bool_expr -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Abstract_syntax_tree.bool_expr -> unit) ->
+  Abstract_syntax_tree.bool_expr -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"frontend/abstract_syntax_printer.ml" 141 3608 3634 "frontend/abstract_syntax_printer.ml" 141 3608 3637
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend/abstract_syntax_printer.ml" 135 3403 3423 "frontend/abstract_syntax_printer.ml" 135 3403 3426
+)
+"frontend/abstract_syntax_printer.ml" 141 3608 3638 "frontend/abstract_syntax_printer.ml" 141 3608 3645
+type(
+  ((Format.formatter -> Abstract_syntax_tree.bool_expr -> unit) ->
+   Abstract_syntax_tree.bool_expr -> unit, Format.formatter, unit)
+  format
+)
+"frontend/abstract_syntax_printer.ml" 141 3608 3646 "frontend/abstract_syntax_printer.ml" 141 3608 3661
+type(
+  Format.formatter -> Abstract_syntax_tree.bool_expr -> unit
+)
+ident(
+  int_ref print_bool_expr "frontend/abstract_syntax_printer.ml" 135 3403 3407 "frontend/abstract_syntax_printer.ml" 135 3403 3422
+)
+"frontend/abstract_syntax_printer.ml" 141 3608 3662 "frontend/abstract_syntax_printer.ml" 141 3608 3664
+type(
+  Abstract_syntax_tree.bool_expr
+)
+ident(
+  int_ref e1 "frontend/abstract_syntax_printer.ml" 138 3452 3476 "frontend/abstract_syntax_printer.ml" 138 3452 3478
+)
+"frontend/abstract_syntax_printer.ml" 141 3608 3619 "frontend/abstract_syntax_printer.ml" 141 3608 3664
+call(
+  tail
+)
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 142 3665 3676 "frontend/abstract_syntax_printer.ml" 142 3665 3690
+type(
+  Format.formatter ->
+  ((Format.formatter -> Abstract_syntax_tree.bool_expr -> unit) ->
+   Abstract_syntax_tree.bool_expr -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Abstract_syntax_tree.bool_expr -> unit) ->
+  Abstract_syntax_tree.bool_expr -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"frontend/abstract_syntax_printer.ml" 142 3665 3691 "frontend/abstract_syntax_printer.ml" 142 3665 3694
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend/abstract_syntax_printer.ml" 135 3403 3423 "frontend/abstract_syntax_printer.ml" 135 3403 3426
+)
+"frontend/abstract_syntax_printer.ml" 142 3665 3695 "frontend/abstract_syntax_printer.ml" 142 3665 3700
+type(
+  ((Format.formatter -> Abstract_syntax_tree.bool_expr -> unit) ->
+   Abstract_syntax_tree.bool_expr -> unit, Format.formatter, unit)
+  format
+)
+"frontend/abstract_syntax_printer.ml" 142 3665 3701 "frontend/abstract_syntax_printer.ml" 142 3665 3716
+type(
+  Format.formatter -> Abstract_syntax_tree.bool_expr -> unit
+)
+ident(
+  int_ref print_bool_expr "frontend/abstract_syntax_printer.ml" 135 3403 3407 "frontend/abstract_syntax_printer.ml" 135 3403 3422
+)
+"frontend/abstract_syntax_printer.ml" 142 3665 3717 "frontend/abstract_syntax_printer.ml" 142 3665 3719
+type(
+  Abstract_syntax_tree.bool_expr
+)
+ident(
+  int_ref e1 "frontend/abstract_syntax_printer.ml" 138 3452 3476 "frontend/abstract_syntax_printer.ml" 138 3452 3478
+)
+"frontend/abstract_syntax_printer.ml" 142 3665 3676 "frontend/abstract_syntax_printer.ml" 142 3665 3719
+call(
+  tail
+)
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 140 3549 3555 "frontend/abstract_syntax_printer.ml" 142 3665 3719
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 139 3486 3492 "frontend/abstract_syntax_printer.ml" 142 3665 3719
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 144 3721 3742 "frontend/abstract_syntax_printer.ml" 144 3721 3744
+type(
+  Abstract_syntax_tree.bool_binary_op
+)
+ident(
+  def op "frontend/abstract_syntax_printer.ml" 145 3763 3769 "frontend/abstract_syntax_printer.ml" 151 4114 4168
+)
+"frontend/abstract_syntax_printer.ml" 144 3721 3746 "frontend/abstract_syntax_printer.ml" 144 3721 3748
+type(
+  Abstract_syntax_tree.bool_expr
+)
+ident(
+  def e1 "frontend/abstract_syntax_printer.ml" 145 3763 3769 "frontend/abstract_syntax_printer.ml" 151 4114 4168
+)
+"frontend/abstract_syntax_printer.ml" 144 3721 3749 "frontend/abstract_syntax_printer.ml" 144 3721 3750
+type(
+  Abstract_syntax_tree.extent
+)
+"frontend/abstract_syntax_printer.ml" 144 3721 3745 "frontend/abstract_syntax_printer.ml" 144 3721 3751
+type(
+  Abstract_syntax_tree.bool_expr Abstract_syntax_tree.ext
+)
+"frontend/abstract_syntax_printer.ml" 144 3721 3753 "frontend/abstract_syntax_printer.ml" 144 3721 3755
+type(
+  Abstract_syntax_tree.bool_expr
+)
+ident(
+  def e2 "frontend/abstract_syntax_printer.ml" 145 3763 3769 "frontend/abstract_syntax_printer.ml" 151 4114 4168
+)
+"frontend/abstract_syntax_printer.ml" 144 3721 3756 "frontend/abstract_syntax_printer.ml" 144 3721 3757
+type(
+  Abstract_syntax_tree.extent
+)
+"frontend/abstract_syntax_printer.ml" 144 3721 3752 "frontend/abstract_syntax_printer.ml" 144 3721 3758
+type(
+  Abstract_syntax_tree.bool_expr Abstract_syntax_tree.ext
+)
+"frontend/abstract_syntax_printer.ml" 144 3721 3725 "frontend/abstract_syntax_printer.ml" 144 3721 3759
+type(
+  Abstract_syntax_tree.bool_expr
+)
+"frontend/abstract_syntax_printer.ml" 145 3763 3772 "frontend/abstract_syntax_printer.ml" 145 3763 3792
+type(
+  Abstract_syntax_tree.bool_expr -> int
+)
+ident(
+  int_ref bool_expr_precedence "frontend/abstract_syntax_printer.ml" 76 1877 1881 "frontend/abstract_syntax_printer.ml" 76 1877 1901
+)
+"frontend/abstract_syntax_printer.ml" 145 3763 3793 "frontend/abstract_syntax_printer.ml" 145 3763 3795
+type(
+  Abstract_syntax_tree.bool_expr
+)
+ident(
+  int_ref e1 "frontend/abstract_syntax_printer.ml" 144 3721 3746 "frontend/abstract_syntax_printer.ml" 144 3721 3748
+)
+"frontend/abstract_syntax_printer.ml" 145 3763 3772 "frontend/abstract_syntax_printer.ml" 145 3763 3795
+call(
+  stack
+)
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 145 3763 3796 "frontend/abstract_syntax_printer.ml" 145 3763 3797
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"frontend/abstract_syntax_printer.ml" 145 3763 3798 "frontend/abstract_syntax_printer.ml" 145 3763 3818
+type(
+  Abstract_syntax_tree.bool_expr -> int
+)
+ident(
+  int_ref bool_expr_precedence "frontend/abstract_syntax_printer.ml" 76 1877 1881 "frontend/abstract_syntax_printer.ml" 76 1877 1901
+)
+"frontend/abstract_syntax_printer.ml" 145 3763 3819 "frontend/abstract_syntax_printer.ml" 145 3763 3820
+type(
+  Abstract_syntax_tree.bool_expr
+)
+ident(
+  int_ref e "frontend/abstract_syntax_printer.ml" 135 3403 3427 "frontend/abstract_syntax_printer.ml" 135 3403 3428
+)
+"frontend/abstract_syntax_printer.ml" 145 3763 3798 "frontend/abstract_syntax_printer.ml" 145 3763 3820
+call(
+  stack
+)
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 145 3763 3772 "frontend/abstract_syntax_printer.ml" 145 3763 3820
+type(
+  bool
+)
+"frontend/abstract_syntax_printer.ml" 146 3821 3832 "frontend/abstract_syntax_printer.ml" 146 3821 3846
+type(
+  Format.formatter ->
+  ((Format.formatter -> Abstract_syntax_tree.bool_expr -> unit) ->
+   Abstract_syntax_tree.bool_expr -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Abstract_syntax_tree.bool_expr -> unit) ->
+  Abstract_syntax_tree.bool_expr -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"frontend/abstract_syntax_printer.ml" 146 3821 3847 "frontend/abstract_syntax_printer.ml" 146 3821 3850
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend/abstract_syntax_printer.ml" 135 3403 3423 "frontend/abstract_syntax_printer.ml" 135 3403 3426
+)
+"frontend/abstract_syntax_printer.ml" 146 3821 3851 "frontend/abstract_syntax_printer.ml" 146 3821 3858
+type(
+  ((Format.formatter -> Abstract_syntax_tree.bool_expr -> unit) ->
+   Abstract_syntax_tree.bool_expr -> unit, Format.formatter, unit)
+  format
+)
+"frontend/abstract_syntax_printer.ml" 146 3821 3859 "frontend/abstract_syntax_printer.ml" 146 3821 3874
+type(
+  Format.formatter -> Abstract_syntax_tree.bool_expr -> unit
+)
+ident(
+  int_ref print_bool_expr "frontend/abstract_syntax_printer.ml" 135 3403 3407 "frontend/abstract_syntax_printer.ml" 135 3403 3422
+)
+"frontend/abstract_syntax_printer.ml" 146 3821 3875 "frontend/abstract_syntax_printer.ml" 146 3821 3877
+type(
+  Abstract_syntax_tree.bool_expr
+)
+ident(
+  int_ref e1 "frontend/abstract_syntax_printer.ml" 144 3721 3746 "frontend/abstract_syntax_printer.ml" 144 3721 3748
+)
+"frontend/abstract_syntax_printer.ml" 146 3821 3832 "frontend/abstract_syntax_printer.ml" 146 3821 3877
+call(
+  stack
+)
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 147 3878 3889 "frontend/abstract_syntax_printer.ml" 147 3878 3903
+type(
+  Format.formatter ->
+  ((Format.formatter -> Abstract_syntax_tree.bool_expr -> unit) ->
+   Abstract_syntax_tree.bool_expr -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Abstract_syntax_tree.bool_expr -> unit) ->
+  Abstract_syntax_tree.bool_expr -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"frontend/abstract_syntax_printer.ml" 147 3878 3904 "frontend/abstract_syntax_printer.ml" 147 3878 3907
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend/abstract_syntax_printer.ml" 135 3403 3423 "frontend/abstract_syntax_printer.ml" 135 3403 3426
+)
+"frontend/abstract_syntax_printer.ml" 147 3878 3908 "frontend/abstract_syntax_printer.ml" 147 3878 3913
+type(
+  ((Format.formatter -> Abstract_syntax_tree.bool_expr -> unit) ->
+   Abstract_syntax_tree.bool_expr -> unit, Format.formatter, unit)
+  format
+)
+"frontend/abstract_syntax_printer.ml" 147 3878 3914 "frontend/abstract_syntax_printer.ml" 147 3878 3929
+type(
+  Format.formatter -> Abstract_syntax_tree.bool_expr -> unit
+)
+ident(
+  int_ref print_bool_expr "frontend/abstract_syntax_printer.ml" 135 3403 3407 "frontend/abstract_syntax_printer.ml" 135 3403 3422
+)
+"frontend/abstract_syntax_printer.ml" 147 3878 3930 "frontend/abstract_syntax_printer.ml" 147 3878 3932
+type(
+  Abstract_syntax_tree.bool_expr
+)
+ident(
+  int_ref e1 "frontend/abstract_syntax_printer.ml" 144 3721 3746 "frontend/abstract_syntax_printer.ml" 144 3721 3748
+)
+"frontend/abstract_syntax_printer.ml" 147 3878 3889 "frontend/abstract_syntax_printer.ml" 147 3878 3932
+call(
+  stack
+)
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 145 3763 3769 "frontend/abstract_syntax_printer.ml" 147 3878 3932
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 148 3934 3940 "frontend/abstract_syntax_printer.ml" 148 3934 3962
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  ext_ref Format.pp_print_string
+)
+"frontend/abstract_syntax_printer.ml" 148 3934 3963 "frontend/abstract_syntax_printer.ml" 148 3934 3966
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend/abstract_syntax_printer.ml" 135 3403 3423 "frontend/abstract_syntax_printer.ml" 135 3403 3426
+)
+"frontend/abstract_syntax_printer.ml" 148 3934 3968 "frontend/abstract_syntax_printer.ml" 148 3934 3992
+type(
+  Abstract_syntax_tree.bool_binary_op -> string
+)
+ident(
+  int_ref string_of_bool_binary_op "frontend/abstract_syntax_printer.ml" 60 1458 1462 "frontend/abstract_syntax_printer.ml" 60 1458 1486
+)
+"frontend/abstract_syntax_printer.ml" 148 3934 3993 "frontend/abstract_syntax_printer.ml" 148 3934 3995
+type(
+  Abstract_syntax_tree.bool_binary_op
+)
+ident(
+  int_ref op "frontend/abstract_syntax_printer.ml" 144 3721 3742 "frontend/abstract_syntax_printer.ml" 144 3721 3744
+)
+"frontend/abstract_syntax_printer.ml" 148 3934 3967 "frontend/abstract_syntax_printer.ml" 148 3934 3996
+call(
+  stack
+)
+type(
+  string
+)
+"frontend/abstract_syntax_printer.ml" 148 3934 3940 "frontend/abstract_syntax_printer.ml" 148 3934 3996
+call(
+  stack
+)
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 149 3998 4007 "frontend/abstract_syntax_printer.ml" 149 3998 4027
+type(
+  Abstract_syntax_tree.bool_expr -> int
+)
+ident(
+  int_ref bool_expr_precedence "frontend/abstract_syntax_printer.ml" 76 1877 1881 "frontend/abstract_syntax_printer.ml" 76 1877 1901
+)
+"frontend/abstract_syntax_printer.ml" 149 3998 4028 "frontend/abstract_syntax_printer.ml" 149 3998 4030
+type(
+  Abstract_syntax_tree.bool_expr
+)
+ident(
+  int_ref e2 "frontend/abstract_syntax_printer.ml" 144 3721 3753 "frontend/abstract_syntax_printer.ml" 144 3721 3755
+)
+"frontend/abstract_syntax_printer.ml" 149 3998 4007 "frontend/abstract_syntax_printer.ml" 149 3998 4030
+call(
+  stack
+)
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 149 3998 4031 "frontend/abstract_syntax_printer.ml" 149 3998 4033
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"frontend/abstract_syntax_printer.ml" 149 3998 4034 "frontend/abstract_syntax_printer.ml" 149 3998 4054
+type(
+  Abstract_syntax_tree.bool_expr -> int
+)
+ident(
+  int_ref bool_expr_precedence "frontend/abstract_syntax_printer.ml" 76 1877 1881 "frontend/abstract_syntax_printer.ml" 76 1877 1901
+)
+"frontend/abstract_syntax_printer.ml" 149 3998 4055 "frontend/abstract_syntax_printer.ml" 149 3998 4056
+type(
+  Abstract_syntax_tree.bool_expr
+)
+ident(
+  int_ref e "frontend/abstract_syntax_printer.ml" 135 3403 3427 "frontend/abstract_syntax_printer.ml" 135 3403 3428
+)
+"frontend/abstract_syntax_printer.ml" 149 3998 4034 "frontend/abstract_syntax_printer.ml" 149 3998 4056
+call(
+  stack
+)
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 149 3998 4007 "frontend/abstract_syntax_printer.ml" 149 3998 4056
+type(
+  bool
+)
+"frontend/abstract_syntax_printer.ml" 150 4057 4068 "frontend/abstract_syntax_printer.ml" 150 4057 4082
+type(
+  Format.formatter ->
+  ((Format.formatter -> Abstract_syntax_tree.bool_expr -> unit) ->
+   Abstract_syntax_tree.bool_expr -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Abstract_syntax_tree.bool_expr -> unit) ->
+  Abstract_syntax_tree.bool_expr -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"frontend/abstract_syntax_printer.ml" 150 4057 4083 "frontend/abstract_syntax_printer.ml" 150 4057 4086
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend/abstract_syntax_printer.ml" 135 3403 3423 "frontend/abstract_syntax_printer.ml" 135 3403 3426
+)
+"frontend/abstract_syntax_printer.ml" 150 4057 4087 "frontend/abstract_syntax_printer.ml" 150 4057 4094
+type(
+  ((Format.formatter -> Abstract_syntax_tree.bool_expr -> unit) ->
+   Abstract_syntax_tree.bool_expr -> unit, Format.formatter, unit)
+  format
+)
+"frontend/abstract_syntax_printer.ml" 150 4057 4095 "frontend/abstract_syntax_printer.ml" 150 4057 4110
+type(
+  Format.formatter -> Abstract_syntax_tree.bool_expr -> unit
+)
+ident(
+  int_ref print_bool_expr "frontend/abstract_syntax_printer.ml" 135 3403 3407 "frontend/abstract_syntax_printer.ml" 135 3403 3422
+)
+"frontend/abstract_syntax_printer.ml" 150 4057 4111 "frontend/abstract_syntax_printer.ml" 150 4057 4113
+type(
+  Abstract_syntax_tree.bool_expr
+)
+ident(
+  int_ref e2 "frontend/abstract_syntax_printer.ml" 144 3721 3753 "frontend/abstract_syntax_printer.ml" 144 3721 3755
+)
+"frontend/abstract_syntax_printer.ml" 150 4057 4068 "frontend/abstract_syntax_printer.ml" 150 4057 4113
+call(
+  tail
+)
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 151 4114 4125 "frontend/abstract_syntax_printer.ml" 151 4114 4139
+type(
+  Format.formatter ->
+  ((Format.formatter -> Abstract_syntax_tree.bool_expr -> unit) ->
+   Abstract_syntax_tree.bool_expr -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Abstract_syntax_tree.bool_expr -> unit) ->
+  Abstract_syntax_tree.bool_expr -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"frontend/abstract_syntax_printer.ml" 151 4114 4140 "frontend/abstract_syntax_printer.ml" 151 4114 4143
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend/abstract_syntax_printer.ml" 135 3403 3423 "frontend/abstract_syntax_printer.ml" 135 3403 3426
+)
+"frontend/abstract_syntax_printer.ml" 151 4114 4144 "frontend/abstract_syntax_printer.ml" 151 4114 4149
+type(
+  ((Format.formatter -> Abstract_syntax_tree.bool_expr -> unit) ->
+   Abstract_syntax_tree.bool_expr -> unit, Format.formatter, unit)
+  format
+)
+"frontend/abstract_syntax_printer.ml" 151 4114 4150 "frontend/abstract_syntax_printer.ml" 151 4114 4165
+type(
+  Format.formatter -> Abstract_syntax_tree.bool_expr -> unit
+)
+ident(
+  int_ref print_bool_expr "frontend/abstract_syntax_printer.ml" 135 3403 3407 "frontend/abstract_syntax_printer.ml" 135 3403 3422
+)
+"frontend/abstract_syntax_printer.ml" 151 4114 4166 "frontend/abstract_syntax_printer.ml" 151 4114 4168
+type(
+  Abstract_syntax_tree.bool_expr
+)
+ident(
+  int_ref e2 "frontend/abstract_syntax_printer.ml" 144 3721 3753 "frontend/abstract_syntax_printer.ml" 144 3721 3755
+)
+"frontend/abstract_syntax_printer.ml" 151 4114 4125 "frontend/abstract_syntax_printer.ml" 151 4114 4168
+call(
+  tail
+)
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 149 3998 4004 "frontend/abstract_syntax_printer.ml" 151 4114 4168
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 148 3934 3940 "frontend/abstract_syntax_printer.ml" 151 4114 4168
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 145 3763 3769 "frontend/abstract_syntax_printer.ml" 151 4114 4168
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 153 4180 4197 "frontend/abstract_syntax_printer.ml" 153 4180 4199
+type(
+  Abstract_syntax_tree.compare_op
+)
+ident(
+  def op "frontend/abstract_syntax_printer.ml" 154 4218 4224 "frontend/abstract_syntax_printer.ml" 160 4560 4613
+)
+"frontend/abstract_syntax_printer.ml" 153 4180 4201 "frontend/abstract_syntax_printer.ml" 153 4180 4203
+type(
+  Abstract_syntax_tree.int_expr
+)
+ident(
+  def e1 "frontend/abstract_syntax_printer.ml" 154 4218 4224 "frontend/abstract_syntax_printer.ml" 160 4560 4613
+)
+"frontend/abstract_syntax_printer.ml" 153 4180 4204 "frontend/abstract_syntax_printer.ml" 153 4180 4205
+type(
+  Abstract_syntax_tree.extent
+)
+"frontend/abstract_syntax_printer.ml" 153 4180 4200 "frontend/abstract_syntax_printer.ml" 153 4180 4206
+type(
+  Abstract_syntax_tree.int_expr Abstract_syntax_tree.ext
+)
+"frontend/abstract_syntax_printer.ml" 153 4180 4208 "frontend/abstract_syntax_printer.ml" 153 4180 4210
+type(
+  Abstract_syntax_tree.int_expr
+)
+ident(
+  def e2 "frontend/abstract_syntax_printer.ml" 154 4218 4224 "frontend/abstract_syntax_printer.ml" 160 4560 4613
+)
+"frontend/abstract_syntax_printer.ml" 153 4180 4211 "frontend/abstract_syntax_printer.ml" 153 4180 4212
+type(
+  Abstract_syntax_tree.extent
+)
+"frontend/abstract_syntax_printer.ml" 153 4180 4207 "frontend/abstract_syntax_printer.ml" 153 4180 4213
+type(
+  Abstract_syntax_tree.int_expr Abstract_syntax_tree.ext
+)
+"frontend/abstract_syntax_printer.ml" 153 4180 4184 "frontend/abstract_syntax_printer.ml" 153 4180 4214
+type(
+  Abstract_syntax_tree.bool_expr
+)
+"frontend/abstract_syntax_printer.ml" 154 4218 4227 "frontend/abstract_syntax_printer.ml" 154 4218 4246
+type(
+  Abstract_syntax_tree.int_expr -> int
+)
+ident(
+  int_ref int_expr_precedence "frontend/abstract_syntax_printer.ml" 70 1680 1684 "frontend/abstract_syntax_printer.ml" 70 1680 1703
+)
+"frontend/abstract_syntax_printer.ml" 154 4218 4247 "frontend/abstract_syntax_printer.ml" 154 4218 4249
+type(
+  Abstract_syntax_tree.int_expr
+)
+ident(
+  int_ref e1 "frontend/abstract_syntax_printer.ml" 153 4180 4201 "frontend/abstract_syntax_printer.ml" 153 4180 4203
+)
+"frontend/abstract_syntax_printer.ml" 154 4218 4227 "frontend/abstract_syntax_printer.ml" 154 4218 4249
+call(
+  stack
+)
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 154 4218 4250 "frontend/abstract_syntax_printer.ml" 154 4218 4251
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"frontend/abstract_syntax_printer.ml" 154 4218 4252 "frontend/abstract_syntax_printer.ml" 154 4218 4272
+type(
+  Abstract_syntax_tree.bool_expr -> int
+)
+ident(
+  int_ref bool_expr_precedence "frontend/abstract_syntax_printer.ml" 76 1877 1881 "frontend/abstract_syntax_printer.ml" 76 1877 1901
+)
+"frontend/abstract_syntax_printer.ml" 154 4218 4273 "frontend/abstract_syntax_printer.ml" 154 4218 4274
+type(
+  Abstract_syntax_tree.bool_expr
+)
+ident(
+  int_ref e "frontend/abstract_syntax_printer.ml" 135 3403 3427 "frontend/abstract_syntax_printer.ml" 135 3403 3428
+)
+"frontend/abstract_syntax_printer.ml" 154 4218 4252 "frontend/abstract_syntax_printer.ml" 154 4218 4274
+call(
+  stack
+)
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 154 4218 4227 "frontend/abstract_syntax_printer.ml" 154 4218 4274
+type(
+  bool
+)
+"frontend/abstract_syntax_printer.ml" 155 4275 4286 "frontend/abstract_syntax_printer.ml" 155 4275 4300
+type(
+  Format.formatter ->
+  ((Format.formatter -> Abstract_syntax_tree.int_expr -> unit) ->
+   Abstract_syntax_tree.int_expr -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Abstract_syntax_tree.int_expr -> unit) ->
+  Abstract_syntax_tree.int_expr -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"frontend/abstract_syntax_printer.ml" 155 4275 4301 "frontend/abstract_syntax_printer.ml" 155 4275 4304
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend/abstract_syntax_printer.ml" 135 3403 3423 "frontend/abstract_syntax_printer.ml" 135 3403 3426
+)
+"frontend/abstract_syntax_printer.ml" 155 4275 4305 "frontend/abstract_syntax_printer.ml" 155 4275 4312
+type(
+  ((Format.formatter -> Abstract_syntax_tree.int_expr -> unit) ->
+   Abstract_syntax_tree.int_expr -> unit, Format.formatter, unit)
+  format
+)
+"frontend/abstract_syntax_printer.ml" 155 4275 4313 "frontend/abstract_syntax_printer.ml" 155 4275 4327
+type(
+  Format.formatter -> Abstract_syntax_tree.int_expr -> unit
+)
+ident(
+  int_ref print_int_expr "frontend/abstract_syntax_printer.ml" 109 2442 2450 "frontend/abstract_syntax_printer.ml" 109 2442 2464
+)
+"frontend/abstract_syntax_printer.ml" 155 4275 4328 "frontend/abstract_syntax_printer.ml" 155 4275 4330
+type(
+  Abstract_syntax_tree.int_expr
+)
+ident(
+  int_ref e1 "frontend/abstract_syntax_printer.ml" 153 4180 4201 "frontend/abstract_syntax_printer.ml" 153 4180 4203
+)
+"frontend/abstract_syntax_printer.ml" 155 4275 4286 "frontend/abstract_syntax_printer.ml" 155 4275 4330
+call(
+  stack
+)
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 156 4331 4342 "frontend/abstract_syntax_printer.ml" 156 4331 4356
+type(
+  Format.formatter ->
+  ((Format.formatter -> Abstract_syntax_tree.int_expr -> unit) ->
+   Abstract_syntax_tree.int_expr -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Abstract_syntax_tree.int_expr -> unit) ->
+  Abstract_syntax_tree.int_expr -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"frontend/abstract_syntax_printer.ml" 156 4331 4357 "frontend/abstract_syntax_printer.ml" 156 4331 4360
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend/abstract_syntax_printer.ml" 135 3403 3423 "frontend/abstract_syntax_printer.ml" 135 3403 3426
+)
+"frontend/abstract_syntax_printer.ml" 156 4331 4361 "frontend/abstract_syntax_printer.ml" 156 4331 4366
+type(
+  ((Format.formatter -> Abstract_syntax_tree.int_expr -> unit) ->
+   Abstract_syntax_tree.int_expr -> unit, Format.formatter, unit)
+  format
+)
+"frontend/abstract_syntax_printer.ml" 156 4331 4367 "frontend/abstract_syntax_printer.ml" 156 4331 4381
+type(
+  Format.formatter -> Abstract_syntax_tree.int_expr -> unit
+)
+ident(
+  int_ref print_int_expr "frontend/abstract_syntax_printer.ml" 109 2442 2450 "frontend/abstract_syntax_printer.ml" 109 2442 2464
+)
+"frontend/abstract_syntax_printer.ml" 156 4331 4382 "frontend/abstract_syntax_printer.ml" 156 4331 4384
+type(
+  Abstract_syntax_tree.int_expr
+)
+ident(
+  int_ref e1 "frontend/abstract_syntax_printer.ml" 153 4180 4201 "frontend/abstract_syntax_printer.ml" 153 4180 4203
+)
+"frontend/abstract_syntax_printer.ml" 156 4331 4342 "frontend/abstract_syntax_printer.ml" 156 4331 4384
+call(
+  stack
+)
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 154 4218 4224 "frontend/abstract_syntax_printer.ml" 156 4331 4384
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 157 4386 4392 "frontend/abstract_syntax_printer.ml" 157 4386 4414
+type(
+  Format.formatter -> string -> unit
+)
+ident(
+  ext_ref Format.pp_print_string
+)
+"frontend/abstract_syntax_printer.ml" 157 4386 4415 "frontend/abstract_syntax_printer.ml" 157 4386 4418
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend/abstract_syntax_printer.ml" 135 3403 3423 "frontend/abstract_syntax_printer.ml" 135 3403 3426
+)
+"frontend/abstract_syntax_printer.ml" 157 4386 4420 "frontend/abstract_syntax_printer.ml" 157 4386 4440
+type(
+  Abstract_syntax_tree.compare_op -> string
+)
+ident(
+  int_ref string_of_compare_op "frontend/abstract_syntax_printer.ml" 52 1272 1276 "frontend/abstract_syntax_printer.ml" 52 1272 1296
+)
+"frontend/abstract_syntax_printer.ml" 157 4386 4441 "frontend/abstract_syntax_printer.ml" 157 4386 4443
+type(
+  Abstract_syntax_tree.compare_op
+)
+ident(
+  int_ref op "frontend/abstract_syntax_printer.ml" 153 4180 4197 "frontend/abstract_syntax_printer.ml" 153 4180 4199
+)
+"frontend/abstract_syntax_printer.ml" 157 4386 4419 "frontend/abstract_syntax_printer.ml" 157 4386 4444
+call(
+  stack
+)
+type(
+  string
+)
+"frontend/abstract_syntax_printer.ml" 157 4386 4392 "frontend/abstract_syntax_printer.ml" 157 4386 4444
+call(
+  stack
+)
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 158 4446 4455 "frontend/abstract_syntax_printer.ml" 158 4446 4474
+type(
+  Abstract_syntax_tree.int_expr -> int
+)
+ident(
+  int_ref int_expr_precedence "frontend/abstract_syntax_printer.ml" 70 1680 1684 "frontend/abstract_syntax_printer.ml" 70 1680 1703
+)
+"frontend/abstract_syntax_printer.ml" 158 4446 4475 "frontend/abstract_syntax_printer.ml" 158 4446 4477
+type(
+  Abstract_syntax_tree.int_expr
+)
+ident(
+  int_ref e2 "frontend/abstract_syntax_printer.ml" 153 4180 4208 "frontend/abstract_syntax_printer.ml" 153 4180 4210
+)
+"frontend/abstract_syntax_printer.ml" 158 4446 4455 "frontend/abstract_syntax_printer.ml" 158 4446 4477
+call(
+  stack
+)
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 158 4446 4478 "frontend/abstract_syntax_printer.ml" 158 4446 4480
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"frontend/abstract_syntax_printer.ml" 158 4446 4481 "frontend/abstract_syntax_printer.ml" 158 4446 4501
+type(
+  Abstract_syntax_tree.bool_expr -> int
+)
+ident(
+  int_ref bool_expr_precedence "frontend/abstract_syntax_printer.ml" 76 1877 1881 "frontend/abstract_syntax_printer.ml" 76 1877 1901
+)
+"frontend/abstract_syntax_printer.ml" 158 4446 4502 "frontend/abstract_syntax_printer.ml" 158 4446 4503
+type(
+  Abstract_syntax_tree.bool_expr
+)
+ident(
+  int_ref e "frontend/abstract_syntax_printer.ml" 135 3403 3427 "frontend/abstract_syntax_printer.ml" 135 3403 3428
+)
+"frontend/abstract_syntax_printer.ml" 158 4446 4481 "frontend/abstract_syntax_printer.ml" 158 4446 4503
+call(
+  stack
+)
+type(
+  int
+)
+"frontend/abstract_syntax_printer.ml" 158 4446 4455 "frontend/abstract_syntax_printer.ml" 158 4446 4503
+type(
+  bool
+)
+"frontend/abstract_syntax_printer.ml" 159 4504 4515 "frontend/abstract_syntax_printer.ml" 159 4504 4529
+type(
+  Format.formatter ->
+  ((Format.formatter -> Abstract_syntax_tree.int_expr -> unit) ->
+   Abstract_syntax_tree.int_expr -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Abstract_syntax_tree.int_expr -> unit) ->
+  Abstract_syntax_tree.int_expr -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"frontend/abstract_syntax_printer.ml" 159 4504 4530 "frontend/abstract_syntax_printer.ml" 159 4504 4533
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend/abstract_syntax_printer.ml" 135 3403 3423 "frontend/abstract_syntax_printer.ml" 135 3403 3426
+)
+"frontend/abstract_syntax_printer.ml" 159 4504 4534 "frontend/abstract_syntax_printer.ml" 159 4504 4541
+type(
+  ((Format.formatter -> Abstract_syntax_tree.int_expr -> unit) ->
+   Abstract_syntax_tree.int_expr -> unit, Format.formatter, unit)
+  format
+)
+"frontend/abstract_syntax_printer.ml" 159 4504 4542 "frontend/abstract_syntax_printer.ml" 159 4504 4556
+type(
+  Format.formatter -> Abstract_syntax_tree.int_expr -> unit
+)
+ident(
+  int_ref print_int_expr "frontend/abstract_syntax_printer.ml" 109 2442 2450 "frontend/abstract_syntax_printer.ml" 109 2442 2464
+)
+"frontend/abstract_syntax_printer.ml" 159 4504 4557 "frontend/abstract_syntax_printer.ml" 159 4504 4559
+type(
+  Abstract_syntax_tree.int_expr
+)
+ident(
+  int_ref e2 "frontend/abstract_syntax_printer.ml" 153 4180 4208 "frontend/abstract_syntax_printer.ml" 153 4180 4210
+)
+"frontend/abstract_syntax_printer.ml" 159 4504 4515 "frontend/abstract_syntax_printer.ml" 159 4504 4559
+call(
+  tail
+)
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 160 4560 4571 "frontend/abstract_syntax_printer.ml" 160 4560 4585
+type(
+  Format.formatter ->
+  ((Format.formatter -> Abstract_syntax_tree.int_expr -> unit) ->
+   Abstract_syntax_tree.int_expr -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Abstract_syntax_tree.int_expr -> unit) ->
+  Abstract_syntax_tree.int_expr -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"frontend/abstract_syntax_printer.ml" 160 4560 4586 "frontend/abstract_syntax_printer.ml" 160 4560 4589
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend/abstract_syntax_printer.ml" 135 3403 3423 "frontend/abstract_syntax_printer.ml" 135 3403 3426
+)
+"frontend/abstract_syntax_printer.ml" 160 4560 4590 "frontend/abstract_syntax_printer.ml" 160 4560 4595
+type(
+  ((Format.formatter -> Abstract_syntax_tree.int_expr -> unit) ->
+   Abstract_syntax_tree.int_expr -> unit, Format.formatter, unit)
+  format
+)
+"frontend/abstract_syntax_printer.ml" 160 4560 4596 "frontend/abstract_syntax_printer.ml" 160 4560 4610
+type(
+  Format.formatter -> Abstract_syntax_tree.int_expr -> unit
+)
+ident(
+  int_ref print_int_expr "frontend/abstract_syntax_printer.ml" 109 2442 2450 "frontend/abstract_syntax_printer.ml" 109 2442 2464
+)
+"frontend/abstract_syntax_printer.ml" 160 4560 4611 "frontend/abstract_syntax_printer.ml" 160 4560 4613
+type(
+  Abstract_syntax_tree.int_expr
+)
+ident(
+  int_ref e2 "frontend/abstract_syntax_printer.ml" 153 4180 4208 "frontend/abstract_syntax_printer.ml" 153 4180 4210
+)
+"frontend/abstract_syntax_printer.ml" 160 4560 4571 "frontend/abstract_syntax_printer.ml" 160 4560 4613
+call(
+  tail
+)
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 158 4446 4452 "frontend/abstract_syntax_printer.ml" 160 4560 4613
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 157 4386 4392 "frontend/abstract_syntax_printer.ml" 160 4560 4613
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 154 4218 4224 "frontend/abstract_syntax_printer.ml" 160 4560 4613
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 162 4625 4644 "frontend/abstract_syntax_printer.ml" 162 4625 4645
+type(
+  bool
+)
+ident(
+  def i "frontend/abstract_syntax_printer.ml" 162 4625 4649 "frontend/abstract_syntax_printer.ml" 162 4625 4674
+)
+"frontend/abstract_syntax_printer.ml" 162 4625 4629 "frontend/abstract_syntax_printer.ml" 162 4625 4645
+type(
+  Abstract_syntax_tree.bool_expr
+)
+"frontend/abstract_syntax_printer.ml" 162 4625 4649 "frontend/abstract_syntax_printer.ml" 162 4625 4663
+type(
+  Format.formatter ->
+  (bool -> unit, Format.formatter, unit) format -> bool -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"frontend/abstract_syntax_printer.ml" 162 4625 4664 "frontend/abstract_syntax_printer.ml" 162 4625 4667
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend/abstract_syntax_printer.ml" 135 3403 3423 "frontend/abstract_syntax_printer.ml" 135 3403 3426
+)
+"frontend/abstract_syntax_printer.ml" 162 4625 4668 "frontend/abstract_syntax_printer.ml" 162 4625 4672
+type(
+  (bool -> unit, Format.formatter, unit) format
+)
+"frontend/abstract_syntax_printer.ml" 162 4625 4673 "frontend/abstract_syntax_printer.ml" 162 4625 4674
+type(
+  bool
+)
+ident(
+  int_ref i "frontend/abstract_syntax_printer.ml" 162 4625 4644 "frontend/abstract_syntax_printer.ml" 162 4625 4645
+)
+"frontend/abstract_syntax_printer.ml" 162 4625 4649 "frontend/abstract_syntax_printer.ml" 162 4625 4674
+call(
+  tail
+)
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 136 3432 3434 "frontend/abstract_syntax_printer.ml" 162 4625 4674
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 169 4713 4717 "frontend/abstract_syntax_printer.ml" 169 4713 4723
+type(
+  string -> string
+)
+ident(
+  def indent "frontend/abstract_syntax_printer.ml" 173 4823 4823 "frontend/abstract_syntax_printer.ml" 1 0 -1
+)
+"frontend/abstract_syntax_printer.ml" 169 4713 4724 "frontend/abstract_syntax_printer.ml" 169 4713 4727
+type(
+  string
+)
+ident(
+  def ind "frontend/abstract_syntax_printer.ml" 169 4713 4730 "frontend/abstract_syntax_printer.ml" 169 4713 4738
+)
+"frontend/abstract_syntax_printer.ml" 169 4713 4730 "frontend/abstract_syntax_printer.ml" 169 4713 4733
+type(
+  string
+)
+ident(
+  int_ref ind "frontend/abstract_syntax_printer.ml" 169 4713 4724 "frontend/abstract_syntax_printer.ml" 169 4713 4727
+)
+"frontend/abstract_syntax_printer.ml" 169 4713 4733 "frontend/abstract_syntax_printer.ml" 169 4713 4734
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"frontend/abstract_syntax_printer.ml" 169 4713 4734 "frontend/abstract_syntax_printer.ml" 169 4713 4738
+type(
+  string
+)
+"frontend/abstract_syntax_printer.ml" 169 4713 4730 "frontend/abstract_syntax_printer.ml" 169 4713 4738
+call(
+  tail
+)
+type(
+  string
+)
+"frontend/abstract_syntax_printer.ml" 173 4823 4831 "frontend/abstract_syntax_printer.ml" 173 4823 4841
+type(
+  string -> Format.formatter -> Abstract_syntax_tree.stat -> unit
+)
+ident(
+  def print_stat "frontend/abstract_syntax_printer.ml" 173 4823 4823 "frontend/abstract_syntax_printer.ml" 1 0 -1
+)
+"frontend/abstract_syntax_printer.ml" 173 4823 4842 "frontend/abstract_syntax_printer.ml" 173 4823 4845
+type(
+  string
+)
+ident(
+  def ind "frontend/abstract_syntax_printer.ml" 173 4823 4846 "frontend/abstract_syntax_printer.ml" 204 5746 5787
+)
+"frontend/abstract_syntax_printer.ml" 173 4823 4846 "frontend/abstract_syntax_printer.ml" 173 4823 4849
+type(
+  Format.formatter
+)
+ident(
+  def fmt "frontend/abstract_syntax_printer.ml" 173 4823 4852 "frontend/abstract_syntax_printer.ml" 204 5746 5787
+)
+"frontend/abstract_syntax_printer.ml" 175 4862 4877 "frontend/abstract_syntax_printer.ml" 175 4862 4878
+type(
+  (Abstract_syntax_tree.typ * Abstract_syntax_tree.var)
+  Abstract_syntax_tree.ext list
+)
+ident(
+  def d "frontend/abstract_syntax_printer.ml" 176 4885 4891 "frontend/abstract_syntax_printer.ml" 176 4885 4914
+)
+"frontend/abstract_syntax_printer.ml" 175 4862 4879 "frontend/abstract_syntax_printer.ml" 175 4862 4880
+type(
+  Abstract_syntax_tree.stat Abstract_syntax_tree.ext list
+)
+ident(
+  def b "frontend/abstract_syntax_printer.ml" 176 4885 4891 "frontend/abstract_syntax_printer.ml" 176 4885 4914
+)
+"frontend/abstract_syntax_printer.ml" 175 4862 4866 "frontend/abstract_syntax_printer.ml" 175 4862 4881
+type(
+  Abstract_syntax_tree.stat
+)
+"frontend/abstract_syntax_printer.ml" 176 4885 4891 "frontend/abstract_syntax_printer.ml" 176 4885 4902
+type(
+  string ->
+  Format.formatter ->
+  (Abstract_syntax_tree.typ * Abstract_syntax_tree.var)
+  Abstract_syntax_tree.ext list ->
+  Abstract_syntax_tree.stat Abstract_syntax_tree.ext list -> unit
+)
+ident(
+  int_ref print_block "frontend/abstract_syntax_printer.ml" 206 5789 5793 "frontend/abstract_syntax_printer.ml" 206 5789 5804
+)
+"frontend/abstract_syntax_printer.ml" 176 4885 4903 "frontend/abstract_syntax_printer.ml" 176 4885 4906
+type(
+  string
+)
+ident(
+  int_ref ind "frontend/abstract_syntax_printer.ml" 173 4823 4842 "frontend/abstract_syntax_printer.ml" 173 4823 4845
+)
+"frontend/abstract_syntax_printer.ml" 176 4885 4907 "frontend/abstract_syntax_printer.ml" 176 4885 4910
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend/abstract_syntax_printer.ml" 173 4823 4846 "frontend/abstract_syntax_printer.ml" 173 4823 4849
+)
+"frontend/abstract_syntax_printer.ml" 176 4885 4911 "frontend/abstract_syntax_printer.ml" 176 4885 4912
+type(
+  (Abstract_syntax_tree.typ * Abstract_syntax_tree.var)
+  Abstract_syntax_tree.ext list
+)
+ident(
+  int_ref d "frontend/abstract_syntax_printer.ml" 175 4862 4877 "frontend/abstract_syntax_printer.ml" 175 4862 4878
+)
+"frontend/abstract_syntax_printer.ml" 176 4885 4913 "frontend/abstract_syntax_printer.ml" 176 4885 4914
+type(
+  Abstract_syntax_tree.stat Abstract_syntax_tree.ext list
+)
+ident(
+  int_ref b "frontend/abstract_syntax_printer.ml" 175 4862 4879 "frontend/abstract_syntax_printer.ml" 175 4862 4880
+)
+"frontend/abstract_syntax_printer.ml" 176 4885 4891 "frontend/abstract_syntax_printer.ml" 176 4885 4914
+call(
+  tail
+)
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 178 4916 4933 "frontend/abstract_syntax_printer.ml" 178 4916 4934
+type(
+  Abstract_syntax_tree.var
+)
+ident(
+  def v "frontend/abstract_syntax_printer.ml" 179 4948 4954 "frontend/abstract_syntax_printer.ml" 180 4990 5030
+)
+"frontend/abstract_syntax_printer.ml" 178 4916 4935 "frontend/abstract_syntax_printer.ml" 178 4916 4936
+type(
+  Abstract_syntax_tree.extent
+)
+"frontend/abstract_syntax_printer.ml" 178 4916 4932 "frontend/abstract_syntax_printer.ml" 178 4916 4937
+type(
+  Abstract_syntax_tree.var Abstract_syntax_tree.ext
+)
+"frontend/abstract_syntax_printer.ml" 178 4916 4939 "frontend/abstract_syntax_printer.ml" 178 4916 4940
+type(
+  Abstract_syntax_tree.int_expr
+)
+ident(
+  def e "frontend/abstract_syntax_printer.ml" 179 4948 4954 "frontend/abstract_syntax_printer.ml" 180 4990 5030
+)
+"frontend/abstract_syntax_printer.ml" 178 4916 4941 "frontend/abstract_syntax_printer.ml" 178 4916 4942
+type(
+  Abstract_syntax_tree.extent
+)
+"frontend/abstract_syntax_printer.ml" 178 4916 4938 "frontend/abstract_syntax_printer.ml" 178 4916 4943
+type(
+  Abstract_syntax_tree.int_expr Abstract_syntax_tree.ext
+)
+"frontend/abstract_syntax_printer.ml" 178 4916 4920 "frontend/abstract_syntax_printer.ml" 178 4916 4944
+type(
+  Abstract_syntax_tree.stat
+)
+"frontend/abstract_syntax_printer.ml" 179 4948 4954 "frontend/abstract_syntax_printer.ml" 179 4948 4968
+type(
+  Format.formatter ->
+  (string ->
+   (Format.formatter -> Abstract_syntax_tree.var -> unit) ->
+   Abstract_syntax_tree.var ->
+   (Format.formatter -> Abstract_syntax_tree.int_expr -> unit) ->
+   Abstract_syntax_tree.int_expr -> unit, Format.formatter, unit)
+  format ->
+  string ->
+  (Format.formatter -> Abstract_syntax_tree.var -> unit) ->
+  Abstract_syntax_tree.var ->
+  (Format.formatter -> Abstract_syntax_tree.int_expr -> unit) ->
+  Abstract_syntax_tree.int_expr -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"frontend/abstract_syntax_printer.ml" 179 4948 4969 "frontend/abstract_syntax_printer.ml" 179 4948 4972
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend/abstract_syntax_printer.ml" 173 4823 4846 "frontend/abstract_syntax_printer.ml" 173 4823 4849
+)
+"frontend/abstract_syntax_printer.ml" 179 4948 4973 "frontend/abstract_syntax_printer.ml" 179 4948 4988
+type(
+  (string ->
+   (Format.formatter -> Abstract_syntax_tree.var -> unit) ->
+   Abstract_syntax_tree.var ->
+   (Format.formatter -> Abstract_syntax_tree.int_expr -> unit) ->
+   Abstract_syntax_tree.int_expr -> unit, Format.formatter, unit)
+  format
+)
+"frontend/abstract_syntax_printer.ml" 180 4990 4998 "frontend/abstract_syntax_printer.ml" 180 4990 5001
+type(
+  string
+)
+ident(
+  int_ref ind "frontend/abstract_syntax_printer.ml" 173 4823 4842 "frontend/abstract_syntax_printer.ml" 173 4823 4845
+)
+"frontend/abstract_syntax_printer.ml" 180 4990 5002 "frontend/abstract_syntax_printer.ml" 180 4990 5011
+type(
+  Format.formatter -> Abstract_syntax_tree.var -> unit
+)
+ident(
+  int_ref print_var "frontend/abstract_syntax_printer.ml" 105 2387 2391 "frontend/abstract_syntax_printer.ml" 105 2387 2400
+)
+"frontend/abstract_syntax_printer.ml" 180 4990 5012 "frontend/abstract_syntax_printer.ml" 180 4990 5013
+type(
+  Abstract_syntax_tree.var
+)
+ident(
+  int_ref v "frontend/abstract_syntax_printer.ml" 178 4916 4933 "frontend/abstract_syntax_printer.ml" 178 4916 4934
+)
+"frontend/abstract_syntax_printer.ml" 180 4990 5014 "frontend/abstract_syntax_printer.ml" 180 4990 5028
+type(
+  Format.formatter -> Abstract_syntax_tree.int_expr -> unit
+)
+ident(
+  int_ref print_int_expr "frontend/abstract_syntax_printer.ml" 109 2442 2450 "frontend/abstract_syntax_printer.ml" 109 2442 2464
+)
+"frontend/abstract_syntax_printer.ml" 180 4990 5029 "frontend/abstract_syntax_printer.ml" 180 4990 5030
+type(
+  Abstract_syntax_tree.int_expr
+)
+ident(
+  int_ref e "frontend/abstract_syntax_printer.ml" 178 4916 4939 "frontend/abstract_syntax_printer.ml" 178 4916 4940
+)
+"frontend/abstract_syntax_printer.ml" 179 4948 4954 "frontend/abstract_syntax_printer.ml" 180 4990 5030
+call(
+  tail
+)
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 182 5032 5045 "frontend/abstract_syntax_printer.ml" 182 5032 5046
+type(
+  Abstract_syntax_tree.bool_expr
+)
+ident(
+  def e "frontend/abstract_syntax_printer.ml" 183 5068 5074 "frontend/abstract_syntax_printer.ml" 184 5111 5169
+)
+"frontend/abstract_syntax_printer.ml" 182 5032 5047 "frontend/abstract_syntax_printer.ml" 182 5032 5048
+type(
+  Abstract_syntax_tree.extent
+)
+"frontend/abstract_syntax_printer.ml" 182 5032 5044 "frontend/abstract_syntax_printer.ml" 182 5032 5049
+type(
+  Abstract_syntax_tree.bool_expr Abstract_syntax_tree.ext
+)
+"frontend/abstract_syntax_printer.ml" 182 5032 5052 "frontend/abstract_syntax_printer.ml" 182 5032 5054
+type(
+  Abstract_syntax_tree.stat
+)
+ident(
+  def b1 "frontend/abstract_syntax_printer.ml" 183 5068 5074 "frontend/abstract_syntax_printer.ml" 184 5111 5169
+)
+"frontend/abstract_syntax_printer.ml" 182 5032 5055 "frontend/abstract_syntax_printer.ml" 182 5032 5056
+type(
+  Abstract_syntax_tree.extent
+)
+"frontend/abstract_syntax_printer.ml" 182 5032 5051 "frontend/abstract_syntax_printer.ml" 182 5032 5057
+type(
+  Abstract_syntax_tree.stat Abstract_syntax_tree.ext
+)
+"frontend/abstract_syntax_printer.ml" 182 5032 5059 "frontend/abstract_syntax_printer.ml" 182 5032 5063
+type(
+  Abstract_syntax_tree.stat Abstract_syntax_tree.ext option
+)
+"frontend/abstract_syntax_printer.ml" 182 5032 5036 "frontend/abstract_syntax_printer.ml" 182 5032 5064
+type(
+  Abstract_syntax_tree.stat
+)
+"frontend/abstract_syntax_printer.ml" 183 5068 5074 "frontend/abstract_syntax_printer.ml" 183 5068 5088
+type(
+  Format.formatter ->
+  (string ->
+   (Format.formatter -> Abstract_syntax_tree.bool_expr -> unit) ->
+   Abstract_syntax_tree.bool_expr ->
+   (Format.formatter -> Abstract_syntax_tree.stat -> unit) ->
+   Abstract_syntax_tree.stat -> unit, Format.formatter, unit)
+  format ->
+  string ->
+  (Format.formatter -> Abstract_syntax_tree.bool_expr -> unit) ->
+  Abstract_syntax_tree.bool_expr ->
+  (Format.formatter -> Abstract_syntax_tree.stat -> unit) ->
+  Abstract_syntax_tree.stat -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"frontend/abstract_syntax_printer.ml" 183 5068 5089 "frontend/abstract_syntax_printer.ml" 183 5068 5092
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend/abstract_syntax_printer.ml" 173 4823 4846 "frontend/abstract_syntax_printer.ml" 173 4823 4849
+)
+"frontend/abstract_syntax_printer.ml" 183 5068 5093 "frontend/abstract_syntax_printer.ml" 183 5068 5109
+type(
+  (string ->
+   (Format.formatter -> Abstract_syntax_tree.bool_expr -> unit) ->
+   Abstract_syntax_tree.bool_expr ->
+   (Format.formatter -> Abstract_syntax_tree.stat -> unit) ->
+   Abstract_syntax_tree.stat -> unit, Format.formatter, unit)
+  format
+)
+"frontend/abstract_syntax_printer.ml" 184 5111 5119 "frontend/abstract_syntax_printer.ml" 184 5111 5122
+type(
+  string
+)
+ident(
+  int_ref ind "frontend/abstract_syntax_printer.ml" 173 4823 4842 "frontend/abstract_syntax_printer.ml" 173 4823 4845
+)
+"frontend/abstract_syntax_printer.ml" 184 5111 5123 "frontend/abstract_syntax_printer.ml" 184 5111 5138
+type(
+  Format.formatter -> Abstract_syntax_tree.bool_expr -> unit
+)
+ident(
+  int_ref print_bool_expr "frontend/abstract_syntax_printer.ml" 135 3403 3407 "frontend/abstract_syntax_printer.ml" 135 3403 3422
+)
+"frontend/abstract_syntax_printer.ml" 184 5111 5139 "frontend/abstract_syntax_printer.ml" 184 5111 5140
+type(
+  Abstract_syntax_tree.bool_expr
+)
+ident(
+  int_ref e "frontend/abstract_syntax_printer.ml" 182 5032 5045 "frontend/abstract_syntax_printer.ml" 182 5032 5046
+)
+"frontend/abstract_syntax_printer.ml" 184 5111 5142 "frontend/abstract_syntax_printer.ml" 184 5111 5152
+type(
+  string -> Format.formatter -> Abstract_syntax_tree.stat -> unit
+)
+ident(
+  int_ref print_stat "frontend/abstract_syntax_printer.ml" 173 4823 4831 "frontend/abstract_syntax_printer.ml" 173 4823 4841
+)
+"frontend/abstract_syntax_printer.ml" 184 5111 5154 "frontend/abstract_syntax_printer.ml" 184 5111 5160
+type(
+  string -> string
+)
+ident(
+  int_ref indent "frontend/abstract_syntax_printer.ml" 169 4713 4717 "frontend/abstract_syntax_printer.ml" 169 4713 4723
+)
+"frontend/abstract_syntax_printer.ml" 184 5111 5161 "frontend/abstract_syntax_printer.ml" 184 5111 5164
+type(
+  string
+)
+ident(
+  int_ref ind "frontend/abstract_syntax_printer.ml" 173 4823 4842 "frontend/abstract_syntax_printer.ml" 173 4823 4845
+)
+"frontend/abstract_syntax_printer.ml" 184 5111 5153 "frontend/abstract_syntax_printer.ml" 184 5111 5165
+call(
+  stack
+)
+type(
+  string
+)
+"frontend/abstract_syntax_printer.ml" 184 5111 5141 "frontend/abstract_syntax_printer.ml" 184 5111 5166
+call(
+  stack
+)
+type(
+  Format.formatter -> Abstract_syntax_tree.stat -> unit
+)
+"frontend/abstract_syntax_printer.ml" 184 5111 5167 "frontend/abstract_syntax_printer.ml" 184 5111 5169
+type(
+  Abstract_syntax_tree.stat
+)
+ident(
+  int_ref b1 "frontend/abstract_syntax_printer.ml" 182 5032 5052 "frontend/abstract_syntax_printer.ml" 182 5032 5054
+)
+"frontend/abstract_syntax_printer.ml" 183 5068 5074 "frontend/abstract_syntax_printer.ml" 184 5111 5169
+call(
+  tail
+)
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 186 5171 5184 "frontend/abstract_syntax_printer.ml" 186 5171 5185
+type(
+  Abstract_syntax_tree.bool_expr
+)
+ident(
+  def e "frontend/abstract_syntax_printer.ml" 187 5214 5220 "frontend/abstract_syntax_printer.ml" 189 5327 5367
+)
+"frontend/abstract_syntax_printer.ml" 186 5171 5186 "frontend/abstract_syntax_printer.ml" 186 5171 5187
+type(
+  Abstract_syntax_tree.extent
+)
+"frontend/abstract_syntax_printer.ml" 186 5171 5183 "frontend/abstract_syntax_printer.ml" 186 5171 5188
+type(
+  Abstract_syntax_tree.bool_expr Abstract_syntax_tree.ext
+)
+"frontend/abstract_syntax_printer.ml" 186 5171 5191 "frontend/abstract_syntax_printer.ml" 186 5171 5193
+type(
+  Abstract_syntax_tree.stat
+)
+ident(
+  def b1 "frontend/abstract_syntax_printer.ml" 187 5214 5220 "frontend/abstract_syntax_printer.ml" 189 5327 5367
+)
+"frontend/abstract_syntax_printer.ml" 186 5171 5194 "frontend/abstract_syntax_printer.ml" 186 5171 5195
+type(
+  Abstract_syntax_tree.extent
+)
+"frontend/abstract_syntax_printer.ml" 186 5171 5190 "frontend/abstract_syntax_printer.ml" 186 5171 5196
+type(
+  Abstract_syntax_tree.stat Abstract_syntax_tree.ext
+)
+"frontend/abstract_syntax_printer.ml" 186 5171 5204 "frontend/abstract_syntax_printer.ml" 186 5171 5206
+type(
+  Abstract_syntax_tree.stat
+)
+ident(
+  def b2 "frontend/abstract_syntax_printer.ml" 187 5214 5220 "frontend/abstract_syntax_printer.ml" 189 5327 5367
+)
+"frontend/abstract_syntax_printer.ml" 186 5171 5207 "frontend/abstract_syntax_printer.ml" 186 5171 5208
+type(
+  Abstract_syntax_tree.extent
+)
+"frontend/abstract_syntax_printer.ml" 186 5171 5203 "frontend/abstract_syntax_printer.ml" 186 5171 5209
+type(
+  Abstract_syntax_tree.stat Abstract_syntax_tree.ext
+)
+"frontend/abstract_syntax_printer.ml" 186 5171 5198 "frontend/abstract_syntax_printer.ml" 186 5171 5209
+type(
+  Abstract_syntax_tree.stat Abstract_syntax_tree.ext option
+)
+"frontend/abstract_syntax_printer.ml" 186 5171 5175 "frontend/abstract_syntax_printer.ml" 186 5171 5210
+type(
+  Abstract_syntax_tree.stat
+)
+"frontend/abstract_syntax_printer.ml" 187 5214 5220 "frontend/abstract_syntax_printer.ml" 187 5214 5234
+type(
+  Format.formatter ->
+  (string ->
+   (Format.formatter -> Abstract_syntax_tree.bool_expr -> unit) ->
+   Abstract_syntax_tree.bool_expr ->
+   (Format.formatter -> Abstract_syntax_tree.stat -> unit) ->
+   Abstract_syntax_tree.stat ->
+   string ->
+   (Format.formatter -> Abstract_syntax_tree.stat -> unit) ->
+   Abstract_syntax_tree.stat -> unit, Format.formatter, unit)
+  format ->
+  string ->
+  (Format.formatter -> Abstract_syntax_tree.bool_expr -> unit) ->
+  Abstract_syntax_tree.bool_expr ->
+  (Format.formatter -> Abstract_syntax_tree.stat -> unit) ->
+  Abstract_syntax_tree.stat ->
+  string ->
+  (Format.formatter -> Abstract_syntax_tree.stat -> unit) ->
+  Abstract_syntax_tree.stat -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"frontend/abstract_syntax_printer.ml" 187 5214 5235 "frontend/abstract_syntax_printer.ml" 187 5214 5238
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend/abstract_syntax_printer.ml" 173 4823 4846 "frontend/abstract_syntax_printer.ml" 173 4823 4849
+)
+"frontend/abstract_syntax_printer.ml" 187 5214 5239 "frontend/abstract_syntax_printer.ml" 187 5214 5266
+type(
+  (string ->
+   (Format.formatter -> Abstract_syntax_tree.bool_expr -> unit) ->
+   Abstract_syntax_tree.bool_expr ->
+   (Format.formatter -> Abstract_syntax_tree.stat -> unit) ->
+   Abstract_syntax_tree.stat ->
+   string ->
+   (Format.formatter -> Abstract_syntax_tree.stat -> unit) ->
+   Abstract_syntax_tree.stat -> unit, Format.formatter, unit)
+  format
+)
+"frontend/abstract_syntax_printer.ml" 188 5268 5276 "frontend/abstract_syntax_printer.ml" 188 5268 5279
+type(
+  string
+)
+ident(
+  int_ref ind "frontend/abstract_syntax_printer.ml" 173 4823 4842 "frontend/abstract_syntax_printer.ml" 173 4823 4845
+)
+"frontend/abstract_syntax_printer.ml" 188 5268 5280 "frontend/abstract_syntax_printer.ml" 188 5268 5295
+type(
+  Format.formatter -> Abstract_syntax_tree.bool_expr -> unit
+)
+ident(
+  int_ref print_bool_expr "frontend/abstract_syntax_printer.ml" 135 3403 3407 "frontend/abstract_syntax_printer.ml" 135 3403 3422
+)
+"frontend/abstract_syntax_printer.ml" 188 5268 5296 "frontend/abstract_syntax_printer.ml" 188 5268 5297
+type(
+  Abstract_syntax_tree.bool_expr
+)
+ident(
+  int_ref e "frontend/abstract_syntax_printer.ml" 186 5171 5184 "frontend/abstract_syntax_printer.ml" 186 5171 5185
+)
+"frontend/abstract_syntax_printer.ml" 188 5268 5299 "frontend/abstract_syntax_printer.ml" 188 5268 5309
+type(
+  string -> Format.formatter -> Abstract_syntax_tree.stat -> unit
+)
+ident(
+  int_ref print_stat "frontend/abstract_syntax_printer.ml" 173 4823 4831 "frontend/abstract_syntax_printer.ml" 173 4823 4841
+)
+"frontend/abstract_syntax_printer.ml" 188 5268 5311 "frontend/abstract_syntax_printer.ml" 188 5268 5317
+type(
+  string -> string
+)
+ident(
+  int_ref indent "frontend/abstract_syntax_printer.ml" 169 4713 4717 "frontend/abstract_syntax_printer.ml" 169 4713 4723
+)
+"frontend/abstract_syntax_printer.ml" 188 5268 5318 "frontend/abstract_syntax_printer.ml" 188 5268 5321
+type(
+  string
+)
+ident(
+  int_ref ind "frontend/abstract_syntax_printer.ml" 173 4823 4842 "frontend/abstract_syntax_printer.ml" 173 4823 4845
+)
+"frontend/abstract_syntax_printer.ml" 188 5268 5310 "frontend/abstract_syntax_printer.ml" 188 5268 5322
+call(
+  stack
+)
+type(
+  string
+)
+"frontend/abstract_syntax_printer.ml" 188 5268 5298 "frontend/abstract_syntax_printer.ml" 188 5268 5323
+call(
+  stack
+)
+type(
+  Format.formatter -> Abstract_syntax_tree.stat -> unit
+)
+"frontend/abstract_syntax_printer.ml" 188 5268 5324 "frontend/abstract_syntax_printer.ml" 188 5268 5326
+type(
+  Abstract_syntax_tree.stat
+)
+ident(
+  int_ref b1 "frontend/abstract_syntax_printer.ml" 186 5171 5191 "frontend/abstract_syntax_printer.ml" 186 5171 5193
+)
+"frontend/abstract_syntax_printer.ml" 189 5327 5335 "frontend/abstract_syntax_printer.ml" 189 5327 5338
+type(
+  string
+)
+ident(
+  int_ref ind "frontend/abstract_syntax_printer.ml" 173 4823 4842 "frontend/abstract_syntax_printer.ml" 173 4823 4845
+)
+"frontend/abstract_syntax_printer.ml" 189 5327 5340 "frontend/abstract_syntax_printer.ml" 189 5327 5350
+type(
+  string -> Format.formatter -> Abstract_syntax_tree.stat -> unit
+)
+ident(
+  int_ref print_stat "frontend/abstract_syntax_printer.ml" 173 4823 4831 "frontend/abstract_syntax_printer.ml" 173 4823 4841
+)
+"frontend/abstract_syntax_printer.ml" 189 5327 5352 "frontend/abstract_syntax_printer.ml" 189 5327 5358
+type(
+  string -> string
+)
+ident(
+  int_ref indent "frontend/abstract_syntax_printer.ml" 169 4713 4717 "frontend/abstract_syntax_printer.ml" 169 4713 4723
+)
+"frontend/abstract_syntax_printer.ml" 189 5327 5359 "frontend/abstract_syntax_printer.ml" 189 5327 5362
+type(
+  string
+)
+ident(
+  int_ref ind "frontend/abstract_syntax_printer.ml" 173 4823 4842 "frontend/abstract_syntax_printer.ml" 173 4823 4845
+)
+"frontend/abstract_syntax_printer.ml" 189 5327 5351 "frontend/abstract_syntax_printer.ml" 189 5327 5363
+call(
+  stack
+)
+type(
+  string
+)
+"frontend/abstract_syntax_printer.ml" 189 5327 5339 "frontend/abstract_syntax_printer.ml" 189 5327 5364
+call(
+  stack
+)
+type(
+  Format.formatter -> Abstract_syntax_tree.stat -> unit
+)
+"frontend/abstract_syntax_printer.ml" 189 5327 5365 "frontend/abstract_syntax_printer.ml" 189 5327 5367
+type(
+  Abstract_syntax_tree.stat
+)
+ident(
+  int_ref b2 "frontend/abstract_syntax_printer.ml" 186 5171 5204 "frontend/abstract_syntax_printer.ml" 186 5171 5206
+)
+"frontend/abstract_syntax_printer.ml" 187 5214 5220 "frontend/abstract_syntax_printer.ml" 189 5327 5367
+call(
+  stack
+)
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 191 5369 5385 "frontend/abstract_syntax_printer.ml" 191 5369 5386
+type(
+  Abstract_syntax_tree.bool_expr
+)
+ident(
+  def e "frontend/abstract_syntax_printer.ml" 192 5400 5406 "frontend/abstract_syntax_printer.ml" 193 5446 5503
+)
+"frontend/abstract_syntax_printer.ml" 191 5369 5387 "frontend/abstract_syntax_printer.ml" 191 5369 5388
+type(
+  Abstract_syntax_tree.extent
+)
+"frontend/abstract_syntax_printer.ml" 191 5369 5384 "frontend/abstract_syntax_printer.ml" 191 5369 5389
+type(
+  Abstract_syntax_tree.bool_expr Abstract_syntax_tree.ext
+)
+"frontend/abstract_syntax_printer.ml" 191 5369 5391 "frontend/abstract_syntax_printer.ml" 191 5369 5392
+type(
+  Abstract_syntax_tree.stat
+)
+ident(
+  def b "frontend/abstract_syntax_printer.ml" 192 5400 5406 "frontend/abstract_syntax_printer.ml" 193 5446 5503
+)
+"frontend/abstract_syntax_printer.ml" 191 5369 5393 "frontend/abstract_syntax_printer.ml" 191 5369 5394
+type(
+  Abstract_syntax_tree.extent
+)
+"frontend/abstract_syntax_printer.ml" 191 5369 5390 "frontend/abstract_syntax_printer.ml" 191 5369 5395
+type(
+  Abstract_syntax_tree.stat Abstract_syntax_tree.ext
+)
+"frontend/abstract_syntax_printer.ml" 191 5369 5373 "frontend/abstract_syntax_printer.ml" 191 5369 5396
+type(
+  Abstract_syntax_tree.stat
+)
+"frontend/abstract_syntax_printer.ml" 192 5400 5406 "frontend/abstract_syntax_printer.ml" 192 5400 5420
+type(
+  Format.formatter ->
+  (string ->
+   (Format.formatter -> Abstract_syntax_tree.bool_expr -> unit) ->
+   Abstract_syntax_tree.bool_expr ->
+   (Format.formatter -> Abstract_syntax_tree.stat -> unit) ->
+   Abstract_syntax_tree.stat -> unit, Format.formatter, unit)
+  format ->
+  string ->
+  (Format.formatter -> Abstract_syntax_tree.bool_expr -> unit) ->
+  Abstract_syntax_tree.bool_expr ->
+  (Format.formatter -> Abstract_syntax_tree.stat -> unit) ->
+  Abstract_syntax_tree.stat -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"frontend/abstract_syntax_printer.ml" 192 5400 5421 "frontend/abstract_syntax_printer.ml" 192 5400 5424
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend/abstract_syntax_printer.ml" 173 4823 4846 "frontend/abstract_syntax_printer.ml" 173 4823 4849
+)
+"frontend/abstract_syntax_printer.ml" 192 5400 5425 "frontend/abstract_syntax_printer.ml" 192 5400 5444
+type(
+  (string ->
+   (Format.formatter -> Abstract_syntax_tree.bool_expr -> unit) ->
+   Abstract_syntax_tree.bool_expr ->
+   (Format.formatter -> Abstract_syntax_tree.stat -> unit) ->
+   Abstract_syntax_tree.stat -> unit, Format.formatter, unit)
+  format
+)
+"frontend/abstract_syntax_printer.ml" 193 5446 5454 "frontend/abstract_syntax_printer.ml" 193 5446 5457
+type(
+  string
+)
+ident(
+  int_ref ind "frontend/abstract_syntax_printer.ml" 173 4823 4842 "frontend/abstract_syntax_printer.ml" 173 4823 4845
+)
+"frontend/abstract_syntax_printer.ml" 193 5446 5458 "frontend/abstract_syntax_printer.ml" 193 5446 5473
+type(
+  Format.formatter -> Abstract_syntax_tree.bool_expr -> unit
+)
+ident(
+  int_ref print_bool_expr "frontend/abstract_syntax_printer.ml" 135 3403 3407 "frontend/abstract_syntax_printer.ml" 135 3403 3422
+)
+"frontend/abstract_syntax_printer.ml" 193 5446 5474 "frontend/abstract_syntax_printer.ml" 193 5446 5475
+type(
+  Abstract_syntax_tree.bool_expr
+)
+ident(
+  int_ref e "frontend/abstract_syntax_printer.ml" 191 5369 5385 "frontend/abstract_syntax_printer.ml" 191 5369 5386
+)
+"frontend/abstract_syntax_printer.ml" 193 5446 5477 "frontend/abstract_syntax_printer.ml" 193 5446 5487
+type(
+  string -> Format.formatter -> Abstract_syntax_tree.stat -> unit
+)
+ident(
+  int_ref print_stat "frontend/abstract_syntax_printer.ml" 173 4823 4831 "frontend/abstract_syntax_printer.ml" 173 4823 4841
+)
+"frontend/abstract_syntax_printer.ml" 193 5446 5489 "frontend/abstract_syntax_printer.ml" 193 5446 5495
+type(
+  string -> string
+)
+ident(
+  int_ref indent "frontend/abstract_syntax_printer.ml" 169 4713 4717 "frontend/abstract_syntax_printer.ml" 169 4713 4723
+)
+"frontend/abstract_syntax_printer.ml" 193 5446 5496 "frontend/abstract_syntax_printer.ml" 193 5446 5499
+type(
+  string
+)
+ident(
+  int_ref ind "frontend/abstract_syntax_printer.ml" 173 4823 4842 "frontend/abstract_syntax_printer.ml" 173 4823 4845
+)
+"frontend/abstract_syntax_printer.ml" 193 5446 5488 "frontend/abstract_syntax_printer.ml" 193 5446 5500
+call(
+  stack
+)
+type(
+  string
+)
+"frontend/abstract_syntax_printer.ml" 193 5446 5476 "frontend/abstract_syntax_printer.ml" 193 5446 5501
+call(
+  stack
+)
+type(
+  Format.formatter -> Abstract_syntax_tree.stat -> unit
+)
+"frontend/abstract_syntax_printer.ml" 193 5446 5502 "frontend/abstract_syntax_printer.ml" 193 5446 5503
+type(
+  Abstract_syntax_tree.stat
+)
+ident(
+  int_ref b "frontend/abstract_syntax_printer.ml" 191 5369 5391 "frontend/abstract_syntax_printer.ml" 191 5369 5392
+)
+"frontend/abstract_syntax_printer.ml" 192 5400 5406 "frontend/abstract_syntax_printer.ml" 193 5446 5503
+call(
+  tail
+)
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 195 5505 5522 "frontend/abstract_syntax_printer.ml" 195 5505 5523
+type(
+  Abstract_syntax_tree.bool_expr
+)
+ident(
+  def e "frontend/abstract_syntax_printer.ml" 196 5531 5537 "frontend/abstract_syntax_printer.ml" 197 5577 5606
+)
+"frontend/abstract_syntax_printer.ml" 195 5505 5524 "frontend/abstract_syntax_printer.ml" 195 5505 5525
+type(
+  Abstract_syntax_tree.extent
+)
+"frontend/abstract_syntax_printer.ml" 195 5505 5520 "frontend/abstract_syntax_printer.ml" 195 5505 5527
+type(
+  Abstract_syntax_tree.bool_expr Abstract_syntax_tree.ext
+)
+"frontend/abstract_syntax_printer.ml" 195 5505 5509 "frontend/abstract_syntax_printer.ml" 195 5505 5527
+type(
+  Abstract_syntax_tree.stat
+)
+"frontend/abstract_syntax_printer.ml" 196 5531 5537 "frontend/abstract_syntax_printer.ml" 196 5531 5551
+type(
+  Format.formatter ->
+  (string ->
+   (Format.formatter -> Abstract_syntax_tree.bool_expr -> unit) ->
+   Abstract_syntax_tree.bool_expr -> unit, Format.formatter, unit)
+  format ->
+  string ->
+  (Format.formatter -> Abstract_syntax_tree.bool_expr -> unit) ->
+  Abstract_syntax_tree.bool_expr -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"frontend/abstract_syntax_printer.ml" 196 5531 5552 "frontend/abstract_syntax_printer.ml" 196 5531 5555
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend/abstract_syntax_printer.ml" 173 4823 4846 "frontend/abstract_syntax_printer.ml" 173 4823 4849
+)
+"frontend/abstract_syntax_printer.ml" 196 5531 5556 "frontend/abstract_syntax_printer.ml" 196 5531 5575
+type(
+  (string ->
+   (Format.formatter -> Abstract_syntax_tree.bool_expr -> unit) ->
+   Abstract_syntax_tree.bool_expr -> unit, Format.formatter, unit)
+  format
+)
+"frontend/abstract_syntax_printer.ml" 197 5577 5585 "frontend/abstract_syntax_printer.ml" 197 5577 5588
+type(
+  string
+)
+ident(
+  int_ref ind "frontend/abstract_syntax_printer.ml" 173 4823 4842 "frontend/abstract_syntax_printer.ml" 173 4823 4845
+)
+"frontend/abstract_syntax_printer.ml" 197 5577 5589 "frontend/abstract_syntax_printer.ml" 197 5577 5604
+type(
+  Format.formatter -> Abstract_syntax_tree.bool_expr -> unit
+)
+ident(
+  int_ref print_bool_expr "frontend/abstract_syntax_printer.ml" 135 3403 3407 "frontend/abstract_syntax_printer.ml" 135 3403 3422
+)
+"frontend/abstract_syntax_printer.ml" 197 5577 5605 "frontend/abstract_syntax_printer.ml" 197 5577 5606
+type(
+  Abstract_syntax_tree.bool_expr
+)
+ident(
+  int_ref e "frontend/abstract_syntax_printer.ml" 195 5505 5522 "frontend/abstract_syntax_printer.ml" 195 5505 5523
+)
+"frontend/abstract_syntax_printer.ml" 196 5531 5537 "frontend/abstract_syntax_printer.ml" 197 5577 5606
+call(
+  tail
+)
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 199 5609 5623 "frontend/abstract_syntax_printer.ml" 199 5609 5624
+type(
+  Abstract_syntax_tree.var Abstract_syntax_tree.ext list
+)
+ident(
+  def l "frontend/abstract_syntax_printer.ml" 200 5628 5634 "frontend/abstract_syntax_printer.ml" 201 5673 5728
+)
+"frontend/abstract_syntax_printer.ml" 199 5609 5613 "frontend/abstract_syntax_printer.ml" 199 5609 5624
+type(
+  Abstract_syntax_tree.stat
+)
+"frontend/abstract_syntax_printer.ml" 200 5628 5634 "frontend/abstract_syntax_printer.ml" 200 5628 5648
+type(
+  Format.formatter ->
+  (string ->
+   (Format.formatter -> Abstract_syntax_tree.var list -> unit) ->
+   Abstract_syntax_tree.var list -> unit, Format.formatter, unit)
+  format ->
+  string ->
+  (Format.formatter -> Abstract_syntax_tree.var list -> unit) ->
+  Abstract_syntax_tree.var list -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"frontend/abstract_syntax_printer.ml" 200 5628 5649 "frontend/abstract_syntax_printer.ml" 200 5628 5652
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend/abstract_syntax_printer.ml" 173 4823 4846 "frontend/abstract_syntax_printer.ml" 173 4823 4849
+)
+"frontend/abstract_syntax_printer.ml" 200 5628 5653 "frontend/abstract_syntax_printer.ml" 200 5628 5671
+type(
+  (string ->
+   (Format.formatter -> Abstract_syntax_tree.var list -> unit) ->
+   Abstract_syntax_tree.var list -> unit, Format.formatter, unit)
+  format
+)
+"frontend/abstract_syntax_printer.ml" 201 5673 5681 "frontend/abstract_syntax_printer.ml" 201 5673 5684
+type(
+  string
+)
+ident(
+  int_ref ind "frontend/abstract_syntax_printer.ml" 173 4823 4842 "frontend/abstract_syntax_printer.ml" 173 4823 4845
+)
+"frontend/abstract_syntax_printer.ml" 201 5673 5686 "frontend/abstract_syntax_printer.ml" 201 5673 5696
+type(
+  (Format.formatter -> Abstract_syntax_tree.var -> unit) ->
+  string -> Format.formatter -> Abstract_syntax_tree.var list -> unit
+)
+ident(
+  int_ref print_list "frontend/abstract_syntax_printer.ml" 84 2063 2067 "frontend/abstract_syntax_printer.ml" 84 2063 2077
+)
+"frontend/abstract_syntax_printer.ml" 201 5673 5697 "frontend/abstract_syntax_printer.ml" 201 5673 5706
+type(
+  Format.formatter -> Abstract_syntax_tree.var -> unit
+)
+ident(
+  int_ref print_var "frontend/abstract_syntax_printer.ml" 105 2387 2391 "frontend/abstract_syntax_printer.ml" 105 2387 2400
+)
+"frontend/abstract_syntax_printer.ml" 201 5673 5707 "frontend/abstract_syntax_printer.ml" 201 5673 5710
+type(
+  string
+)
+"frontend/abstract_syntax_printer.ml" 201 5673 5685 "frontend/abstract_syntax_printer.ml" 201 5673 5711
+call(
+  stack
+)
+type(
+  Format.formatter -> Abstract_syntax_tree.var list -> unit
+)
+"frontend/abstract_syntax_printer.ml" 201 5673 5713 "frontend/abstract_syntax_printer.ml" 201 5673 5721
+type(
+  (Abstract_syntax_tree.var Abstract_syntax_tree.ext ->
+   Abstract_syntax_tree.var) ->
+  Abstract_syntax_tree.var Abstract_syntax_tree.ext list ->
+  Abstract_syntax_tree.var list
+)
+ident(
+  ext_ref List.map
+)
+"frontend/abstract_syntax_printer.ml" 201 5673 5722 "frontend/abstract_syntax_printer.ml" 201 5673 5725
+type(
+  Abstract_syntax_tree.var Abstract_syntax_tree.ext ->
+  Abstract_syntax_tree.var
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"frontend/abstract_syntax_printer.ml" 201 5673 5726 "frontend/abstract_syntax_printer.ml" 201 5673 5727
+type(
+  Abstract_syntax_tree.var Abstract_syntax_tree.ext list
+)
+ident(
+  int_ref l "frontend/abstract_syntax_printer.ml" 199 5609 5623 "frontend/abstract_syntax_printer.ml" 199 5609 5624
+)
+"frontend/abstract_syntax_printer.ml" 201 5673 5712 "frontend/abstract_syntax_printer.ml" 201 5673 5728
+call(
+  stack
+)
+type(
+  Abstract_syntax_tree.var list
+)
+"frontend/abstract_syntax_printer.ml" 200 5628 5634 "frontend/abstract_syntax_printer.ml" 201 5673 5728
+call(
+  tail
+)
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 203 5730 5734 "frontend/abstract_syntax_printer.ml" 203 5730 5742
+type(
+  Abstract_syntax_tree.stat
+)
+"frontend/abstract_syntax_printer.ml" 204 5746 5752 "frontend/abstract_syntax_printer.ml" 204 5746 5766
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"frontend/abstract_syntax_printer.ml" 204 5746 5767 "frontend/abstract_syntax_printer.ml" 204 5746 5770
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend/abstract_syntax_printer.ml" 173 4823 4846 "frontend/abstract_syntax_printer.ml" 173 4823 4849
+)
+"frontend/abstract_syntax_printer.ml" 204 5746 5771 "frontend/abstract_syntax_printer.ml" 204 5746 5783
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"frontend/abstract_syntax_printer.ml" 204 5746 5784 "frontend/abstract_syntax_printer.ml" 204 5746 5787
+type(
+  string
+)
+ident(
+  int_ref ind "frontend/abstract_syntax_printer.ml" 173 4823 4842 "frontend/abstract_syntax_printer.ml" 173 4823 4845
+)
+"frontend/abstract_syntax_printer.ml" 204 5746 5752 "frontend/abstract_syntax_printer.ml" 204 5746 5787
+call(
+  tail
+)
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 173 4823 4852 "frontend/abstract_syntax_printer.ml" 204 5746 5787
+type(
+  Abstract_syntax_tree.stat -> unit
+)
+"frontend/abstract_syntax_printer.ml" 206 5789 5793 "frontend/abstract_syntax_printer.ml" 206 5789 5804
+type(
+  string ->
+  Format.formatter ->
+  (Abstract_syntax_tree.typ * Abstract_syntax_tree.var)
+  Abstract_syntax_tree.ext list ->
+  Abstract_syntax_tree.stat Abstract_syntax_tree.ext list -> unit
+)
+ident(
+  def print_block "frontend/abstract_syntax_printer.ml" 173 4823 4823 "frontend/abstract_syntax_printer.ml" 1 0 -1
+)
+"frontend/abstract_syntax_printer.ml" 206 5789 5805 "frontend/abstract_syntax_printer.ml" 206 5789 5808
+type(
+  string
+)
+ident(
+  def ind "frontend/abstract_syntax_printer.ml" 206 5789 5809 "frontend/abstract_syntax_printer.ml" 213 6047 6080
+)
+"frontend/abstract_syntax_printer.ml" 206 5789 5809 "frontend/abstract_syntax_printer.ml" 206 5789 5812
+type(
+  Format.formatter
+)
+ident(
+  def fmt "frontend/abstract_syntax_printer.ml" 206 5789 5813 "frontend/abstract_syntax_printer.ml" 213 6047 6080
+)
+"frontend/abstract_syntax_printer.ml" 206 5789 5813 "frontend/abstract_syntax_printer.ml" 206 5789 5817
+type(
+  (Abstract_syntax_tree.typ * Abstract_syntax_tree.var)
+  Abstract_syntax_tree.ext list
+)
+ident(
+  def decl "frontend/abstract_syntax_printer.ml" 206 5789 5818 "frontend/abstract_syntax_printer.ml" 213 6047 6080
+)
+"frontend/abstract_syntax_printer.ml" 206 5789 5818 "frontend/abstract_syntax_printer.ml" 206 5789 5822
+type(
+  Abstract_syntax_tree.stat Abstract_syntax_tree.ext list
+)
+ident(
+  def inst "frontend/abstract_syntax_printer.ml" 207 5825 5827 "frontend/abstract_syntax_printer.ml" 213 6047 6080
+)
+"frontend/abstract_syntax_printer.ml" 207 5825 5827 "frontend/abstract_syntax_printer.ml" 207 5825 5841
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"frontend/abstract_syntax_printer.ml" 207 5825 5842 "frontend/abstract_syntax_printer.ml" 207 5825 5845
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend/abstract_syntax_printer.ml" 206 5789 5809 "frontend/abstract_syntax_printer.ml" 206 5789 5812
+)
+"frontend/abstract_syntax_printer.ml" 207 5825 5846 "frontend/abstract_syntax_printer.ml" 207 5825 5854
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"frontend/abstract_syntax_printer.ml" 207 5825 5855 "frontend/abstract_syntax_printer.ml" 207 5825 5858
+type(
+  string
+)
+ident(
+  int_ref ind "frontend/abstract_syntax_printer.ml" 206 5789 5805 "frontend/abstract_syntax_printer.ml" 206 5789 5808
+)
+"frontend/abstract_syntax_printer.ml" 207 5825 5827 "frontend/abstract_syntax_printer.ml" 207 5825 5858
+call(
+  stack
+)
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 208 5860 5862 "frontend/abstract_syntax_printer.ml" 208 5860 5871
+type(
+  ((Abstract_syntax_tree.typ * Abstract_syntax_tree.var)
+   Abstract_syntax_tree.ext -> unit) ->
+  (Abstract_syntax_tree.typ * Abstract_syntax_tree.var)
+  Abstract_syntax_tree.ext list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"frontend/abstract_syntax_printer.ml" 209 5872 5883 "frontend/abstract_syntax_printer.ml" 209 5872 5884
+type(
+  Abstract_syntax_tree.typ
+)
+ident(
+  def t "frontend/abstract_syntax_printer.ml" 210 5894 5900 "frontend/abstract_syntax_printer.ml" 210 5894 5969
+)
+"frontend/abstract_syntax_printer.ml" 209 5872 5885 "frontend/abstract_syntax_printer.ml" 209 5872 5886
+type(
+  Abstract_syntax_tree.var
+)
+ident(
+  def v "frontend/abstract_syntax_printer.ml" 210 5894 5900 "frontend/abstract_syntax_printer.ml" 210 5894 5969
+)
+"frontend/abstract_syntax_printer.ml" 209 5872 5882 "frontend/abstract_syntax_printer.ml" 209 5872 5887
+type(
+  Abstract_syntax_tree.typ * Abstract_syntax_tree.var
+)
+"frontend/abstract_syntax_printer.ml" 209 5872 5888 "frontend/abstract_syntax_printer.ml" 209 5872 5889
+type(
+  Abstract_syntax_tree.extent
+)
+"frontend/abstract_syntax_printer.ml" 209 5872 5881 "frontend/abstract_syntax_printer.ml" 209 5872 5890
+type(
+  (Abstract_syntax_tree.typ * Abstract_syntax_tree.var)
+  Abstract_syntax_tree.ext
+)
+"frontend/abstract_syntax_printer.ml" 210 5894 5900 "frontend/abstract_syntax_printer.ml" 210 5894 5914
+type(
+  Format.formatter ->
+  (string ->
+   (Format.formatter -> Abstract_syntax_tree.typ -> unit) ->
+   Abstract_syntax_tree.typ ->
+   (Format.formatter -> Abstract_syntax_tree.var -> unit) ->
+   Abstract_syntax_tree.var -> unit, Format.formatter, unit)
+  format ->
+  string ->
+  (Format.formatter -> Abstract_syntax_tree.typ -> unit) ->
+  Abstract_syntax_tree.typ ->
+  (Format.formatter -> Abstract_syntax_tree.var -> unit) ->
+  Abstract_syntax_tree.var -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"frontend/abstract_syntax_printer.ml" 210 5894 5915 "frontend/abstract_syntax_printer.ml" 210 5894 5918
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend/abstract_syntax_printer.ml" 206 5789 5809 "frontend/abstract_syntax_printer.ml" 206 5789 5812
+)
+"frontend/abstract_syntax_printer.ml" 210 5894 5919 "frontend/abstract_syntax_printer.ml" 210 5894 5932
+type(
+  (string ->
+   (Format.formatter -> Abstract_syntax_tree.typ -> unit) ->
+   Abstract_syntax_tree.typ ->
+   (Format.formatter -> Abstract_syntax_tree.var -> unit) ->
+   Abstract_syntax_tree.var -> unit, Format.formatter, unit)
+  format
+)
+"frontend/abstract_syntax_printer.ml" 210 5894 5934 "frontend/abstract_syntax_printer.ml" 210 5894 5940
+type(
+  string -> string
+)
+ident(
+  int_ref indent "frontend/abstract_syntax_printer.ml" 169 4713 4717 "frontend/abstract_syntax_printer.ml" 169 4713 4723
+)
+"frontend/abstract_syntax_printer.ml" 210 5894 5941 "frontend/abstract_syntax_printer.ml" 210 5894 5944
+type(
+  string
+)
+ident(
+  int_ref ind "frontend/abstract_syntax_printer.ml" 206 5789 5805 "frontend/abstract_syntax_printer.ml" 206 5789 5808
+)
+"frontend/abstract_syntax_printer.ml" 210 5894 5933 "frontend/abstract_syntax_printer.ml" 210 5894 5945
+call(
+  stack
+)
+type(
+  string
+)
+"frontend/abstract_syntax_printer.ml" 210 5894 5946 "frontend/abstract_syntax_printer.ml" 210 5894 5955
+type(
+  Format.formatter -> Abstract_syntax_tree.typ -> unit
+)
+ident(
+  int_ref print_typ "frontend/abstract_syntax_printer.ml" 96 2254 2258 "frontend/abstract_syntax_printer.ml" 96 2254 2267
+)
+"frontend/abstract_syntax_printer.ml" 210 5894 5956 "frontend/abstract_syntax_printer.ml" 210 5894 5957
+type(
+  Abstract_syntax_tree.typ
+)
+ident(
+  int_ref t "frontend/abstract_syntax_printer.ml" 209 5872 5883 "frontend/abstract_syntax_printer.ml" 209 5872 5884
+)
+"frontend/abstract_syntax_printer.ml" 210 5894 5958 "frontend/abstract_syntax_printer.ml" 210 5894 5967
+type(
+  Format.formatter -> Abstract_syntax_tree.var -> unit
+)
+ident(
+  int_ref print_var "frontend/abstract_syntax_printer.ml" 105 2387 2391 "frontend/abstract_syntax_printer.ml" 105 2387 2400
+)
+"frontend/abstract_syntax_printer.ml" 210 5894 5968 "frontend/abstract_syntax_printer.ml" 210 5894 5969
+type(
+  Abstract_syntax_tree.var
+)
+ident(
+  int_ref v "frontend/abstract_syntax_printer.ml" 209 5872 5885 "frontend/abstract_syntax_printer.ml" 209 5872 5886
+)
+"frontend/abstract_syntax_printer.ml" 210 5894 5900 "frontend/abstract_syntax_printer.ml" 210 5894 5969
+call(
+  tail
+)
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 209 5872 5876 "frontend/abstract_syntax_printer.ml" 211 5970 5975
+type(
+  (Abstract_syntax_tree.typ * Abstract_syntax_tree.var)
+  Abstract_syntax_tree.ext -> unit
+)
+"frontend/abstract_syntax_printer.ml" 211 5970 5976 "frontend/abstract_syntax_printer.ml" 211 5970 5980
+type(
+  (Abstract_syntax_tree.typ * Abstract_syntax_tree.var)
+  Abstract_syntax_tree.ext list
+)
+ident(
+  int_ref decl "frontend/abstract_syntax_printer.ml" 206 5789 5813 "frontend/abstract_syntax_printer.ml" 206 5789 5817
+)
+"frontend/abstract_syntax_printer.ml" 208 5860 5862 "frontend/abstract_syntax_printer.ml" 211 5970 5980
+call(
+  stack
+)
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 212 5982 5984 "frontend/abstract_syntax_printer.ml" 212 5982 5993
+type(
+  (Abstract_syntax_tree.stat Abstract_syntax_tree.ext -> unit) ->
+  Abstract_syntax_tree.stat Abstract_syntax_tree.ext list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"frontend/abstract_syntax_printer.ml" 212 5982 6000 "frontend/abstract_syntax_printer.ml" 212 5982 6002
+type(
+  Abstract_syntax_tree.stat
+)
+ident(
+  def bb "frontend/abstract_syntax_printer.ml" 212 5982 6009 "frontend/abstract_syntax_printer.ml" 212 5982 6039
+)
+"frontend/abstract_syntax_printer.ml" 212 5982 6003 "frontend/abstract_syntax_printer.ml" 212 5982 6004
+type(
+  Abstract_syntax_tree.extent
+)
+"frontend/abstract_syntax_printer.ml" 212 5982 5999 "frontend/abstract_syntax_printer.ml" 212 5982 6005
+type(
+  Abstract_syntax_tree.stat Abstract_syntax_tree.ext
+)
+"frontend/abstract_syntax_printer.ml" 212 5982 6009 "frontend/abstract_syntax_printer.ml" 212 5982 6019
+type(
+  string -> Format.formatter -> Abstract_syntax_tree.stat -> unit
+)
+ident(
+  int_ref print_stat "frontend/abstract_syntax_printer.ml" 173 4823 4831 "frontend/abstract_syntax_printer.ml" 173 4823 4841
+)
+"frontend/abstract_syntax_printer.ml" 212 5982 6021 "frontend/abstract_syntax_printer.ml" 212 5982 6027
+type(
+  string -> string
+)
+ident(
+  int_ref indent "frontend/abstract_syntax_printer.ml" 169 4713 4717 "frontend/abstract_syntax_printer.ml" 169 4713 4723
+)
+"frontend/abstract_syntax_printer.ml" 212 5982 6028 "frontend/abstract_syntax_printer.ml" 212 5982 6031
+type(
+  string
+)
+ident(
+  int_ref ind "frontend/abstract_syntax_printer.ml" 206 5789 5805 "frontend/abstract_syntax_printer.ml" 206 5789 5808
+)
+"frontend/abstract_syntax_printer.ml" 212 5982 6020 "frontend/abstract_syntax_printer.ml" 212 5982 6032
+call(
+  stack
+)
+type(
+  string
+)
+"frontend/abstract_syntax_printer.ml" 212 5982 6033 "frontend/abstract_syntax_printer.ml" 212 5982 6036
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend/abstract_syntax_printer.ml" 206 5789 5809 "frontend/abstract_syntax_printer.ml" 206 5789 5812
+)
+"frontend/abstract_syntax_printer.ml" 212 5982 6037 "frontend/abstract_syntax_printer.ml" 212 5982 6039
+type(
+  Abstract_syntax_tree.stat
+)
+ident(
+  int_ref bb "frontend/abstract_syntax_printer.ml" 212 5982 6000 "frontend/abstract_syntax_printer.ml" 212 5982 6002
+)
+"frontend/abstract_syntax_printer.ml" 212 5982 6009 "frontend/abstract_syntax_printer.ml" 212 5982 6039
+call(
+  tail
+)
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 212 5982 5994 "frontend/abstract_syntax_printer.ml" 212 5982 6040
+type(
+  Abstract_syntax_tree.stat Abstract_syntax_tree.ext -> unit
+)
+"frontend/abstract_syntax_printer.ml" 212 5982 6041 "frontend/abstract_syntax_printer.ml" 212 5982 6045
+type(
+  Abstract_syntax_tree.stat Abstract_syntax_tree.ext list
+)
+ident(
+  int_ref inst "frontend/abstract_syntax_printer.ml" 206 5789 5818 "frontend/abstract_syntax_printer.ml" 206 5789 5822
+)
+"frontend/abstract_syntax_printer.ml" 212 5982 5984 "frontend/abstract_syntax_printer.ml" 212 5982 6045
+call(
+  stack
+)
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 213 6047 6049 "frontend/abstract_syntax_printer.ml" 213 6047 6063
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"frontend/abstract_syntax_printer.ml" 213 6047 6064 "frontend/abstract_syntax_printer.ml" 213 6047 6067
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend/abstract_syntax_printer.ml" 206 5789 5809 "frontend/abstract_syntax_printer.ml" 206 5789 5812
+)
+"frontend/abstract_syntax_printer.ml" 213 6047 6068 "frontend/abstract_syntax_printer.ml" 213 6047 6076
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"frontend/abstract_syntax_printer.ml" 213 6047 6077 "frontend/abstract_syntax_printer.ml" 213 6047 6080
+type(
+  string
+)
+ident(
+  int_ref ind "frontend/abstract_syntax_printer.ml" 206 5789 5805 "frontend/abstract_syntax_printer.ml" 206 5789 5808
+)
+"frontend/abstract_syntax_printer.ml" 213 6047 6049 "frontend/abstract_syntax_printer.ml" 213 6047 6080
+call(
+  tail
+)
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 212 5982 5984 "frontend/abstract_syntax_printer.ml" 213 6047 6080
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 208 5860 5862 "frontend/abstract_syntax_printer.ml" 213 6047 6080
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 207 5825 5827 "frontend/abstract_syntax_printer.ml" 213 6047 6080
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 220 6115 6119 "frontend/abstract_syntax_printer.ml" 220 6115 6129
+type(
+  Format.formatter -> (Abstract_syntax_tree.stat * 'a) list -> unit
+)
+ident(
+  def print_prog "frontend/abstract_syntax_printer.ml" 221 6138 6186 "frontend/abstract_syntax_printer.ml" 1 0 -1
+)
+"frontend/abstract_syntax_printer.ml" 220 6115 6130 "frontend/abstract_syntax_printer.ml" 220 6115 6133
+type(
+  Format.formatter
+)
+ident(
+  def fmt "frontend/abstract_syntax_printer.ml" 220 6115 6134 "frontend/abstract_syntax_printer.ml" 221 6138 6186
+)
+"frontend/abstract_syntax_printer.ml" 220 6115 6134 "frontend/abstract_syntax_printer.ml" 220 6115 6135
+type(
+  (Abstract_syntax_tree.stat * 'a) list
+)
+ident(
+  def p "frontend/abstract_syntax_printer.ml" 221 6138 6140 "frontend/abstract_syntax_printer.ml" 221 6138 6186
+)
+"frontend/abstract_syntax_printer.ml" 221 6138 6140 "frontend/abstract_syntax_printer.ml" 221 6138 6149
+type(
+  (Abstract_syntax_tree.stat * 'a -> unit) ->
+  (Abstract_syntax_tree.stat * 'a) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"frontend/abstract_syntax_printer.ml" 221 6138 6156 "frontend/abstract_syntax_printer.ml" 221 6138 6157
+type(
+  Abstract_syntax_tree.stat
+)
+ident(
+  def s "frontend/abstract_syntax_printer.ml" 221 6138 6164 "frontend/abstract_syntax_printer.ml" 221 6138 6183
+)
+"frontend/abstract_syntax_printer.ml" 221 6138 6158 "frontend/abstract_syntax_printer.ml" 221 6138 6159
+type(
+  'a
+)
+"frontend/abstract_syntax_printer.ml" 221 6138 6155 "frontend/abstract_syntax_printer.ml" 221 6138 6160
+type(
+  Abstract_syntax_tree.stat * 'a
+)
+"frontend/abstract_syntax_printer.ml" 221 6138 6164 "frontend/abstract_syntax_printer.ml" 221 6138 6174
+type(
+  string -> Format.formatter -> Abstract_syntax_tree.stat -> unit
+)
+ident(
+  int_ref print_stat "frontend/abstract_syntax_printer.ml" 173 4823 4831 "frontend/abstract_syntax_printer.ml" 173 4823 4841
+)
+"frontend/abstract_syntax_printer.ml" 221 6138 6175 "frontend/abstract_syntax_printer.ml" 221 6138 6177
+type(
+  string
+)
+"frontend/abstract_syntax_printer.ml" 221 6138 6178 "frontend/abstract_syntax_printer.ml" 221 6138 6181
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "frontend/abstract_syntax_printer.ml" 220 6115 6130 "frontend/abstract_syntax_printer.ml" 220 6115 6133
+)
+"frontend/abstract_syntax_printer.ml" 221 6138 6182 "frontend/abstract_syntax_printer.ml" 221 6138 6183
+type(
+  Abstract_syntax_tree.stat
+)
+ident(
+  int_ref s "frontend/abstract_syntax_printer.ml" 221 6138 6156 "frontend/abstract_syntax_printer.ml" 221 6138 6157
+)
+"frontend/abstract_syntax_printer.ml" 221 6138 6164 "frontend/abstract_syntax_printer.ml" 221 6138 6183
+call(
+  tail
+)
+type(
+  unit
+)
+"frontend/abstract_syntax_printer.ml" 221 6138 6150 "frontend/abstract_syntax_printer.ml" 221 6138 6184
+type(
+  Abstract_syntax_tree.stat * 'a -> unit
+)
+"frontend/abstract_syntax_printer.ml" 221 6138 6185 "frontend/abstract_syntax_printer.ml" 221 6138 6186
+type(
+  (Abstract_syntax_tree.stat * 'a) list
+)
+ident(
+  int_ref p "frontend/abstract_syntax_printer.ml" 220 6115 6134 "frontend/abstract_syntax_printer.ml" 220 6115 6135
+)
+"frontend/abstract_syntax_printer.ml" 221 6138 6140 "frontend/abstract_syntax_printer.ml" 221 6138 6186
+call(
+  tail
+)
+type(
+  unit
+)
