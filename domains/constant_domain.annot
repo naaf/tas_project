@@ -3,7 +3,7 @@ type(
   (Z.t -> Z.t) -> t -> t
 )
 ident(
-  def lift1 "domains/constant_domain.ml" 41 705 707 "domains/constant_domain.ml" 182 3623 3626
+  def lift1 "domains/constant_domain.ml" 41 705 707 "domains/constant_domain.ml" 189 3752 3755
 )
 "domains/constant_domain.ml" 34 568 580 "domains/constant_domain.ml" 34 568 581
 type(
@@ -87,7 +87,7 @@ type(
   (Z.t -> Z.t -> Z.t) -> t -> t -> t
 )
 ident(
-  def lift2 "domains/constant_domain.ml" 54 940 942 "domains/constant_domain.ml" 182 3623 3626
+  def lift2 "domains/constant_domain.ml" 54 940 942 "domains/constant_domain.ml" 189 3752 3755
 )
 "domains/constant_domain.ml" 41 705 717 "domains/constant_domain.ml" 41 705 718
 type(
@@ -259,7 +259,7 @@ type(
   t
 )
 ident(
-  def top "domains/constant_domain.ml" 57 978 980 "domains/constant_domain.ml" 182 3623 3626
+  def top "domains/constant_domain.ml" 57 978 980 "domains/constant_domain.ml" 189 3752 3755
 )
 "domains/constant_domain.ml" 54 940 952 "domains/constant_domain.ml" 54 940 955
 type(
@@ -270,7 +270,7 @@ type(
   t
 )
 ident(
-  def bottom "domains/constant_domain.ml" 60 1015 1017 "domains/constant_domain.ml" 182 3623 3626
+  def bottom "domains/constant_domain.ml" 60 1015 1017 "domains/constant_domain.ml" 189 3752 3755
 )
 "domains/constant_domain.ml" 57 978 993 "domains/constant_domain.ml" 57 978 996
 type(
@@ -281,7 +281,7 @@ type(
   Z.t -> t
 )
 ident(
-  def const "domains/constant_domain.ml" 63 1055 1057 "domains/constant_domain.ml" 182 3623 3626
+  def const "domains/constant_domain.ml" 63 1055 1057 "domains/constant_domain.ml" 189 3752 3755
 )
 "domains/constant_domain.ml" 60 1015 1027 "domains/constant_domain.ml" 60 1015 1028
 type(
@@ -306,7 +306,7 @@ type(
   Z.t -> Z.t -> t
 )
 ident(
-  def rand "domains/constant_domain.ml" 71 1166 1168 "domains/constant_domain.ml" 182 3623 3626
+  def rand "domains/constant_domain.ml" 71 1166 1168 "domains/constant_domain.ml" 189 3752 3755
 )
 "domains/constant_domain.ml" 63 1055 1066 "domains/constant_domain.ml" 63 1055 1067
 type(
@@ -404,7 +404,7 @@ type(
   t -> t
 )
 ident(
-  def neg "domains/constant_domain.ml" 73 1191 1193 "domains/constant_domain.ml" 182 3623 3626
+  def neg "domains/constant_domain.ml" 73 1191 1193 "domains/constant_domain.ml" 189 3752 3755
 )
 "domains/constant_domain.ml" 71 1166 1178 "domains/constant_domain.ml" 71 1166 1183
 type(
@@ -432,7 +432,7 @@ type(
   t -> t -> t
 )
 ident(
-  def add "domains/constant_domain.ml" 75 1216 1218 "domains/constant_domain.ml" 182 3623 3626
+  def add "domains/constant_domain.ml" 75 1216 1218 "domains/constant_domain.ml" 189 3752 3755
 )
 "domains/constant_domain.ml" 73 1191 1203 "domains/constant_domain.ml" 73 1191 1208
 type(
@@ -460,7 +460,7 @@ type(
   t -> t -> t
 )
 ident(
-  def sub "domains/constant_domain.ml" 77 1241 1243 "domains/constant_domain.ml" 182 3623 3626
+  def sub "domains/constant_domain.ml" 77 1241 1243 "domains/constant_domain.ml" 189 3752 3755
 )
 "domains/constant_domain.ml" 75 1216 1228 "domains/constant_domain.ml" 75 1216 1233
 type(
@@ -488,7 +488,7 @@ type(
   t -> t -> t
 )
 ident(
-  def mul "domains/constant_domain.ml" 79 1266 1268 "domains/constant_domain.ml" 182 3623 3626
+  def mul "domains/constant_domain.ml" 79 1267 1269 "domains/constant_domain.ml" 189 3752 3755
 )
 "domains/constant_domain.ml" 77 1241 1253 "domains/constant_domain.ml" 77 1241 1258
 type(
@@ -511,837 +511,930 @@ call(
 type(
   t -> t -> t
 )
-"domains/constant_domain.ml" 79 1266 1272 "domains/constant_domain.ml" 79 1266 1275
+"domains/constant_domain.ml" 79 1267 1273 "domains/constant_domain.ml" 79 1267 1276
 type(
   t -> t -> t
 )
 ident(
-  def div "domains/constant_domain.ml" 86 1376 1378 "domains/constant_domain.ml" 182 3623 3626
+  def div "domains/constant_domain.ml" 83 1342 1343 "domains/constant_domain.ml" 189 3752 3755
 )
-"domains/constant_domain.ml" 79 1266 1276 "domains/constant_domain.ml" 79 1266 1277
+"domains/constant_domain.ml" 79 1267 1277 "domains/constant_domain.ml" 79 1267 1278
 type(
   t
 )
 ident(
-  def a "domains/constant_domain.ml" 79 1266 1278 "domains/constant_domain.ml" 81 1313 1337
+  def a "domains/constant_domain.ml" 79 1267 1279 "domains/constant_domain.ml" 81 1314 1338
 )
-"domains/constant_domain.ml" 79 1266 1278 "domains/constant_domain.ml" 79 1266 1279
+"domains/constant_domain.ml" 79 1267 1279 "domains/constant_domain.ml" 79 1267 1280
 type(
   t
 )
 ident(
-  def b "domains/constant_domain.ml" 80 1282 1286 "domains/constant_domain.ml" 81 1313 1337
+  def b "domains/constant_domain.ml" 80 1283 1287 "domains/constant_domain.ml" 81 1314 1338
 )
-"domains/constant_domain.ml" 80 1282 1289 "domains/constant_domain.ml" 80 1282 1290
+"domains/constant_domain.ml" 80 1283 1290 "domains/constant_domain.ml" 80 1283 1291
 type(
   t
 )
 ident(
-  int_ref b "domains/constant_domain.ml" 79 1266 1278 "domains/constant_domain.ml" 79 1266 1279
+  int_ref b "domains/constant_domain.ml" 79 1267 1279 "domains/constant_domain.ml" 79 1267 1280
 )
-"domains/constant_domain.ml" 80 1282 1291 "domains/constant_domain.ml" 80 1282 1292
+"domains/constant_domain.ml" 80 1283 1292 "domains/constant_domain.ml" 80 1283 1293
 type(
   t -> t -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"domains/constant_domain.ml" 80 1282 1297 "domains/constant_domain.ml" 80 1282 1303
+"domains/constant_domain.ml" 80 1283 1298 "domains/constant_domain.ml" 80 1283 1304
 type(
   Z.t
 )
 ident(
   ext_ref Z.zero
 )
-"domains/constant_domain.ml" 80 1282 1293 "domains/constant_domain.ml" 80 1282 1303
+"domains/constant_domain.ml" 80 1283 1294 "domains/constant_domain.ml" 80 1283 1304
 type(
   t
 )
-"domains/constant_domain.ml" 80 1282 1289 "domains/constant_domain.ml" 80 1282 1303
+"domains/constant_domain.ml" 80 1283 1290 "domains/constant_domain.ml" 80 1283 1304
 type(
   bool
 )
-"domains/constant_domain.ml" 80 1282 1309 "domains/constant_domain.ml" 80 1282 1312
+"domains/constant_domain.ml" 80 1283 1310 "domains/constant_domain.ml" 80 1283 1313
 type(
   t
 )
-"domains/constant_domain.ml" 81 1313 1322 "domains/constant_domain.ml" 81 1313 1327
+"domains/constant_domain.ml" 81 1314 1323 "domains/constant_domain.ml" 81 1314 1328
 type(
   (Z.t -> Z.t -> Z.t) -> t -> t -> t
 )
 ident(
   int_ref lift2 "domains/constant_domain.ml" 41 705 711 "domains/constant_domain.ml" 41 705 716
 )
-"domains/constant_domain.ml" 81 1313 1328 "domains/constant_domain.ml" 81 1313 1333
+"domains/constant_domain.ml" 81 1314 1329 "domains/constant_domain.ml" 81 1314 1334
 type(
   Z.t -> Z.t -> Z.t
 )
 ident(
   ext_ref Z.div
 )
-"domains/constant_domain.ml" 81 1313 1334 "domains/constant_domain.ml" 81 1313 1335
+"domains/constant_domain.ml" 81 1314 1335 "domains/constant_domain.ml" 81 1314 1336
 type(
   t
 )
 ident(
-  int_ref a "domains/constant_domain.ml" 79 1266 1276 "domains/constant_domain.ml" 79 1266 1277
+  int_ref a "domains/constant_domain.ml" 79 1267 1277 "domains/constant_domain.ml" 79 1267 1278
 )
-"domains/constant_domain.ml" 81 1313 1336 "domains/constant_domain.ml" 81 1313 1337
+"domains/constant_domain.ml" 81 1314 1337 "domains/constant_domain.ml" 81 1314 1338
 type(
   t
 )
 ident(
-  int_ref b "domains/constant_domain.ml" 79 1266 1278 "domains/constant_domain.ml" 79 1266 1279
+  int_ref b "domains/constant_domain.ml" 79 1267 1279 "domains/constant_domain.ml" 79 1267 1280
 )
-"domains/constant_domain.ml" 81 1313 1322 "domains/constant_domain.ml" 81 1313 1337
+"domains/constant_domain.ml" 81 1314 1323 "domains/constant_domain.ml" 81 1314 1338
 call(
   tail
 )
 type(
   t
 )
-"domains/constant_domain.ml" 80 1282 1286 "domains/constant_domain.ml" 81 1313 1337
+"domains/constant_domain.ml" 80 1283 1287 "domains/constant_domain.ml" 81 1314 1338
 type(
   t
 )
-"domains/constant_domain.ml" 86 1376 1382 "domains/constant_domain.ml" 86 1376 1386
+"domains/constant_domain.ml" 83 1342 1347 "domains/constant_domain.ml" 83 1342 1351
 type(
   t -> t -> t
 )
 ident(
-  def join "domains/constant_domain.ml" 91 1476 1478 "domains/constant_domain.ml" 182 3623 3626
+  def _mod "domains/constant_domain.ml" 90 1452 1454 "domains/constant_domain.ml" 189 3752 3755
 )
-"domains/constant_domain.ml" 86 1376 1387 "domains/constant_domain.ml" 86 1376 1388
+"domains/constant_domain.ml" 83 1342 1352 "domains/constant_domain.ml" 83 1342 1353
 type(
   t
 )
 ident(
-  def a "domains/constant_domain.ml" 86 1376 1389 "domains/constant_domain.ml" 89 1462 1474
+  def a "domains/constant_domain.ml" 83 1342 1354 "domains/constant_domain.ml" 85 1389 1413
 )
-"domains/constant_domain.ml" 86 1376 1389 "domains/constant_domain.ml" 86 1376 1390
+"domains/constant_domain.ml" 83 1342 1354 "domains/constant_domain.ml" 83 1342 1355
 type(
   t
 )
 ident(
-  def b "domains/constant_domain.ml" 86 1376 1393 "domains/constant_domain.ml" 89 1462 1474
+  def b "domains/constant_domain.ml" 84 1358 1362 "domains/constant_domain.ml" 85 1389 1413
 )
-"domains/constant_domain.ml" 86 1376 1399 "domains/constant_domain.ml" 86 1376 1400
+"domains/constant_domain.ml" 84 1358 1365 "domains/constant_domain.ml" 84 1358 1366
 type(
   t
 )
 ident(
-  int_ref a "domains/constant_domain.ml" 86 1376 1387 "domains/constant_domain.ml" 86 1376 1388
+  int_ref b "domains/constant_domain.ml" 83 1342 1354 "domains/constant_domain.ml" 83 1342 1355
 )
-"domains/constant_domain.ml" 86 1376 1401 "domains/constant_domain.ml" 86 1376 1402
+"domains/constant_domain.ml" 84 1358 1367 "domains/constant_domain.ml" 84 1358 1368
 type(
-  t
+  t -> t -> bool
 )
 ident(
-  int_ref b "domains/constant_domain.ml" 86 1376 1389 "domains/constant_domain.ml" 86 1376 1390
+  ext_ref Pervasives.( = )
 )
-"domains/constant_domain.ml" 86 1376 1399 "domains/constant_domain.ml" 86 1376 1402
-type(
-  t * t
-)
-"domains/constant_domain.ml" 87 1408 1412 "domains/constant_domain.ml" 87 1408 1415
-type(
-  t
-)
-"domains/constant_domain.ml" 87 1408 1416 "domains/constant_domain.ml" 87 1408 1417
-type(
-  t
-)
-ident(
-  def x "domains/constant_domain.ml" 87 1408 1429 "domains/constant_domain.ml" 87 1408 1430
-)
-"domains/constant_domain.ml" 87 1408 1412 "domains/constant_domain.ml" 87 1408 1417
-type(
-  t * t
-)
-"domains/constant_domain.ml" 87 1408 1420 "domains/constant_domain.ml" 87 1408 1421
-type(
-  t
-)
-ident(
-  def x "domains/constant_domain.ml" 87 1408 1429 "domains/constant_domain.ml" 87 1408 1430
-)
-"domains/constant_domain.ml" 87 1408 1422 "domains/constant_domain.ml" 87 1408 1425
-type(
-  t
-)
-"domains/constant_domain.ml" 87 1408 1420 "domains/constant_domain.ml" 87 1408 1425
-type(
-  t * t
-)
-"domains/constant_domain.ml" 87 1408 1412 "domains/constant_domain.ml" 87 1408 1425
-type(
-  t * t
-)
-"domains/constant_domain.ml" 87 1408 1429 "domains/constant_domain.ml" 87 1408 1430
-type(
-  t
-)
-ident(
-  int_ref x "domains/constant_domain.ml" 87 1408 1416 "domains/constant_domain.ml" 87 1408 1417
-)
-"domains/constant_domain.ml" 88 1431 1439 "domains/constant_domain.ml" 88 1431 1440
+"domains/constant_domain.ml" 84 1358 1373 "domains/constant_domain.ml" 84 1358 1379
 type(
   Z.t
 )
 ident(
-  def x "domains/constant_domain.ml" 88 1431 1453 "domains/constant_domain.ml" 88 1431 1461
+  ext_ref Z.zero
 )
-"domains/constant_domain.ml" 88 1431 1435 "domains/constant_domain.ml" 88 1431 1440
+"domains/constant_domain.ml" 84 1358 1369 "domains/constant_domain.ml" 84 1358 1379
 type(
   t
 )
-"domains/constant_domain.ml" 88 1431 1446 "domains/constant_domain.ml" 88 1431 1447
+"domains/constant_domain.ml" 84 1358 1365 "domains/constant_domain.ml" 84 1358 1379
 type(
-  Z.t
+  bool
+)
+"domains/constant_domain.ml" 84 1358 1385 "domains/constant_domain.ml" 84 1358 1388
+type(
+  t
+)
+"domains/constant_domain.ml" 85 1389 1398 "domains/constant_domain.ml" 85 1389 1403
+type(
+  (Z.t -> Z.t -> Z.t) -> t -> t -> t
 )
 ident(
-  def y "domains/constant_domain.ml" 88 1431 1453 "domains/constant_domain.ml" 88 1431 1461
+  int_ref lift2 "domains/constant_domain.ml" 41 705 711 "domains/constant_domain.ml" 41 705 716
 )
-"domains/constant_domain.ml" 88 1431 1442 "domains/constant_domain.ml" 88 1431 1447
+"domains/constant_domain.ml" 85 1389 1404 "domains/constant_domain.ml" 85 1389 1409
+type(
+  Z.t -> Z.t -> Z.t
+)
+ident(
+  ext_ref Z.rem
+)
+"domains/constant_domain.ml" 85 1389 1410 "domains/constant_domain.ml" 85 1389 1411
 type(
   t
 )
-"domains/constant_domain.ml" 88 1431 1435 "domains/constant_domain.ml" 88 1431 1447
+ident(
+  int_ref a "domains/constant_domain.ml" 83 1342 1352 "domains/constant_domain.ml" 83 1342 1353
+)
+"domains/constant_domain.ml" 85 1389 1412 "domains/constant_domain.ml" 85 1389 1413
+type(
+  t
+)
+ident(
+  int_ref b "domains/constant_domain.ml" 83 1342 1354 "domains/constant_domain.ml" 83 1342 1355
+)
+"domains/constant_domain.ml" 85 1389 1398 "domains/constant_domain.ml" 85 1389 1413
+call(
+  tail
+)
+type(
+  t
+)
+"domains/constant_domain.ml" 84 1358 1362 "domains/constant_domain.ml" 85 1389 1413
+type(
+  t
+)
+"domains/constant_domain.ml" 90 1452 1458 "domains/constant_domain.ml" 90 1452 1462
+type(
+  t -> t -> t
+)
+ident(
+  def join "domains/constant_domain.ml" 95 1552 1554 "domains/constant_domain.ml" 189 3752 3755
+)
+"domains/constant_domain.ml" 90 1452 1463 "domains/constant_domain.ml" 90 1452 1464
+type(
+  t
+)
+ident(
+  def a "domains/constant_domain.ml" 90 1452 1465 "domains/constant_domain.ml" 93 1538 1550
+)
+"domains/constant_domain.ml" 90 1452 1465 "domains/constant_domain.ml" 90 1452 1466
+type(
+  t
+)
+ident(
+  def b "domains/constant_domain.ml" 90 1452 1469 "domains/constant_domain.ml" 93 1538 1550
+)
+"domains/constant_domain.ml" 90 1452 1475 "domains/constant_domain.ml" 90 1452 1476
+type(
+  t
+)
+ident(
+  int_ref a "domains/constant_domain.ml" 90 1452 1463 "domains/constant_domain.ml" 90 1452 1464
+)
+"domains/constant_domain.ml" 90 1452 1477 "domains/constant_domain.ml" 90 1452 1478
+type(
+  t
+)
+ident(
+  int_ref b "domains/constant_domain.ml" 90 1452 1465 "domains/constant_domain.ml" 90 1452 1466
+)
+"domains/constant_domain.ml" 90 1452 1475 "domains/constant_domain.ml" 90 1452 1478
 type(
   t * t
 )
-"domains/constant_domain.ml" 88 1431 1453 "domains/constant_domain.ml" 88 1431 1454
+"domains/constant_domain.ml" 91 1484 1488 "domains/constant_domain.ml" 91 1484 1491
+type(
+  t
+)
+"domains/constant_domain.ml" 91 1484 1492 "domains/constant_domain.ml" 91 1484 1493
+type(
+  t
+)
+ident(
+  def x "domains/constant_domain.ml" 91 1484 1505 "domains/constant_domain.ml" 91 1484 1506
+)
+"domains/constant_domain.ml" 91 1484 1488 "domains/constant_domain.ml" 91 1484 1493
+type(
+  t * t
+)
+"domains/constant_domain.ml" 91 1484 1496 "domains/constant_domain.ml" 91 1484 1497
+type(
+  t
+)
+ident(
+  def x "domains/constant_domain.ml" 91 1484 1505 "domains/constant_domain.ml" 91 1484 1506
+)
+"domains/constant_domain.ml" 91 1484 1498 "domains/constant_domain.ml" 91 1484 1501
+type(
+  t
+)
+"domains/constant_domain.ml" 91 1484 1496 "domains/constant_domain.ml" 91 1484 1501
+type(
+  t * t
+)
+"domains/constant_domain.ml" 91 1484 1488 "domains/constant_domain.ml" 91 1484 1501
+type(
+  t * t
+)
+"domains/constant_domain.ml" 91 1484 1505 "domains/constant_domain.ml" 91 1484 1506
+type(
+  t
+)
+ident(
+  int_ref x "domains/constant_domain.ml" 91 1484 1492 "domains/constant_domain.ml" 91 1484 1493
+)
+"domains/constant_domain.ml" 92 1507 1515 "domains/constant_domain.ml" 92 1507 1516
 type(
   Z.t
 )
 ident(
-  int_ref x "domains/constant_domain.ml" 88 1431 1439 "domains/constant_domain.ml" 88 1431 1440
+  def x "domains/constant_domain.ml" 92 1507 1529 "domains/constant_domain.ml" 92 1507 1537
 )
-"domains/constant_domain.ml" 88 1431 1454 "domains/constant_domain.ml" 88 1431 1455
+"domains/constant_domain.ml" 92 1507 1511 "domains/constant_domain.ml" 92 1507 1516
+type(
+  t
+)
+"domains/constant_domain.ml" 92 1507 1522 "domains/constant_domain.ml" 92 1507 1523
+type(
+  Z.t
+)
+ident(
+  def y "domains/constant_domain.ml" 92 1507 1529 "domains/constant_domain.ml" 92 1507 1537
+)
+"domains/constant_domain.ml" 92 1507 1518 "domains/constant_domain.ml" 92 1507 1523
+type(
+  t
+)
+"domains/constant_domain.ml" 92 1507 1511 "domains/constant_domain.ml" 92 1507 1523
+type(
+  t * t
+)
+"domains/constant_domain.ml" 92 1507 1529 "domains/constant_domain.ml" 92 1507 1530
+type(
+  Z.t
+)
+ident(
+  int_ref x "domains/constant_domain.ml" 92 1507 1515 "domains/constant_domain.ml" 92 1507 1516
+)
+"domains/constant_domain.ml" 92 1507 1530 "domains/constant_domain.ml" 92 1507 1531
 type(
   Z.t -> Z.t -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"domains/constant_domain.ml" 88 1431 1455 "domains/constant_domain.ml" 88 1431 1456
+"domains/constant_domain.ml" 92 1507 1531 "domains/constant_domain.ml" 92 1507 1532
 type(
   Z.t
 )
 ident(
-  int_ref y "domains/constant_domain.ml" 88 1431 1446 "domains/constant_domain.ml" 88 1431 1447
+  int_ref y "domains/constant_domain.ml" 92 1507 1522 "domains/constant_domain.ml" 92 1507 1523
 )
-"domains/constant_domain.ml" 88 1431 1453 "domains/constant_domain.ml" 88 1431 1456
+"domains/constant_domain.ml" 92 1507 1529 "domains/constant_domain.ml" 92 1507 1532
 type(
   bool
 )
-"domains/constant_domain.ml" 88 1431 1460 "domains/constant_domain.ml" 88 1431 1461
+"domains/constant_domain.ml" 92 1507 1536 "domains/constant_domain.ml" 92 1507 1537
 type(
   t
 )
 ident(
-  int_ref a "domains/constant_domain.ml" 86 1376 1387 "domains/constant_domain.ml" 86 1376 1388
+  int_ref a "domains/constant_domain.ml" 90 1452 1463 "domains/constant_domain.ml" 90 1452 1464
 )
-"domains/constant_domain.ml" 89 1462 1466 "domains/constant_domain.ml" 89 1462 1467
+"domains/constant_domain.ml" 93 1538 1542 "domains/constant_domain.ml" 93 1538 1543
 type(
   t * t
 )
-"domains/constant_domain.ml" 89 1462 1471 "domains/constant_domain.ml" 89 1462 1474
+"domains/constant_domain.ml" 93 1538 1547 "domains/constant_domain.ml" 93 1538 1550
 type(
   t
 )
-"domains/constant_domain.ml" 86 1376 1393 "domains/constant_domain.ml" 89 1462 1474
+"domains/constant_domain.ml" 90 1452 1469 "domains/constant_domain.ml" 93 1538 1550
 type(
   t
 )
-"domains/constant_domain.ml" 91 1476 1482 "domains/constant_domain.ml" 91 1476 1486
+"domains/constant_domain.ml" 95 1552 1558 "domains/constant_domain.ml" 95 1552 1562
 type(
   t -> t -> t
 )
 ident(
-  def meet "domains/constant_domain.ml" 98 1657 1659 "domains/constant_domain.ml" 182 3623 3626
+  def meet "domains/constant_domain.ml" 102 1733 1735 "domains/constant_domain.ml" 189 3752 3755
 )
-"domains/constant_domain.ml" 91 1476 1487 "domains/constant_domain.ml" 91 1476 1488
+"domains/constant_domain.ml" 95 1552 1563 "domains/constant_domain.ml" 95 1552 1564
 type(
   t
 )
 ident(
-  def a "domains/constant_domain.ml" 91 1476 1489 "domains/constant_domain.ml" 94 1562 1574
+  def a "domains/constant_domain.ml" 95 1552 1565 "domains/constant_domain.ml" 98 1638 1650
 )
-"domains/constant_domain.ml" 91 1476 1489 "domains/constant_domain.ml" 91 1476 1490
+"domains/constant_domain.ml" 95 1552 1565 "domains/constant_domain.ml" 95 1552 1566
 type(
   t
 )
 ident(
-  def b "domains/constant_domain.ml" 91 1476 1493 "domains/constant_domain.ml" 94 1562 1574
+  def b "domains/constant_domain.ml" 95 1552 1569 "domains/constant_domain.ml" 98 1638 1650
 )
-"domains/constant_domain.ml" 91 1476 1499 "domains/constant_domain.ml" 91 1476 1500
+"domains/constant_domain.ml" 95 1552 1575 "domains/constant_domain.ml" 95 1552 1576
 type(
   t
 )
 ident(
-  int_ref a "domains/constant_domain.ml" 91 1476 1487 "domains/constant_domain.ml" 91 1476 1488
+  int_ref a "domains/constant_domain.ml" 95 1552 1563 "domains/constant_domain.ml" 95 1552 1564
 )
-"domains/constant_domain.ml" 91 1476 1501 "domains/constant_domain.ml" 91 1476 1502
+"domains/constant_domain.ml" 95 1552 1577 "domains/constant_domain.ml" 95 1552 1578
 type(
   t
 )
 ident(
-  int_ref b "domains/constant_domain.ml" 91 1476 1489 "domains/constant_domain.ml" 91 1476 1490
+  int_ref b "domains/constant_domain.ml" 95 1552 1565 "domains/constant_domain.ml" 95 1552 1566
 )
-"domains/constant_domain.ml" 91 1476 1499 "domains/constant_domain.ml" 91 1476 1502
+"domains/constant_domain.ml" 95 1552 1575 "domains/constant_domain.ml" 95 1552 1578
 type(
   t * t
 )
-"domains/constant_domain.ml" 92 1508 1512 "domains/constant_domain.ml" 92 1508 1515
+"domains/constant_domain.ml" 96 1584 1588 "domains/constant_domain.ml" 96 1584 1591
 type(
   t
 )
-"domains/constant_domain.ml" 92 1508 1516 "domains/constant_domain.ml" 92 1508 1517
-type(
-  t
-)
-ident(
-  def x "domains/constant_domain.ml" 92 1508 1529 "domains/constant_domain.ml" 92 1508 1530
-)
-"domains/constant_domain.ml" 92 1508 1512 "domains/constant_domain.ml" 92 1508 1517
-type(
-  t * t
-)
-"domains/constant_domain.ml" 92 1508 1520 "domains/constant_domain.ml" 92 1508 1521
+"domains/constant_domain.ml" 96 1584 1592 "domains/constant_domain.ml" 96 1584 1593
 type(
   t
 )
 ident(
-  def x "domains/constant_domain.ml" 92 1508 1529 "domains/constant_domain.ml" 92 1508 1530
+  def x "domains/constant_domain.ml" 96 1584 1605 "domains/constant_domain.ml" 96 1584 1606
 )
-"domains/constant_domain.ml" 92 1508 1522 "domains/constant_domain.ml" 92 1508 1525
-type(
-  t
-)
-"domains/constant_domain.ml" 92 1508 1520 "domains/constant_domain.ml" 92 1508 1525
+"domains/constant_domain.ml" 96 1584 1588 "domains/constant_domain.ml" 96 1584 1593
 type(
   t * t
 )
-"domains/constant_domain.ml" 92 1508 1512 "domains/constant_domain.ml" 92 1508 1525
-type(
-  t * t
-)
-"domains/constant_domain.ml" 92 1508 1529 "domains/constant_domain.ml" 92 1508 1530
+"domains/constant_domain.ml" 96 1584 1596 "domains/constant_domain.ml" 96 1584 1597
 type(
   t
 )
 ident(
-  int_ref x "domains/constant_domain.ml" 92 1508 1516 "domains/constant_domain.ml" 92 1508 1517
+  def x "domains/constant_domain.ml" 96 1584 1605 "domains/constant_domain.ml" 96 1584 1606
 )
-"domains/constant_domain.ml" 93 1531 1539 "domains/constant_domain.ml" 93 1531 1540
+"domains/constant_domain.ml" 96 1584 1598 "domains/constant_domain.ml" 96 1584 1601
+type(
+  t
+)
+"domains/constant_domain.ml" 96 1584 1596 "domains/constant_domain.ml" 96 1584 1601
+type(
+  t * t
+)
+"domains/constant_domain.ml" 96 1584 1588 "domains/constant_domain.ml" 96 1584 1601
+type(
+  t * t
+)
+"domains/constant_domain.ml" 96 1584 1605 "domains/constant_domain.ml" 96 1584 1606
+type(
+  t
+)
+ident(
+  int_ref x "domains/constant_domain.ml" 96 1584 1592 "domains/constant_domain.ml" 96 1584 1593
+)
+"domains/constant_domain.ml" 97 1607 1615 "domains/constant_domain.ml" 97 1607 1616
 type(
   Z.t
 )
 ident(
-  def x "domains/constant_domain.ml" 93 1531 1553 "domains/constant_domain.ml" 93 1531 1561
+  def x "domains/constant_domain.ml" 97 1607 1629 "domains/constant_domain.ml" 97 1607 1637
 )
-"domains/constant_domain.ml" 93 1531 1535 "domains/constant_domain.ml" 93 1531 1540
+"domains/constant_domain.ml" 97 1607 1611 "domains/constant_domain.ml" 97 1607 1616
 type(
   t
 )
-"domains/constant_domain.ml" 93 1531 1546 "domains/constant_domain.ml" 93 1531 1547
+"domains/constant_domain.ml" 97 1607 1622 "domains/constant_domain.ml" 97 1607 1623
 type(
   Z.t
 )
 ident(
-  def y "domains/constant_domain.ml" 93 1531 1553 "domains/constant_domain.ml" 93 1531 1561
+  def y "domains/constant_domain.ml" 97 1607 1629 "domains/constant_domain.ml" 97 1607 1637
 )
-"domains/constant_domain.ml" 93 1531 1542 "domains/constant_domain.ml" 93 1531 1547
+"domains/constant_domain.ml" 97 1607 1618 "domains/constant_domain.ml" 97 1607 1623
 type(
   t
 )
-"domains/constant_domain.ml" 93 1531 1535 "domains/constant_domain.ml" 93 1531 1547
+"domains/constant_domain.ml" 97 1607 1611 "domains/constant_domain.ml" 97 1607 1623
 type(
   t * t
 )
-"domains/constant_domain.ml" 93 1531 1553 "domains/constant_domain.ml" 93 1531 1554
+"domains/constant_domain.ml" 97 1607 1629 "domains/constant_domain.ml" 97 1607 1630
 type(
   Z.t
 )
 ident(
-  int_ref x "domains/constant_domain.ml" 93 1531 1539 "domains/constant_domain.ml" 93 1531 1540
+  int_ref x "domains/constant_domain.ml" 97 1607 1615 "domains/constant_domain.ml" 97 1607 1616
 )
-"domains/constant_domain.ml" 93 1531 1554 "domains/constant_domain.ml" 93 1531 1555
+"domains/constant_domain.ml" 97 1607 1630 "domains/constant_domain.ml" 97 1607 1631
 type(
   Z.t -> Z.t -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"domains/constant_domain.ml" 93 1531 1555 "domains/constant_domain.ml" 93 1531 1556
+"domains/constant_domain.ml" 97 1607 1631 "domains/constant_domain.ml" 97 1607 1632
 type(
   Z.t
 )
 ident(
-  int_ref y "domains/constant_domain.ml" 93 1531 1546 "domains/constant_domain.ml" 93 1531 1547
+  int_ref y "domains/constant_domain.ml" 97 1607 1622 "domains/constant_domain.ml" 97 1607 1623
 )
-"domains/constant_domain.ml" 93 1531 1553 "domains/constant_domain.ml" 93 1531 1556
+"domains/constant_domain.ml" 97 1607 1629 "domains/constant_domain.ml" 97 1607 1632
 type(
   bool
 )
-"domains/constant_domain.ml" 93 1531 1560 "domains/constant_domain.ml" 93 1531 1561
+"domains/constant_domain.ml" 97 1607 1636 "domains/constant_domain.ml" 97 1607 1637
 type(
   t
 )
 ident(
-  int_ref a "domains/constant_domain.ml" 91 1476 1487 "domains/constant_domain.ml" 91 1476 1488
+  int_ref a "domains/constant_domain.ml" 95 1552 1563 "domains/constant_domain.ml" 95 1552 1564
 )
-"domains/constant_domain.ml" 94 1562 1566 "domains/constant_domain.ml" 94 1562 1567
+"domains/constant_domain.ml" 98 1638 1642 "domains/constant_domain.ml" 98 1638 1643
 type(
   t * t
 )
-"domains/constant_domain.ml" 94 1562 1571 "domains/constant_domain.ml" 94 1562 1574
+"domains/constant_domain.ml" 98 1638 1647 "domains/constant_domain.ml" 98 1638 1650
 type(
   t
 )
-"domains/constant_domain.ml" 91 1476 1493 "domains/constant_domain.ml" 94 1562 1574
+"domains/constant_domain.ml" 95 1552 1569 "domains/constant_domain.ml" 98 1638 1650
 type(
   t
 )
-"domains/constant_domain.ml" 98 1657 1663 "domains/constant_domain.ml" 98 1657 1668
+"domains/constant_domain.ml" 102 1733 1739 "domains/constant_domain.ml" 102 1733 1744
 type(
   t -> t -> t
 )
 ident(
-  def widen "domains/constant_domain.ml" 103 1719 1721 "domains/constant_domain.ml" 182 3623 3626
+  def widen "domains/constant_domain.ml" 107 1795 1797 "domains/constant_domain.ml" 189 3752 3755
 )
-"domains/constant_domain.ml" 98 1657 1671 "domains/constant_domain.ml" 98 1657 1675
+"domains/constant_domain.ml" 102 1733 1747 "domains/constant_domain.ml" 102 1733 1751
 type(
   t -> t -> t
 )
 ident(
-  int_ref join "domains/constant_domain.ml" 86 1376 1382 "domains/constant_domain.ml" 86 1376 1386
+  int_ref join "domains/constant_domain.ml" 90 1452 1458 "domains/constant_domain.ml" 90 1452 1462
 )
-"domains/constant_domain.ml" 103 1719 1725 "domains/constant_domain.ml" 103 1719 1727
+"domains/constant_domain.ml" 107 1795 1801 "domains/constant_domain.ml" 107 1795 1803
 type(
   'a -> 'b -> 'a * 'b
 )
 ident(
-  def eq "domains/constant_domain.ml" 107 1804 1806 "domains/constant_domain.ml" 182 3623 3626
+  def eq "domains/constant_domain.ml" 111 1880 1882 "domains/constant_domain.ml" 189 3752 3755
 )
-"domains/constant_domain.ml" 103 1719 1728 "domains/constant_domain.ml" 103 1719 1729
+"domains/constant_domain.ml" 107 1795 1804 "domains/constant_domain.ml" 107 1795 1805
 type(
   'a
 )
 ident(
-  def a "domains/constant_domain.ml" 103 1719 1730 "domains/constant_domain.ml" 105 1794 1802
+  def a "domains/constant_domain.ml" 107 1795 1806 "domains/constant_domain.ml" 109 1870 1878
 )
-"domains/constant_domain.ml" 103 1719 1730 "domains/constant_domain.ml" 103 1719 1731
+"domains/constant_domain.ml" 107 1795 1806 "domains/constant_domain.ml" 107 1795 1807
 type(
   'b
 )
 ident(
-  def b "domains/constant_domain.ml" 105 1794 1798 "domains/constant_domain.ml" 105 1794 1802
+  def b "domains/constant_domain.ml" 109 1870 1874 "domains/constant_domain.ml" 109 1870 1878
 )
-"domains/constant_domain.ml" 105 1794 1798 "domains/constant_domain.ml" 105 1794 1799
+"domains/constant_domain.ml" 109 1870 1874 "domains/constant_domain.ml" 109 1870 1875
 type(
   'a
 )
 ident(
-  int_ref a "domains/constant_domain.ml" 103 1719 1728 "domains/constant_domain.ml" 103 1719 1729
+  int_ref a "domains/constant_domain.ml" 107 1795 1804 "domains/constant_domain.ml" 107 1795 1805
 )
-"domains/constant_domain.ml" 105 1794 1801 "domains/constant_domain.ml" 105 1794 1802
+"domains/constant_domain.ml" 109 1870 1877 "domains/constant_domain.ml" 109 1870 1878
 type(
   'b
 )
 ident(
-  int_ref b "domains/constant_domain.ml" 103 1719 1730 "domains/constant_domain.ml" 103 1719 1731
+  int_ref b "domains/constant_domain.ml" 107 1795 1806 "domains/constant_domain.ml" 107 1795 1807
 )
-"domains/constant_domain.ml" 105 1794 1798 "domains/constant_domain.ml" 105 1794 1802
+"domains/constant_domain.ml" 109 1870 1874 "domains/constant_domain.ml" 109 1870 1878
 type(
   'a * 'b
 )
-"domains/constant_domain.ml" 107 1804 1810 "domains/constant_domain.ml" 107 1804 1813
+"domains/constant_domain.ml" 111 1880 1886 "domains/constant_domain.ml" 111 1880 1889
 type(
   'c -> 'd -> 'c * 'd
 )
 ident(
-  def neq "domains/constant_domain.ml" 110 1836 1838 "domains/constant_domain.ml" 182 3623 3626
+  def neq "domains/constant_domain.ml" 114 1912 1914 "domains/constant_domain.ml" 189 3752 3755
 )
-"domains/constant_domain.ml" 107 1804 1814 "domains/constant_domain.ml" 107 1804 1815
+"domains/constant_domain.ml" 111 1880 1890 "domains/constant_domain.ml" 111 1880 1891
 type(
   'c
 )
 ident(
-  def a "domains/constant_domain.ml" 107 1804 1816 "domains/constant_domain.ml" 108 1820 1828
+  def a "domains/constant_domain.ml" 111 1880 1892 "domains/constant_domain.ml" 112 1896 1904
 )
-"domains/constant_domain.ml" 107 1804 1816 "domains/constant_domain.ml" 107 1804 1817
+"domains/constant_domain.ml" 111 1880 1892 "domains/constant_domain.ml" 111 1880 1893
 type(
   'd
 )
 ident(
-  def b "domains/constant_domain.ml" 108 1820 1824 "domains/constant_domain.ml" 108 1820 1828
+  def b "domains/constant_domain.ml" 112 1896 1900 "domains/constant_domain.ml" 112 1896 1904
 )
-"domains/constant_domain.ml" 108 1820 1824 "domains/constant_domain.ml" 108 1820 1825
+"domains/constant_domain.ml" 112 1896 1900 "domains/constant_domain.ml" 112 1896 1901
 type(
   'c
 )
 ident(
-  int_ref a "domains/constant_domain.ml" 107 1804 1814 "domains/constant_domain.ml" 107 1804 1815
+  int_ref a "domains/constant_domain.ml" 111 1880 1890 "domains/constant_domain.ml" 111 1880 1891
 )
-"domains/constant_domain.ml" 108 1820 1827 "domains/constant_domain.ml" 108 1820 1828
+"domains/constant_domain.ml" 112 1896 1903 "domains/constant_domain.ml" 112 1896 1904
 type(
   'd
 )
 ident(
-  int_ref b "domains/constant_domain.ml" 107 1804 1816 "domains/constant_domain.ml" 107 1804 1817
+  int_ref b "domains/constant_domain.ml" 111 1880 1892 "domains/constant_domain.ml" 111 1880 1893
 )
-"domains/constant_domain.ml" 108 1820 1824 "domains/constant_domain.ml" 108 1820 1828
+"domains/constant_domain.ml" 112 1896 1900 "domains/constant_domain.ml" 112 1896 1904
 type(
   'c * 'd
 )
-"domains/constant_domain.ml" 110 1836 1842 "domains/constant_domain.ml" 110 1836 1845
+"domains/constant_domain.ml" 114 1912 1918 "domains/constant_domain.ml" 114 1912 1921
 type(
   'e -> 'f -> 'e * 'f
 )
 ident(
-  def geq "domains/constant_domain.ml" 113 1868 1870 "domains/constant_domain.ml" 182 3623 3626
+  def geq "domains/constant_domain.ml" 117 1944 1946 "domains/constant_domain.ml" 189 3752 3755
 )
-"domains/constant_domain.ml" 110 1836 1846 "domains/constant_domain.ml" 110 1836 1847
+"domains/constant_domain.ml" 114 1912 1922 "domains/constant_domain.ml" 114 1912 1923
 type(
   'e
 )
 ident(
-  def a "domains/constant_domain.ml" 110 1836 1848 "domains/constant_domain.ml" 111 1852 1860
+  def a "domains/constant_domain.ml" 114 1912 1924 "domains/constant_domain.ml" 115 1928 1936
 )
-"domains/constant_domain.ml" 110 1836 1848 "domains/constant_domain.ml" 110 1836 1849
+"domains/constant_domain.ml" 114 1912 1924 "domains/constant_domain.ml" 114 1912 1925
 type(
   'f
 )
 ident(
-  def b "domains/constant_domain.ml" 111 1852 1856 "domains/constant_domain.ml" 111 1852 1860
+  def b "domains/constant_domain.ml" 115 1928 1932 "domains/constant_domain.ml" 115 1928 1936
 )
-"domains/constant_domain.ml" 111 1852 1856 "domains/constant_domain.ml" 111 1852 1857
+"domains/constant_domain.ml" 115 1928 1932 "domains/constant_domain.ml" 115 1928 1933
 type(
   'e
 )
 ident(
-  int_ref a "domains/constant_domain.ml" 110 1836 1846 "domains/constant_domain.ml" 110 1836 1847
+  int_ref a "domains/constant_domain.ml" 114 1912 1922 "domains/constant_domain.ml" 114 1912 1923
 )
-"domains/constant_domain.ml" 111 1852 1859 "domains/constant_domain.ml" 111 1852 1860
+"domains/constant_domain.ml" 115 1928 1935 "domains/constant_domain.ml" 115 1928 1936
 type(
   'f
 )
 ident(
-  int_ref b "domains/constant_domain.ml" 110 1836 1848 "domains/constant_domain.ml" 110 1836 1849
+  int_ref b "domains/constant_domain.ml" 114 1912 1924 "domains/constant_domain.ml" 114 1912 1925
 )
-"domains/constant_domain.ml" 111 1852 1856 "domains/constant_domain.ml" 111 1852 1860
+"domains/constant_domain.ml" 115 1928 1932 "domains/constant_domain.ml" 115 1928 1936
 type(
   'e * 'f
 )
-"domains/constant_domain.ml" 113 1868 1874 "domains/constant_domain.ml" 113 1868 1876
+"domains/constant_domain.ml" 117 1944 1950 "domains/constant_domain.ml" 117 1944 1952
 type(
   'g -> 'h -> 'g * 'h
 )
 ident(
-  def gt "domains/constant_domain.ml" 118 1938 1940 "domains/constant_domain.ml" 182 3623 3626
+  def gt "domains/constant_domain.ml" 122 2014 2016 "domains/constant_domain.ml" 189 3752 3755
 )
-"domains/constant_domain.ml" 113 1868 1877 "domains/constant_domain.ml" 113 1868 1878
+"domains/constant_domain.ml" 117 1944 1953 "domains/constant_domain.ml" 117 1944 1954
 type(
   'g
 )
 ident(
-  def a "domains/constant_domain.ml" 113 1868 1879 "domains/constant_domain.ml" 114 1883 1891
+  def a "domains/constant_domain.ml" 117 1944 1955 "domains/constant_domain.ml" 118 1959 1967
 )
-"domains/constant_domain.ml" 113 1868 1879 "domains/constant_domain.ml" 113 1868 1880
+"domains/constant_domain.ml" 117 1944 1955 "domains/constant_domain.ml" 117 1944 1956
 type(
   'h
 )
 ident(
-  def b "domains/constant_domain.ml" 114 1883 1887 "domains/constant_domain.ml" 114 1883 1891
+  def b "domains/constant_domain.ml" 118 1959 1963 "domains/constant_domain.ml" 118 1959 1967
 )
-"domains/constant_domain.ml" 114 1883 1887 "domains/constant_domain.ml" 114 1883 1888
+"domains/constant_domain.ml" 118 1959 1963 "domains/constant_domain.ml" 118 1959 1964
 type(
   'g
 )
 ident(
-  int_ref a "domains/constant_domain.ml" 113 1868 1877 "domains/constant_domain.ml" 113 1868 1878
+  int_ref a "domains/constant_domain.ml" 117 1944 1953 "domains/constant_domain.ml" 117 1944 1954
 )
-"domains/constant_domain.ml" 114 1883 1890 "domains/constant_domain.ml" 114 1883 1891
+"domains/constant_domain.ml" 118 1959 1966 "domains/constant_domain.ml" 118 1959 1967
 type(
   'h
 )
 ident(
-  int_ref b "domains/constant_domain.ml" 113 1868 1879 "domains/constant_domain.ml" 113 1868 1880
+  int_ref b "domains/constant_domain.ml" 117 1944 1955 "domains/constant_domain.ml" 117 1944 1956
 )
-"domains/constant_domain.ml" 114 1883 1887 "domains/constant_domain.ml" 114 1883 1891
+"domains/constant_domain.ml" 118 1959 1963 "domains/constant_domain.ml" 118 1959 1967
 type(
   'g * 'h
 )
-"domains/constant_domain.ml" 118 1938 1944 "domains/constant_domain.ml" 118 1938 1950
+"domains/constant_domain.ml" 122 2014 2020 "domains/constant_domain.ml" 122 2014 2026
 type(
   t -> t -> bool
 )
 ident(
-  def subset "domains/constant_domain.ml" 124 2088 2090 "domains/constant_domain.ml" 182 3623 3626
+  def subset "domains/constant_domain.ml" 128 2164 2166 "domains/constant_domain.ml" 189 3752 3755
 )
-"domains/constant_domain.ml" 118 1938 1951 "domains/constant_domain.ml" 118 1938 1952
+"domains/constant_domain.ml" 122 2014 2027 "domains/constant_domain.ml" 122 2014 2028
 type(
   t
 )
 ident(
-  def a "domains/constant_domain.ml" 118 1938 1953 "domains/constant_domain.ml" 121 2022 2036
+  def a "domains/constant_domain.ml" 122 2014 2029 "domains/constant_domain.ml" 125 2098 2112
 )
-"domains/constant_domain.ml" 118 1938 1953 "domains/constant_domain.ml" 118 1938 1954
+"domains/constant_domain.ml" 122 2014 2029 "domains/constant_domain.ml" 122 2014 2030
 type(
   t
 )
 ident(
-  def b "domains/constant_domain.ml" 118 1938 1957 "domains/constant_domain.ml" 121 2022 2036
+  def b "domains/constant_domain.ml" 122 2014 2033 "domains/constant_domain.ml" 125 2098 2112
 )
-"domains/constant_domain.ml" 118 1938 1963 "domains/constant_domain.ml" 118 1938 1964
+"domains/constant_domain.ml" 122 2014 2039 "domains/constant_domain.ml" 122 2014 2040
 type(
   t
 )
 ident(
-  int_ref a "domains/constant_domain.ml" 118 1938 1951 "domains/constant_domain.ml" 118 1938 1952
+  int_ref a "domains/constant_domain.ml" 122 2014 2027 "domains/constant_domain.ml" 122 2014 2028
 )
-"domains/constant_domain.ml" 118 1938 1965 "domains/constant_domain.ml" 118 1938 1966
+"domains/constant_domain.ml" 122 2014 2041 "domains/constant_domain.ml" 122 2014 2042
 type(
   t
 )
 ident(
-  int_ref b "domains/constant_domain.ml" 118 1938 1953 "domains/constant_domain.ml" 118 1938 1954
+  int_ref b "domains/constant_domain.ml" 122 2014 2029 "domains/constant_domain.ml" 122 2014 2030
 )
-"domains/constant_domain.ml" 118 1938 1963 "domains/constant_domain.ml" 118 1938 1966
+"domains/constant_domain.ml" 122 2014 2039 "domains/constant_domain.ml" 122 2014 2042
 type(
   t * t
 )
-"domains/constant_domain.ml" 119 1972 1976 "domains/constant_domain.ml" 119 1972 1979
+"domains/constant_domain.ml" 123 2048 2052 "domains/constant_domain.ml" 123 2048 2055
 type(
   t
 )
-"domains/constant_domain.ml" 119 1972 1980 "domains/constant_domain.ml" 119 1972 1981
+"domains/constant_domain.ml" 123 2048 2056 "domains/constant_domain.ml" 123 2048 2057
 type(
   t
 )
-"domains/constant_domain.ml" 119 1972 1976 "domains/constant_domain.ml" 119 1972 1981
+"domains/constant_domain.ml" 123 2048 2052 "domains/constant_domain.ml" 123 2048 2057
 type(
   t * t
 )
-"domains/constant_domain.ml" 119 1972 1984 "domains/constant_domain.ml" 119 1972 1985
+"domains/constant_domain.ml" 123 2048 2060 "domains/constant_domain.ml" 123 2048 2061
 type(
   t
 )
-"domains/constant_domain.ml" 119 1972 1986 "domains/constant_domain.ml" 119 1972 1989
+"domains/constant_domain.ml" 123 2048 2062 "domains/constant_domain.ml" 123 2048 2065
 type(
   t
 )
-"domains/constant_domain.ml" 119 1972 1984 "domains/constant_domain.ml" 119 1972 1989
+"domains/constant_domain.ml" 123 2048 2060 "domains/constant_domain.ml" 123 2048 2065
 type(
   t * t
 )
-"domains/constant_domain.ml" 119 1972 1976 "domains/constant_domain.ml" 119 1972 1989
+"domains/constant_domain.ml" 123 2048 2052 "domains/constant_domain.ml" 123 2048 2065
 type(
   t * t
 )
-"domains/constant_domain.ml" 119 1972 1993 "domains/constant_domain.ml" 119 1972 1997
+"domains/constant_domain.ml" 123 2048 2069 "domains/constant_domain.ml" 123 2048 2073
 type(
   bool
 )
-"domains/constant_domain.ml" 120 1998 2006 "domains/constant_domain.ml" 120 1998 2007
+"domains/constant_domain.ml" 124 2074 2082 "domains/constant_domain.ml" 124 2074 2083
 type(
   Z.t
 )
 ident(
-  def x "domains/constant_domain.ml" 120 1998 2018 "domains/constant_domain.ml" 120 1998 2021
+  def x "domains/constant_domain.ml" 124 2074 2094 "domains/constant_domain.ml" 124 2074 2097
 )
-"domains/constant_domain.ml" 120 1998 2002 "domains/constant_domain.ml" 120 1998 2007
+"domains/constant_domain.ml" 124 2074 2078 "domains/constant_domain.ml" 124 2074 2083
 type(
   t
 )
-"domains/constant_domain.ml" 120 1998 2013 "domains/constant_domain.ml" 120 1998 2014
+"domains/constant_domain.ml" 124 2074 2089 "domains/constant_domain.ml" 124 2074 2090
 type(
   Z.t
 )
 ident(
-  def y "domains/constant_domain.ml" 120 1998 2018 "domains/constant_domain.ml" 120 1998 2021
+  def y "domains/constant_domain.ml" 124 2074 2094 "domains/constant_domain.ml" 124 2074 2097
 )
-"domains/constant_domain.ml" 120 1998 2009 "domains/constant_domain.ml" 120 1998 2014
+"domains/constant_domain.ml" 124 2074 2085 "domains/constant_domain.ml" 124 2074 2090
 type(
   t
 )
-"domains/constant_domain.ml" 120 1998 2002 "domains/constant_domain.ml" 120 1998 2014
+"domains/constant_domain.ml" 124 2074 2078 "domains/constant_domain.ml" 124 2074 2090
 type(
   t * t
 )
-"domains/constant_domain.ml" 120 1998 2018 "domains/constant_domain.ml" 120 1998 2019
+"domains/constant_domain.ml" 124 2074 2094 "domains/constant_domain.ml" 124 2074 2095
 type(
   Z.t
 )
 ident(
-  int_ref x "domains/constant_domain.ml" 120 1998 2006 "domains/constant_domain.ml" 120 1998 2007
+  int_ref x "domains/constant_domain.ml" 124 2074 2082 "domains/constant_domain.ml" 124 2074 2083
 )
-"domains/constant_domain.ml" 120 1998 2019 "domains/constant_domain.ml" 120 1998 2020
+"domains/constant_domain.ml" 124 2074 2095 "domains/constant_domain.ml" 124 2074 2096
 type(
   Z.t -> Z.t -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"domains/constant_domain.ml" 120 1998 2020 "domains/constant_domain.ml" 120 1998 2021
+"domains/constant_domain.ml" 124 2074 2096 "domains/constant_domain.ml" 124 2074 2097
 type(
   Z.t
 )
 ident(
-  int_ref y "domains/constant_domain.ml" 120 1998 2013 "domains/constant_domain.ml" 120 1998 2014
+  int_ref y "domains/constant_domain.ml" 124 2074 2089 "domains/constant_domain.ml" 124 2074 2090
 )
-"domains/constant_domain.ml" 120 1998 2018 "domains/constant_domain.ml" 120 1998 2021
+"domains/constant_domain.ml" 124 2074 2094 "domains/constant_domain.ml" 124 2074 2097
 type(
   bool
 )
-"domains/constant_domain.ml" 121 2022 2026 "domains/constant_domain.ml" 121 2022 2027
+"domains/constant_domain.ml" 125 2098 2102 "domains/constant_domain.ml" 125 2098 2103
 type(
   t * t
 )
-"domains/constant_domain.ml" 121 2022 2031 "domains/constant_domain.ml" 121 2022 2036
+"domains/constant_domain.ml" 125 2098 2107 "domains/constant_domain.ml" 125 2098 2112
 type(
   bool
 )
-"domains/constant_domain.ml" 118 1938 1957 "domains/constant_domain.ml" 121 2022 2036
+"domains/constant_domain.ml" 122 2014 2033 "domains/constant_domain.ml" 125 2098 2112
 type(
   bool
 )
-"domains/constant_domain.ml" 124 2088 2094 "domains/constant_domain.ml" 124 2088 2103
+"domains/constant_domain.ml" 128 2164 2170 "domains/constant_domain.ml" 128 2164 2179
 type(
   t -> bool
 )
 ident(
-  def is_bottom "domains/constant_domain.ml" 128 2151 2153 "domains/constant_domain.ml" 182 3623 3626
+  def is_bottom "domains/constant_domain.ml" 132 2227 2229 "domains/constant_domain.ml" 189 3752 3755
 )
-"domains/constant_domain.ml" 124 2088 2104 "domains/constant_domain.ml" 124 2088 2105
+"domains/constant_domain.ml" 128 2164 2180 "domains/constant_domain.ml" 128 2164 2181
 type(
   t
 )
 ident(
-  def a "domains/constant_domain.ml" 125 2108 2112 "domains/constant_domain.ml" 125 2108 2117
+  def a "domains/constant_domain.ml" 129 2184 2188 "domains/constant_domain.ml" 129 2184 2193
 )
-"domains/constant_domain.ml" 125 2108 2112 "domains/constant_domain.ml" 125 2108 2113
+"domains/constant_domain.ml" 129 2184 2188 "domains/constant_domain.ml" 129 2184 2189
 type(
   t
 )
 ident(
-  int_ref a "domains/constant_domain.ml" 124 2088 2104 "domains/constant_domain.ml" 124 2088 2105
+  int_ref a "domains/constant_domain.ml" 128 2164 2180 "domains/constant_domain.ml" 128 2164 2181
 )
-"domains/constant_domain.ml" 125 2108 2113 "domains/constant_domain.ml" 125 2108 2114
+"domains/constant_domain.ml" 129 2184 2189 "domains/constant_domain.ml" 129 2184 2190
 type(
   t -> t -> bool
 )
 ident(
   ext_ref Pervasives.( = )
 )
-"domains/constant_domain.ml" 125 2108 2114 "domains/constant_domain.ml" 125 2108 2117
+"domains/constant_domain.ml" 129 2184 2190 "domains/constant_domain.ml" 129 2184 2193
 type(
   t
 )
-"domains/constant_domain.ml" 125 2108 2112 "domains/constant_domain.ml" 125 2108 2117
+"domains/constant_domain.ml" 129 2184 2188 "domains/constant_domain.ml" 129 2184 2193
 type(
   bool
 )
-"domains/constant_domain.ml" 128 2151 2157 "domains/constant_domain.ml" 128 2151 2162
+"domains/constant_domain.ml" 132 2227 2233 "domains/constant_domain.ml" 132 2227 2238
 type(
   Format.formatter -> t -> unit
 )
 ident(
-  def print "domains/constant_domain.ml" 136 2351 2353 "domains/constant_domain.ml" 182 3623 3626
+  def print "domains/constant_domain.ml" 140 2427 2429 "domains/constant_domain.ml" 189 3752 3755
 )
-"domains/constant_domain.ml" 128 2151 2163 "domains/constant_domain.ml" 128 2151 2166
+"domains/constant_domain.ml" 132 2227 2239 "domains/constant_domain.ml" 132 2227 2242
 type(
   Format.formatter
 )
 ident(
-  def fmt "domains/constant_domain.ml" 128 2151 2167 "domains/constant_domain.ml" 131 2259 2313
+  def fmt "domains/constant_domain.ml" 132 2227 2243 "domains/constant_domain.ml" 135 2335 2389
 )
-"domains/constant_domain.ml" 128 2151 2167 "domains/constant_domain.ml" 128 2151 2168
+"domains/constant_domain.ml" 132 2227 2243 "domains/constant_domain.ml" 132 2227 2244
 type(
   t
 )
 ident(
-  def x "domains/constant_domain.ml" 128 2151 2171 "domains/constant_domain.ml" 131 2259 2313
+  def x "domains/constant_domain.ml" 132 2227 2247 "domains/constant_domain.ml" 135 2335 2389
 )
-"domains/constant_domain.ml" 128 2151 2177 "domains/constant_domain.ml" 128 2151 2178
+"domains/constant_domain.ml" 132 2227 2253 "domains/constant_domain.ml" 132 2227 2254
 type(
   t
 )
 ident(
-  int_ref x "domains/constant_domain.ml" 128 2151 2167 "domains/constant_domain.ml" 128 2151 2168
+  int_ref x "domains/constant_domain.ml" 132 2227 2243 "domains/constant_domain.ml" 132 2227 2244
 )
-"domains/constant_domain.ml" 129 2184 2188 "domains/constant_domain.ml" 129 2184 2191
+"domains/constant_domain.ml" 133 2260 2264 "domains/constant_domain.ml" 133 2260 2267
 type(
   t
 )
-"domains/constant_domain.ml" 129 2184 2195 "domains/constant_domain.ml" 129 2184 2209
+"domains/constant_domain.ml" 133 2260 2271 "domains/constant_domain.ml" 133 2260 2285
 type(
   Format.formatter -> (unit, Format.formatter, unit) format -> unit
 )
 ident(
   ext_ref Format.fprintf
 )
-"domains/constant_domain.ml" 129 2184 2210 "domains/constant_domain.ml" 129 2184 2213
+"domains/constant_domain.ml" 133 2260 2286 "domains/constant_domain.ml" 133 2260 2289
 type(
   Format.formatter
 )
 ident(
-  int_ref fmt "domains/constant_domain.ml" 128 2151 2163 "domains/constant_domain.ml" 128 2151 2166
+  int_ref fmt "domains/constant_domain.ml" 132 2227 2239 "domains/constant_domain.ml" 132 2227 2242
 )
-"domains/constant_domain.ml" 129 2184 2214 "domains/constant_domain.ml" 129 2184 2222
+"domains/constant_domain.ml" 133 2260 2290 "domains/constant_domain.ml" 133 2260 2298
 type(
   (unit, Format.formatter, unit) format
 )
-"domains/constant_domain.ml" 129 2184 2195 "domains/constant_domain.ml" 129 2184 2222
+"domains/constant_domain.ml" 133 2260 2271 "domains/constant_domain.ml" 133 2260 2298
 call(
   tail
 )
 type(
   unit
 )
-"domains/constant_domain.ml" 130 2223 2227 "domains/constant_domain.ml" 130 2223 2230
+"domains/constant_domain.ml" 134 2299 2303 "domains/constant_domain.ml" 134 2299 2306
 type(
   t
 )
-"domains/constant_domain.ml" 130 2223 2234 "domains/constant_domain.ml" 130 2223 2248
+"domains/constant_domain.ml" 134 2299 2310 "domains/constant_domain.ml" 134 2299 2324
 type(
   Format.formatter -> (unit, Format.formatter, unit) format -> unit
 )
 ident(
   ext_ref Format.fprintf
 )
-"domains/constant_domain.ml" 130 2223 2249 "domains/constant_domain.ml" 130 2223 2252
+"domains/constant_domain.ml" 134 2299 2325 "domains/constant_domain.ml" 134 2299 2328
 type(
   Format.formatter
 )
 ident(
-  int_ref fmt "domains/constant_domain.ml" 128 2151 2163 "domains/constant_domain.ml" 128 2151 2166
+  int_ref fmt "domains/constant_domain.ml" 132 2227 2239 "domains/constant_domain.ml" 132 2227 2242
 )
-"domains/constant_domain.ml" 130 2223 2253 "domains/constant_domain.ml" 130 2223 2258
+"domains/constant_domain.ml" 134 2299 2329 "domains/constant_domain.ml" 134 2299 2334
 type(
   (unit, Format.formatter, unit) format
 )
-"domains/constant_domain.ml" 130 2223 2234 "domains/constant_domain.ml" 130 2223 2258
+"domains/constant_domain.ml" 134 2299 2310 "domains/constant_domain.ml" 134 2299 2334
 call(
   tail
 )
 type(
   unit
 )
-"domains/constant_domain.ml" 131 2259 2267 "domains/constant_domain.ml" 131 2259 2268
+"domains/constant_domain.ml" 135 2335 2343 "domains/constant_domain.ml" 135 2335 2344
 type(
   Z.t
 )
 ident(
-  def x "domains/constant_domain.ml" 131 2259 2272 "domains/constant_domain.ml" 131 2259 2313
+  def x "domains/constant_domain.ml" 135 2335 2348 "domains/constant_domain.ml" 135 2335 2389
 )
-"domains/constant_domain.ml" 131 2259 2263 "domains/constant_domain.ml" 131 2259 2268
+"domains/constant_domain.ml" 135 2335 2339 "domains/constant_domain.ml" 135 2335 2344
 type(
   t
 )
-"domains/constant_domain.ml" 131 2259 2272 "domains/constant_domain.ml" 131 2259 2286
+"domains/constant_domain.ml" 135 2335 2348 "domains/constant_domain.ml" 135 2335 2362
 type(
   Format.formatter ->
   (string -> unit, Format.formatter, unit) format -> string -> unit
@@ -1349,1283 +1442,1337 @@ type(
 ident(
   ext_ref Format.fprintf
 )
-"domains/constant_domain.ml" 131 2259 2287 "domains/constant_domain.ml" 131 2259 2290
+"domains/constant_domain.ml" 135 2335 2363 "domains/constant_domain.ml" 135 2335 2366
 type(
   Format.formatter
 )
 ident(
-  int_ref fmt "domains/constant_domain.ml" 128 2151 2163 "domains/constant_domain.ml" 128 2151 2166
+  int_ref fmt "domains/constant_domain.ml" 132 2227 2239 "domains/constant_domain.ml" 132 2227 2242
 )
-"domains/constant_domain.ml" 131 2259 2291 "domains/constant_domain.ml" 131 2259 2297
+"domains/constant_domain.ml" 135 2335 2367 "domains/constant_domain.ml" 135 2335 2373
 type(
   (string -> unit, Format.formatter, unit) format
 )
-"domains/constant_domain.ml" 131 2259 2299 "domains/constant_domain.ml" 131 2259 2310
+"domains/constant_domain.ml" 135 2335 2375 "domains/constant_domain.ml" 135 2335 2386
 type(
   Z.t -> string
 )
 ident(
   ext_ref Z.to_string
 )
-"domains/constant_domain.ml" 131 2259 2311 "domains/constant_domain.ml" 131 2259 2312
+"domains/constant_domain.ml" 135 2335 2387 "domains/constant_domain.ml" 135 2335 2388
 type(
   Z.t
 )
 ident(
-  int_ref x "domains/constant_domain.ml" 131 2259 2267 "domains/constant_domain.ml" 131 2259 2268
+  int_ref x "domains/constant_domain.ml" 135 2335 2343 "domains/constant_domain.ml" 135 2335 2344
 )
-"domains/constant_domain.ml" 131 2259 2298 "domains/constant_domain.ml" 131 2259 2313
+"domains/constant_domain.ml" 135 2335 2374 "domains/constant_domain.ml" 135 2335 2389
 call(
   stack
 )
 type(
   string
 )
-"domains/constant_domain.ml" 131 2259 2272 "domains/constant_domain.ml" 131 2259 2313
+"domains/constant_domain.ml" 135 2335 2348 "domains/constant_domain.ml" 135 2335 2389
 call(
   tail
 )
 type(
   unit
 )
-"domains/constant_domain.ml" 128 2151 2171 "domains/constant_domain.ml" 131 2259 2313
+"domains/constant_domain.ml" 132 2227 2247 "domains/constant_domain.ml" 135 2335 2389
 type(
   unit
 )
-"domains/constant_domain.ml" 136 2351 2357 "domains/constant_domain.ml" 136 2351 2362
+"domains/constant_domain.ml" 140 2427 2433 "domains/constant_domain.ml" 140 2427 2438
 type(
   t -> Abstract_syntax_tree.int_unary_op -> t
 )
 ident(
-  def unary "domains/constant_domain.ml" 140 2439 2441 "domains/constant_domain.ml" 182 3623 3626
+  def unary "domains/constant_domain.ml" 144 2515 2517 "domains/constant_domain.ml" 189 3752 3755
 )
-"domains/constant_domain.ml" 136 2351 2363 "domains/constant_domain.ml" 136 2351 2364
+"domains/constant_domain.ml" 140 2427 2439 "domains/constant_domain.ml" 140 2427 2440
 type(
   t
 )
 ident(
-  def x "domains/constant_domain.ml" 136 2351 2365 "domains/constant_domain.ml" 138 2409 2437
+  def x "domains/constant_domain.ml" 140 2427 2441 "domains/constant_domain.ml" 142 2485 2513
 )
-"domains/constant_domain.ml" 136 2351 2365 "domains/constant_domain.ml" 136 2351 2367
+"domains/constant_domain.ml" 140 2427 2441 "domains/constant_domain.ml" 140 2427 2443
 type(
   Abstract_syntax_tree.int_unary_op
 )
 ident(
-  def op "domains/constant_domain.ml" 136 2351 2370 "domains/constant_domain.ml" 138 2409 2437
+  def op "domains/constant_domain.ml" 140 2427 2446 "domains/constant_domain.ml" 142 2485 2513
 )
-"domains/constant_domain.ml" 136 2351 2376 "domains/constant_domain.ml" 136 2351 2378
+"domains/constant_domain.ml" 140 2427 2452 "domains/constant_domain.ml" 140 2427 2454
 type(
   Abstract_syntax_tree.int_unary_op
 )
 ident(
-  int_ref op "domains/constant_domain.ml" 136 2351 2365 "domains/constant_domain.ml" 136 2351 2367
+  int_ref op "domains/constant_domain.ml" 140 2427 2441 "domains/constant_domain.ml" 140 2427 2443
 )
-"domains/constant_domain.ml" 137 2384 2388 "domains/constant_domain.ml" 137 2384 2402
+"domains/constant_domain.ml" 141 2460 2464 "domains/constant_domain.ml" 141 2460 2478
 type(
   Abstract_syntax_tree.int_unary_op
 )
-"domains/constant_domain.ml" 137 2384 2407 "domains/constant_domain.ml" 137 2384 2408
+"domains/constant_domain.ml" 141 2460 2483 "domains/constant_domain.ml" 141 2460 2484
 type(
   t
 )
 ident(
-  int_ref x "domains/constant_domain.ml" 136 2351 2363 "domains/constant_domain.ml" 136 2351 2364
+  int_ref x "domains/constant_domain.ml" 140 2427 2439 "domains/constant_domain.ml" 140 2427 2440
 )
-"domains/constant_domain.ml" 138 2409 2413 "domains/constant_domain.ml" 138 2409 2428
+"domains/constant_domain.ml" 142 2485 2489 "domains/constant_domain.ml" 142 2485 2504
 type(
   Abstract_syntax_tree.int_unary_op
 )
-"domains/constant_domain.ml" 138 2409 2432 "domains/constant_domain.ml" 138 2409 2435
+"domains/constant_domain.ml" 142 2485 2508 "domains/constant_domain.ml" 142 2485 2511
 type(
   t -> t
 )
 ident(
   int_ref neg "domains/constant_domain.ml" 71 1166 1172 "domains/constant_domain.ml" 71 1166 1175
 )
-"domains/constant_domain.ml" 138 2409 2436 "domains/constant_domain.ml" 138 2409 2437
+"domains/constant_domain.ml" 142 2485 2512 "domains/constant_domain.ml" 142 2485 2513
 type(
   t
 )
 ident(
-  int_ref x "domains/constant_domain.ml" 136 2351 2363 "domains/constant_domain.ml" 136 2351 2364
+  int_ref x "domains/constant_domain.ml" 140 2427 2439 "domains/constant_domain.ml" 140 2427 2440
 )
-"domains/constant_domain.ml" 138 2409 2432 "domains/constant_domain.ml" 138 2409 2437
+"domains/constant_domain.ml" 142 2485 2508 "domains/constant_domain.ml" 142 2485 2513
 call(
   tail
 )
 type(
   t
 )
-"domains/constant_domain.ml" 136 2351 2370 "domains/constant_domain.ml" 138 2409 2437
+"domains/constant_domain.ml" 140 2427 2446 "domains/constant_domain.ml" 142 2485 2513
 type(
   t
 )
-"domains/constant_domain.ml" 140 2439 2445 "domains/constant_domain.ml" 140 2439 2451
+"domains/constant_domain.ml" 144 2515 2521 "domains/constant_domain.ml" 144 2515 2527
 type(
   t -> t -> Abstract_syntax_tree.int_binary_op -> t
 )
 ident(
-  def binary "domains/constant_domain.ml" 146 2588 2590 "domains/constant_domain.ml" 182 3623 3626
+  def binary "domains/constant_domain.ml" 151 2692 2694 "domains/constant_domain.ml" 189 3752 3755
 )
-"domains/constant_domain.ml" 140 2439 2452 "domains/constant_domain.ml" 140 2439 2453
+"domains/constant_domain.ml" 144 2515 2528 "domains/constant_domain.ml" 144 2515 2529
 type(
   t
 )
 ident(
-  def x "domains/constant_domain.ml" 140 2439 2454 "domains/constant_domain.ml" 144 2559 2586
+  def x "domains/constant_domain.ml" 144 2515 2530 "domains/constant_domain.ml" 149 2663 2690
 )
-"domains/constant_domain.ml" 140 2439 2454 "domains/constant_domain.ml" 140 2439 2455
+"domains/constant_domain.ml" 144 2515 2530 "domains/constant_domain.ml" 144 2515 2531
 type(
   t
 )
 ident(
-  def y "domains/constant_domain.ml" 140 2439 2456 "domains/constant_domain.ml" 144 2559 2586
+  def y "domains/constant_domain.ml" 144 2515 2532 "domains/constant_domain.ml" 149 2663 2690
 )
-"domains/constant_domain.ml" 140 2439 2456 "domains/constant_domain.ml" 140 2439 2458
+"domains/constant_domain.ml" 144 2515 2532 "domains/constant_domain.ml" 144 2515 2534
 type(
   Abstract_syntax_tree.int_binary_op
 )
 ident(
-  def op "domains/constant_domain.ml" 140 2439 2461 "domains/constant_domain.ml" 144 2559 2586
+  def op "domains/constant_domain.ml" 144 2515 2537 "domains/constant_domain.ml" 149 2663 2690
 )
-"domains/constant_domain.ml" 140 2439 2467 "domains/constant_domain.ml" 140 2439 2469
+"domains/constant_domain.ml" 144 2515 2543 "domains/constant_domain.ml" 144 2515 2545
 type(
   Abstract_syntax_tree.int_binary_op
 )
 ident(
-  int_ref op "domains/constant_domain.ml" 140 2439 2456 "domains/constant_domain.ml" 140 2439 2458
+  int_ref op "domains/constant_domain.ml" 144 2515 2532 "domains/constant_domain.ml" 144 2515 2534
 )
-"domains/constant_domain.ml" 141 2475 2479 "domains/constant_domain.ml" 141 2475 2487
+"domains/constant_domain.ml" 145 2551 2555 "domains/constant_domain.ml" 145 2551 2563
 type(
   Abstract_syntax_tree.int_binary_op
 )
-"domains/constant_domain.ml" 141 2475 2495 "domains/constant_domain.ml" 141 2475 2498
+"domains/constant_domain.ml" 145 2551 2571 "domains/constant_domain.ml" 145 2551 2574
 type(
   t -> t -> t
 )
 ident(
   int_ref add "domains/constant_domain.ml" 73 1191 1197 "domains/constant_domain.ml" 73 1191 1200
 )
-"domains/constant_domain.ml" 141 2475 2499 "domains/constant_domain.ml" 141 2475 2500
+"domains/constant_domain.ml" 145 2551 2575 "domains/constant_domain.ml" 145 2551 2576
 type(
   t
 )
 ident(
-  int_ref x "domains/constant_domain.ml" 140 2439 2452 "domains/constant_domain.ml" 140 2439 2453
+  int_ref x "domains/constant_domain.ml" 144 2515 2528 "domains/constant_domain.ml" 144 2515 2529
 )
-"domains/constant_domain.ml" 141 2475 2501 "domains/constant_domain.ml" 141 2475 2502
+"domains/constant_domain.ml" 145 2551 2577 "domains/constant_domain.ml" 145 2551 2578
 type(
   t
 )
 ident(
-  int_ref y "domains/constant_domain.ml" 140 2439 2454 "domains/constant_domain.ml" 140 2439 2455
+  int_ref y "domains/constant_domain.ml" 144 2515 2530 "domains/constant_domain.ml" 144 2515 2531
 )
-"domains/constant_domain.ml" 141 2475 2495 "domains/constant_domain.ml" 141 2475 2502
+"domains/constant_domain.ml" 145 2551 2571 "domains/constant_domain.ml" 145 2551 2578
 call(
   tail
 )
 type(
   t
 )
-"domains/constant_domain.ml" 142 2503 2507 "domains/constant_domain.ml" 142 2503 2516
+"domains/constant_domain.ml" 146 2579 2583 "domains/constant_domain.ml" 146 2579 2592
 type(
   Abstract_syntax_tree.int_binary_op
 )
-"domains/constant_domain.ml" 142 2503 2523 "domains/constant_domain.ml" 142 2503 2526
+"domains/constant_domain.ml" 146 2579 2599 "domains/constant_domain.ml" 146 2579 2602
 type(
   t -> t -> t
 )
 ident(
   int_ref sub "domains/constant_domain.ml" 75 1216 1222 "domains/constant_domain.ml" 75 1216 1225
 )
-"domains/constant_domain.ml" 142 2503 2527 "domains/constant_domain.ml" 142 2503 2528
+"domains/constant_domain.ml" 146 2579 2603 "domains/constant_domain.ml" 146 2579 2604
 type(
   t
 )
 ident(
-  int_ref x "domains/constant_domain.ml" 140 2439 2452 "domains/constant_domain.ml" 140 2439 2453
+  int_ref x "domains/constant_domain.ml" 144 2515 2528 "domains/constant_domain.ml" 144 2515 2529
 )
-"domains/constant_domain.ml" 142 2503 2529 "domains/constant_domain.ml" 142 2503 2530
+"domains/constant_domain.ml" 146 2579 2605 "domains/constant_domain.ml" 146 2579 2606
 type(
   t
 )
 ident(
-  int_ref y "domains/constant_domain.ml" 140 2439 2454 "domains/constant_domain.ml" 140 2439 2455
+  int_ref y "domains/constant_domain.ml" 144 2515 2530 "domains/constant_domain.ml" 144 2515 2531
 )
-"domains/constant_domain.ml" 142 2503 2523 "domains/constant_domain.ml" 142 2503 2530
+"domains/constant_domain.ml" 146 2579 2599 "domains/constant_domain.ml" 146 2579 2606
 call(
   tail
 )
 type(
   t
 )
-"domains/constant_domain.ml" 143 2531 2535 "domains/constant_domain.ml" 143 2531 2547
+"domains/constant_domain.ml" 147 2607 2611 "domains/constant_domain.ml" 147 2607 2623
 type(
   Abstract_syntax_tree.int_binary_op
 )
-"domains/constant_domain.ml" 143 2531 2551 "domains/constant_domain.ml" 143 2531 2554
+"domains/constant_domain.ml" 147 2607 2627 "domains/constant_domain.ml" 147 2607 2630
 type(
   t -> t -> t
 )
 ident(
   int_ref mul "domains/constant_domain.ml" 77 1241 1247 "domains/constant_domain.ml" 77 1241 1250
 )
-"domains/constant_domain.ml" 143 2531 2555 "domains/constant_domain.ml" 143 2531 2556
+"domains/constant_domain.ml" 147 2607 2631 "domains/constant_domain.ml" 147 2607 2632
 type(
   t
 )
 ident(
-  int_ref x "domains/constant_domain.ml" 140 2439 2452 "domains/constant_domain.ml" 140 2439 2453
+  int_ref x "domains/constant_domain.ml" 144 2515 2528 "domains/constant_domain.ml" 144 2515 2529
 )
-"domains/constant_domain.ml" 143 2531 2557 "domains/constant_domain.ml" 143 2531 2558
+"domains/constant_domain.ml" 147 2607 2633 "domains/constant_domain.ml" 147 2607 2634
 type(
   t
 )
 ident(
-  int_ref y "domains/constant_domain.ml" 140 2439 2454 "domains/constant_domain.ml" 140 2439 2455
+  int_ref y "domains/constant_domain.ml" 144 2515 2530 "domains/constant_domain.ml" 144 2515 2531
 )
-"domains/constant_domain.ml" 143 2531 2551 "domains/constant_domain.ml" 143 2531 2558
+"domains/constant_domain.ml" 147 2607 2627 "domains/constant_domain.ml" 147 2607 2634
 call(
   tail
 )
 type(
   t
 )
-"domains/constant_domain.ml" 144 2559 2563 "domains/constant_domain.ml" 144 2559 2573
+"domains/constant_domain.ml" 148 2635 2639 "domains/constant_domain.ml" 148 2635 2649
 type(
   Abstract_syntax_tree.int_binary_op
 )
-"domains/constant_domain.ml" 144 2559 2579 "domains/constant_domain.ml" 144 2559 2582
+"domains/constant_domain.ml" 148 2635 2655 "domains/constant_domain.ml" 148 2635 2658
 type(
   t -> t -> t
 )
 ident(
-  int_ref div "domains/constant_domain.ml" 79 1266 1272 "domains/constant_domain.ml" 79 1266 1275
+  int_ref div "domains/constant_domain.ml" 79 1267 1273 "domains/constant_domain.ml" 79 1267 1276
 )
-"domains/constant_domain.ml" 144 2559 2583 "domains/constant_domain.ml" 144 2559 2584
+"domains/constant_domain.ml" 148 2635 2659 "domains/constant_domain.ml" 148 2635 2660
 type(
   t
 )
 ident(
-  int_ref x "domains/constant_domain.ml" 140 2439 2452 "domains/constant_domain.ml" 140 2439 2453
+  int_ref x "domains/constant_domain.ml" 144 2515 2528 "domains/constant_domain.ml" 144 2515 2529
 )
-"domains/constant_domain.ml" 144 2559 2585 "domains/constant_domain.ml" 144 2559 2586
+"domains/constant_domain.ml" 148 2635 2661 "domains/constant_domain.ml" 148 2635 2662
 type(
   t
 )
 ident(
-  int_ref y "domains/constant_domain.ml" 140 2439 2454 "domains/constant_domain.ml" 140 2439 2455
+  int_ref y "domains/constant_domain.ml" 144 2515 2530 "domains/constant_domain.ml" 144 2515 2531
 )
-"domains/constant_domain.ml" 144 2559 2579 "domains/constant_domain.ml" 144 2559 2586
+"domains/constant_domain.ml" 148 2635 2655 "domains/constant_domain.ml" 148 2635 2662
 call(
   tail
 )
 type(
   t
 )
-"domains/constant_domain.ml" 140 2439 2461 "domains/constant_domain.ml" 144 2559 2586
+"domains/constant_domain.ml" 149 2663 2666 "domains/constant_domain.ml" 149 2663 2676
+type(
+  Abstract_syntax_tree.int_binary_op
+)
+"domains/constant_domain.ml" 149 2663 2682 "domains/constant_domain.ml" 149 2663 2686
+type(
+  t -> t -> t
+)
+ident(
+  int_ref _mod "domains/constant_domain.ml" 83 1342 1347 "domains/constant_domain.ml" 83 1342 1351
+)
+"domains/constant_domain.ml" 149 2663 2687 "domains/constant_domain.ml" 149 2663 2688
 type(
   t
 )
-"domains/constant_domain.ml" 146 2588 2594 "domains/constant_domain.ml" 146 2588 2601
+ident(
+  int_ref x "domains/constant_domain.ml" 144 2515 2528 "domains/constant_domain.ml" 144 2515 2529
+)
+"domains/constant_domain.ml" 149 2663 2689 "domains/constant_domain.ml" 149 2663 2690
+type(
+  t
+)
+ident(
+  int_ref y "domains/constant_domain.ml" 144 2515 2530 "domains/constant_domain.ml" 144 2515 2531
+)
+"domains/constant_domain.ml" 149 2663 2682 "domains/constant_domain.ml" 149 2663 2690
+call(
+  tail
+)
+type(
+  t
+)
+"domains/constant_domain.ml" 144 2515 2537 "domains/constant_domain.ml" 149 2663 2690
+type(
+  t
+)
+"domains/constant_domain.ml" 151 2692 2698 "domains/constant_domain.ml" 151 2692 2705
 type(
   'i -> 'j -> Abstract_syntax_tree.compare_op -> 'i * 'j
 )
 ident(
-  def compare "domains/constant_domain.ml" 156 2873 2875 "domains/constant_domain.ml" 182 3623 3626
+  def compare "domains/constant_domain.ml" 161 2977 2979 "domains/constant_domain.ml" 189 3752 3755
 )
-"domains/constant_domain.ml" 146 2588 2602 "domains/constant_domain.ml" 146 2588 2603
+"domains/constant_domain.ml" 151 2692 2706 "domains/constant_domain.ml" 151 2692 2707
 type(
   'i
 )
 ident(
-  def x "domains/constant_domain.ml" 146 2588 2604 "domains/constant_domain.ml" 152 2809 2861
+  def x "domains/constant_domain.ml" 151 2692 2708 "domains/constant_domain.ml" 157 2913 2965
 )
-"domains/constant_domain.ml" 146 2588 2604 "domains/constant_domain.ml" 146 2588 2605
+"domains/constant_domain.ml" 151 2692 2708 "domains/constant_domain.ml" 151 2692 2709
 type(
   'j
 )
 ident(
-  def y "domains/constant_domain.ml" 146 2588 2606 "domains/constant_domain.ml" 152 2809 2861
+  def y "domains/constant_domain.ml" 151 2692 2710 "domains/constant_domain.ml" 157 2913 2965
 )
-"domains/constant_domain.ml" 146 2588 2606 "domains/constant_domain.ml" 146 2588 2608
+"domains/constant_domain.ml" 151 2692 2710 "domains/constant_domain.ml" 151 2692 2712
 type(
   Abstract_syntax_tree.compare_op
 )
 ident(
-  def op "domains/constant_domain.ml" 146 2588 2611 "domains/constant_domain.ml" 152 2809 2861
+  def op "domains/constant_domain.ml" 151 2692 2715 "domains/constant_domain.ml" 157 2913 2965
 )
-"domains/constant_domain.ml" 146 2588 2617 "domains/constant_domain.ml" 146 2588 2619
+"domains/constant_domain.ml" 151 2692 2721 "domains/constant_domain.ml" 151 2692 2723
 type(
   Abstract_syntax_tree.compare_op
 )
 ident(
-  int_ref op "domains/constant_domain.ml" 146 2588 2606 "domains/constant_domain.ml" 146 2588 2608
+  int_ref op "domains/constant_domain.ml" 151 2692 2710 "domains/constant_domain.ml" 151 2692 2712
 )
-"domains/constant_domain.ml" 147 2625 2629 "domains/constant_domain.ml" 147 2625 2638
+"domains/constant_domain.ml" 152 2729 2733 "domains/constant_domain.ml" 152 2729 2742
 type(
   Abstract_syntax_tree.compare_op
 )
-"domains/constant_domain.ml" 147 2625 2650 "domains/constant_domain.ml" 147 2625 2652
+"domains/constant_domain.ml" 152 2729 2754 "domains/constant_domain.ml" 152 2729 2756
 type(
   'i -> 'j -> 'i * 'j
 )
 ident(
-  int_ref eq "domains/constant_domain.ml" 103 1719 1725 "domains/constant_domain.ml" 103 1719 1727
+  int_ref eq "domains/constant_domain.ml" 107 1795 1801 "domains/constant_domain.ml" 107 1795 1803
 )
-"domains/constant_domain.ml" 147 2625 2653 "domains/constant_domain.ml" 147 2625 2654
+"domains/constant_domain.ml" 152 2729 2757 "domains/constant_domain.ml" 152 2729 2758
 type(
   'i
 )
 ident(
-  int_ref x "domains/constant_domain.ml" 146 2588 2602 "domains/constant_domain.ml" 146 2588 2603
+  int_ref x "domains/constant_domain.ml" 151 2692 2706 "domains/constant_domain.ml" 151 2692 2707
 )
-"domains/constant_domain.ml" 147 2625 2655 "domains/constant_domain.ml" 147 2625 2656
+"domains/constant_domain.ml" 152 2729 2759 "domains/constant_domain.ml" 152 2729 2760
 type(
   'j
 )
 ident(
-  int_ref y "domains/constant_domain.ml" 146 2588 2604 "domains/constant_domain.ml" 146 2588 2605
+  int_ref y "domains/constant_domain.ml" 151 2692 2708 "domains/constant_domain.ml" 151 2692 2709
 )
-"domains/constant_domain.ml" 147 2625 2650 "domains/constant_domain.ml" 147 2625 2656
+"domains/constant_domain.ml" 152 2729 2754 "domains/constant_domain.ml" 152 2729 2760
 call(
   tail
 )
 type(
   'i * 'j
 )
-"domains/constant_domain.ml" 148 2657 2661 "domains/constant_domain.ml" 148 2657 2674
+"domains/constant_domain.ml" 153 2761 2765 "domains/constant_domain.ml" 153 2761 2778
 type(
   Abstract_syntax_tree.compare_op
 )
-"domains/constant_domain.ml" 148 2657 2682 "domains/constant_domain.ml" 148 2657 2685
+"domains/constant_domain.ml" 153 2761 2786 "domains/constant_domain.ml" 153 2761 2789
 type(
   'i -> 'j -> 'i * 'j
 )
 ident(
-  int_ref neq "domains/constant_domain.ml" 107 1804 1810 "domains/constant_domain.ml" 107 1804 1813
+  int_ref neq "domains/constant_domain.ml" 111 1880 1886 "domains/constant_domain.ml" 111 1880 1889
 )
-"domains/constant_domain.ml" 148 2657 2686 "domains/constant_domain.ml" 148 2657 2687
+"domains/constant_domain.ml" 153 2761 2790 "domains/constant_domain.ml" 153 2761 2791
 type(
   'i
 )
 ident(
-  int_ref x "domains/constant_domain.ml" 146 2588 2602 "domains/constant_domain.ml" 146 2588 2603
+  int_ref x "domains/constant_domain.ml" 151 2692 2706 "domains/constant_domain.ml" 151 2692 2707
 )
-"domains/constant_domain.ml" 148 2657 2688 "domains/constant_domain.ml" 148 2657 2689
+"domains/constant_domain.ml" 153 2761 2792 "domains/constant_domain.ml" 153 2761 2793
 type(
   'j
 )
 ident(
-  int_ref y "domains/constant_domain.ml" 146 2588 2604 "domains/constant_domain.ml" 146 2588 2605
+  int_ref y "domains/constant_domain.ml" 151 2692 2708 "domains/constant_domain.ml" 151 2692 2709
 )
-"domains/constant_domain.ml" 148 2657 2682 "domains/constant_domain.ml" 148 2657 2689
+"domains/constant_domain.ml" 153 2761 2786 "domains/constant_domain.ml" 153 2761 2793
 call(
   tail
 )
 type(
   'i * 'j
 )
-"domains/constant_domain.ml" 149 2690 2694 "domains/constant_domain.ml" 149 2690 2711
+"domains/constant_domain.ml" 154 2794 2798 "domains/constant_domain.ml" 154 2794 2815
 type(
   Abstract_syntax_tree.compare_op
 )
-"domains/constant_domain.ml" 149 2690 2715 "domains/constant_domain.ml" 149 2690 2718
+"domains/constant_domain.ml" 154 2794 2819 "domains/constant_domain.ml" 154 2794 2822
 type(
   'i -> 'j -> 'i * 'j
 )
 ident(
-  int_ref geq "domains/constant_domain.ml" 110 1836 1842 "domains/constant_domain.ml" 110 1836 1845
+  int_ref geq "domains/constant_domain.ml" 114 1912 1918 "domains/constant_domain.ml" 114 1912 1921
 )
-"domains/constant_domain.ml" 149 2690 2719 "domains/constant_domain.ml" 149 2690 2720
+"domains/constant_domain.ml" 154 2794 2823 "domains/constant_domain.ml" 154 2794 2824
 type(
   'i
 )
 ident(
-  int_ref x "domains/constant_domain.ml" 146 2588 2602 "domains/constant_domain.ml" 146 2588 2603
+  int_ref x "domains/constant_domain.ml" 151 2692 2706 "domains/constant_domain.ml" 151 2692 2707
 )
-"domains/constant_domain.ml" 149 2690 2721 "domains/constant_domain.ml" 149 2690 2722
+"domains/constant_domain.ml" 154 2794 2825 "domains/constant_domain.ml" 154 2794 2826
 type(
   'j
 )
 ident(
-  int_ref y "domains/constant_domain.ml" 146 2588 2604 "domains/constant_domain.ml" 146 2588 2605
+  int_ref y "domains/constant_domain.ml" 151 2692 2708 "domains/constant_domain.ml" 151 2692 2709
 )
-"domains/constant_domain.ml" 149 2690 2715 "domains/constant_domain.ml" 149 2690 2722
+"domains/constant_domain.ml" 154 2794 2819 "domains/constant_domain.ml" 154 2794 2826
 call(
   tail
 )
 type(
   'i * 'j
 )
-"domains/constant_domain.ml" 150 2723 2727 "domains/constant_domain.ml" 150 2723 2738
+"domains/constant_domain.ml" 155 2827 2831 "domains/constant_domain.ml" 155 2827 2842
 type(
   Abstract_syntax_tree.compare_op
 )
-"domains/constant_domain.ml" 150 2723 2748 "domains/constant_domain.ml" 150 2723 2750
+"domains/constant_domain.ml" 155 2827 2852 "domains/constant_domain.ml" 155 2827 2854
 type(
   'i -> 'j -> 'i * 'j
 )
 ident(
-  int_ref gt "domains/constant_domain.ml" 113 1868 1874 "domains/constant_domain.ml" 113 1868 1876
+  int_ref gt "domains/constant_domain.ml" 117 1944 1950 "domains/constant_domain.ml" 117 1944 1952
 )
-"domains/constant_domain.ml" 150 2723 2751 "domains/constant_domain.ml" 150 2723 2752
+"domains/constant_domain.ml" 155 2827 2855 "domains/constant_domain.ml" 155 2827 2856
 type(
   'i
 )
 ident(
-  int_ref x "domains/constant_domain.ml" 146 2588 2602 "domains/constant_domain.ml" 146 2588 2603
+  int_ref x "domains/constant_domain.ml" 151 2692 2706 "domains/constant_domain.ml" 151 2692 2707
 )
-"domains/constant_domain.ml" 150 2723 2753 "domains/constant_domain.ml" 150 2723 2754
+"domains/constant_domain.ml" 155 2827 2857 "domains/constant_domain.ml" 155 2827 2858
 type(
   'j
 )
 ident(
-  int_ref y "domains/constant_domain.ml" 146 2588 2604 "domains/constant_domain.ml" 146 2588 2605
+  int_ref y "domains/constant_domain.ml" 151 2692 2708 "domains/constant_domain.ml" 151 2692 2709
 )
-"domains/constant_domain.ml" 150 2723 2748 "domains/constant_domain.ml" 150 2723 2754
+"domains/constant_domain.ml" 155 2827 2852 "domains/constant_domain.ml" 155 2827 2858
 call(
   tail
 )
 type(
   'i * 'j
 )
-"domains/constant_domain.ml" 151 2755 2759 "domains/constant_domain.ml" 151 2755 2773
+"domains/constant_domain.ml" 156 2859 2863 "domains/constant_domain.ml" 156 2859 2877
 type(
   Abstract_syntax_tree.compare_op
 )
-"domains/constant_domain.ml" 151 2755 2784 "domains/constant_domain.ml" 151 2755 2786
+"domains/constant_domain.ml" 156 2859 2888 "domains/constant_domain.ml" 156 2859 2890
 type(
   'j
 )
 ident(
-  def y' "domains/constant_domain.ml" 151 2755 2803 "domains/constant_domain.ml" 151 2755 2808
+  def y' "domains/constant_domain.ml" 156 2859 2907 "domains/constant_domain.ml" 156 2859 2912
 )
-"domains/constant_domain.ml" 151 2755 2787 "domains/constant_domain.ml" 151 2755 2789
+"domains/constant_domain.ml" 156 2859 2891 "domains/constant_domain.ml" 156 2859 2893
 type(
   'i
 )
 ident(
-  def x' "domains/constant_domain.ml" 151 2755 2803 "domains/constant_domain.ml" 151 2755 2808
+  def x' "domains/constant_domain.ml" 156 2859 2907 "domains/constant_domain.ml" 156 2859 2912
 )
-"domains/constant_domain.ml" 151 2755 2784 "domains/constant_domain.ml" 151 2755 2789
+"domains/constant_domain.ml" 156 2859 2888 "domains/constant_domain.ml" 156 2859 2893
 type(
   'j * 'i
 )
-"domains/constant_domain.ml" 151 2755 2792 "domains/constant_domain.ml" 151 2755 2795
+"domains/constant_domain.ml" 156 2859 2896 "domains/constant_domain.ml" 156 2859 2899
 type(
   'j -> 'i -> 'j * 'i
 )
 ident(
-  int_ref geq "domains/constant_domain.ml" 110 1836 1842 "domains/constant_domain.ml" 110 1836 1845
+  int_ref geq "domains/constant_domain.ml" 114 1912 1918 "domains/constant_domain.ml" 114 1912 1921
 )
-"domains/constant_domain.ml" 151 2755 2796 "domains/constant_domain.ml" 151 2755 2797
+"domains/constant_domain.ml" 156 2859 2900 "domains/constant_domain.ml" 156 2859 2901
 type(
   'j
 )
 ident(
-  int_ref y "domains/constant_domain.ml" 146 2588 2604 "domains/constant_domain.ml" 146 2588 2605
+  int_ref y "domains/constant_domain.ml" 151 2692 2708 "domains/constant_domain.ml" 151 2692 2709
 )
-"domains/constant_domain.ml" 151 2755 2798 "domains/constant_domain.ml" 151 2755 2799
+"domains/constant_domain.ml" 156 2859 2902 "domains/constant_domain.ml" 156 2859 2903
 type(
   'i
 )
 ident(
-  int_ref x "domains/constant_domain.ml" 146 2588 2602 "domains/constant_domain.ml" 146 2588 2603
+  int_ref x "domains/constant_domain.ml" 151 2692 2706 "domains/constant_domain.ml" 151 2692 2707
 )
-"domains/constant_domain.ml" 151 2755 2792 "domains/constant_domain.ml" 151 2755 2799
+"domains/constant_domain.ml" 156 2859 2896 "domains/constant_domain.ml" 156 2859 2903
 call(
   stack
 )
 type(
   'j * 'i
 )
-"domains/constant_domain.ml" 151 2755 2803 "domains/constant_domain.ml" 151 2755 2805
+"domains/constant_domain.ml" 156 2859 2907 "domains/constant_domain.ml" 156 2859 2909
 type(
   'i
 )
 ident(
-  int_ref x' "domains/constant_domain.ml" 151 2755 2787 "domains/constant_domain.ml" 151 2755 2789
+  int_ref x' "domains/constant_domain.ml" 156 2859 2891 "domains/constant_domain.ml" 156 2859 2893
 )
-"domains/constant_domain.ml" 151 2755 2806 "domains/constant_domain.ml" 151 2755 2808
+"domains/constant_domain.ml" 156 2859 2910 "domains/constant_domain.ml" 156 2859 2912
 type(
   'j
 )
 ident(
-  int_ref y' "domains/constant_domain.ml" 151 2755 2784 "domains/constant_domain.ml" 151 2755 2786
+  int_ref y' "domains/constant_domain.ml" 156 2859 2888 "domains/constant_domain.ml" 156 2859 2890
 )
-"domains/constant_domain.ml" 151 2755 2803 "domains/constant_domain.ml" 151 2755 2808
+"domains/constant_domain.ml" 156 2859 2907 "domains/constant_domain.ml" 156 2859 2912
 type(
   'i * 'j
 )
-"domains/constant_domain.ml" 151 2755 2780 "domains/constant_domain.ml" 151 2755 2808
+"domains/constant_domain.ml" 156 2859 2884 "domains/constant_domain.ml" 156 2859 2912
 type(
   'i * 'j
 )
-"domains/constant_domain.ml" 152 2809 2813 "domains/constant_domain.ml" 152 2809 2821
+"domains/constant_domain.ml" 157 2913 2917 "domains/constant_domain.ml" 157 2913 2925
 type(
   Abstract_syntax_tree.compare_op
 )
-"domains/constant_domain.ml" 152 2809 2838 "domains/constant_domain.ml" 152 2809 2840
+"domains/constant_domain.ml" 157 2913 2942 "domains/constant_domain.ml" 157 2913 2944
 type(
   'j
 )
 ident(
-  def y' "domains/constant_domain.ml" 152 2809 2856 "domains/constant_domain.ml" 152 2809 2861
+  def y' "domains/constant_domain.ml" 157 2913 2960 "domains/constant_domain.ml" 157 2913 2965
 )
-"domains/constant_domain.ml" 152 2809 2841 "domains/constant_domain.ml" 152 2809 2843
+"domains/constant_domain.ml" 157 2913 2945 "domains/constant_domain.ml" 157 2913 2947
 type(
   'i
 )
 ident(
-  def x' "domains/constant_domain.ml" 152 2809 2856 "domains/constant_domain.ml" 152 2809 2861
+  def x' "domains/constant_domain.ml" 157 2913 2960 "domains/constant_domain.ml" 157 2913 2965
 )
-"domains/constant_domain.ml" 152 2809 2838 "domains/constant_domain.ml" 152 2809 2843
+"domains/constant_domain.ml" 157 2913 2942 "domains/constant_domain.ml" 157 2913 2947
 type(
   'j * 'i
 )
-"domains/constant_domain.ml" 152 2809 2846 "domains/constant_domain.ml" 152 2809 2848
+"domains/constant_domain.ml" 157 2913 2950 "domains/constant_domain.ml" 157 2913 2952
 type(
   'j -> 'i -> 'j * 'i
 )
 ident(
-  int_ref gt "domains/constant_domain.ml" 113 1868 1874 "domains/constant_domain.ml" 113 1868 1876
+  int_ref gt "domains/constant_domain.ml" 117 1944 1950 "domains/constant_domain.ml" 117 1944 1952
 )
-"domains/constant_domain.ml" 152 2809 2849 "domains/constant_domain.ml" 152 2809 2850
+"domains/constant_domain.ml" 157 2913 2953 "domains/constant_domain.ml" 157 2913 2954
 type(
   'j
 )
 ident(
-  int_ref y "domains/constant_domain.ml" 146 2588 2604 "domains/constant_domain.ml" 146 2588 2605
+  int_ref y "domains/constant_domain.ml" 151 2692 2708 "domains/constant_domain.ml" 151 2692 2709
 )
-"domains/constant_domain.ml" 152 2809 2851 "domains/constant_domain.ml" 152 2809 2852
+"domains/constant_domain.ml" 157 2913 2955 "domains/constant_domain.ml" 157 2913 2956
 type(
   'i
 )
 ident(
-  int_ref x "domains/constant_domain.ml" 146 2588 2602 "domains/constant_domain.ml" 146 2588 2603
+  int_ref x "domains/constant_domain.ml" 151 2692 2706 "domains/constant_domain.ml" 151 2692 2707
 )
-"domains/constant_domain.ml" 152 2809 2846 "domains/constant_domain.ml" 152 2809 2852
+"domains/constant_domain.ml" 157 2913 2950 "domains/constant_domain.ml" 157 2913 2956
 call(
   stack
 )
 type(
   'j * 'i
 )
-"domains/constant_domain.ml" 152 2809 2856 "domains/constant_domain.ml" 152 2809 2858
+"domains/constant_domain.ml" 157 2913 2960 "domains/constant_domain.ml" 157 2913 2962
 type(
   'i
 )
 ident(
-  int_ref x' "domains/constant_domain.ml" 152 2809 2841 "domains/constant_domain.ml" 152 2809 2843
+  int_ref x' "domains/constant_domain.ml" 157 2913 2945 "domains/constant_domain.ml" 157 2913 2947
 )
-"domains/constant_domain.ml" 152 2809 2859 "domains/constant_domain.ml" 152 2809 2861
+"domains/constant_domain.ml" 157 2913 2963 "domains/constant_domain.ml" 157 2913 2965
 type(
   'j
 )
 ident(
-  int_ref y' "domains/constant_domain.ml" 152 2809 2838 "domains/constant_domain.ml" 152 2809 2840
+  int_ref y' "domains/constant_domain.ml" 157 2913 2942 "domains/constant_domain.ml" 157 2913 2944
 )
-"domains/constant_domain.ml" 152 2809 2856 "domains/constant_domain.ml" 152 2809 2861
+"domains/constant_domain.ml" 157 2913 2960 "domains/constant_domain.ml" 157 2913 2965
 type(
   'i * 'j
 )
-"domains/constant_domain.ml" 152 2809 2834 "domains/constant_domain.ml" 152 2809 2861
+"domains/constant_domain.ml" 157 2913 2938 "domains/constant_domain.ml" 157 2913 2965
 type(
   'i * 'j
 )
-"domains/constant_domain.ml" 146 2588 2611 "domains/constant_domain.ml" 152 2809 2861
+"domains/constant_domain.ml" 151 2692 2715 "domains/constant_domain.ml" 157 2913 2965
 type(
   'i * 'j
 )
-"domains/constant_domain.ml" 156 2873 2879 "domains/constant_domain.ml" 156 2873 2888
+"domains/constant_domain.ml" 161 2977 2983 "domains/constant_domain.ml" 161 2977 2992
 type(
   t -> Abstract_syntax_tree.int_unary_op -> t -> t
 )
 ident(
-  def bwd_unary "domains/constant_domain.ml" 161 2992 2994 "domains/constant_domain.ml" 182 3623 3626
+  def bwd_unary "domains/constant_domain.ml" 166 3096 3098 "domains/constant_domain.ml" 189 3752 3755
 )
-"domains/constant_domain.ml" 156 2873 2889 "domains/constant_domain.ml" 156 2873 2890
+"domains/constant_domain.ml" 161 2977 2993 "domains/constant_domain.ml" 161 2977 2994
 type(
   t
 )
 ident(
-  def x "domains/constant_domain.ml" 156 2873 2891 "domains/constant_domain.ml" 158 2944 2981
+  def x "domains/constant_domain.ml" 161 2977 2995 "domains/constant_domain.ml" 163 3048 3085
 )
-"domains/constant_domain.ml" 156 2873 2891 "domains/constant_domain.ml" 156 2873 2893
+"domains/constant_domain.ml" 161 2977 2995 "domains/constant_domain.ml" 161 2977 2997
 type(
   Abstract_syntax_tree.int_unary_op
 )
 ident(
-  def op "domains/constant_domain.ml" 156 2873 2894 "domains/constant_domain.ml" 158 2944 2981
+  def op "domains/constant_domain.ml" 161 2977 2998 "domains/constant_domain.ml" 163 3048 3085
 )
-"domains/constant_domain.ml" 156 2873 2894 "domains/constant_domain.ml" 156 2873 2895
+"domains/constant_domain.ml" 161 2977 2998 "domains/constant_domain.ml" 161 2977 2999
 type(
   t
 )
 ident(
-  def r "domains/constant_domain.ml" 156 2873 2898 "domains/constant_domain.ml" 158 2944 2981
+  def r "domains/constant_domain.ml" 161 2977 3002 "domains/constant_domain.ml" 163 3048 3085
 )
-"domains/constant_domain.ml" 156 2873 2904 "domains/constant_domain.ml" 156 2873 2906
+"domains/constant_domain.ml" 161 2977 3008 "domains/constant_domain.ml" 161 2977 3010
 type(
   Abstract_syntax_tree.int_unary_op
 )
 ident(
-  int_ref op "domains/constant_domain.ml" 156 2873 2891 "domains/constant_domain.ml" 156 2873 2893
+  int_ref op "domains/constant_domain.ml" 161 2977 2995 "domains/constant_domain.ml" 161 2977 2997
 )
-"domains/constant_domain.ml" 157 2912 2916 "domains/constant_domain.ml" 157 2912 2930
+"domains/constant_domain.ml" 162 3016 3020 "domains/constant_domain.ml" 162 3016 3034
 type(
   Abstract_syntax_tree.int_unary_op
 )
-"domains/constant_domain.ml" 157 2912 2935 "domains/constant_domain.ml" 157 2912 2939
+"domains/constant_domain.ml" 162 3016 3039 "domains/constant_domain.ml" 162 3016 3043
 type(
   t -> t -> t
 )
 ident(
-  int_ref meet "domains/constant_domain.ml" 91 1476 1482 "domains/constant_domain.ml" 91 1476 1486
+  int_ref meet "domains/constant_domain.ml" 95 1552 1558 "domains/constant_domain.ml" 95 1552 1562
 )
-"domains/constant_domain.ml" 157 2912 2940 "domains/constant_domain.ml" 157 2912 2941
+"domains/constant_domain.ml" 162 3016 3044 "domains/constant_domain.ml" 162 3016 3045
 type(
   t
 )
 ident(
-  int_ref x "domains/constant_domain.ml" 156 2873 2889 "domains/constant_domain.ml" 156 2873 2890
+  int_ref x "domains/constant_domain.ml" 161 2977 2993 "domains/constant_domain.ml" 161 2977 2994
 )
-"domains/constant_domain.ml" 157 2912 2942 "domains/constant_domain.ml" 157 2912 2943
+"domains/constant_domain.ml" 162 3016 3046 "domains/constant_domain.ml" 162 3016 3047
 type(
   t
 )
 ident(
-  int_ref r "domains/constant_domain.ml" 156 2873 2894 "domains/constant_domain.ml" 156 2873 2895
+  int_ref r "domains/constant_domain.ml" 161 2977 2998 "domains/constant_domain.ml" 161 2977 2999
 )
-"domains/constant_domain.ml" 157 2912 2935 "domains/constant_domain.ml" 157 2912 2943
+"domains/constant_domain.ml" 162 3016 3039 "domains/constant_domain.ml" 162 3016 3047
 call(
   tail
 )
 type(
   t
 )
-"domains/constant_domain.ml" 158 2944 2948 "domains/constant_domain.ml" 158 2944 2963
+"domains/constant_domain.ml" 163 3048 3052 "domains/constant_domain.ml" 163 3048 3067
 type(
   Abstract_syntax_tree.int_unary_op
 )
-"domains/constant_domain.ml" 158 2944 2967 "domains/constant_domain.ml" 158 2944 2971
+"domains/constant_domain.ml" 163 3048 3071 "domains/constant_domain.ml" 163 3048 3075
 type(
   t -> t -> t
 )
 ident(
-  int_ref meet "domains/constant_domain.ml" 91 1476 1482 "domains/constant_domain.ml" 91 1476 1486
+  int_ref meet "domains/constant_domain.ml" 95 1552 1558 "domains/constant_domain.ml" 95 1552 1562
 )
-"domains/constant_domain.ml" 158 2944 2972 "domains/constant_domain.ml" 158 2944 2973
+"domains/constant_domain.ml" 163 3048 3076 "domains/constant_domain.ml" 163 3048 3077
 type(
   t
 )
 ident(
-  int_ref x "domains/constant_domain.ml" 156 2873 2889 "domains/constant_domain.ml" 156 2873 2890
+  int_ref x "domains/constant_domain.ml" 161 2977 2993 "domains/constant_domain.ml" 161 2977 2994
 )
-"domains/constant_domain.ml" 158 2944 2975 "domains/constant_domain.ml" 158 2944 2978
+"domains/constant_domain.ml" 163 3048 3079 "domains/constant_domain.ml" 163 3048 3082
 type(
   t -> t
 )
 ident(
   int_ref neg "domains/constant_domain.ml" 71 1166 1172 "domains/constant_domain.ml" 71 1166 1175
 )
-"domains/constant_domain.ml" 158 2944 2979 "domains/constant_domain.ml" 158 2944 2980
+"domains/constant_domain.ml" 163 3048 3083 "domains/constant_domain.ml" 163 3048 3084
 type(
   t
 )
 ident(
-  int_ref r "domains/constant_domain.ml" 156 2873 2894 "domains/constant_domain.ml" 156 2873 2895
+  int_ref r "domains/constant_domain.ml" 161 2977 2998 "domains/constant_domain.ml" 161 2977 2999
 )
-"domains/constant_domain.ml" 158 2944 2974 "domains/constant_domain.ml" 158 2944 2981
+"domains/constant_domain.ml" 163 3048 3078 "domains/constant_domain.ml" 163 3048 3085
 call(
   stack
 )
 type(
   t
 )
-"domains/constant_domain.ml" 158 2944 2967 "domains/constant_domain.ml" 158 2944 2981
+"domains/constant_domain.ml" 163 3048 3071 "domains/constant_domain.ml" 163 3048 3085
 call(
   tail
 )
 type(
   t
 )
-"domains/constant_domain.ml" 156 2873 2898 "domains/constant_domain.ml" 158 2944 2981
+"domains/constant_domain.ml" 161 2977 3002 "domains/constant_domain.ml" 163 3048 3085
 type(
   t
 )
-"domains/constant_domain.ml" 161 2992 2998 "domains/constant_domain.ml" 161 2992 3008
+"domains/constant_domain.ml" 166 3096 3102 "domains/constant_domain.ml" 166 3096 3112
 type(
   t -> t -> Abstract_syntax_tree.int_binary_op -> t -> t * t
 )
 ident(
-  def bwd_binary "domains/constant_domain.ml" 179 3596 3606 "domains/constant_domain.ml" 182 3623 3626
+  def bwd_binary "domains/constant_domain.ml" 186 3715 3735 "domains/constant_domain.ml" 189 3752 3755
 )
-"domains/constant_domain.ml" 161 2992 3009 "domains/constant_domain.ml" 161 2992 3010
+"domains/constant_domain.ml" 166 3096 3113 "domains/constant_domain.ml" 166 3096 3114
 type(
   t
 )
 ident(
-  def x "domains/constant_domain.ml" 161 2992 3011 "domains/constant_domain.ml" 179 3596 3606
+  def x "domains/constant_domain.ml" 166 3096 3115 "domains/constant_domain.ml" 186 3715 3735
 )
-"domains/constant_domain.ml" 161 2992 3011 "domains/constant_domain.ml" 161 2992 3012
+"domains/constant_domain.ml" 166 3096 3115 "domains/constant_domain.ml" 166 3096 3116
 type(
   t
 )
 ident(
-  def y "domains/constant_domain.ml" 161 2992 3013 "domains/constant_domain.ml" 179 3596 3606
+  def y "domains/constant_domain.ml" 166 3096 3117 "domains/constant_domain.ml" 186 3715 3735
 )
-"domains/constant_domain.ml" 161 2992 3013 "domains/constant_domain.ml" 161 2992 3015
+"domains/constant_domain.ml" 166 3096 3117 "domains/constant_domain.ml" 166 3096 3119
 type(
   Abstract_syntax_tree.int_binary_op
 )
 ident(
-  def op "domains/constant_domain.ml" 161 2992 3016 "domains/constant_domain.ml" 179 3596 3606
+  def op "domains/constant_domain.ml" 166 3096 3120 "domains/constant_domain.ml" 186 3715 3735
 )
-"domains/constant_domain.ml" 161 2992 3016 "domains/constant_domain.ml" 161 2992 3017
+"domains/constant_domain.ml" 166 3096 3120 "domains/constant_domain.ml" 166 3096 3121
 type(
   t
 )
 ident(
-  def r "domains/constant_domain.ml" 161 2992 3020 "domains/constant_domain.ml" 179 3596 3606
+  def r "domains/constant_domain.ml" 166 3096 3124 "domains/constant_domain.ml" 186 3715 3735
 )
-"domains/constant_domain.ml" 161 2992 3026 "domains/constant_domain.ml" 161 2992 3028
+"domains/constant_domain.ml" 166 3096 3130 "domains/constant_domain.ml" 166 3096 3132
 type(
   Abstract_syntax_tree.int_binary_op
 )
 ident(
-  int_ref op "domains/constant_domain.ml" 161 2992 3013 "domains/constant_domain.ml" 161 2992 3015
+  int_ref op "domains/constant_domain.ml" 166 3096 3117 "domains/constant_domain.ml" 166 3096 3119
 )
-"domains/constant_domain.ml" 163 3035 3039 "domains/constant_domain.ml" 163 3035 3047
+"domains/constant_domain.ml" 168 3139 3143 "domains/constant_domain.ml" 168 3139 3151
 type(
   Abstract_syntax_tree.int_binary_op
 )
-"domains/constant_domain.ml" 165 3094 3100 "domains/constant_domain.ml" 165 3094 3104
+"domains/constant_domain.ml" 170 3198 3204 "domains/constant_domain.ml" 170 3198 3208
 type(
   t -> t -> t
 )
 ident(
-  int_ref meet "domains/constant_domain.ml" 91 1476 1482 "domains/constant_domain.ml" 91 1476 1486
+  int_ref meet "domains/constant_domain.ml" 95 1552 1558 "domains/constant_domain.ml" 95 1552 1562
 )
-"domains/constant_domain.ml" 165 3094 3105 "domains/constant_domain.ml" 165 3094 3106
+"domains/constant_domain.ml" 170 3198 3209 "domains/constant_domain.ml" 170 3198 3210
 type(
   t
 )
 ident(
-  int_ref x "domains/constant_domain.ml" 161 2992 3009 "domains/constant_domain.ml" 161 2992 3010
+  int_ref x "domains/constant_domain.ml" 166 3096 3113 "domains/constant_domain.ml" 166 3096 3114
 )
-"domains/constant_domain.ml" 165 3094 3108 "domains/constant_domain.ml" 165 3094 3111
+"domains/constant_domain.ml" 170 3198 3212 "domains/constant_domain.ml" 170 3198 3215
 type(
   t -> t -> t
 )
 ident(
   int_ref sub "domains/constant_domain.ml" 75 1216 1222 "domains/constant_domain.ml" 75 1216 1225
 )
-"domains/constant_domain.ml" 165 3094 3112 "domains/constant_domain.ml" 165 3094 3113
+"domains/constant_domain.ml" 170 3198 3216 "domains/constant_domain.ml" 170 3198 3217
 type(
   t
 )
 ident(
-  int_ref r "domains/constant_domain.ml" 161 2992 3016 "domains/constant_domain.ml" 161 2992 3017
+  int_ref r "domains/constant_domain.ml" 166 3096 3120 "domains/constant_domain.ml" 166 3096 3121
 )
-"domains/constant_domain.ml" 165 3094 3114 "domains/constant_domain.ml" 165 3094 3115
+"domains/constant_domain.ml" 170 3198 3218 "domains/constant_domain.ml" 170 3198 3219
 type(
   t
 )
 ident(
-  int_ref y "domains/constant_domain.ml" 161 2992 3011 "domains/constant_domain.ml" 161 2992 3012
+  int_ref y "domains/constant_domain.ml" 166 3096 3115 "domains/constant_domain.ml" 166 3096 3116
 )
-"domains/constant_domain.ml" 165 3094 3107 "domains/constant_domain.ml" 165 3094 3116
+"domains/constant_domain.ml" 170 3198 3211 "domains/constant_domain.ml" 170 3198 3220
 call(
   stack
 )
 type(
   t
 )
-"domains/constant_domain.ml" 165 3094 3100 "domains/constant_domain.ml" 165 3094 3116
+"domains/constant_domain.ml" 170 3198 3204 "domains/constant_domain.ml" 170 3198 3220
 call(
   stack
 )
 type(
   t
 )
-"domains/constant_domain.ml" 165 3094 3118 "domains/constant_domain.ml" 165 3094 3122
+"domains/constant_domain.ml" 170 3198 3222 "domains/constant_domain.ml" 170 3198 3226
 type(
   t -> t -> t
 )
 ident(
-  int_ref meet "domains/constant_domain.ml" 91 1476 1482 "domains/constant_domain.ml" 91 1476 1486
+  int_ref meet "domains/constant_domain.ml" 95 1552 1558 "domains/constant_domain.ml" 95 1552 1562
 )
-"domains/constant_domain.ml" 165 3094 3123 "domains/constant_domain.ml" 165 3094 3124
+"domains/constant_domain.ml" 170 3198 3227 "domains/constant_domain.ml" 170 3198 3228
 type(
   t
 )
 ident(
-  int_ref y "domains/constant_domain.ml" 161 2992 3011 "domains/constant_domain.ml" 161 2992 3012
+  int_ref y "domains/constant_domain.ml" 166 3096 3115 "domains/constant_domain.ml" 166 3096 3116
 )
-"domains/constant_domain.ml" 165 3094 3126 "domains/constant_domain.ml" 165 3094 3129
+"domains/constant_domain.ml" 170 3198 3230 "domains/constant_domain.ml" 170 3198 3233
 type(
   t -> t -> t
 )
 ident(
   int_ref sub "domains/constant_domain.ml" 75 1216 1222 "domains/constant_domain.ml" 75 1216 1225
 )
-"domains/constant_domain.ml" 165 3094 3130 "domains/constant_domain.ml" 165 3094 3131
+"domains/constant_domain.ml" 170 3198 3234 "domains/constant_domain.ml" 170 3198 3235
 type(
   t
 )
 ident(
-  int_ref r "domains/constant_domain.ml" 161 2992 3016 "domains/constant_domain.ml" 161 2992 3017
+  int_ref r "domains/constant_domain.ml" 166 3096 3120 "domains/constant_domain.ml" 166 3096 3121
 )
-"domains/constant_domain.ml" 165 3094 3132 "domains/constant_domain.ml" 165 3094 3133
+"domains/constant_domain.ml" 170 3198 3236 "domains/constant_domain.ml" 170 3198 3237
 type(
   t
 )
 ident(
-  int_ref x "domains/constant_domain.ml" 161 2992 3009 "domains/constant_domain.ml" 161 2992 3010
+  int_ref x "domains/constant_domain.ml" 166 3096 3113 "domains/constant_domain.ml" 166 3096 3114
 )
-"domains/constant_domain.ml" 165 3094 3125 "domains/constant_domain.ml" 165 3094 3134
+"domains/constant_domain.ml" 170 3198 3229 "domains/constant_domain.ml" 170 3198 3238
 call(
   stack
 )
 type(
   t
 )
-"domains/constant_domain.ml" 165 3094 3118 "domains/constant_domain.ml" 165 3094 3134
+"domains/constant_domain.ml" 170 3198 3222 "domains/constant_domain.ml" 170 3198 3238
 call(
   stack
 )
 type(
   t
 )
-"domains/constant_domain.ml" 165 3094 3100 "domains/constant_domain.ml" 165 3094 3134
+"domains/constant_domain.ml" 170 3198 3204 "domains/constant_domain.ml" 170 3198 3238
 type(
   t * t
 )
-"domains/constant_domain.ml" 167 3136 3140 "domains/constant_domain.ml" 167 3136 3149
+"domains/constant_domain.ml" 172 3240 3244 "domains/constant_domain.ml" 172 3240 3253
 type(
   Abstract_syntax_tree.int_binary_op
 )
-"domains/constant_domain.ml" 169 3190 3196 "domains/constant_domain.ml" 169 3190 3200
+"domains/constant_domain.ml" 174 3294 3300 "domains/constant_domain.ml" 174 3294 3304
 type(
   t -> t -> t
 )
 ident(
-  int_ref meet "domains/constant_domain.ml" 91 1476 1482 "domains/constant_domain.ml" 91 1476 1486
+  int_ref meet "domains/constant_domain.ml" 95 1552 1558 "domains/constant_domain.ml" 95 1552 1562
 )
-"domains/constant_domain.ml" 169 3190 3201 "domains/constant_domain.ml" 169 3190 3202
+"domains/constant_domain.ml" 174 3294 3305 "domains/constant_domain.ml" 174 3294 3306
 type(
   t
 )
 ident(
-  int_ref x "domains/constant_domain.ml" 161 2992 3009 "domains/constant_domain.ml" 161 2992 3010
+  int_ref x "domains/constant_domain.ml" 166 3096 3113 "domains/constant_domain.ml" 166 3096 3114
 )
-"domains/constant_domain.ml" 169 3190 3204 "domains/constant_domain.ml" 169 3190 3207
+"domains/constant_domain.ml" 174 3294 3308 "domains/constant_domain.ml" 174 3294 3311
 type(
   t -> t -> t
 )
 ident(
   int_ref add "domains/constant_domain.ml" 73 1191 1197 "domains/constant_domain.ml" 73 1191 1200
 )
-"domains/constant_domain.ml" 169 3190 3208 "domains/constant_domain.ml" 169 3190 3209
+"domains/constant_domain.ml" 174 3294 3312 "domains/constant_domain.ml" 174 3294 3313
 type(
   t
 )
 ident(
-  int_ref y "domains/constant_domain.ml" 161 2992 3011 "domains/constant_domain.ml" 161 2992 3012
+  int_ref y "domains/constant_domain.ml" 166 3096 3115 "domains/constant_domain.ml" 166 3096 3116
 )
-"domains/constant_domain.ml" 169 3190 3210 "domains/constant_domain.ml" 169 3190 3211
+"domains/constant_domain.ml" 174 3294 3314 "domains/constant_domain.ml" 174 3294 3315
 type(
   t
 )
 ident(
-  int_ref r "domains/constant_domain.ml" 161 2992 3016 "domains/constant_domain.ml" 161 2992 3017
+  int_ref r "domains/constant_domain.ml" 166 3096 3120 "domains/constant_domain.ml" 166 3096 3121
 )
-"domains/constant_domain.ml" 169 3190 3203 "domains/constant_domain.ml" 169 3190 3212
+"domains/constant_domain.ml" 174 3294 3307 "domains/constant_domain.ml" 174 3294 3316
 call(
   stack
 )
 type(
   t
 )
-"domains/constant_domain.ml" 169 3190 3196 "domains/constant_domain.ml" 169 3190 3212
+"domains/constant_domain.ml" 174 3294 3300 "domains/constant_domain.ml" 174 3294 3316
 call(
   stack
 )
 type(
   t
 )
-"domains/constant_domain.ml" 169 3190 3214 "domains/constant_domain.ml" 169 3190 3218
+"domains/constant_domain.ml" 174 3294 3318 "domains/constant_domain.ml" 174 3294 3322
 type(
   t -> t -> t
 )
 ident(
-  int_ref meet "domains/constant_domain.ml" 91 1476 1482 "domains/constant_domain.ml" 91 1476 1486
+  int_ref meet "domains/constant_domain.ml" 95 1552 1558 "domains/constant_domain.ml" 95 1552 1562
 )
-"domains/constant_domain.ml" 169 3190 3219 "domains/constant_domain.ml" 169 3190 3220
+"domains/constant_domain.ml" 174 3294 3323 "domains/constant_domain.ml" 174 3294 3324
 type(
   t
 )
 ident(
-  int_ref y "domains/constant_domain.ml" 161 2992 3011 "domains/constant_domain.ml" 161 2992 3012
+  int_ref y "domains/constant_domain.ml" 166 3096 3115 "domains/constant_domain.ml" 166 3096 3116
 )
-"domains/constant_domain.ml" 169 3190 3222 "domains/constant_domain.ml" 169 3190 3225
+"domains/constant_domain.ml" 174 3294 3326 "domains/constant_domain.ml" 174 3294 3329
 type(
   t -> t -> t
 )
 ident(
   int_ref sub "domains/constant_domain.ml" 75 1216 1222 "domains/constant_domain.ml" 75 1216 1225
 )
-"domains/constant_domain.ml" 169 3190 3226 "domains/constant_domain.ml" 169 3190 3227
+"domains/constant_domain.ml" 174 3294 3330 "domains/constant_domain.ml" 174 3294 3331
 type(
   t
 )
 ident(
-  int_ref y "domains/constant_domain.ml" 161 2992 3011 "domains/constant_domain.ml" 161 2992 3012
+  int_ref y "domains/constant_domain.ml" 166 3096 3115 "domains/constant_domain.ml" 166 3096 3116
 )
-"domains/constant_domain.ml" 169 3190 3228 "domains/constant_domain.ml" 169 3190 3229
+"domains/constant_domain.ml" 174 3294 3332 "domains/constant_domain.ml" 174 3294 3333
 type(
   t
 )
 ident(
-  int_ref r "domains/constant_domain.ml" 161 2992 3016 "domains/constant_domain.ml" 161 2992 3017
+  int_ref r "domains/constant_domain.ml" 166 3096 3120 "domains/constant_domain.ml" 166 3096 3121
 )
-"domains/constant_domain.ml" 169 3190 3221 "domains/constant_domain.ml" 169 3190 3230
+"domains/constant_domain.ml" 174 3294 3325 "domains/constant_domain.ml" 174 3294 3334
 call(
   stack
 )
 type(
   t
 )
-"domains/constant_domain.ml" 169 3190 3214 "domains/constant_domain.ml" 169 3190 3230
+"domains/constant_domain.ml" 174 3294 3318 "domains/constant_domain.ml" 174 3294 3334
 call(
   stack
 )
 type(
   t
 )
-"domains/constant_domain.ml" 169 3190 3196 "domains/constant_domain.ml" 169 3190 3230
+"domains/constant_domain.ml" 174 3294 3300 "domains/constant_domain.ml" 174 3294 3334
 type(
   t * t
 )
-"domains/constant_domain.ml" 171 3240 3244 "domains/constant_domain.ml" 171 3240 3256
+"domains/constant_domain.ml" 176 3344 3348 "domains/constant_domain.ml" 176 3344 3360
 type(
   Abstract_syntax_tree.int_binary_op
 )
-"domains/constant_domain.ml" 173 3320 3330 "domains/constant_domain.ml" 173 3320 3343
+"domains/constant_domain.ml" 178 3424 3434 "domains/constant_domain.ml" 178 3424 3447
 type(
   t -> bool
 )
 ident(
-  def contains_zero "domains/constant_domain.ml" 174 3375 3381 "domains/constant_domain.ml" 175 3451 3525
+  def contains_zero "domains/constant_domain.ml" 179 3479 3485 "domains/constant_domain.ml" 180 3555 3629
 )
-"domains/constant_domain.ml" 173 3320 3344 "domains/constant_domain.ml" 173 3320 3345
+"domains/constant_domain.ml" 178 3424 3448 "domains/constant_domain.ml" 178 3424 3449
 type(
   t
 )
 ident(
-  def o "domains/constant_domain.ml" 173 3320 3348 "domains/constant_domain.ml" 173 3320 3371
+  def o "domains/constant_domain.ml" 178 3424 3452 "domains/constant_domain.ml" 178 3424 3475
 )
-"domains/constant_domain.ml" 173 3320 3348 "domains/constant_domain.ml" 173 3320 3354
+"domains/constant_domain.ml" 178 3424 3452 "domains/constant_domain.ml" 178 3424 3458
 type(
   t -> t -> bool
 )
 ident(
-  int_ref subset "domains/constant_domain.ml" 118 1938 1944 "domains/constant_domain.ml" 118 1938 1950
+  int_ref subset "domains/constant_domain.ml" 122 2014 2020 "domains/constant_domain.ml" 122 2014 2026
 )
-"domains/constant_domain.ml" 173 3320 3356 "domains/constant_domain.ml" 173 3320 3361
+"domains/constant_domain.ml" 178 3424 3460 "domains/constant_domain.ml" 178 3424 3465
 type(
   Z.t -> t
 )
 ident(
   int_ref const "domains/constant_domain.ml" 60 1015 1021 "domains/constant_domain.ml" 60 1015 1026
 )
-"domains/constant_domain.ml" 173 3320 3362 "domains/constant_domain.ml" 173 3320 3368
+"domains/constant_domain.ml" 178 3424 3466 "domains/constant_domain.ml" 178 3424 3472
 type(
   Z.t
 )
 ident(
   ext_ref Z.zero
 )
-"domains/constant_domain.ml" 173 3320 3355 "domains/constant_domain.ml" 173 3320 3369
+"domains/constant_domain.ml" 178 3424 3459 "domains/constant_domain.ml" 178 3424 3473
 call(
   stack
 )
 type(
   t
 )
-"domains/constant_domain.ml" 173 3320 3370 "domains/constant_domain.ml" 173 3320 3371
+"domains/constant_domain.ml" 178 3424 3474 "domains/constant_domain.ml" 178 3424 3475
 type(
   t
 )
 ident(
-  int_ref o "domains/constant_domain.ml" 173 3320 3344 "domains/constant_domain.ml" 173 3320 3345
+  int_ref o "domains/constant_domain.ml" 178 3424 3448 "domains/constant_domain.ml" 178 3424 3449
 )
-"domains/constant_domain.ml" 173 3320 3348 "domains/constant_domain.ml" 173 3320 3371
+"domains/constant_domain.ml" 178 3424 3452 "domains/constant_domain.ml" 178 3424 3475
 call(
   tail
 )
 type(
   bool
 )
-"domains/constant_domain.ml" 174 3375 3385 "domains/constant_domain.ml" 174 3375 3398
+"domains/constant_domain.ml" 179 3479 3489 "domains/constant_domain.ml" 179 3479 3502
 type(
   t -> bool
 )
 ident(
-  int_ref contains_zero "domains/constant_domain.ml" 173 3320 3330 "domains/constant_domain.ml" 173 3320 3343
+  int_ref contains_zero "domains/constant_domain.ml" 178 3424 3434 "domains/constant_domain.ml" 178 3424 3447
 )
-"domains/constant_domain.ml" 174 3375 3399 "domains/constant_domain.ml" 174 3375 3400
+"domains/constant_domain.ml" 179 3479 3503 "domains/constant_domain.ml" 179 3479 3504
 type(
   t
 )
 ident(
-  int_ref y "domains/constant_domain.ml" 161 2992 3011 "domains/constant_domain.ml" 161 2992 3012
+  int_ref y "domains/constant_domain.ml" 166 3096 3115 "domains/constant_domain.ml" 166 3096 3116
 )
-"domains/constant_domain.ml" 174 3375 3385 "domains/constant_domain.ml" 174 3375 3400
+"domains/constant_domain.ml" 179 3479 3489 "domains/constant_domain.ml" 179 3479 3504
 call(
   stack
 )
 type(
   bool
 )
-"domains/constant_domain.ml" 174 3375 3401 "domains/constant_domain.ml" 174 3375 3403
+"domains/constant_domain.ml" 179 3479 3505 "domains/constant_domain.ml" 179 3479 3507
 type(
   bool -> bool -> bool
 )
 ident(
   ext_ref Pervasives.( && )
 )
-"domains/constant_domain.ml" 174 3375 3404 "domains/constant_domain.ml" 174 3375 3417
+"domains/constant_domain.ml" 179 3479 3508 "domains/constant_domain.ml" 179 3479 3521
 type(
   t -> bool
 )
 ident(
-  int_ref contains_zero "domains/constant_domain.ml" 173 3320 3330 "domains/constant_domain.ml" 173 3320 3343
+  int_ref contains_zero "domains/constant_domain.ml" 178 3424 3434 "domains/constant_domain.ml" 178 3424 3447
 )
-"domains/constant_domain.ml" 174 3375 3418 "domains/constant_domain.ml" 174 3375 3419
+"domains/constant_domain.ml" 179 3479 3522 "domains/constant_domain.ml" 179 3479 3523
 type(
   t
 )
 ident(
-  int_ref r "domains/constant_domain.ml" 161 2992 3016 "domains/constant_domain.ml" 161 2992 3017
+  int_ref r "domains/constant_domain.ml" 166 3096 3120 "domains/constant_domain.ml" 166 3096 3121
 )
-"domains/constant_domain.ml" 174 3375 3404 "domains/constant_domain.ml" 174 3375 3419
+"domains/constant_domain.ml" 179 3479 3508 "domains/constant_domain.ml" 179 3479 3523
 call(
   stack
 )
 type(
   bool
 )
-"domains/constant_domain.ml" 174 3375 3385 "domains/constant_domain.ml" 174 3375 3419
+"domains/constant_domain.ml" 179 3479 3489 "domains/constant_domain.ml" 179 3479 3523
 type(
   bool
 )
-"domains/constant_domain.ml" 174 3375 3425 "domains/constant_domain.ml" 174 3375 3426
+"domains/constant_domain.ml" 179 3479 3529 "domains/constant_domain.ml" 179 3479 3530
 type(
   t
 )
 ident(
-  int_ref x "domains/constant_domain.ml" 161 2992 3009 "domains/constant_domain.ml" 161 2992 3010
+  int_ref x "domains/constant_domain.ml" 166 3096 3113 "domains/constant_domain.ml" 166 3096 3114
 )
-"domains/constant_domain.ml" 174 3375 3432 "domains/constant_domain.ml" 174 3375 3436
+"domains/constant_domain.ml" 179 3479 3536 "domains/constant_domain.ml" 179 3479 3540
 type(
   t -> t -> t
 )
 ident(
-  int_ref meet "domains/constant_domain.ml" 91 1476 1482 "domains/constant_domain.ml" 91 1476 1486
+  int_ref meet "domains/constant_domain.ml" 95 1552 1558 "domains/constant_domain.ml" 95 1552 1562
 )
-"domains/constant_domain.ml" 174 3375 3437 "domains/constant_domain.ml" 174 3375 3438
+"domains/constant_domain.ml" 179 3479 3541 "domains/constant_domain.ml" 179 3479 3542
 type(
   t
 )
 ident(
-  int_ref x "domains/constant_domain.ml" 161 2992 3009 "domains/constant_domain.ml" 161 2992 3010
+  int_ref x "domains/constant_domain.ml" 166 3096 3113 "domains/constant_domain.ml" 166 3096 3114
 )
-"domains/constant_domain.ml" 174 3375 3440 "domains/constant_domain.ml" 174 3375 3443
+"domains/constant_domain.ml" 179 3479 3544 "domains/constant_domain.ml" 179 3479 3547
 type(
   t -> t -> t
 )
 ident(
-  int_ref div "domains/constant_domain.ml" 79 1266 1272 "domains/constant_domain.ml" 79 1266 1275
+  int_ref div "domains/constant_domain.ml" 79 1267 1273 "domains/constant_domain.ml" 79 1267 1276
 )
-"domains/constant_domain.ml" 174 3375 3444 "domains/constant_domain.ml" 174 3375 3445
+"domains/constant_domain.ml" 179 3479 3548 "domains/constant_domain.ml" 179 3479 3549
 type(
   t
 )
 ident(
-  int_ref r "domains/constant_domain.ml" 161 2992 3016 "domains/constant_domain.ml" 161 2992 3017
+  int_ref r "domains/constant_domain.ml" 166 3096 3120 "domains/constant_domain.ml" 166 3096 3121
 )
-"domains/constant_domain.ml" 174 3375 3446 "domains/constant_domain.ml" 174 3375 3447
+"domains/constant_domain.ml" 179 3479 3550 "domains/constant_domain.ml" 179 3479 3551
 type(
   t
 )
 ident(
-  int_ref y "domains/constant_domain.ml" 161 2992 3011 "domains/constant_domain.ml" 161 2992 3012
+  int_ref y "domains/constant_domain.ml" 166 3096 3115 "domains/constant_domain.ml" 166 3096 3116
 )
-"domains/constant_domain.ml" 174 3375 3439 "domains/constant_domain.ml" 174 3375 3448
+"domains/constant_domain.ml" 179 3479 3543 "domains/constant_domain.ml" 179 3479 3552
 call(
   stack
 )
 type(
   t
 )
-"domains/constant_domain.ml" 174 3375 3432 "domains/constant_domain.ml" 174 3375 3448
+"domains/constant_domain.ml" 179 3479 3536 "domains/constant_domain.ml" 179 3479 3552
 call(
   stack
 )
 type(
   t
 )
-"domains/constant_domain.ml" 174 3375 3381 "domains/constant_domain.ml" 174 3375 3449
+"domains/constant_domain.ml" 179 3479 3485 "domains/constant_domain.ml" 179 3479 3553
 type(
   t
 )
-"domains/constant_domain.ml" 175 3451 3461 "domains/constant_domain.ml" 175 3451 3474
+"domains/constant_domain.ml" 180 3555 3565 "domains/constant_domain.ml" 180 3555 3578
 type(
   t -> bool
 )
 ident(
-  int_ref contains_zero "domains/constant_domain.ml" 173 3320 3330 "domains/constant_domain.ml" 173 3320 3343
+  int_ref contains_zero "domains/constant_domain.ml" 178 3424 3434 "domains/constant_domain.ml" 178 3424 3447
 )
-"domains/constant_domain.ml" 175 3451 3475 "domains/constant_domain.ml" 175 3451 3476
+"domains/constant_domain.ml" 180 3555 3579 "domains/constant_domain.ml" 180 3555 3580
 type(
   t
 )
 ident(
-  int_ref x "domains/constant_domain.ml" 161 2992 3009 "domains/constant_domain.ml" 161 2992 3010
+  int_ref x "domains/constant_domain.ml" 166 3096 3113 "domains/constant_domain.ml" 166 3096 3114
 )
-"domains/constant_domain.ml" 175 3451 3461 "domains/constant_domain.ml" 175 3451 3476
+"domains/constant_domain.ml" 180 3555 3565 "domains/constant_domain.ml" 180 3555 3580
 call(
   stack
 )
 type(
   bool
 )
-"domains/constant_domain.ml" 175 3451 3477 "domains/constant_domain.ml" 175 3451 3479
+"domains/constant_domain.ml" 180 3555 3581 "domains/constant_domain.ml" 180 3555 3583
 type(
   bool -> bool -> bool
 )
 ident(
   ext_ref Pervasives.( && )
 )
-"domains/constant_domain.ml" 175 3451 3480 "domains/constant_domain.ml" 175 3451 3493
+"domains/constant_domain.ml" 180 3555 3584 "domains/constant_domain.ml" 180 3555 3597
 type(
   t -> bool
 )
 ident(
-  int_ref contains_zero "domains/constant_domain.ml" 173 3320 3330 "domains/constant_domain.ml" 173 3320 3343
+  int_ref contains_zero "domains/constant_domain.ml" 178 3424 3434 "domains/constant_domain.ml" 178 3424 3447
 )
-"domains/constant_domain.ml" 175 3451 3494 "domains/constant_domain.ml" 175 3451 3495
+"domains/constant_domain.ml" 180 3555 3598 "domains/constant_domain.ml" 180 3555 3599
 type(
   t
 )
 ident(
-  int_ref r "domains/constant_domain.ml" 161 2992 3016 "domains/constant_domain.ml" 161 2992 3017
+  int_ref r "domains/constant_domain.ml" 166 3096 3120 "domains/constant_domain.ml" 166 3096 3121
 )
-"domains/constant_domain.ml" 175 3451 3480 "domains/constant_domain.ml" 175 3451 3495
+"domains/constant_domain.ml" 180 3555 3584 "domains/constant_domain.ml" 180 3555 3599
 call(
   stack
 )
 type(
   bool
 )
-"domains/constant_domain.ml" 175 3451 3461 "domains/constant_domain.ml" 175 3451 3495
+"domains/constant_domain.ml" 180 3555 3565 "domains/constant_domain.ml" 180 3555 3599
 type(
   bool
 )
-"domains/constant_domain.ml" 175 3451 3501 "domains/constant_domain.ml" 175 3451 3502
+"domains/constant_domain.ml" 180 3555 3605 "domains/constant_domain.ml" 180 3555 3606
 type(
   t
 )
 ident(
-  int_ref y "domains/constant_domain.ml" 161 2992 3011 "domains/constant_domain.ml" 161 2992 3012
+  int_ref y "domains/constant_domain.ml" 166 3096 3115 "domains/constant_domain.ml" 166 3096 3116
 )
-"domains/constant_domain.ml" 175 3451 3508 "domains/constant_domain.ml" 175 3451 3512
+"domains/constant_domain.ml" 180 3555 3612 "domains/constant_domain.ml" 180 3555 3616
 type(
   t -> t -> t
 )
 ident(
-  int_ref meet "domains/constant_domain.ml" 91 1476 1482 "domains/constant_domain.ml" 91 1476 1486
+  int_ref meet "domains/constant_domain.ml" 95 1552 1558 "domains/constant_domain.ml" 95 1552 1562
 )
-"domains/constant_domain.ml" 175 3451 3513 "domains/constant_domain.ml" 175 3451 3514
+"domains/constant_domain.ml" 180 3555 3617 "domains/constant_domain.ml" 180 3555 3618
 type(
   t
 )
 ident(
-  int_ref y "domains/constant_domain.ml" 161 2992 3011 "domains/constant_domain.ml" 161 2992 3012
+  int_ref y "domains/constant_domain.ml" 166 3096 3115 "domains/constant_domain.ml" 166 3096 3116
 )
-"domains/constant_domain.ml" 175 3451 3516 "domains/constant_domain.ml" 175 3451 3519
+"domains/constant_domain.ml" 180 3555 3620 "domains/constant_domain.ml" 180 3555 3623
 type(
   t -> t -> t
 )
 ident(
-  int_ref div "domains/constant_domain.ml" 79 1266 1272 "domains/constant_domain.ml" 79 1266 1275
+  int_ref div "domains/constant_domain.ml" 79 1267 1273 "domains/constant_domain.ml" 79 1267 1276
 )
-"domains/constant_domain.ml" 175 3451 3520 "domains/constant_domain.ml" 175 3451 3521
+"domains/constant_domain.ml" 180 3555 3624 "domains/constant_domain.ml" 180 3555 3625
 type(
   t
 )
 ident(
-  int_ref r "domains/constant_domain.ml" 161 2992 3016 "domains/constant_domain.ml" 161 2992 3017
+  int_ref r "domains/constant_domain.ml" 166 3096 3120 "domains/constant_domain.ml" 166 3096 3121
 )
-"domains/constant_domain.ml" 175 3451 3522 "domains/constant_domain.ml" 175 3451 3523
+"domains/constant_domain.ml" 180 3555 3626 "domains/constant_domain.ml" 180 3555 3627
 type(
   t
 )
 ident(
-  int_ref x "domains/constant_domain.ml" 161 2992 3009 "domains/constant_domain.ml" 161 2992 3010
+  int_ref x "domains/constant_domain.ml" 166 3096 3113 "domains/constant_domain.ml" 166 3096 3114
 )
-"domains/constant_domain.ml" 175 3451 3515 "domains/constant_domain.ml" 175 3451 3524
+"domains/constant_domain.ml" 180 3555 3619 "domains/constant_domain.ml" 180 3555 3628
 call(
   stack
 )
 type(
   t
 )
-"domains/constant_domain.ml" 175 3451 3508 "domains/constant_domain.ml" 175 3451 3524
+"domains/constant_domain.ml" 180 3555 3612 "domains/constant_domain.ml" 180 3555 3628
 call(
   stack
 )
 type(
   t
 )
-"domains/constant_domain.ml" 175 3451 3457 "domains/constant_domain.ml" 175 3451 3525
+"domains/constant_domain.ml" 180 3555 3561 "domains/constant_domain.ml" 180 3555 3629
 type(
   t
 )
-"domains/constant_domain.ml" 174 3375 3381 "domains/constant_domain.ml" 175 3451 3525
+"domains/constant_domain.ml" 179 3479 3485 "domains/constant_domain.ml" 180 3555 3629
 type(
   t * t
 )
-"domains/constant_domain.ml" 173 3320 3326 "domains/constant_domain.ml" 175 3451 3525
+"domains/constant_domain.ml" 178 3424 3430 "domains/constant_domain.ml" 180 3555 3629
 type(
   t * t
 )
-"domains/constant_domain.ml" 177 3535 3539 "domains/constant_domain.ml" 177 3535 3549
+"domains/constant_domain.ml" 182 3639 3643 "domains/constant_domain.ml" 182 3639 3653
 type(
   Abstract_syntax_tree.int_binary_op
 )
-"domains/constant_domain.ml" 179 3596 3602 "domains/constant_domain.ml" 179 3596 3603
+"domains/constant_domain.ml" 184 3700 3706 "domains/constant_domain.ml" 184 3700 3707
 type(
   t
 )
 ident(
-  int_ref x "domains/constant_domain.ml" 161 2992 3009 "domains/constant_domain.ml" 161 2992 3010
+  int_ref x "domains/constant_domain.ml" 166 3096 3113 "domains/constant_domain.ml" 166 3096 3114
 )
-"domains/constant_domain.ml" 179 3596 3605 "domains/constant_domain.ml" 179 3596 3606
+"domains/constant_domain.ml" 184 3700 3709 "domains/constant_domain.ml" 184 3700 3710
 type(
   t
 )
 ident(
-  int_ref y "domains/constant_domain.ml" 161 2992 3011 "domains/constant_domain.ml" 161 2992 3012
+  int_ref y "domains/constant_domain.ml" 166 3096 3115 "domains/constant_domain.ml" 166 3096 3116
 )
-"domains/constant_domain.ml" 179 3596 3602 "domains/constant_domain.ml" 179 3596 3606
+"domains/constant_domain.ml" 184 3700 3706 "domains/constant_domain.ml" 184 3700 3710
 type(
   t * t
 )
-"domains/constant_domain.ml" 161 2992 3020 "domains/constant_domain.ml" 179 3596 3606
+"domains/constant_domain.ml" 186 3715 3718 "domains/constant_domain.ml" 186 3715 3728
+type(
+  Abstract_syntax_tree.int_binary_op
+)
+"domains/constant_domain.ml" 186 3715 3732 "domains/constant_domain.ml" 186 3715 3733
+type(
+  t
+)
+ident(
+  int_ref x "domains/constant_domain.ml" 166 3096 3113 "domains/constant_domain.ml" 166 3096 3114
+)
+"domains/constant_domain.ml" 186 3715 3734 "domains/constant_domain.ml" 186 3715 3735
+type(
+  t
+)
+ident(
+  int_ref y "domains/constant_domain.ml" 166 3096 3115 "domains/constant_domain.ml" 166 3096 3116
+)
+"domains/constant_domain.ml" 186 3715 3732 "domains/constant_domain.ml" 186 3715 3735
+type(
+  t * t
+)
+"domains/constant_domain.ml" 166 3096 3124 "domains/constant_domain.ml" 186 3715 3735
 type(
   t * t
 )
