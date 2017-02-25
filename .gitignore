@@ -19,3 +19,8 @@ _build/
 setup.data
 setup.log
 sujet_ok.pdf
+
+#generated files
+frontend/parser.ml
+frontend/lexer.ml
+frontend/parser.mly
